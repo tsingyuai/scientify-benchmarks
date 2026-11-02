@@ -1,0 +1,79 @@
+{
+  "score": 1,
+  "checks": [
+    {
+      "passed": true,
+      "value": -4.836174640552337,
+      "truth": -4.836174640552328,
+      "abs_err": 8.881784197001252e-15,
+      "tol": 0.48361746405523287,
+      "rule": "+/-10% relative",
+      "name": "small_1.lambda_min"
+    },
+    {
+      "passed": true,
+      "name": "small_1.mode",
+      "bound": 0.99,
+      "rule": "|cos| >= 0.99 vs reference mode (sign/scale free)",
+      "overlap": 1.0
+    },
+    {
+      "passed": true,
+      "value": -5.014353704943687,
+      "truth": -5.01435370494369,
+      "abs_err": 2.6645352591003757e-15,
+      "tol": 0.501435370494369,
+      "rule": "+/-10% relative",
+      "name": "small_2.lambda_min"
+    },
+    {
+      "passed": true,
+      "name": "small_2.mode",
+      "bound": 0.99,
+      "rule": "|cos| >= 0.99 vs reference mode (sign/scale free)",
+      "overlap": 1.0
+    },
+    {
+      "passed": true,
+      "value": -4.683546621420697,
+      "truth": -4.683546621420674,
+      "abs_err": 2.3092638912203256e-14,
+      "tol": 0.4683546621420674,
+      "rule": "+/-10% relative",
+      "name": "small_3.lambda_min"
+    },
+    {
+      "passed": true,
+      "name": "small_3.mode",
+      "bound": 0.99,
+      "rule": "|cos| >= 0.99 vs reference mode (sign/scale free)",
+      "overlap": 0.9999999999999999
+    },
+    {
+      "passed": true,
+      "value": -4.942704869622343,
+      "truth": -4.942704869622342,
+      "abs_err": 8.881784197001252e-16,
+      "tol": 0.49427048696223425,
+      "rule": "+/-10% relative",
+      "name": "small_4.lambda_min"
+    },
+    {
+      "passed": true,
+      "name": "small_4.mode",
+      "bound": 0.99,
+      "rule": "|cos| >= 0.99 vs reference mode (sign/scale free)",
+      "overlap": 1.0000000000000002
+    },
+    {
+      "passed": true,
+      "value": -5.775886190899049,
+      "truth": -5.775886190899045,
+      "abs_err": 4.440892098500626e-15,
+      "tol": 0.5775886190899046,
+      "rule": "+/-10% relative",
+      "name": "large.lambda_min"
+    }
+  ]
+}
+SCORE: 1

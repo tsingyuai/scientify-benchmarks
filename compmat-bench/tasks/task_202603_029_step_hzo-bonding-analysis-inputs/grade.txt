@@ -1,0 +1,278 @@
+{
+  "score": 1,
+  "runs": {
+    "pristine": {
+      "passed": true,
+      "n_basis_functions": 560,
+      "vasp": {
+        "label": "pristine",
+        "score": 1,
+        "checks": [
+          {
+            "name": "required:ENCUT",
+            "kind": "required",
+            "passed": true,
+            "reason": "ENCUT=520.0 >= 1*max_ENMAX=400 eV (Hf+O+Zr)"
+          },
+          {
+            "name": "required:smearing",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISMEAR=0 ok"
+          },
+          {
+            "name": "required:EDIFF",
+            "kind": "required",
+            "passed": true,
+            "reason": "EDIFF=1e-08 (set) ok"
+          },
+          {
+            "name": "required:functional",
+            "kind": "required",
+            "passed": true,
+            "reason": "GGA=Pe ok"
+          },
+          {
+            "name": "required:ISPIN",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISPIN=1 (set) ok"
+          },
+          {
+            "name": "required:static",
+            "kind": "required",
+            "passed": true,
+            "reason": "NSW=0.0 IBRION=-1 ok (static)"
+          },
+          {
+            "name": "required:LWAVE",
+            "kind": "required",
+            "passed": true,
+            "reason": "LWAVE=True (set) ok"
+          },
+          {
+            "name": "required:ISYM",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISYM=-1 (set) ok"
+          },
+          {
+            "name": "required:NBANDS",
+            "kind": "required",
+            "passed": true,
+            "reason": "NBANDS=560 ok"
+          },
+          {
+            "name": "required:NELECT",
+            "kind": "required",
+            "passed": true,
+            "reason": "NELECT=736 (set) ok"
+          },
+          {
+            "name": "required:kmesh",
+            "kind": "required",
+            "passed": true,
+            "reason": "mesh 3x3x3 meets frozen per-axis minima 2x2x2"
+          }
+        ]
+      },
+      "lobster": {
+        "label": "pristine",
+        "score": 1,
+        "checks": [
+          {
+            "name": "required:basisSet",
+            "kind": "required",
+            "passed": true,
+            "reason": "basisSet=pbevaspfit2015 (set) ok"
+          },
+          {
+            "name": "required:basisfunctions",
+            "kind": "required",
+            "passed": true,
+            "reason": "basis functions ok"
+          },
+          {
+            "name": "required:gaussianSmearingWidth",
+            "kind": "required",
+            "passed": true,
+            "reason": "gaussianSmearingWidth=0.2 (set) ok"
+          },
+          {
+            "name": "required:energy_window",
+            "kind": "required",
+            "passed": true,
+            "reason": "energy window [-10, 5] covers [-10, 5]"
+          },
+          {
+            "name": "required:bond_selection",
+            "kind": "required",
+            "passed": true,
+            "reason": "bond selection ok (224 periodic contacts; 224 required)"
+          }
+        ]
+      },
+      "structure": {
+        "passed": true,
+        "species_counts_ok": true,
+        "lattice_ok": true,
+        "lattice": {
+          "len_rel_err": 0.0,
+          "ang_abs_err_deg": 0.0,
+          "abc_sub": [
+            10.46,
+            10.0,
+            10.1
+          ],
+          "abc_ref": [
+            10.46,
+            10.0,
+            10.1
+          ]
+        },
+        "site_match_ok": true,
+        "method": "rigid_bijective",
+        "max_site_disp_A": 0.0,
+        "max_disp_threshold_A": 0.001,
+        "name": "structure:pristine"
+      }
+    },
+    "vacancy": {
+      "passed": true,
+      "n_basis_functions": 556,
+      "vasp": {
+        "label": "vacancy",
+        "score": 1,
+        "checks": [
+          {
+            "name": "required:ENCUT",
+            "kind": "required",
+            "passed": true,
+            "reason": "ENCUT=520.0 >= 1*max_ENMAX=400 eV (Hf+O+Zr)"
+          },
+          {
+            "name": "required:smearing",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISMEAR=0 ok"
+          },
+          {
+            "name": "required:EDIFF",
+            "kind": "required",
+            "passed": true,
+            "reason": "EDIFF=1e-08 (set) ok"
+          },
+          {
+            "name": "required:functional",
+            "kind": "required",
+            "passed": true,
+            "reason": "GGA=Pe ok"
+          },
+          {
+            "name": "required:ISPIN",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISPIN=1 (set) ok"
+          },
+          {
+            "name": "required:static",
+            "kind": "required",
+            "passed": true,
+            "reason": "NSW=0.0 IBRION=-1 ok (static)"
+          },
+          {
+            "name": "required:LWAVE",
+            "kind": "required",
+            "passed": true,
+            "reason": "LWAVE=True (set) ok"
+          },
+          {
+            "name": "required:ISYM",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISYM=-1 (set) ok"
+          },
+          {
+            "name": "required:NBANDS",
+            "kind": "required",
+            "passed": true,
+            "reason": "NBANDS=556 ok"
+          },
+          {
+            "name": "required:NELECT",
+            "kind": "required",
+            "passed": true,
+            "reason": "NELECT=728 (set) ok"
+          },
+          {
+            "name": "required:kmesh",
+            "kind": "required",
+            "passed": true,
+            "reason": "mesh 3x3x3 meets frozen per-axis minima 2x2x2"
+          }
+        ]
+      },
+      "lobster": {
+        "label": "vacancy",
+        "score": 1,
+        "checks": [
+          {
+            "name": "required:basisSet",
+            "kind": "required",
+            "passed": true,
+            "reason": "basisSet=pbevaspfit2015 (set) ok"
+          },
+          {
+            "name": "required:basisfunctions",
+            "kind": "required",
+            "passed": true,
+            "reason": "basis functions ok"
+          },
+          {
+            "name": "required:gaussianSmearingWidth",
+            "kind": "required",
+            "passed": true,
+            "reason": "gaussianSmearingWidth=0.2 (set) ok"
+          },
+          {
+            "name": "required:energy_window",
+            "kind": "required",
+            "passed": true,
+            "reason": "energy window [-10, 5] covers [-10, 5]"
+          },
+          {
+            "name": "required:bond_selection",
+            "kind": "required",
+            "passed": true,
+            "reason": "bond selection ok (221 periodic contacts; 220 required)"
+          }
+        ]
+      },
+      "structure": {
+        "passed": true,
+        "species_counts_ok": true,
+        "lattice_ok": true,
+        "lattice": {
+          "len_rel_err": 0.0,
+          "ang_abs_err_deg": 0.0,
+          "abc_sub": [
+            10.46,
+            10.0,
+            10.1
+          ],
+          "abc_ref": [
+            10.46,
+            10.0,
+            10.1
+          ]
+        },
+        "site_match_ok": true,
+        "method": "rigid_bijective",
+        "max_site_disp_A": 0.0,
+        "max_disp_threshold_A": 0.001,
+        "name": "structure:vacancy"
+      }
+    }
+  }
+}
+SCORE: 1

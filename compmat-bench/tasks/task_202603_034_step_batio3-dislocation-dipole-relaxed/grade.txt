@@ -1,0 +1,143 @@
+{
+  "score": 1,
+  "checks": [
+    {
+      "passed": true,
+      "value": 80,
+      "truth": 80,
+      "rule": "exact int",
+      "name": "n_rows_y"
+    },
+    {
+      "passed": true,
+      "value": 40,
+      "truth": 40,
+      "rule": "exact int",
+      "name": "n_rows_region_A"
+    },
+    {
+      "passed": true,
+      "value": 77.19725827042076,
+      "truth": 77.197,
+      "abs_err": 0.00025827042075832196,
+      "tol": 4.0,
+      "rule": "absolute",
+      "name": "core_BaO_xy_A.x"
+    },
+    {
+      "passed": true,
+      "value": 80.83024439782918,
+      "truth": 80.83,
+      "abs_err": 0.00024439782917795583,
+      "tol": 4.0,
+      "rule": "absolute",
+      "name": "core_BaO_xy_A.y"
+    },
+    {
+      "passed": true,
+      "value": 77.43062737245256,
+      "truth": 77.431,
+      "abs_err": 0.00037262754743494497,
+      "tol": 4.0,
+      "rule": "absolute",
+      "name": "core_TiO2_xy_A.x"
+    },
+    {
+      "passed": true,
+      "value": 236.4394730027107,
+      "truth": 236.439,
+      "abs_err": 0.0004730027107200385,
+      "tol": 4.0,
+      "rule": "absolute",
+      "name": "core_TiO2_xy_A.y"
+    },
+    {
+      "passed": true,
+      "value": 0.4877292829132046,
+      "truth": 0.4877,
+      "abs_err": 2.928291320458687e-05,
+      "tol": 0.04877000000000001,
+      "rule": "+/-10% relative",
+      "name": "core_separation_over_Ly"
+    },
+    {
+      "passed": true,
+      "value": 1.5886667939436443,
+      "truth": 1.5887,
+      "abs_err": 3.3206056355705726e-05,
+      "tol": 0.079435,
+      "rule": "+/-5% relative",
+      "name": "min_Ti_core_O_shell_A"
+    },
+    {
+      "passed": true,
+      "value": 4.1145622729935525,
+      "truth": 4.1146,
+      "abs_err": 3.772700644777416e-05,
+      "tol": 0.02,
+      "rule": "absolute",
+      "name": "ba_spacing_x_region_A_A"
+    },
+    {
+      "passed": true,
+      "value": 4.011698216168713,
+      "truth": 4.0117,
+      "abs_err": 1.7838312871276685e-06,
+      "tol": 0.02,
+      "rule": "absolute",
+      "name": "ba_spacing_x_region_B_A"
+    },
+    {
+      "passed": true,
+      "value": 5.470749931357518,
+      "truth": 5.471,
+      "abs_err": 0.00025006864248222627,
+      "tol": 3.0,
+      "rule": "absolute",
+      "name": "min_contact_distance_to_core_A"
+    },
+    {
+      "passed": true,
+      "name": "min_contact_nearest_core",
+      "value": "TiO2",
+      "truth": "TiO2",
+      "rule": "exact"
+    },
+    {
+      "passed": true,
+      "value": -0.0501033939344961,
+      "truth": -0.0501,
+      "abs_err": 3.3939344961028683e-06,
+      "tol": 0.0050100000000000006,
+      "rule": "+/-10% relative",
+      "name": "Ti_shell_displacement_mean_A.x"
+    },
+    {
+      "passed": true,
+      "value": 0.0007130725257190885,
+      "truth": 0.0007,
+      "abs_err": 1.3072525719088528e-05,
+      "tol": 0.01,
+      "rule": "absolute",
+      "name": "Ti_shell_displacement_mean_A.y"
+    },
+    {
+      "passed": true,
+      "value": 0.001999997395361483,
+      "truth": 0.002,
+      "abs_err": 2.604638517020308e-09,
+      "tol": 0.01,
+      "rule": "absolute",
+      "name": "Ti_shell_displacement_mean_A.z"
+    },
+    {
+      "passed": true,
+      "name": "polarization_direction",
+      "value": "+x",
+      "truth": "+x",
+      "rule": "exact"
+    }
+  ],
+  "accepted_naming_convention": "BaO_TiO2_swapped"
+}
+SCORE: 1

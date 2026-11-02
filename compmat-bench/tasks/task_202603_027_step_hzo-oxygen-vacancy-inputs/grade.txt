@@ -1,0 +1,285 @@
+{
+  "score": 1,
+  "runs": {
+    "relax": {
+      "passed": true,
+      "deck": {
+        "label": "relax",
+        "score": 1,
+        "checks": [
+          {
+            "name": "required:ENCUT",
+            "kind": "required",
+            "passed": true,
+            "reason": "ENCUT=600.0 >= 1*max_ENMAX=400 eV (Hf+O+Zr)"
+          },
+          {
+            "name": "required:smearing",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISMEAR=0 ok"
+          },
+          {
+            "name": "required:EDIFF",
+            "kind": "required",
+            "passed": true,
+            "reason": "EDIFF=1e-09 (set) ok"
+          },
+          {
+            "name": "required:functional",
+            "kind": "required",
+            "passed": true,
+            "reason": "GGA=Pe ok"
+          },
+          {
+            "name": "required:kmesh",
+            "kind": "required",
+            "passed": true,
+            "reason": "mesh 3x3x3 meets frozen per-axis minima 2x2x2"
+          },
+          {
+            "name": "required:poscar_species",
+            "kind": "required",
+            "passed": true,
+            "reason": "species {'Hf': 16, 'Zr': 16, 'O': 63} ok"
+          },
+          {
+            "name": "required:ISPIN",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISPIN=1 (set) ok"
+          },
+          {
+            "name": "required:relax_fixed_cell",
+            "kind": "required",
+            "passed": true,
+            "reason": "fixed-cell relax ok"
+          },
+          {
+            "name": "required:NSW",
+            "kind": "required",
+            "passed": true,
+            "reason": "NSW=500.0 ok"
+          },
+          {
+            "name": "required:NELECT",
+            "kind": "required",
+            "passed": true,
+            "reason": "NELECT=728 (set) ok"
+          }
+        ]
+      },
+      "structure": {
+        "passed": true,
+        "species_counts_ok": true,
+        "lattice_ok": true,
+        "lattice": {
+          "len_rel_err": 0.0,
+          "ang_abs_err_deg": 0.0,
+          "abc_sub": [
+            10.46,
+            10.0,
+            10.1
+          ],
+          "abc_ref": [
+            10.46,
+            10.0,
+            10.1
+          ]
+        },
+        "site_match_ok": true,
+        "method": "rigid_bijective",
+        "max_site_disp_A": 0.0,
+        "max_disp_threshold_A": 0.001,
+        "name": "structure:relax"
+      }
+    },
+    "static": {
+      "passed": true,
+      "deck": {
+        "label": "static",
+        "score": 1,
+        "checks": [
+          {
+            "name": "required:ENCUT",
+            "kind": "required",
+            "passed": true,
+            "reason": "ENCUT=600.0 >= 1*max_ENMAX=400 eV (Hf+O+Zr)"
+          },
+          {
+            "name": "required:smearing",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISMEAR=0 ok"
+          },
+          {
+            "name": "required:EDIFF",
+            "kind": "required",
+            "passed": true,
+            "reason": "EDIFF=1e-09 (set) ok"
+          },
+          {
+            "name": "required:functional",
+            "kind": "required",
+            "passed": true,
+            "reason": "GGA=Pe ok"
+          },
+          {
+            "name": "required:kmesh",
+            "kind": "required",
+            "passed": true,
+            "reason": "mesh 3x3x3 meets frozen per-axis minima 2x2x2"
+          },
+          {
+            "name": "required:poscar_species",
+            "kind": "required",
+            "passed": true,
+            "reason": "species {'Hf': 16, 'Zr': 16, 'O': 63} ok"
+          },
+          {
+            "name": "required:ISPIN",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISPIN=1 (set) ok"
+          },
+          {
+            "name": "required:static",
+            "kind": "required",
+            "passed": true,
+            "reason": "NSW=0.0 IBRION=-1 ok (static)"
+          },
+          {
+            "name": "required:potential_output",
+            "kind": "required",
+            "passed": true,
+            "reason": "LVHAR writes ionic + Hartree potential"
+          },
+          {
+            "name": "required:NELECT",
+            "kind": "required",
+            "passed": true,
+            "reason": "NELECT=728 (set) ok"
+          }
+        ]
+      },
+      "structure": {
+        "passed": true,
+        "species_counts_ok": true,
+        "lattice_ok": true,
+        "lattice": {
+          "len_rel_err": 0.0,
+          "ang_abs_err_deg": 0.0,
+          "abc_sub": [
+            10.46,
+            10.0,
+            10.1
+          ],
+          "abc_ref": [
+            10.46,
+            10.0,
+            10.1
+          ]
+        },
+        "site_match_ok": true,
+        "method": "rigid_bijective",
+        "max_site_disp_A": 0.0,
+        "max_disp_threshold_A": 0.001,
+        "name": "structure:static"
+      }
+    },
+    "dfpt": {
+      "passed": true,
+      "deck": {
+        "label": "dfpt",
+        "score": 1,
+        "checks": [
+          {
+            "name": "required:ENCUT",
+            "kind": "required",
+            "passed": true,
+            "reason": "ENCUT=600.0 >= 1*max_ENMAX=400 eV (Hf+O+Zr)"
+          },
+          {
+            "name": "required:smearing",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISMEAR=0 ok"
+          },
+          {
+            "name": "required:EDIFF",
+            "kind": "required",
+            "passed": true,
+            "reason": "EDIFF=1e-09 (set) ok"
+          },
+          {
+            "name": "required:functional",
+            "kind": "required",
+            "passed": true,
+            "reason": "GGA=Pe ok"
+          },
+          {
+            "name": "required:kmesh",
+            "kind": "required",
+            "passed": true,
+            "reason": "mesh 10x10x10 meets frozen per-axis minima 4x5x4"
+          },
+          {
+            "name": "required:poscar_species",
+            "kind": "required",
+            "passed": true,
+            "reason": "species {'Hf': 2, 'Zr': 2, 'O': 8} ok"
+          },
+          {
+            "name": "required:ISPIN",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISPIN=1 (set) ok"
+          },
+          {
+            "name": "required:dielectric_response",
+            "kind": "required",
+            "passed": true,
+            "reason": "dielectric response ok"
+          },
+          {
+            "name": "required:NSW",
+            "kind": "required",
+            "passed": true,
+            "reason": "NSW=1.0 ok"
+          },
+          {
+            "name": "required:NELECT",
+            "kind": "required",
+            "passed": true,
+            "reason": "NELECT=92 (default (neutral)) ok"
+          }
+        ]
+      },
+      "structure": {
+        "passed": true,
+        "species_counts_ok": true,
+        "lattice_ok": true,
+        "lattice": {
+          "len_rel_err": 0.0,
+          "ang_abs_err_deg": 0.0,
+          "abc_sub": [
+            5.23,
+            5.0,
+            5.05
+          ],
+          "abc_ref": [
+            5.23,
+            5.0,
+            5.05
+          ]
+        },
+        "site_match_ok": true,
+        "method": "rigid_bijective",
+        "max_site_disp_A": 0.0,
+        "max_disp_threshold_A": 0.001,
+        "name": "structure:dfpt"
+      }
+    }
+  }
+}
+SCORE: 1

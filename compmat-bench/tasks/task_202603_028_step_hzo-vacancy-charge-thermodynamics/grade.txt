@@ -1,0 +1,525 @@
+{
+  "score": 1,
+  "checks": [
+    {
+      "passed": true,
+      "value": 22.815941600000002,
+      "truth": 22.816,
+      "abs_err": 5.839999999679435e-05,
+      "tol": 0.22816,
+      "rule": "+/-1% relative",
+      "name": "eps_iso"
+    },
+    {
+      "passed": true,
+      "value": -4.360891970572346,
+      "truth": -4.3609,
+      "abs_err": 8.029427654321353e-06,
+      "tol": 0.15,
+      "rule": "absolute",
+      "name": "E_f[4Hf][q=+2]"
+    },
+    {
+      "passed": true,
+      "value": -1.607489912940815,
+      "truth": -1.6075,
+      "abs_err": 1.0087059185037717e-05,
+      "tol": 0.15,
+      "rule": "absolute",
+      "name": "E_f[4Hf][q=+1]"
+    },
+    {
+      "passed": true,
+      "value": 0.9010869599999616,
+      "truth": 0.9011,
+      "abs_err": 1.3040000038433419e-05,
+      "tol": 0.02,
+      "rule": "absolute",
+      "name": "E_f[4Hf][q=+0]"
+    },
+    {
+      "passed": true,
+      "value": 4.8354077325014595,
+      "truth": 4.8354,
+      "abs_err": 7.7325014595786e-06,
+      "tol": 0.15,
+      "rule": "absolute",
+      "name": "E_f[4Hf][q=-1]"
+    },
+    {
+      "passed": true,
+      "value": 8.96544776349358,
+      "truth": 8.9654,
+      "abs_err": 4.7763493579822125e-05,
+      "tol": 0.15,
+      "rule": "absolute",
+      "name": "E_f[4Hf][q=-2]"
+    },
+    {
+      "passed": true,
+      "value": -4.334268679806354,
+      "truth": -4.3343,
+      "abs_err": 3.1320193645711925e-05,
+      "tol": 0.15,
+      "rule": "absolute",
+      "name": "E_f[3Hf1Zr][q=+2]"
+    },
+    {
+      "passed": true,
+      "value": -1.6244570545344785,
+      "truth": -1.6245,
+      "abs_err": 4.294546552152667e-05,
+      "tol": 0.15,
+      "rule": "absolute",
+      "name": "E_f[3Hf1Zr][q=+1]"
+    },
+    {
+      "passed": true,
+      "value": 0.8464094000000024,
+      "truth": 0.8464,
+      "abs_err": 9.400000002379727e-06,
+      "tol": 0.02,
+      "rule": "absolute",
+      "name": "E_f[3Hf1Zr][q=+0]"
+    },
+    {
+      "passed": true,
+      "value": 4.764998014588811,
+      "truth": 4.765,
+      "abs_err": 1.985411188343278e-06,
+      "tol": 0.15,
+      "rule": "absolute",
+      "name": "E_f[3Hf1Zr][q=-1]"
+    },
+    {
+      "passed": true,
+      "value": 8.865192160586803,
+      "truth": 8.8652,
+      "abs_err": 7.839413196819578e-06,
+      "tol": 0.15,
+      "rule": "absolute",
+      "name": "E_f[3Hf1Zr][q=-2]"
+    },
+    {
+      "passed": true,
+      "value": -4.580080117637304,
+      "truth": -4.5801,
+      "abs_err": 1.9882362695788913e-05,
+      "tol": 0.15,
+      "rule": "absolute",
+      "name": "E_f[2Hf2Zr][q=+2]"
+    },
+    {
+      "passed": true,
+      "value": -1.8449619683468437,
+      "truth": -1.845,
+      "abs_err": 3.803165315630075e-05,
+      "tol": 0.15,
+      "rule": "absolute",
+      "name": "E_f[2Hf2Zr][q=+1]"
+    },
+    {
+      "passed": true,
+      "value": 0.7032984499999522,
+      "truth": 0.7033,
+      "abs_err": 1.550000047867428e-06,
+      "tol": 0.02,
+      "rule": "absolute",
+      "name": "E_f[2Hf2Zr][q=+0]"
+    },
+    {
+      "passed": true,
+      "value": 4.530545827571426,
+      "truth": 4.5305,
+      "abs_err": 4.5827571425682834e-05,
+      "tol": 0.15,
+      "rule": "absolute",
+      "name": "E_f[2Hf2Zr][q=-1]"
+    },
+    {
+      "passed": true,
+      "value": 8.50005005314331,
+      "truth": 8.5001,
+      "abs_err": 4.994685668968657e-05,
+      "tol": 0.15,
+      "rule": "absolute",
+      "name": "E_f[2Hf2Zr][q=-2]"
+    },
+    {
+      "passed": true,
+      "value": -4.4547689919857145,
+      "truth": -4.4548,
+      "abs_err": 3.100801428512767e-05,
+      "tol": 0.15,
+      "rule": "absolute",
+      "name": "E_f[1Hf3Zr][q=+2]"
+    },
+    {
+      "passed": true,
+      "value": -1.806811529821048,
+      "truth": -1.8068,
+      "abs_err": 1.1529821048128497e-05,
+      "tol": 0.15,
+      "rule": "absolute",
+      "name": "E_f[1Hf3Zr][q=+1]"
+    },
+    {
+      "passed": true,
+      "value": 0.6145508899999506,
+      "truth": 0.6146,
+      "abs_err": 4.9110000049479297e-05,
+      "tol": 0.02,
+      "rule": "absolute",
+      "name": "E_f[1Hf3Zr][q=+0]"
+    },
+    {
+      "passed": true,
+      "value": 4.458127926009695,
+      "truth": 4.4581,
+      "abs_err": 2.7926009694922982e-05,
+      "tol": 0.15,
+      "rule": "absolute",
+      "name": "E_f[1Hf3Zr][q=-1]"
+    },
+    {
+      "passed": true,
+      "value": 8.496759079865683,
+      "truth": 8.4968,
+      "abs_err": 4.09201343174459e-05,
+      "tol": 0.15,
+      "rule": "absolute",
+      "name": "E_f[1Hf3Zr][q=-2]"
+    },
+    {
+      "passed": true,
+      "value": -4.503346809422993,
+      "truth": -4.5033,
+      "abs_err": 4.680942299284396e-05,
+      "tol": 0.15,
+      "rule": "absolute",
+      "name": "E_f[4Zr][q=+2]"
+    },
+    {
+      "passed": true,
+      "value": -1.8651770060952395,
+      "truth": -1.8652,
+      "abs_err": 2.2993904760459927e-05,
+      "tol": 0.15,
+      "rule": "absolute",
+      "name": "E_f[4Zr][q=+1]"
+    },
+    {
+      "passed": true,
+      "value": 0.5363333800000056,
+      "truth": 0.5363,
+      "abs_err": 3.33800000056339e-05,
+      "tol": 0.02,
+      "rule": "absolute",
+      "name": "E_f[4Zr][q=+0]"
+    },
+    {
+      "passed": true,
+      "value": 4.27181705839075,
+      "truth": 4.2718,
+      "abs_err": 1.7058390750612773e-05,
+      "tol": 0.15,
+      "rule": "absolute",
+      "name": "E_f[4Zr][q=-1]"
+    },
+    {
+      "passed": true,
+      "value": 8.178560295164415,
+      "truth": 8.1786,
+      "abs_err": 3.970483558468629e-05,
+      "tol": 0.15,
+      "rule": "absolute",
+      "name": "E_f[4Zr][q=-2]"
+    },
+    {
+      "passed": true,
+      "value": -4.514906642629828,
+      "truth": -4.5149,
+      "abs_err": 6.642629828412794e-06,
+      "tol": 0.15,
+      "rule": "absolute",
+      "name": "E_f[3Hf][q=+2]"
+    },
+    {
+      "passed": true,
+      "value": -1.6736446862132268,
+      "truth": -1.6736,
+      "abs_err": 4.4686213226841076e-05,
+      "tol": 0.15,
+      "rule": "absolute",
+      "name": "E_f[3Hf][q=+1]"
+    },
+    {
+      "passed": true,
+      "value": 1.1533832199999416,
+      "truth": 1.1534,
+      "abs_err": 1.6780000058336242e-05,
+      "tol": 0.02,
+      "rule": "absolute",
+      "name": "E_f[3Hf][q=+0]"
+    },
+    {
+      "passed": true,
+      "value": 5.084672366578826,
+      "truth": 5.0847,
+      "abs_err": 2.7633421173511863e-05,
+      "tol": 0.15,
+      "rule": "absolute",
+      "name": "E_f[3Hf][q=-1]"
+    },
+    {
+      "passed": true,
+      "value": 9.126629360509762,
+      "truth": 9.1266,
+      "abs_err": 2.9360509762099696e-05,
+      "tol": 0.15,
+      "rule": "absolute",
+      "name": "E_f[3Hf][q=-2]"
+    },
+    {
+      "passed": true,
+      "value": -4.534285377813876,
+      "truth": -4.5343,
+      "abs_err": 1.4622186124135794e-05,
+      "tol": 0.15,
+      "rule": "absolute",
+      "name": "E_f[2Hf1Zr][q=+2]"
+    },
+    {
+      "passed": true,
+      "value": -1.7614336975982137,
+      "truth": -1.7614,
+      "abs_err": 3.3697598213588975e-05,
+      "tol": 0.15,
+      "rule": "absolute",
+      "name": "E_f[2Hf1Zr][q=+1]"
+    },
+    {
+      "passed": true,
+      "value": 1.0515197300000274,
+      "truth": 1.0515,
+      "abs_err": 1.973000002730707e-05,
+      "tol": 0.02,
+      "rule": "absolute",
+      "name": "E_f[2Hf1Zr][q=+0]"
+    },
+    {
+      "passed": true,
+      "value": 4.929999016940587,
+      "truth": 4.93,
+      "abs_err": 9.83059412540399e-07,
+      "tol": 0.15,
+      "rule": "absolute",
+      "name": "E_f[2Hf1Zr][q=-1]"
+    },
+    {
+      "passed": true,
+      "value": 8.814857223718521,
+      "truth": 8.8149,
+      "abs_err": 4.2776281478751343e-05,
+      "tol": 0.15,
+      "rule": "absolute",
+      "name": "E_f[2Hf1Zr][q=-2]"
+    },
+    {
+      "passed": true,
+      "value": -4.535952137020747,
+      "truth": -4.536,
+      "abs_err": 4.78629792528551e-05,
+      "tol": 0.15,
+      "rule": "absolute",
+      "name": "E_f[1Hf2Zr][q=+2]"
+    },
+    {
+      "passed": true,
+      "value": -1.8068876154391007,
+      "truth": -1.8069,
+      "abs_err": 1.2384560899247887e-05,
+      "tol": 0.15,
+      "rule": "absolute",
+      "name": "E_f[1Hf2Zr][q=+1]"
+    },
+    {
+      "passed": true,
+      "value": 0.9672767799999384,
+      "truth": 0.9673,
+      "abs_err": 2.322000006160785e-05,
+      "tol": 0.02,
+      "rule": "absolute",
+      "name": "E_f[1Hf2Zr][q=+0]"
+    },
+    {
+      "passed": true,
+      "value": 4.8446587811347905,
+      "truth": 4.8447,
+      "abs_err": 4.121886520902507e-05,
+      "tol": 0.15,
+      "rule": "absolute",
+      "name": "E_f[1Hf2Zr][q=-1]"
+    },
+    {
+      "passed": true,
+      "value": 8.647810821083697,
+      "truth": 8.6478,
+      "abs_err": 1.082108369665491e-05,
+      "tol": 0.15,
+      "rule": "absolute",
+      "name": "E_f[1Hf2Zr][q=-2]"
+    },
+    {
+      "passed": true,
+      "value": -4.5195634025331515,
+      "truth": -4.5196,
+      "abs_err": 3.65974668481428e-05,
+      "tol": 0.15,
+      "rule": "absolute",
+      "name": "E_f[3Zr][q=+2]"
+    },
+    {
+      "passed": true,
+      "value": -1.8508900705759084,
+      "truth": -1.8509,
+      "abs_err": 9.929424091614791e-06,
+      "tol": 0.15,
+      "rule": "absolute",
+      "name": "E_f[3Zr][q=+1]"
+    },
+    {
+      "passed": true,
+      "value": 0.8703417199999741,
+      "truth": 0.8703,
+      "abs_err": 4.1719999974154653e-05,
+      "tol": 0.02,
+      "rule": "absolute",
+      "name": "E_f[3Zr][q=+0]"
+    },
+    {
+      "passed": true,
+      "value": 4.6609223750021105,
+      "truth": 4.6609,
+      "abs_err": 2.23750021106639e-05,
+      "tol": 0.15,
+      "rule": "absolute",
+      "name": "E_f[3Zr][q=-1]"
+    },
+    {
+      "passed": true,
+      "value": 8.42823208783689,
+      "truth": 8.4282,
+      "abs_err": 3.2087836888905485e-05,
+      "tol": 0.15,
+      "rule": "absolute",
+      "name": "E_f[3Zr][q=-2]"
+    },
+    {
+      "passed": true,
+      "name": "lowest_environment[q=+2]",
+      "value": "2Hf2Zr",
+      "accepted_minimizers": [
+        "2Hf2Zr"
+      ],
+      "rule": "a minimum of the submitted charge column; ties accepted"
+    },
+    {
+      "passed": true,
+      "name": "lowest_environment[q=+1]",
+      "value": "4Zr",
+      "accepted_minimizers": [
+        "4Zr"
+      ],
+      "rule": "a minimum of the submitted charge column; ties accepted"
+    },
+    {
+      "passed": true,
+      "name": "lowest_environment[q=+0]",
+      "value": "4Zr",
+      "accepted_minimizers": [
+        "4Zr"
+      ],
+      "rule": "a minimum of the submitted charge column; ties accepted"
+    },
+    {
+      "passed": true,
+      "name": "lowest_environment[q=-1]",
+      "value": "4Zr",
+      "accepted_minimizers": [
+        "4Zr"
+      ],
+      "rule": "a minimum of the submitted charge column; ties accepted"
+    },
+    {
+      "passed": true,
+      "name": "lowest_environment[q=-2]",
+      "value": "4Zr",
+      "accepted_minimizers": [
+        "4Zr"
+      ],
+      "rule": "a minimum of the submitted charge column; ties accepted"
+    },
+    {
+      "passed": true,
+      "name": "transition_sequence",
+      "value": [
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          -1,
+          -2
+        ]
+      ],
+      "truth": [
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          -1,
+          -2
+        ]
+      ],
+      "rule": "stored reference charge pairs, in order"
+    },
+    {
+      "passed": true,
+      "value": 2.558206748818655,
+      "truth": 2.5582,
+      "abs_err": 6.748818655033517e-06,
+      "tol": 0.15,
+      "rule": "absolute",
+      "name": "level[+2/+0] vs reference"
+    },
+    {
+      "passed": true,
+      "value": 3.735483678390745,
+      "truth": 3.7355,
+      "abs_err": 1.6321609255243175e-05,
+      "tol": 0.15,
+      "rule": "absolute",
+      "name": "level[+0/-1] vs reference"
+    },
+    {
+      "passed": true,
+      "value": 3.9067432367736643,
+      "truth": 3.9067,
+      "abs_err": 4.3236773664467876e-05,
+      "tol": 0.15,
+      "rule": "absolute",
+      "name": "level[-1/-2] vs reference"
+    }
+  ]
+}
+SCORE: 1

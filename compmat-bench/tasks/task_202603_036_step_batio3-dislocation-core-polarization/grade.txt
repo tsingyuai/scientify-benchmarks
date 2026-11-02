@@ -1,0 +1,294 @@
+{
+  "score": 1,
+  "checks": [
+    {
+      "passed": true,
+      "name": "cell_1.poling_axis",
+      "value": "x",
+      "truth": "x",
+      "rule": "exact"
+    },
+    {
+      "passed": true,
+      "value": 77.43062737245256,
+      "truth": 77.431,
+      "abs_err": 0.00037262754743494497,
+      "tol": 4.0,
+      "rule": "absolute",
+      "name": "cell_1.core_BaO.x"
+    },
+    {
+      "passed": true,
+      "value": 236.4394730027107,
+      "truth": 236.439,
+      "abs_err": 0.0004730027107200385,
+      "tol": 4.0,
+      "rule": "absolute",
+      "name": "cell_1.core_BaO.y"
+    },
+    {
+      "passed": true,
+      "value": 77.19725827042076,
+      "truth": 77.197,
+      "abs_err": 0.00025827042075832196,
+      "tol": 4.0,
+      "rule": "absolute",
+      "name": "cell_1.core_TiO2.x"
+    },
+    {
+      "passed": true,
+      "value": 80.83024439782918,
+      "truth": 80.83,
+      "abs_err": 0.00024439782917795583,
+      "tol": 4.0,
+      "rule": "absolute",
+      "name": "cell_1.core_TiO2.y"
+    },
+    {
+      "passed": true,
+      "name": "cell_1.P_bulk_A_C_m2.x",
+      "value": 0.21997555583758957,
+      "truth": 0.22,
+      "tol": 0.044000000000000004,
+      "rule": "max(0.03 abs, 20% rel)"
+    },
+    {
+      "passed": true,
+      "name": "cell_1.P_bulk_A_C_m2.y",
+      "value": -0.0007561954055264406,
+      "truth": -0.0008,
+      "tol": 0.03,
+      "rule": "max(0.03 abs, 20% rel)"
+    },
+    {
+      "passed": true,
+      "name": "cell_1.P_bulk_B_C_m2.x",
+      "value": 0.1364725709551919,
+      "truth": 0.1365,
+      "tol": 0.03,
+      "rule": "max(0.03 abs, 20% rel)"
+    },
+    {
+      "passed": true,
+      "name": "cell_1.P_bulk_B_C_m2.y",
+      "value": -0.004139538276069614,
+      "truth": -0.0041,
+      "tol": 0.03,
+      "rule": "max(0.03 abs, 20% rel)"
+    },
+    {
+      "passed": true,
+      "name": "cell_1.P_total_C_m2.x",
+      "value": 0.17333199395921547,
+      "truth": 0.1733,
+      "tol": 0.03466,
+      "rule": "max(0.03 abs, 20% rel)"
+    },
+    {
+      "passed": true,
+      "name": "cell_1.P_total_C_m2.y",
+      "value": -0.0024021882570849796,
+      "truth": -0.0024,
+      "tol": 0.03,
+      "rule": "max(0.03 abs, 20% rel)"
+    },
+    {
+      "passed": true,
+      "name": "cell_1.p_polar_near_core_BaO_C_m2",
+      "value": 0.08597245263425224,
+      "truth": 0.086,
+      "tol": 0.06,
+      "rule": "abs 0.06 and sign exact"
+    },
+    {
+      "passed": true,
+      "name": "cell_1.p_polar_near_core_TiO2_C_m2",
+      "value": -0.05948552670194589,
+      "truth": -0.0595,
+      "tol": 0.06,
+      "rule": "abs 0.06 and sign exact"
+    },
+    {
+      "passed": true,
+      "name": "cell_1.polar_ordering",
+      "value": "lower < upper",
+      "truth": "lower < upper",
+      "rule": "lower < upper in cell_1; lower >= upper in cell_2 (non-reversal)"
+    },
+    {
+      "passed": true,
+      "name": "cell_1.n_reversed_BaO",
+      "value": 3,
+      "rule": ">= 1 (count itself not graded)"
+    },
+    {
+      "passed": true,
+      "name": "cell_1.n_reversed_TiO2",
+      "value": 11,
+      "rule": ">= 1 (count itself not graded)"
+    },
+    {
+      "passed": true,
+      "name": "cell_1.n_reversed_ordering",
+      "value": {
+        "upper": 3,
+        "lower": 11
+      },
+      "rule": "lower > upper"
+    },
+    {
+      "passed": true,
+      "name": "cell_1.x_extent_reversed_BaO_A",
+      "value": 14.529067196253834,
+      "physical_core": "upper",
+      "truth_span_A": 14.53,
+      "rule": "> 12.0 A (more than three columns)"
+    },
+    {
+      "passed": true,
+      "name": "cell_2.poling_axis",
+      "value": "y",
+      "truth": "y",
+      "rule": "exact"
+    },
+    {
+      "passed": true,
+      "value": 76.96028882557358,
+      "truth": 76.96,
+      "abs_err": 0.0002888255735911116,
+      "tol": 4.0,
+      "rule": "absolute",
+      "name": "cell_2.core_BaO.x"
+    },
+    {
+      "passed": true,
+      "value": 237.69545106371885,
+      "truth": 237.695,
+      "abs_err": 0.00045106371885594854,
+      "tol": 4.0,
+      "rule": "absolute",
+      "name": "cell_2.core_BaO.y"
+    },
+    {
+      "passed": true,
+      "value": 77.6699219124464,
+      "truth": 77.67,
+      "abs_err": 7.808755360372288e-05,
+      "tol": 4.0,
+      "rule": "absolute",
+      "name": "cell_2.core_TiO2.x"
+    },
+    {
+      "passed": true,
+      "value": 79.64897595332312,
+      "truth": 79.649,
+      "abs_err": 2.4046676884381668e-05,
+      "tol": 4.0,
+      "rule": "absolute",
+      "name": "cell_2.core_TiO2.y"
+    },
+    {
+      "passed": true,
+      "name": "cell_2.P_bulk_A_C_m2.x",
+      "value": -0.16759610679616,
+      "truth": -0.1676,
+      "tol": 0.03352,
+      "rule": "max(0.03 abs, 20% rel)"
+    },
+    {
+      "passed": true,
+      "name": "cell_2.P_bulk_A_C_m2.y",
+      "value": 0.14986360873734034,
+      "truth": 0.1499,
+      "tol": 0.03,
+      "rule": "max(0.03 abs, 20% rel)"
+    },
+    {
+      "passed": true,
+      "name": "cell_2.P_bulk_B_C_m2.x",
+      "value": 0.07817267784208204,
+      "truth": 0.0782,
+      "tol": 0.03,
+      "rule": "max(0.03 abs, 20% rel)"
+    },
+    {
+      "passed": true,
+      "name": "cell_2.P_bulk_B_C_m2.y",
+      "value": 0.1596998618092059,
+      "truth": 0.1597,
+      "tol": 0.03194,
+      "rule": "max(0.03 abs, 20% rel)"
+    },
+    {
+      "passed": true,
+      "name": "cell_2.P_total_C_m2.x",
+      "value": -0.045684604298333195,
+      "truth": -0.0457,
+      "tol": 0.03,
+      "rule": "max(0.03 abs, 20% rel)"
+    },
+    {
+      "passed": true,
+      "name": "cell_2.P_total_C_m2.y",
+      "value": 0.15534374973724427,
+      "truth": 0.1553,
+      "tol": 0.03106,
+      "rule": "max(0.03 abs, 20% rel)"
+    },
+    {
+      "passed": true,
+      "name": "cell_2.p_polar_near_core_BaO_C_m2",
+      "value": 0.08301878522456742,
+      "truth": 0.083,
+      "tol": 0.06,
+      "rule": "abs 0.06 and sign exact"
+    },
+    {
+      "passed": true,
+      "name": "cell_2.p_polar_near_core_TiO2_C_m2",
+      "value": 0.13499572136408108,
+      "truth": 0.135,
+      "tol": 0.06,
+      "rule": "abs 0.06 and sign exact"
+    },
+    {
+      "passed": true,
+      "name": "cell_2.polar_ordering",
+      "value": "lower > upper",
+      "truth": "lower >= upper",
+      "rule": "lower < upper in cell_1; lower >= upper in cell_2 (non-reversal)"
+    },
+    {
+      "passed": true,
+      "name": "cell_2.n_reversed_BaO",
+      "value": 3,
+      "rule": ">= 1 (count itself not graded)"
+    },
+    {
+      "passed": true,
+      "name": "cell_2.n_reversed_TiO2",
+      "value": 2,
+      "rule": ">= 1 (count itself not graded)"
+    },
+    {
+      "passed": true,
+      "name": "cell_2.x_extent_reversed_BaO_A",
+      "value": 0.36909640119854714,
+      "physical_core": "upper",
+      "rule": "<= 8.0 A (about one column or less)"
+    },
+    {
+      "passed": true,
+      "name": "cell_2.x_extent_reversed_TiO2_A",
+      "value": 0.1294844783079867,
+      "physical_core": "lower",
+      "rule": "<= 8.0 A (about one column or less)"
+    }
+  ],
+  "core_naming_convention": "reversed",
+  "submitted_name_to_physical_core": {
+    "BaO": "upper",
+    "TiO2": "lower"
+  }
+}
+SCORE: 1

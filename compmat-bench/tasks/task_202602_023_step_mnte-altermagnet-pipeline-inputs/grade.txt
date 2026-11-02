@@ -1,0 +1,395 @@
+{
+  "score": 1,
+  "runs": [
+    {
+      "label": "relax",
+      "checks": [
+        {
+          "name": "required:pw:calculation",
+          "kind": "required",
+          "passed": true,
+          "reason": "calculation='vc-relax' (set) ok"
+        },
+        {
+          "name": "required:pw:nspin",
+          "kind": "required",
+          "passed": true,
+          "reason": "nspin=2 (set) ok"
+        },
+        {
+          "name": "required:pw:upf_identity",
+          "kind": "required",
+          "passed": true,
+          "reason": "UPF identity ok"
+        },
+        {
+          "name": "required:pw:species_counts",
+          "kind": "required",
+          "passed": true,
+          "reason": "base-element counts {'Mn': 2, 'Te': 2} ok"
+        },
+        {
+          "name": "required:pw:ecutwfc",
+          "kind": "required",
+          "passed": true,
+          "reason": "ecutwfc=80.0 (set) ok"
+        },
+        {
+          "name": "required:pw:ecutrho",
+          "kind": "required",
+          "passed": true,
+          "reason": "ecutrho=640.0 (set) vs 4*ecutwfc=320 ok"
+        },
+        {
+          "name": "required:pw:structure",
+          "kind": "required",
+          "passed": true,
+          "reason": "structure match vs MnTe_start.vasp ok (max site disp 0.0 A, len_rel_err 0.0000)"
+        },
+        {
+          "name": "required:pw:afm_a",
+          "kind": "required",
+          "passed": true,
+          "reason": "AFM-A ok (planes [(0.0, 1), (0.5, -1)])"
+        },
+        {
+          "name": "required:pw:conv_thr",
+          "kind": "required",
+          "passed": true,
+          "reason": "conv_thr=1e-09 (set) ok"
+        },
+        {
+          "name": "required:pw:occupations",
+          "kind": "required",
+          "passed": true,
+          "reason": "occupations='fixed' (set) ok"
+        },
+        {
+          "name": "required:pw:kmesh",
+          "kind": "required",
+          "passed": true,
+          "reason": "mesh 12x12x8 meets per-axis floors 6x6x3"
+        },
+        {
+          "name": "required:pw:hubbard_u",
+          "kind": "required",
+          "passed": true,
+          "reason": "HUBBARD (card) Mn-3d U ok: {Mn1:3.0, Mn2:3.0}"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "label": "scf",
+      "checks": [
+        {
+          "name": "required:pw:calculation",
+          "kind": "required",
+          "passed": true,
+          "reason": "calculation='scf' (set) ok"
+        },
+        {
+          "name": "required:pw:nspin",
+          "kind": "required",
+          "passed": true,
+          "reason": "nspin=2 (set) ok"
+        },
+        {
+          "name": "required:pw:upf_identity",
+          "kind": "required",
+          "passed": true,
+          "reason": "UPF identity ok"
+        },
+        {
+          "name": "required:pw:species_counts",
+          "kind": "required",
+          "passed": true,
+          "reason": "base-element counts {'Mn': 2, 'Te': 2} ok"
+        },
+        {
+          "name": "required:pw:ecutwfc",
+          "kind": "required",
+          "passed": true,
+          "reason": "ecutwfc=80.0 (set) ok"
+        },
+        {
+          "name": "required:pw:ecutrho",
+          "kind": "required",
+          "passed": true,
+          "reason": "ecutrho=640.0 (set) vs 4*ecutwfc=320 ok"
+        },
+        {
+          "name": "required:pw:structure",
+          "kind": "required",
+          "passed": true,
+          "reason": "structure match vs relaxed_prim.in ok (max site disp 1.592412393026945e-07 A, len_rel_err 0.0139)"
+        },
+        {
+          "name": "required:pw:afm_a",
+          "kind": "required",
+          "passed": true,
+          "reason": "AFM-A ok (planes [(0.0, 1), (0.5, -1)])"
+        },
+        {
+          "name": "required:pw:conv_thr",
+          "kind": "required",
+          "passed": true,
+          "reason": "conv_thr=1e-09 (set) ok"
+        },
+        {
+          "name": "required:pw:occupations",
+          "kind": "required",
+          "passed": true,
+          "reason": "occupations='fixed' (set) ok"
+        },
+        {
+          "name": "required:pw:kmesh",
+          "kind": "required",
+          "passed": true,
+          "reason": "mesh 12x12x8 meets per-axis floors 6x6x3"
+        },
+        {
+          "name": "required:pw:hubbard_u",
+          "kind": "required",
+          "passed": true,
+          "reason": "HUBBARD (card) Mn-3d U ok: {Mn1:3.0, Mn2:3.0}"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "label": "bands",
+      "checks": [
+        {
+          "name": "required:pw:calculation",
+          "kind": "required",
+          "passed": true,
+          "reason": "calculation='bands' (set) ok"
+        },
+        {
+          "name": "required:pw:nspin",
+          "kind": "required",
+          "passed": true,
+          "reason": "nspin=2 (set) ok"
+        },
+        {
+          "name": "required:pw:upf_identity",
+          "kind": "required",
+          "passed": true,
+          "reason": "UPF identity ok"
+        },
+        {
+          "name": "required:pw:species_counts",
+          "kind": "required",
+          "passed": true,
+          "reason": "base-element counts {'Mn': 2, 'Te': 2} ok"
+        },
+        {
+          "name": "required:pw:ecutwfc",
+          "kind": "required",
+          "passed": true,
+          "reason": "ecutwfc=80.0 (set) ok"
+        },
+        {
+          "name": "required:pw:ecutrho",
+          "kind": "required",
+          "passed": true,
+          "reason": "ecutrho=640.0 (set) vs 4*ecutwfc=320 ok"
+        },
+        {
+          "name": "required:pw:structure",
+          "kind": "required",
+          "passed": true,
+          "reason": "structure match vs relaxed_prim.in ok (max site disp 1.592412393026945e-07 A, len_rel_err 0.0139)"
+        },
+        {
+          "name": "required:pw:nbnd",
+          "kind": "required",
+          "passed": true,
+          "reason": "nbnd=32 (set) ok"
+        },
+        {
+          "name": "required:pw:hubbard_u",
+          "kind": "required",
+          "passed": true,
+          "reason": "HUBBARD (card) Mn-3d U ok: {Mn1:3.0, Mn2:3.0}"
+        },
+        {
+          "name": "required:pw:kpath_prim",
+          "kind": "required",
+          "passed": true,
+          "reason": "vertices {'Gamma': True, 'M_star': True, 'K_star': True, 'A_star': True}; sampled nodal segments {'Gamma->M_star': True, 'M_star->K_star': True, 'K_star->Gamma': True, 'Gamma->A_star': True, 'A_star->L': True}; endpoint-reaching L arms with splitting parity {'(+0.50,+0.00,+0.50)': 0, '(+0.00,+0.50,+0.50)': 1} (need two arms of differing parity: an inequivalent L, L' pair); 421 sampled points; no independent total-count floor ok"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "label": "scf_sc",
+      "checks": [
+        {
+          "name": "required:pw:calculation",
+          "kind": "required",
+          "passed": true,
+          "reason": "calculation='scf' (set) ok"
+        },
+        {
+          "name": "required:pw:nspin",
+          "kind": "required",
+          "passed": true,
+          "reason": "nspin=2 (set) ok"
+        },
+        {
+          "name": "required:pw:upf_identity",
+          "kind": "required",
+          "passed": true,
+          "reason": "UPF identity ok"
+        },
+        {
+          "name": "required:pw:species_counts",
+          "kind": "required",
+          "passed": true,
+          "reason": "base-element counts {'Mn': 16, 'Te': 16} ok"
+        },
+        {
+          "name": "required:pw:ecutwfc",
+          "kind": "required",
+          "passed": true,
+          "reason": "ecutwfc=80.0 (set) ok"
+        },
+        {
+          "name": "required:pw:ecutrho",
+          "kind": "required",
+          "passed": true,
+          "reason": "ecutrho=640.0 (set) vs 4*ecutwfc=320 ok"
+        },
+        {
+          "name": "required:pw:structure",
+          "kind": "required",
+          "passed": true,
+          "reason": "structure match vs relaxed_sc.in ok (max site disp 1.592412393045451e-07 A, len_rel_err 0.0139)"
+        },
+        {
+          "name": "required:pw:afm_a",
+          "kind": "required",
+          "passed": true,
+          "reason": "AFM-A ok (planes [(0.0, 1), (0.25, -1), (0.5, 1), (0.75, -1)])"
+        },
+        {
+          "name": "required:pw:conv_thr",
+          "kind": "required",
+          "passed": true,
+          "reason": "conv_thr=1e-09 (set) ok"
+        },
+        {
+          "name": "required:pw:occupations",
+          "kind": "required",
+          "passed": true,
+          "reason": "occupations='fixed' (set) ok"
+        },
+        {
+          "name": "required:pw:kmesh",
+          "kind": "required",
+          "passed": true,
+          "reason": "mesh 6x6x4 meets per-axis floors 3x3x1"
+        },
+        {
+          "name": "required:pw:hubbard_u",
+          "kind": "required",
+          "passed": true,
+          "reason": "HUBBARD (card) Mn-3d U ok: {Mn1:3.0, Mn2:3.0}"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "label": "bands_sc",
+      "checks": [
+        {
+          "name": "required:pw:calculation",
+          "kind": "required",
+          "passed": true,
+          "reason": "calculation='bands' (set) ok"
+        },
+        {
+          "name": "required:pw:nspin",
+          "kind": "required",
+          "passed": true,
+          "reason": "nspin=2 (set) ok"
+        },
+        {
+          "name": "required:pw:upf_identity",
+          "kind": "required",
+          "passed": true,
+          "reason": "UPF identity ok"
+        },
+        {
+          "name": "required:pw:species_counts",
+          "kind": "required",
+          "passed": true,
+          "reason": "base-element counts {'Mn': 16, 'Te': 16} ok"
+        },
+        {
+          "name": "required:pw:ecutwfc",
+          "kind": "required",
+          "passed": true,
+          "reason": "ecutwfc=80.0 (set) ok"
+        },
+        {
+          "name": "required:pw:ecutrho",
+          "kind": "required",
+          "passed": true,
+          "reason": "ecutrho=640.0 (set) vs 4*ecutwfc=320 ok"
+        },
+        {
+          "name": "required:pw:structure",
+          "kind": "required",
+          "passed": true,
+          "reason": "structure match vs relaxed_sc.in ok (max site disp 1.592412393045451e-07 A, len_rel_err 0.0139)"
+        },
+        {
+          "name": "required:pw:nbnd",
+          "kind": "required",
+          "passed": true,
+          "reason": "nbnd=256 (set) ok"
+        },
+        {
+          "name": "required:pw:hubbard_u",
+          "kind": "required",
+          "passed": true,
+          "reason": "HUBBARD (card) Mn-3d U ok: {Mn1:3.0, Mn2:3.0}"
+        },
+        {
+          "name": "required:pw:kpath_sc_folded",
+          "kind": "required",
+          "passed": true,
+          "reason": "folded legs {(0.5, 0.0, 0.5): 'n59/reach0.50', (0.0, 0.5, 0.5): 'n59/reach0.50'}; reaching the zone boundary with parities {(0.5, 0.0, 0.5): 0, (0.0, 0.5, 0.5): 1} (need two legs of differing parity: an inequivalent L, L' pair); 121 sampled points; no independent total-count floor ok"
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "cross_deck": [
+    {
+      "name": "required:cross:scf->bands",
+      "passed": true,
+      "reason": "prefix consistent"
+    },
+    {
+      "name": "required:cross:scf->bands:saved_afm_model",
+      "passed": true,
+      "reason": "collinear bands model inherits AFM-A from the supplied SCF (atomic seeds unscored)"
+    },
+    {
+      "name": "required:cross:scf_sc->bands_sc",
+      "passed": true,
+      "reason": "prefix consistent"
+    },
+    {
+      "name": "required:cross:scf_sc->bands_sc:saved_afm_model",
+      "passed": true,
+      "reason": "collinear bands model inherits AFM-A from the supplied SCF (atomic seeds unscored)"
+    }
+  ],
+  "extra_labels_ignored": []
+}
+SCORE: 1

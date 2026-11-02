@@ -1,0 +1,64 @@
+{
+  "score": 1,
+  "checks": [
+    {
+      "passed": true,
+      "value": -115.25238095237967,
+      "truth": -115.3,
+      "abs_err": 0.04761904762032998,
+      "tol": 11.530000000000001,
+      "rule": "+/-10% relative",
+      "name": "dp_WS2_conduction_meV_per_pct"
+    },
+    {
+      "passed": true,
+      "value": 25.02142857142938,
+      "truth": 25.0,
+      "abs_err": 0.021428571429378707,
+      "tol": 2.5,
+      "rule": "+/-10% relative",
+      "name": "dp_WSe2_valence_meV_per_pct"
+    },
+    {
+      "passed": true,
+      "value": 220.5302054283004,
+      "truth": 220.5,
+      "abs_err": 0.0302054283004054,
+      "tol": 22.05,
+      "rule": "+/-10% relative",
+      "name": "amp_conduction_meV"
+    },
+    {
+      "passed": true,
+      "value": 41.44271511433709,
+      "truth": 41.4,
+      "abs_err": 0.042715114337092075,
+      "tol": 4.14,
+      "rule": "+/-10% relative",
+      "name": "amp_valence_meV"
+    },
+    {
+      "passed": true,
+      "n_points": 3,
+      "n_fail": 0,
+      "worst_i": 0,
+      "rule": "per-point +/-10% with floor",
+      "failures": [],
+      "name": "conduction_locale_curve"
+    },
+    {
+      "passed": true,
+      "value": 17.812205246695456,
+      "truth": 17.8,
+      "abs_err": 0.012205246695454974,
+      "tol": 1.7800000000000002,
+      "rule": "+/-10% relative",
+      "name": "split_RXh_RMh_meV"
+    }
+  ],
+  "secondary": {
+    "ratio_cond_over_val": 5.321326192549775,
+    "note": "diagnostic only (amp_conduction/amp_valence), not scored"
+  }
+}
+SCORE: 1

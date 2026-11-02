@@ -1,0 +1,258 @@
+{
+  "score": 1,
+  "checks": [
+    {
+      "passed": true,
+      "value": 3.2341086013772076,
+      "truth": 3.2341086013772076,
+      "abs_err": 0.0,
+      "tol": 0.3234108601377208,
+      "rule": "+/-10% relative",
+      "name": "wz_x000_a_A"
+    },
+    {
+      "passed": true,
+      "value": 5.217694956,
+      "truth": 5.217694956,
+      "abs_err": 0.0,
+      "tol": 0.5217694956,
+      "rule": "+/-10% relative",
+      "name": "wz_x000_c_A"
+    },
+    {
+      "passed": true,
+      "value": 202.42210484444064,
+      "truth": 202.413,
+      "abs_err": 0.009104844440628312,
+      "tol": 20.241300000000003,
+      "rule": "+/-10% relative",
+      "name": "wz_x000_C11_GPa"
+    },
+    {
+      "passed": true,
+      "value": 125.22135949966446,
+      "truth": 125.213,
+      "abs_err": 0.00835949966446492,
+      "tol": 12.5213,
+      "rule": "+/-10% relative",
+      "name": "wz_x000_C12_GPa"
+    },
+    {
+      "passed": true,
+      "value": 110.80322296554694,
+      "truth": 110.625,
+      "abs_err": 0.1782229655469365,
+      "tol": 11.0625,
+      "rule": "+/-10% relative",
+      "name": "wz_x000_C13_GPa"
+    },
+    {
+      "passed": true,
+      "value": 215.5861705819419,
+      "truth": 215.575,
+      "abs_err": 0.01117058194191145,
+      "tol": 21.5575,
+      "rule": "+/-10% relative",
+      "name": "wz_x000_C33_GPa"
+    },
+    {
+      "passed": true,
+      "value": 35.617817200083714,
+      "truth": 35.65,
+      "abs_err": 0.03218279991628492,
+      "tol": 3.565,
+      "rule": "+/-10% relative",
+      "name": "wz_x000_C44_GPa"
+    },
+    {
+      "passed": true,
+      "value": 1.2668710109632173,
+      "truth": 1.2669,
+      "abs_err": 2.8989036782611777e-05,
+      "tol": 0.12669,
+      "rule": "+/-10% relative",
+      "name": "wz_x000_e33_C_m2"
+    },
+    {
+      "passed": true,
+      "value": -0.6552120378896138,
+      "truth": -0.6552,
+      "abs_err": 1.2037889613791819e-05,
+      "tol": 0.06552000000000001,
+      "rule": "+/-10% relative",
+      "name": "wz_x000_e31_C_m2"
+    },
+    {
+      "passed": true,
+      "value": -0.5104188153570239,
+      "truth": -0.5104,
+      "abs_err": 1.8815357023971302e-05,
+      "tol": 0.05104,
+      "rule": "+/-10% relative",
+      "name": "wz_x000_e15_C_m2"
+    },
+    {
+      "passed": true,
+      "value": 4.267994793,
+      "truth": 4.26799,
+      "abs_err": 4.792999999558845e-06,
+      "tol": 0.42679900000000004,
+      "rule": "+/-10% relative",
+      "name": "rs_x000_a_A"
+    },
+    {
+      "passed": true,
+      "value": 258.00759767569156,
+      "truth": 258.0,
+      "abs_err": 0.00759767569155656,
+      "tol": 25.8,
+      "rule": "+/-10% relative",
+      "name": "rs_x000_C11_GPa"
+    },
+    {
+      "passed": true,
+      "value": 154.16980019047077,
+      "truth": 154.175,
+      "abs_err": 0.005199809529244703,
+      "tol": 15.417500000000002,
+      "rule": "+/-10% relative",
+      "name": "rs_x000_C12_GPa"
+    },
+    {
+      "passed": true,
+      "value": 84.29121014206699,
+      "truth": 84.25,
+      "abs_err": 0.04121014206698703,
+      "tol": 8.425,
+      "rule": "+/-10% relative",
+      "name": "rs_x000_C44_GPa"
+    },
+    {
+      "passed": true,
+      "value": 3.2598512994972975,
+      "truth": 3.2598512994972975,
+      "abs_err": 0.0,
+      "tol": 0.3259851299497298,
+      "rule": "+/-10% relative",
+      "name": "wz_x050_a_A"
+    },
+    {
+      "passed": true,
+      "value": 5.1600549175,
+      "truth": 5.1600549175,
+      "abs_err": 0.0,
+      "tol": 0.51600549175,
+      "rule": "+/-10% relative",
+      "name": "wz_x050_c_A"
+    },
+    {
+      "passed": true,
+      "value": 194.84527388042696,
+      "truth": 193.6,
+      "abs_err": 1.2452738804269643,
+      "tol": 19.36,
+      "rule": "+/-10% relative",
+      "name": "wz_x050_C11_GPa"
+    },
+    {
+      "passed": true,
+      "value": 111.19397083106153,
+      "truth": 109.9,
+      "abs_err": 1.2939708310615288,
+      "tol": 10.990000000000002,
+      "rule": "+/-10% relative",
+      "name": "wz_x050_C12_GPa"
+    },
+    {
+      "passed": true,
+      "value": 100.06271340097858,
+      "truth": 99.7,
+      "abs_err": 0.36271340097857774,
+      "tol": 9.97,
+      "rule": "+/-10% relative",
+      "name": "wz_x050_C13_GPa"
+    },
+    {
+      "passed": true,
+      "value": 177.26897518620913,
+      "truth": 177.275,
+      "abs_err": 0.0060248137908729404,
+      "tol": 17.727500000000003,
+      "rule": "+/-10% relative",
+      "name": "wz_x050_C33_GPa"
+    },
+    {
+      "passed": true,
+      "value": 42.649439965861724,
+      "truth": 42.65,
+      "abs_err": 0.0005600341382745455,
+      "tol": 4.265,
+      "rule": "+/-10% relative",
+      "name": "wz_x050_C44_GPa"
+    },
+    {
+      "passed": true,
+      "value": 1.4412904962759157,
+      "truth": 1.4413,
+      "abs_err": 9.503724084369836e-06,
+      "tol": 0.14413,
+      "rule": "+/-10% relative",
+      "name": "wz_x050_e33_C_m2"
+    },
+    {
+      "passed": true,
+      "value": -0.6350891825426089,
+      "truth": -0.6351,
+      "abs_err": 1.0817457391065766e-05,
+      "tol": 0.06351,
+      "rule": "+/-10% relative",
+      "name": "wz_x050_e31_C_m2"
+    },
+    {
+      "passed": true,
+      "value": -0.4586866728750036,
+      "truth": -0.4587,
+      "abs_err": 1.3327124996409534e-05,
+      "tol": 0.04587,
+      "rule": "+/-10% relative",
+      "name": "wz_x050_e15_C_m2"
+    },
+    {
+      "passed": true,
+      "value": 4.242897753,
+      "truth": 4.2429,
+      "abs_err": 2.2469999994001455e-06,
+      "tol": 0.42429,
+      "rule": "+/-10% relative",
+      "name": "rs_x050_a_A"
+    },
+    {
+      "passed": true,
+      "value": 260.07074640560865,
+      "truth": 260.05,
+      "abs_err": 0.020746405608633722,
+      "tol": 26.005000000000003,
+      "rule": "+/-10% relative",
+      "name": "rs_x050_C11_GPa"
+    },
+    {
+      "passed": true,
+      "value": 127.92993176273744,
+      "truth": 127.95,
+      "abs_err": 0.02006823726256357,
+      "tol": 12.795000000000002,
+      "rule": "+/-10% relative",
+      "name": "rs_x050_C12_GPa"
+    },
+    {
+      "passed": true,
+      "value": 110.97607143311575,
+      "truth": 111.0,
+      "abs_err": 0.023928566884251268,
+      "tol": 11.100000000000001,
+      "rule": "+/-10% relative",
+      "name": "rs_x050_C44_GPa"
+    }
+  ]
+}
+SCORE: 1

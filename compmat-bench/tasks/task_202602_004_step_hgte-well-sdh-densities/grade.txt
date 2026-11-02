@@ -1,0 +1,100 @@
+{
+  "score": 1,
+  "checks": [
+    {
+      "passed": true,
+      "value": -0.123,
+      "truth": -0.123,
+      "abs_err": 0.0,
+      "tol": 0.0123,
+      "rule": "+/-10% relative",
+      "name": "Vg_sym_V"
+    },
+    {
+      "passed": true,
+      "value": 1.800699,
+      "truth": 1.8007,
+      "abs_err": 9.999999999177334e-07,
+      "tol": 0.18007,
+      "rule": "+/-10% relative",
+      "name": "n_sym_1e11cm2"
+    },
+    {
+      "passed": true,
+      "value": 2,
+      "truth": 2,
+      "rule": "exact int",
+      "name": "peaks_Vg_0.0V_1e11cm2:count"
+    },
+    {
+      "passed": true,
+      "value": 1.342365,
+      "truth": 1.34,
+      "abs_err": 0.0023649999999999505,
+      "tol": 0.134,
+      "rule": "+/-10% relative",
+      "name": "peaks_Vg_0.0V_1e11cm2[0]"
+    },
+    {
+      "passed": true,
+      "value": 1.636506,
+      "truth": 1.626,
+      "abs_err": 0.010506000000000126,
+      "tol": 0.1626,
+      "rule": "+/-10% relative",
+      "name": "peaks_Vg_0.0V_1e11cm2[1]"
+    },
+    {
+      "passed": true,
+      "value": 2,
+      "truth": 2,
+      "rule": "exact int",
+      "name": "peaks_Vg_-0.2V_1e11cm2:count"
+    },
+    {
+      "passed": true,
+      "value": 0.646234,
+      "truth": 0.643,
+      "abs_err": 0.003233999999999959,
+      "tol": 0.06430000000000001,
+      "rule": "+/-10% relative",
+      "name": "peaks_Vg_-0.2V_1e11cm2[0]"
+    },
+    {
+      "passed": true,
+      "value": 0.800064,
+      "truth": 0.804,
+      "abs_err": 0.003936000000000051,
+      "tol": 0.08040000000000001,
+      "rule": "+/-10% relative",
+      "name": "peaks_Vg_-0.2V_1e11cm2[1]"
+    },
+    {
+      "passed": true,
+      "value": 1,
+      "truth": 1,
+      "rule": "exact int",
+      "name": "peaks_Vg_-0.8V_1e11cm2:count"
+    },
+    {
+      "passed": true,
+      "value": 0.400582,
+      "truth": 0.393,
+      "abs_err": 0.007581999999999978,
+      "tol": 0.0393,
+      "rule": "+/-10% relative",
+      "name": "peaks_Vg_-0.8V_1e11cm2[0]"
+    }
+  ],
+  "secondary_recorded_not_scored": {
+    "gate_slope_1e11cm2_per_V": {
+      "submitted": null,
+      "ours": 8.9735
+    },
+    "gate_intercept_1e11cm2": {
+      "submitted": null,
+      "ours": 2.9044
+    }
+  }
+}
+SCORE: 1

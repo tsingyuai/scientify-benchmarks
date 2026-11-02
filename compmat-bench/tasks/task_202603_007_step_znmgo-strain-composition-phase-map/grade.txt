@@ -1,0 +1,60 @@
+{
+  "score": 1,
+  "checks": [
+    {
+      "passed": true,
+      "value": 0.0741994710593068,
+      "truth": 0.07422164,
+      "abs_err": 2.216894069320685e-05,
+      "tol": 0.007422164000000001,
+      "rule": "+/-10% relative",
+      "name": "eps0_inplane_x0"
+    },
+    {
+      "passed": true,
+      "value": 316.920268998727,
+      "truth": 317.40487,
+      "abs_err": 0.4846010012730062,
+      "tol": 31.740487,
+      "rule": "+/-10% relative",
+      "name": "M_R111_x0_GPa"
+    },
+    {
+      "passed": true,
+      "value": 0.12604477021003418,
+      "truth": 0.121817,
+      "abs_err": 0.00422777021003419,
+      "tol": 0.0121817,
+      "rule": "+/-10% relative",
+      "name": "x_boundary_eps_0"
+    },
+    {
+      "passed": true,
+      "value": 0.22533854378075743,
+      "truth": 0.222497,
+      "abs_err": 0.002841543780757433,
+      "tol": 0.0222497,
+      "rule": "+/-10% relative",
+      "name": "x_boundary_eps_p0p02"
+    },
+    {
+      "passed": true,
+      "value": 0.4295212845154314,
+      "truth": 0.431815,
+      "abs_err": 0.0022937154845685814,
+      "tol": 0.043181500000000005,
+      "rule": "+/-10% relative",
+      "name": "x_boundary_eps_p0p05"
+    },
+    {
+      "passed": true,
+      "value": -0.03023667982583227,
+      "truth": -0.03068,
+      "abs_err": 0.00044332017416772937,
+      "tol": 0.003068,
+      "rule": "+/-10% relative",
+      "name": "eps_s_boundary_x0"
+    }
+  ]
+}
+SCORE: 1

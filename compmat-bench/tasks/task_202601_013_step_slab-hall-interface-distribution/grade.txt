@@ -1,0 +1,24 @@
+{
+  "score": 1,
+  "checks": [
+    {
+      "passed": true,
+      "value": 0.6621328111866789,
+      "truth": 0.66213209,
+      "abs_err": 7.211866789313959e-07,
+      "tol": 0.066213209,
+      "rule": "+/-10% relative",
+      "name": "first_ten_magnitude"
+    },
+    {
+      "passed": true,
+      "n_points": 20,
+      "n_fail": 0,
+      "worst_i": 19,
+      "rule": "per-point +/-10% with floor",
+      "failures": [],
+      "name": "interface_profile"
+    }
+  ]
+}
+SCORE: 1

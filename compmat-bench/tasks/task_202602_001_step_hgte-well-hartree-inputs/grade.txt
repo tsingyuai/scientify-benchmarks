@@ -1,0 +1,1025 @@
+{
+  "score": 1,
+  "runs": [
+    {
+      "label": "nsym",
+      "passed": true,
+      "checks": [
+        {
+          "rule": "native_startup_parse",
+          "passed": true,
+          "detail": "kdotpy 1.4.1 startup parameters parsed"
+        },
+        {
+          "rule": "eight_orbital",
+          "passed": true,
+          "detail": 8
+        },
+        {
+          "rule": "substrate_CdTe",
+          "passed": true,
+          "detail": "CdTe"
+        },
+        {
+          "rule": "layer_stack",
+          "passed": true,
+          "detail": {
+            "materials": [
+              [
+                "HgCdTe",
+                0.7
+              ],
+              [
+                "HgTe",
+                null
+              ],
+              [
+                "HgCdTe",
+                0.7
+              ]
+            ],
+            "effective_thickness_nm": [
+              55.0,
+              45.0,
+              55.0
+            ]
+          }
+        },
+        {
+          "rule": "zres_present",
+          "passed": true,
+          "detail": {
+            "native_validated_zres_nm": 0.5
+          }
+        },
+        {
+          "rule": "kane_energy_well",
+          "passed": true,
+          "detail": {
+            "effective_EP_meV": 20800.0,
+            "native_renormalizations": [
+              "renormalizeEp"
+            ],
+            "well_base_overrides": [],
+            "required": "EP in the existing band through native mass-preserving renormalization"
+          }
+        },
+        {
+          "rule": "alloy_not_renormalized",
+          "passed": true,
+          "detail": [
+            [],
+            []
+          ]
+        },
+        {
+          "rule": "barrier_Ev",
+          "passed": true,
+          "detail": [
+            -424.9971712938711,
+            -424.9971712938711
+          ]
+        },
+        {
+          "rule": "barrier_dielectric",
+          "passed": true,
+          "detail": [
+            13.6,
+            13.6
+          ]
+        },
+        {
+          "rule": "well_dielectric",
+          "passed": true,
+          "detail": 20.8
+        },
+        {
+          "rule": "nonaxial_terms",
+          "passed": true,
+          "detail": {
+            "native_axial": false
+          }
+        },
+        {
+          "rule": "kgrid_2d_coverage",
+          "passed": true,
+          "detail": {
+            "form": "polar",
+            "kmax": 1.0,
+            "phi_span_deg": 90.0,
+            "n_angles": 7,
+            "includes_center": true
+          }
+        },
+        {
+          "rule": "bottom_barrier_field",
+          "passed": true,
+          "detail": [
+            1.197937390693915,
+            null
+          ]
+        },
+        {
+          "rule": "carrier_density",
+          "passed": true,
+          "detail": {
+            "effective_e_per_nm2": [
+              0.0018007
+            ],
+            "target": 0.0018007
+          }
+        },
+        {
+          "rule": "selfconsistency",
+          "passed": true,
+          "detail": {
+            "enabled": true,
+            "dependence": "k",
+            "accuracy_meV": 0.05,
+            "max_iterations": 500
+          }
+        }
+      ],
+      "parsed": {
+        "status": "parsed",
+        "native_log": "Warning: The argument \"orientation\" activates a new experimental feature. Please double-check your results and report errors.\n",
+        "orbitals": 8,
+        "substrate": "CdTe",
+        "materials": [
+          {
+            "name": "HgCdTe",
+            "x": 0.7,
+            "values": {
+              "P": 846.3313073609581,
+              "Ev": -424.9971712938711,
+              "Ec": 614.8567941330537,
+              "diel_epsilon": 13.6,
+              "F": -0.063,
+              "gamma1": 2.2161515999999994,
+              "gamma2": -0.03530049999999997,
+              "gamma3": 0.4003005000000001,
+              "kappa": -1.0263005
+            },
+            "kane_energy_meV": 18800.0,
+            "renormalizations": []
+          },
+          {
+            "name": "HgTe",
+            "x": null,
+            "values": {
+              "P": 890.2113955804895,
+              "Ev": 0.0,
+              "Ec": -303.0,
+              "diel_epsilon": 20.8,
+              "F": 1.7712195930017713,
+              "gamma1": 6.300220022002197,
+              "gamma2": 1.6001100110010995,
+              "gamma3": 2.4001100110011,
+              "kappa": 0.7001100110010992
+            },
+            "kane_energy_meV": 20800.0,
+            "renormalizations": [
+              "renormalizeEp"
+            ]
+          },
+          {
+            "name": "HgCdTe",
+            "x": 0.7,
+            "values": {
+              "P": 846.3313073609581,
+              "Ev": -424.9971712938711,
+              "Ec": 614.8567941330537,
+              "diel_epsilon": 13.6,
+              "F": -0.063,
+              "gamma1": 2.2161515999999994,
+              "gamma2": -0.03530049999999997,
+              "gamma3": 0.4003005000000001,
+              "kappa": -1.0263005
+            },
+            "kane_energy_meV": 18800.0,
+            "renormalizations": []
+          }
+        ],
+        "thickness_nm": [
+          55.0,
+          45.0,
+          55.0
+        ],
+        "well_base_overrides": [],
+        "zres_nm": 0.5,
+        "grid": {
+          "type": "pol",
+          "degrees": true,
+          "ndim": 2,
+          "components": {
+            "r": [
+              0.0,
+              0.01,
+              0.02,
+              0.03,
+              0.04,
+              0.05,
+              0.06,
+              0.07,
+              0.08,
+              0.09,
+              0.1,
+              0.11,
+              0.12,
+              0.13,
+              0.14,
+              0.15,
+              0.16,
+              0.17,
+              0.18,
+              0.19,
+              0.2,
+              0.21,
+              0.22,
+              0.23,
+              0.24,
+              0.25,
+              0.26,
+              0.27,
+              0.28,
+              0.29,
+              0.3,
+              0.31,
+              0.32,
+              0.33,
+              0.34,
+              0.35000000000000003,
+              0.36,
+              0.37,
+              0.38,
+              0.39,
+              0.4,
+              0.41000000000000003,
+              0.42,
+              0.43,
+              0.44,
+              0.45,
+              0.46,
+              0.47000000000000003,
+              0.48,
+              0.49,
+              0.5,
+              0.51,
+              0.52,
+              0.53,
+              0.54,
+              0.55,
+              0.56,
+              0.5700000000000001,
+              0.58,
+              0.59,
+              0.6,
+              0.61,
+              0.62,
+              0.63,
+              0.64,
+              0.65,
+              0.66,
+              0.67,
+              0.68,
+              0.6900000000000001,
+              0.7000000000000001,
+              0.71,
+              0.72,
+              0.73,
+              0.74,
+              0.75,
+              0.76,
+              0.77,
+              0.78,
+              0.79,
+              0.8,
+              0.81,
+              0.8200000000000001,
+              0.8300000000000001,
+              0.84,
+              0.85,
+              0.86,
+              0.87,
+              0.88,
+              0.89,
+              0.9,
+              0.91,
+              0.92,
+              0.93,
+              0.9400000000000001,
+              0.9500000000000001,
+              0.96,
+              0.97,
+              0.98,
+              0.99,
+              1.0
+            ],
+            "phi": [
+              0.0,
+              15.0,
+              30.0,
+              45.0,
+              60.0,
+              75.0,
+              90.0
+            ]
+          }
+        },
+        "dependence": "k",
+        "axial": false,
+        "efield": [
+          1.197937390693915,
+          null
+        ],
+        "cardens": [
+          0.0018007
+        ],
+        "selfcon": true,
+        "selfcon_accuracy": 0.05,
+        "selfcon_max_iterations": 500
+      }
+    },
+    {
+      "label": "m2",
+      "passed": true,
+      "checks": [
+        {
+          "rule": "native_startup_parse",
+          "passed": true,
+          "detail": "kdotpy 1.4.1 startup parameters parsed"
+        },
+        {
+          "rule": "eight_orbital",
+          "passed": true,
+          "detail": 8
+        },
+        {
+          "rule": "substrate_CdTe",
+          "passed": true,
+          "detail": "CdTe"
+        },
+        {
+          "rule": "layer_stack",
+          "passed": true,
+          "detail": {
+            "materials": [
+              [
+                "HgCdTe",
+                0.7
+              ],
+              [
+                "HgTe",
+                null
+              ],
+              [
+                "HgCdTe",
+                0.7
+              ]
+            ],
+            "effective_thickness_nm": [
+              55.0,
+              45.0,
+              55.0
+            ]
+          }
+        },
+        {
+          "rule": "zres_present",
+          "passed": true,
+          "detail": {
+            "native_validated_zres_nm": 0.5
+          }
+        },
+        {
+          "rule": "kane_energy_well",
+          "passed": true,
+          "detail": {
+            "effective_EP_meV": 20800.0,
+            "native_renormalizations": [
+              "renormalizeEp"
+            ],
+            "well_base_overrides": [],
+            "required": "EP in the existing band through native mass-preserving renormalization"
+          }
+        },
+        {
+          "rule": "alloy_not_renormalized",
+          "passed": true,
+          "detail": [
+            [],
+            []
+          ]
+        },
+        {
+          "rule": "barrier_Ev",
+          "passed": true,
+          "detail": [
+            -424.9971712938711,
+            -424.9971712938711
+          ]
+        },
+        {
+          "rule": "barrier_dielectric",
+          "passed": true,
+          "detail": [
+            13.6,
+            13.6
+          ]
+        },
+        {
+          "rule": "well_dielectric",
+          "passed": true,
+          "detail": 20.8
+        },
+        {
+          "rule": "nonaxial_terms",
+          "passed": true,
+          "detail": {
+            "native_axial": false
+          }
+        },
+        {
+          "rule": "kgrid_2d_coverage",
+          "passed": true,
+          "detail": {
+            "form": "polar",
+            "kmax": 1.0,
+            "phi_span_deg": 90.0,
+            "n_angles": 7,
+            "includes_center": true
+          }
+        },
+        {
+          "rule": "bottom_barrier_field",
+          "passed": true,
+          "detail": [
+            1.197937390693915,
+            null
+          ]
+        },
+        {
+          "rule": "carrier_density",
+          "passed": true,
+          "detail": {
+            "effective_e_per_nm2": [
+              -0.002
+            ],
+            "target": -0.002
+          }
+        },
+        {
+          "rule": "selfconsistency",
+          "passed": true,
+          "detail": {
+            "enabled": true,
+            "dependence": "k",
+            "accuracy_meV": 0.05,
+            "max_iterations": 500
+          }
+        }
+      ],
+      "parsed": {
+        "status": "parsed",
+        "native_log": "Warning: The argument \"orientation\" activates a new experimental feature. Please double-check your results and report errors.\n",
+        "orbitals": 8,
+        "substrate": "CdTe",
+        "materials": [
+          {
+            "name": "HgCdTe",
+            "x": 0.7,
+            "values": {
+              "P": 846.3313073609581,
+              "Ev": -424.9971712938711,
+              "Ec": 614.8567941330537,
+              "diel_epsilon": 13.6,
+              "F": -0.063,
+              "gamma1": 2.2161515999999994,
+              "gamma2": -0.03530049999999997,
+              "gamma3": 0.4003005000000001,
+              "kappa": -1.0263005
+            },
+            "kane_energy_meV": 18800.0,
+            "renormalizations": []
+          },
+          {
+            "name": "HgTe",
+            "x": null,
+            "values": {
+              "P": 890.2113955804895,
+              "Ev": 0.0,
+              "Ec": -303.0,
+              "diel_epsilon": 20.8,
+              "F": 1.7712195930017713,
+              "gamma1": 6.300220022002197,
+              "gamma2": 1.6001100110010995,
+              "gamma3": 2.4001100110011,
+              "kappa": 0.7001100110010992
+            },
+            "kane_energy_meV": 20800.0,
+            "renormalizations": [
+              "renormalizeEp"
+            ]
+          },
+          {
+            "name": "HgCdTe",
+            "x": 0.7,
+            "values": {
+              "P": 846.3313073609581,
+              "Ev": -424.9971712938711,
+              "Ec": 614.8567941330537,
+              "diel_epsilon": 13.6,
+              "F": -0.063,
+              "gamma1": 2.2161515999999994,
+              "gamma2": -0.03530049999999997,
+              "gamma3": 0.4003005000000001,
+              "kappa": -1.0263005
+            },
+            "kane_energy_meV": 18800.0,
+            "renormalizations": []
+          }
+        ],
+        "thickness_nm": [
+          55.0,
+          45.0,
+          55.0
+        ],
+        "well_base_overrides": [],
+        "zres_nm": 0.5,
+        "grid": {
+          "type": "pol",
+          "degrees": true,
+          "ndim": 2,
+          "components": {
+            "r": [
+              0.0,
+              0.01,
+              0.02,
+              0.03,
+              0.04,
+              0.05,
+              0.06,
+              0.07,
+              0.08,
+              0.09,
+              0.1,
+              0.11,
+              0.12,
+              0.13,
+              0.14,
+              0.15,
+              0.16,
+              0.17,
+              0.18,
+              0.19,
+              0.2,
+              0.21,
+              0.22,
+              0.23,
+              0.24,
+              0.25,
+              0.26,
+              0.27,
+              0.28,
+              0.29,
+              0.3,
+              0.31,
+              0.32,
+              0.33,
+              0.34,
+              0.35000000000000003,
+              0.36,
+              0.37,
+              0.38,
+              0.39,
+              0.4,
+              0.41000000000000003,
+              0.42,
+              0.43,
+              0.44,
+              0.45,
+              0.46,
+              0.47000000000000003,
+              0.48,
+              0.49,
+              0.5,
+              0.51,
+              0.52,
+              0.53,
+              0.54,
+              0.55,
+              0.56,
+              0.5700000000000001,
+              0.58,
+              0.59,
+              0.6,
+              0.61,
+              0.62,
+              0.63,
+              0.64,
+              0.65,
+              0.66,
+              0.67,
+              0.68,
+              0.6900000000000001,
+              0.7000000000000001,
+              0.71,
+              0.72,
+              0.73,
+              0.74,
+              0.75,
+              0.76,
+              0.77,
+              0.78,
+              0.79,
+              0.8,
+              0.81,
+              0.8200000000000001,
+              0.8300000000000001,
+              0.84,
+              0.85,
+              0.86,
+              0.87,
+              0.88,
+              0.89,
+              0.9,
+              0.91,
+              0.92,
+              0.93,
+              0.9400000000000001,
+              0.9500000000000001,
+              0.96,
+              0.97,
+              0.98,
+              0.99,
+              1.0
+            ],
+            "phi": [
+              0.0,
+              15.0,
+              30.0,
+              45.0,
+              60.0,
+              75.0,
+              90.0
+            ]
+          }
+        },
+        "dependence": "k",
+        "axial": false,
+        "efield": [
+          1.197937390693915,
+          null
+        ],
+        "cardens": [
+          -0.002
+        ],
+        "selfcon": true,
+        "selfcon_accuracy": 0.05,
+        "selfcon_max_iterations": 500
+      }
+    },
+    {
+      "label": "p2",
+      "passed": true,
+      "checks": [
+        {
+          "rule": "native_startup_parse",
+          "passed": true,
+          "detail": "kdotpy 1.4.1 startup parameters parsed"
+        },
+        {
+          "rule": "eight_orbital",
+          "passed": true,
+          "detail": 8
+        },
+        {
+          "rule": "substrate_CdTe",
+          "passed": true,
+          "detail": "CdTe"
+        },
+        {
+          "rule": "layer_stack",
+          "passed": true,
+          "detail": {
+            "materials": [
+              [
+                "HgCdTe",
+                0.7
+              ],
+              [
+                "HgTe",
+                null
+              ],
+              [
+                "HgCdTe",
+                0.7
+              ]
+            ],
+            "effective_thickness_nm": [
+              55.0,
+              45.0,
+              55.0
+            ]
+          }
+        },
+        {
+          "rule": "zres_present",
+          "passed": true,
+          "detail": {
+            "native_validated_zres_nm": 0.5
+          }
+        },
+        {
+          "rule": "kane_energy_well",
+          "passed": true,
+          "detail": {
+            "effective_EP_meV": 20800.0,
+            "native_renormalizations": [
+              "renormalizeEp"
+            ],
+            "well_base_overrides": [],
+            "required": "EP in the existing band through native mass-preserving renormalization"
+          }
+        },
+        {
+          "rule": "alloy_not_renormalized",
+          "passed": true,
+          "detail": [
+            [],
+            []
+          ]
+        },
+        {
+          "rule": "barrier_Ev",
+          "passed": true,
+          "detail": [
+            -424.9971712938711,
+            -424.9971712938711
+          ]
+        },
+        {
+          "rule": "barrier_dielectric",
+          "passed": true,
+          "detail": [
+            13.6,
+            13.6
+          ]
+        },
+        {
+          "rule": "well_dielectric",
+          "passed": true,
+          "detail": 20.8
+        },
+        {
+          "rule": "nonaxial_terms",
+          "passed": true,
+          "detail": {
+            "native_axial": false
+          }
+        },
+        {
+          "rule": "kgrid_2d_coverage",
+          "passed": true,
+          "detail": {
+            "form": "polar",
+            "kmax": 1.0,
+            "phi_span_deg": 90.0,
+            "n_angles": 7,
+            "includes_center": true
+          }
+        },
+        {
+          "rule": "bottom_barrier_field",
+          "passed": true,
+          "detail": [
+            1.197937390693915,
+            null
+          ]
+        },
+        {
+          "rule": "carrier_density",
+          "passed": true,
+          "detail": {
+            "effective_e_per_nm2": [
+              0.002
+            ],
+            "target": 0.002
+          }
+        },
+        {
+          "rule": "selfconsistency",
+          "passed": true,
+          "detail": {
+            "enabled": true,
+            "dependence": "k",
+            "accuracy_meV": 0.05,
+            "max_iterations": 500
+          }
+        }
+      ],
+      "parsed": {
+        "status": "parsed",
+        "native_log": "Warning: The argument \"orientation\" activates a new experimental feature. Please double-check your results and report errors.\n",
+        "orbitals": 8,
+        "substrate": "CdTe",
+        "materials": [
+          {
+            "name": "HgCdTe",
+            "x": 0.7,
+            "values": {
+              "P": 846.3313073609581,
+              "Ev": -424.9971712938711,
+              "Ec": 614.8567941330537,
+              "diel_epsilon": 13.6,
+              "F": -0.063,
+              "gamma1": 2.2161515999999994,
+              "gamma2": -0.03530049999999997,
+              "gamma3": 0.4003005000000001,
+              "kappa": -1.0263005
+            },
+            "kane_energy_meV": 18800.0,
+            "renormalizations": []
+          },
+          {
+            "name": "HgTe",
+            "x": null,
+            "values": {
+              "P": 890.2113955804895,
+              "Ev": 0.0,
+              "Ec": -303.0,
+              "diel_epsilon": 20.8,
+              "F": 1.7712195930017713,
+              "gamma1": 6.300220022002197,
+              "gamma2": 1.6001100110010995,
+              "gamma3": 2.4001100110011,
+              "kappa": 0.7001100110010992
+            },
+            "kane_energy_meV": 20800.0,
+            "renormalizations": [
+              "renormalizeEp"
+            ]
+          },
+          {
+            "name": "HgCdTe",
+            "x": 0.7,
+            "values": {
+              "P": 846.3313073609581,
+              "Ev": -424.9971712938711,
+              "Ec": 614.8567941330537,
+              "diel_epsilon": 13.6,
+              "F": -0.063,
+              "gamma1": 2.2161515999999994,
+              "gamma2": -0.03530049999999997,
+              "gamma3": 0.4003005000000001,
+              "kappa": -1.0263005
+            },
+            "kane_energy_meV": 18800.0,
+            "renormalizations": []
+          }
+        ],
+        "thickness_nm": [
+          55.0,
+          45.0,
+          55.0
+        ],
+        "well_base_overrides": [],
+        "zres_nm": 0.5,
+        "grid": {
+          "type": "pol",
+          "degrees": true,
+          "ndim": 2,
+          "components": {
+            "r": [
+              0.0,
+              0.01,
+              0.02,
+              0.03,
+              0.04,
+              0.05,
+              0.06,
+              0.07,
+              0.08,
+              0.09,
+              0.1,
+              0.11,
+              0.12,
+              0.13,
+              0.14,
+              0.15,
+              0.16,
+              0.17,
+              0.18,
+              0.19,
+              0.2,
+              0.21,
+              0.22,
+              0.23,
+              0.24,
+              0.25,
+              0.26,
+              0.27,
+              0.28,
+              0.29,
+              0.3,
+              0.31,
+              0.32,
+              0.33,
+              0.34,
+              0.35000000000000003,
+              0.36,
+              0.37,
+              0.38,
+              0.39,
+              0.4,
+              0.41000000000000003,
+              0.42,
+              0.43,
+              0.44,
+              0.45,
+              0.46,
+              0.47000000000000003,
+              0.48,
+              0.49,
+              0.5,
+              0.51,
+              0.52,
+              0.53,
+              0.54,
+              0.55,
+              0.56,
+              0.5700000000000001,
+              0.58,
+              0.59,
+              0.6,
+              0.61,
+              0.62,
+              0.63,
+              0.64,
+              0.65,
+              0.66,
+              0.67,
+              0.68,
+              0.6900000000000001,
+              0.7000000000000001,
+              0.71,
+              0.72,
+              0.73,
+              0.74,
+              0.75,
+              0.76,
+              0.77,
+              0.78,
+              0.79,
+              0.8,
+              0.81,
+              0.8200000000000001,
+              0.8300000000000001,
+              0.84,
+              0.85,
+              0.86,
+              0.87,
+              0.88,
+              0.89,
+              0.9,
+              0.91,
+              0.92,
+              0.93,
+              0.9400000000000001,
+              0.9500000000000001,
+              0.96,
+              0.97,
+              0.98,
+              0.99,
+              1.0
+            ],
+            "phi": [
+              0.0,
+              15.0,
+              30.0,
+              45.0,
+              60.0,
+              75.0,
+              90.0
+            ]
+          }
+        },
+        "dependence": "k",
+        "axial": false,
+        "efield": [
+          1.197937390693915,
+          null
+        ],
+        "cardens": [
+          0.002
+        ],
+        "selfcon": true,
+        "selfcon_accuracy": 0.05,
+        "selfcon_max_iterations": 500
+      }
+    }
+  ],
+  "notes": [],
+  "parser": "pinned kdotpy 1.4.1"
+}
+SCORE: 1

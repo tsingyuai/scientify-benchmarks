@@ -1,0 +1,15 @@
+{
+  "score": 1,
+  "checks": [
+    {
+      "passed": true,
+      "value": 2.42,
+      "truth": 2.42,
+      "abs_err": 0.0,
+      "tol": 0.242,
+      "rule": "+/-10% relative",
+      "name": "V0_VA"
+    }
+  ]
+}
+SCORE: 1

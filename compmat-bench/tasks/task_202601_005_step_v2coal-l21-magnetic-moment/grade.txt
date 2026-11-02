@@ -1,0 +1,22 @@
+{
+  "score": 1,
+  "checks": [
+    {
+      "passed": true,
+      "value": 3.695125,
+      "truth": 3.695,
+      "abs_err": 0.00012500000000015277,
+      "tol": 0.3695,
+      "rule": "+/-10% relative",
+      "name": "total_moment_uB_per_fu"
+    },
+    {
+      "passed": true,
+      "name": "order",
+      "value": "ferromagnetic",
+      "expected": "ferromagnetic",
+      "rule": "exact label"
+    }
+  ]
+}
+SCORE: 1

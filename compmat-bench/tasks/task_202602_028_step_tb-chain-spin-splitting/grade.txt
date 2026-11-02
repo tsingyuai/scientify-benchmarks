@@ -1,0 +1,87 @@
+{
+  "score": 1,
+  "checks": [
+    {
+      "passed": true,
+      "value": -4.875701741961645,
+      "truth": -4.875701741961645,
+      "abs_err": 0.0,
+      "tol": 0.48757017419616455,
+      "rule": "+/-10% relative",
+      "name": "eig_gamma_up_eV[0]"
+    },
+    {
+      "passed": true,
+      "value": -4.752799709726749,
+      "truth": -4.752799709726748,
+      "abs_err": 8.881784197001252e-16,
+      "tol": 0.4752799709726748,
+      "rule": "+/-10% relative",
+      "name": "eig_gamma_up_eV[1]"
+    },
+    {
+      "passed": true,
+      "value": -2.4759212342969334,
+      "truth": -2.4759212342969334,
+      "abs_err": 0.0,
+      "tol": 0.24759212342969336,
+      "rule": "+/-10% relative",
+      "name": "eig_gamma_up_eV[2]"
+    },
+    {
+      "passed": true,
+      "value": -0.5955773140146717,
+      "truth": -0.5955773140146717,
+      "abs_err": 0.0,
+      "tol": 0.059557731401467175,
+      "rule": "+/-10% relative",
+      "name": "eig_gamma_up_eV[3]"
+    },
+    {
+      "passed": true,
+      "value": 0.10306991278284006,
+      "truth": 0.10306991278284094,
+      "abs_err": 8.881784197001252e-16,
+      "tol": 0.010306991278284095,
+      "rule": "+/-10% relative",
+      "name": "path_max_split_base_eV"
+    },
+    {
+      "passed": true,
+      "value": 0.18157943361516615,
+      "truth": 0.18157943361516793,
+      "abs_err": 1.7763568394002505e-15,
+      "tol": 0.018157943361516795,
+      "rule": "+/-10% relative",
+      "name": "gamma_split_modA_eV"
+    },
+    {
+      "passed": true,
+      "value": 0.0,
+      "truth": 0.0,
+      "abs_err": 0.0,
+      "tol": 1e-06,
+      "rule": "absolute",
+      "name": "gamma_split_base_eV"
+    },
+    {
+      "passed": true,
+      "value": 0.0,
+      "truth": 0.0,
+      "abs_err": 0.0,
+      "tol": 1e-06,
+      "rule": "absolute",
+      "name": "gamma_split_modB_eV"
+    },
+    {
+      "passed": true,
+      "value": 0.0,
+      "truth": 0.0,
+      "abs_err": 0.0,
+      "tol": 1e-06,
+      "rule": "absolute",
+      "name": "path_max_split_modC_eV"
+    }
+  ]
+}
+SCORE: 1

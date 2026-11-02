@@ -1,0 +1,438 @@
+{
+  "score": 1,
+  "runs": [
+    {
+      "label": "x050_lam0000_scf",
+      "score": 1,
+      "checks": [
+        {
+          "name": "required:pw:calculation",
+          "kind": "required",
+          "passed": true,
+          "reason": "calculation='scf' (set) ok"
+        },
+        {
+          "name": "required:pw:disk_io",
+          "kind": "required",
+          "passed": true,
+          "reason": "disk_io='low' (set) ok"
+        },
+        {
+          "name": "required:pw:conv_thr",
+          "kind": "required",
+          "passed": true,
+          "reason": "conv_thr=1e-10 (set) ok"
+        },
+        {
+          "name": "required:pw:occupations",
+          "kind": "required",
+          "passed": true,
+          "reason": "occupations='fixed' (set) ok"
+        },
+        {
+          "name": "required:pw:kmesh",
+          "kind": "required",
+          "passed": true,
+          "reason": "mesh 4x4x3 meets per-axis floors 4x4x2"
+        },
+        {
+          "name": "required:pw:ecutwfc",
+          "kind": "required",
+          "passed": true,
+          "reason": "ecutwfc=60.0 (set) ok"
+        },
+        {
+          "name": "required:pw:ecutrho",
+          "kind": "required",
+          "passed": true,
+          "reason": "ecutrho=600.0 (set) ok"
+        },
+        {
+          "name": "required:pw:upf_identity",
+          "kind": "required",
+          "passed": true,
+          "reason": "UPF identity ok"
+        },
+        {
+          "name": "required:pw:species_counts",
+          "kind": "required",
+          "passed": true,
+          "reason": "species {'Mg': 8, 'Zn': 8, 'O': 16} ok"
+        },
+        {
+          "name": "required:pw:structure",
+          "kind": "required",
+          "passed": true,
+          "reason": "path structure match ok (frame angle err 8.53774e-07 deg, max site disp 8.881784197001252e-16 A, lattice ok=True)"
+        }
+      ]
+    },
+    {
+      "label": "x050_lam0000_berry",
+      "score": 1,
+      "checks": [
+        {
+          "name": "required:pw:calculation",
+          "kind": "required",
+          "passed": true,
+          "reason": "calculation='nscf' (set) ok"
+        },
+        {
+          "name": "required:pw:lberry",
+          "kind": "required",
+          "passed": true,
+          "reason": "lberry=True (set) ok"
+        },
+        {
+          "name": "required:pw:gdir",
+          "kind": "required",
+          "passed": true,
+          "reason": "gdir=3 (set) ok"
+        },
+        {
+          "name": "required:pw:nppstr",
+          "kind": "required",
+          "passed": true,
+          "reason": "nppstr explicitly set"
+        },
+        {
+          "name": "required:pw:occupations",
+          "kind": "required",
+          "passed": true,
+          "reason": "occupations='fixed' (set) ok"
+        },
+        {
+          "name": "required:pw:kmesh",
+          "kind": "required",
+          "passed": true,
+          "reason": "mesh 4x4x6 meets per-axis floors 4x4x1"
+        },
+        {
+          "name": "required:pw:ecutwfc",
+          "kind": "required",
+          "passed": true,
+          "reason": "ecutwfc=60.0 (set) ok"
+        },
+        {
+          "name": "required:pw:ecutrho",
+          "kind": "required",
+          "passed": true,
+          "reason": "ecutrho=600.0 (set) ok"
+        },
+        {
+          "name": "required:pw:upf_identity",
+          "kind": "required",
+          "passed": true,
+          "reason": "UPF identity ok"
+        },
+        {
+          "name": "required:pw:species_counts",
+          "kind": "required",
+          "passed": true,
+          "reason": "species {'Mg': 8, 'Zn': 8, 'O': 16} ok"
+        },
+        {
+          "name": "required:pw:structure",
+          "kind": "required",
+          "passed": true,
+          "reason": "path structure match ok (frame angle err 8.53774e-07 deg, max site disp 8.881784197001252e-16 A, lattice ok=True)"
+        }
+      ]
+    },
+    {
+      "label": "x050_lam0500_scf",
+      "score": 1,
+      "checks": [
+        {
+          "name": "required:pw:calculation",
+          "kind": "required",
+          "passed": true,
+          "reason": "calculation='scf' (set) ok"
+        },
+        {
+          "name": "required:pw:disk_io",
+          "kind": "required",
+          "passed": true,
+          "reason": "disk_io='low' (set) ok"
+        },
+        {
+          "name": "required:pw:conv_thr",
+          "kind": "required",
+          "passed": true,
+          "reason": "conv_thr=1e-10 (set) ok"
+        },
+        {
+          "name": "required:pw:occupations",
+          "kind": "required",
+          "passed": true,
+          "reason": "occupations='fixed' (set) ok"
+        },
+        {
+          "name": "required:pw:kmesh",
+          "kind": "required",
+          "passed": true,
+          "reason": "mesh 4x4x3 meets per-axis floors 4x4x2"
+        },
+        {
+          "name": "required:pw:ecutwfc",
+          "kind": "required",
+          "passed": true,
+          "reason": "ecutwfc=60.0 (set) ok"
+        },
+        {
+          "name": "required:pw:ecutrho",
+          "kind": "required",
+          "passed": true,
+          "reason": "ecutrho=600.0 (set) ok"
+        },
+        {
+          "name": "required:pw:upf_identity",
+          "kind": "required",
+          "passed": true,
+          "reason": "UPF identity ok"
+        },
+        {
+          "name": "required:pw:species_counts",
+          "kind": "required",
+          "passed": true,
+          "reason": "species {'Mg': 8, 'Zn': 8, 'O': 16} ok"
+        },
+        {
+          "name": "required:pw:structure",
+          "kind": "required",
+          "passed": true,
+          "reason": "path structure match ok (frame angle err 8.53774e-07 deg, max site disp 1.7763568394002505e-15 A, lattice ok=True)"
+        }
+      ]
+    },
+    {
+      "label": "x050_lam0500_berry",
+      "score": 1,
+      "checks": [
+        {
+          "name": "required:pw:calculation",
+          "kind": "required",
+          "passed": true,
+          "reason": "calculation='nscf' (set) ok"
+        },
+        {
+          "name": "required:pw:lberry",
+          "kind": "required",
+          "passed": true,
+          "reason": "lberry=True (set) ok"
+        },
+        {
+          "name": "required:pw:gdir",
+          "kind": "required",
+          "passed": true,
+          "reason": "gdir=3 (set) ok"
+        },
+        {
+          "name": "required:pw:nppstr",
+          "kind": "required",
+          "passed": true,
+          "reason": "nppstr explicitly set"
+        },
+        {
+          "name": "required:pw:occupations",
+          "kind": "required",
+          "passed": true,
+          "reason": "occupations='fixed' (set) ok"
+        },
+        {
+          "name": "required:pw:kmesh",
+          "kind": "required",
+          "passed": true,
+          "reason": "mesh 4x4x6 meets per-axis floors 4x4x1"
+        },
+        {
+          "name": "required:pw:ecutwfc",
+          "kind": "required",
+          "passed": true,
+          "reason": "ecutwfc=60.0 (set) ok"
+        },
+        {
+          "name": "required:pw:ecutrho",
+          "kind": "required",
+          "passed": true,
+          "reason": "ecutrho=600.0 (set) ok"
+        },
+        {
+          "name": "required:pw:upf_identity",
+          "kind": "required",
+          "passed": true,
+          "reason": "UPF identity ok"
+        },
+        {
+          "name": "required:pw:species_counts",
+          "kind": "required",
+          "passed": true,
+          "reason": "species {'Mg': 8, 'Zn': 8, 'O': 16} ok"
+        },
+        {
+          "name": "required:pw:structure",
+          "kind": "required",
+          "passed": true,
+          "reason": "path structure match ok (frame angle err 8.53774e-07 deg, max site disp 1.7763568394002505e-15 A, lattice ok=True)"
+        }
+      ]
+    },
+    {
+      "label": "x000_lam0250_scf",
+      "score": 1,
+      "checks": [
+        {
+          "name": "required:pw:calculation",
+          "kind": "required",
+          "passed": true,
+          "reason": "calculation='scf' (set) ok"
+        },
+        {
+          "name": "required:pw:disk_io",
+          "kind": "required",
+          "passed": true,
+          "reason": "disk_io='low' (set) ok"
+        },
+        {
+          "name": "required:pw:conv_thr",
+          "kind": "required",
+          "passed": true,
+          "reason": "conv_thr=1e-10 (set) ok"
+        },
+        {
+          "name": "required:pw:occupations",
+          "kind": "required",
+          "passed": true,
+          "reason": "occupations='fixed' (set) ok"
+        },
+        {
+          "name": "required:pw:kmesh",
+          "kind": "required",
+          "passed": true,
+          "reason": "mesh 8x8x6 meets per-axis floors 8x8x5"
+        },
+        {
+          "name": "required:pw:ecutwfc",
+          "kind": "required",
+          "passed": true,
+          "reason": "ecutwfc=60.0 (set) ok"
+        },
+        {
+          "name": "required:pw:ecutrho",
+          "kind": "required",
+          "passed": true,
+          "reason": "ecutrho=600.0 (set) ok"
+        },
+        {
+          "name": "required:pw:upf_identity",
+          "kind": "required",
+          "passed": true,
+          "reason": "UPF identity ok"
+        },
+        {
+          "name": "required:pw:species_counts",
+          "kind": "required",
+          "passed": true,
+          "reason": "species {'Zn': 2, 'O': 2} ok"
+        },
+        {
+          "name": "required:pw:structure",
+          "kind": "required",
+          "passed": true,
+          "reason": "path structure match ok (frame angle err 0 deg, max site disp 0.0 A, lattice ok=True)"
+        }
+      ]
+    },
+    {
+      "label": "x000_lam0250_berry",
+      "score": 1,
+      "checks": [
+        {
+          "name": "required:pw:calculation",
+          "kind": "required",
+          "passed": true,
+          "reason": "calculation='nscf' (set) ok"
+        },
+        {
+          "name": "required:pw:lberry",
+          "kind": "required",
+          "passed": true,
+          "reason": "lberry=True (set) ok"
+        },
+        {
+          "name": "required:pw:gdir",
+          "kind": "required",
+          "passed": true,
+          "reason": "gdir=3 (set) ok"
+        },
+        {
+          "name": "required:pw:nppstr",
+          "kind": "required",
+          "passed": true,
+          "reason": "nppstr explicitly set"
+        },
+        {
+          "name": "required:pw:occupations",
+          "kind": "required",
+          "passed": true,
+          "reason": "occupations='fixed' (set) ok"
+        },
+        {
+          "name": "required:pw:kmesh",
+          "kind": "required",
+          "passed": true,
+          "reason": "mesh 8x8x12 meets per-axis floors 8x8x1"
+        },
+        {
+          "name": "required:pw:ecutwfc",
+          "kind": "required",
+          "passed": true,
+          "reason": "ecutwfc=60.0 (set) ok"
+        },
+        {
+          "name": "required:pw:ecutrho",
+          "kind": "required",
+          "passed": true,
+          "reason": "ecutrho=600.0 (set) ok"
+        },
+        {
+          "name": "required:pw:upf_identity",
+          "kind": "required",
+          "passed": true,
+          "reason": "UPF identity ok"
+        },
+        {
+          "name": "required:pw:species_counts",
+          "kind": "required",
+          "passed": true,
+          "reason": "species {'Zn': 2, 'O': 2} ok"
+        },
+        {
+          "name": "required:pw:structure",
+          "kind": "required",
+          "passed": true,
+          "reason": "path structure match ok (frame angle err 0 deg, max site disp 0.0 A, lattice ok=True)"
+        }
+      ]
+    }
+  ],
+  "extra_labels": [],
+  "chain": [
+    {
+      "name": "chain:x050_lam0000",
+      "passed": true,
+      "reason": "prefix 'x050_lam0000'/'x050_lam0000' ok; runtime directories ungraded"
+    },
+    {
+      "name": "chain:x050_lam0500",
+      "passed": true,
+      "reason": "prefix 'x050_lam0500'/'x050_lam0500' ok; runtime directories ungraded"
+    },
+    {
+      "name": "chain:x000_lam0250",
+      "passed": true,
+      "reason": "prefix 'x000_lam0250'/'x000_lam0250' ok; runtime directories ungraded"
+    }
+  ]
+}
+SCORE: 1

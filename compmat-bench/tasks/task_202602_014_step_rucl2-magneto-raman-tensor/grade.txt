@@ -1,0 +1,124 @@
+{
+  "score": 1,
+  "checks": [
+    {
+      "passed": true,
+      "name": "resonance_set",
+      "sub_sorted": [
+        0.30348041228746786,
+        0.5473246751216693
+      ],
+      "truth_sorted": [
+        0.304,
+        0.548
+      ],
+      "per_element": [
+        {
+          "value": 0.30348041228746786,
+          "truth": 0.304,
+          "abs_err": 0.0005195877125321324,
+          "tol": 0.0304,
+          "rule": "+/-10% relative"
+        },
+        {
+          "value": 0.5473246751216693,
+          "truth": 0.548,
+          "abs_err": 0.0006753248783307741,
+          "tol": 0.05480000000000001,
+          "rule": "+/-10% relative"
+        }
+      ]
+    },
+    {
+      "passed": true,
+      "name": "resonance_separation",
+      "separation_eV": 0.2438442628342014,
+      "rule": ">= 0.1 eV"
+    },
+    {
+      "passed": true,
+      "name": "extinction_contrast_LL",
+      "value": 0.003020650855303993,
+      "bound": 0.1,
+      "rule": "0 <= contrast <= 0.1 (one extinction per polarization)"
+    },
+    {
+      "passed": true,
+      "name": "extinction_contrast_RR",
+      "value": 0.020357643290074574,
+      "bound": 0.1,
+      "rule": "0 <= contrast <= 0.1 (one extinction per polarization)"
+    },
+    {
+      "passed": true,
+      "name": "phase_quantization",
+      "phase_low_over_pi": -0.48039515351531015,
+      "phase_high_over_pi": 0.4783016329135399,
+      "phase_step_over_pi": 0.95869678642885,
+      "abs_low_ok": true,
+      "abs_high_ok": true,
+      "opposite_sign_ok": true,
+      "step_ok": true,
+      "rule": "|phi|/pi in [0.40,0.60], opposite signs, |step|/pi in [0.90,1.10]"
+    },
+    {
+      "passed": true,
+      "name": "eta_washout_series",
+      "per_point": [
+        {
+          "eta": 0.03,
+          "sub_pair": [
+            -0.49515074718863206,
+            0.4954915188648903
+          ],
+          "sub_dev": 0.004849252811367943,
+          "truth_dev": 0.00719,
+          "tol": 0.014928,
+          "ok": true
+        },
+        {
+          "eta": 0.05,
+          "sub_pair": [
+            -0.48039515351531015,
+            0.4783016329135399
+          ],
+          "sub_dev": 0.021698367086460113,
+          "truth_dev": 0.02583,
+          "tol": 0.014928,
+          "ok": true
+        },
+        {
+          "eta": 0.07,
+          "sub_pair": [
+            -0.45539635348657703,
+            0.43761212139726613
+          ],
+          "sub_dev": 0.06238787860273387,
+          "truth_dev": 0.06754,
+          "tol": 0.014928,
+          "ok": true
+        },
+        {
+          "eta": 0.09,
+          "sub_pair": [
+            -0.42418474716538923,
+            0.3556329947227559
+          ],
+          "sub_dev": 0.1443670052772441,
+          "truth_dev": 0.14928,
+          "tol": 0.014928,
+          "ok": true
+        }
+      ],
+      "rule": "deviation = max over the two gaps of the distance of the wrapped phase/pi to the nearer of +1/2 and -1/2; per-point |sub - truth| <= max(0.10*|truth|, 0.10*max|truth|)"
+    }
+  ],
+  "diagnostics": {
+    "note": "recorded, not scored (handbook 1(2)); ours in ground_truth.json",
+    "gap_low_eV": 0.31210000000000004,
+    "gap_high_eV": 0.5535999999999999,
+    "gaps_within_10pct_of_ours": true,
+    "eta_washout_monotonic": true
+  }
+}
+SCORE: 1

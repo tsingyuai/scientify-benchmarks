@@ -1,0 +1,485 @@
+{
+  "score": 1,
+  "runs": [
+    {
+      "label": "relax_sb_alt",
+      "passed": true,
+      "checks": [
+        {
+          "name": "required:pw:calculation",
+          "kind": "required",
+          "passed": true,
+          "reason": "calculation='relax' (set) ok"
+        },
+        {
+          "name": "required:pw:conv_thr",
+          "kind": "required",
+          "passed": true,
+          "reason": "conv_thr=1e-08 (set) ok"
+        },
+        {
+          "name": "required:pw:kmesh",
+          "kind": "required",
+          "passed": true,
+          "reason": "mesh 4x4x4 meets per-axis floors 3x3x1"
+        },
+        {
+          "name": "required:pw:structure",
+          "kind": "required",
+          "passed": true,
+          "reason": "unrelaxed build match ok (max site disp 9.305398037891132e-15 A, lattice ok=True)"
+        },
+        {
+          "name": "required:pw:nspin",
+          "kind": "required",
+          "passed": true,
+          "reason": "nspin=2 (set) ok"
+        },
+        {
+          "name": "required:pw:hubbard_u",
+          "kind": "required",
+          "passed": true,
+          "reason": "HUBBARD U ok: Mn2=3.0, Mn1=3.0"
+        },
+        {
+          "name": "required:pw:upf_identity",
+          "kind": "required",
+          "passed": true,
+          "reason": "UPF identity ok"
+        },
+        {
+          "name": "required:pw:species_counts",
+          "kind": "required",
+          "passed": true,
+          "reason": "element counts {'Mn': 16, 'Sb': 2, 'Te': 14} ok"
+        },
+        {
+          "name": "required:pw:ecutwfc",
+          "kind": "required",
+          "passed": true,
+          "reason": "ecutwfc=80.0 (set) ok"
+        },
+        {
+          "name": "required:pw:ecutrho",
+          "kind": "required",
+          "passed": true,
+          "reason": "ecutrho=640.0 (set) vs 4*ecutwfc=320 ok"
+        },
+        {
+          "name": "required:pw:occupations",
+          "kind": "required",
+          "passed": true,
+          "reason": "occupations='smearing', degauss=0.01 (set) ok"
+        },
+        {
+          "name": "required:pw:afm_a",
+          "kind": "required",
+          "passed": true,
+          "reason": "AFM-A ok: {'Mn1': 0.5, 'Mn2': -0.5}, plane parities {'Mn1': {0}, 'Mn2': {1}}"
+        }
+      ]
+    },
+    {
+      "label": "scf_sb_alt",
+      "passed": true,
+      "checks": [
+        {
+          "name": "required:pw:calculation",
+          "kind": "required",
+          "passed": true,
+          "reason": "calculation='scf' (set) ok"
+        },
+        {
+          "name": "required:pw:conv_thr",
+          "kind": "required",
+          "passed": true,
+          "reason": "conv_thr=1e-08 (set) ok"
+        },
+        {
+          "name": "required:pw:kmesh",
+          "kind": "required",
+          "passed": true,
+          "reason": "mesh 4x4x4 meets per-axis floors 3x3x1"
+        },
+        {
+          "name": "required:pw:structure",
+          "kind": "required",
+          "passed": true,
+          "reason": "relaxed geometry match ok (max site disp 0.06448061650697005 A, lattice ok=True)"
+        },
+        {
+          "name": "required:pw:nspin",
+          "kind": "required",
+          "passed": true,
+          "reason": "nspin=2 (set) ok"
+        },
+        {
+          "name": "required:pw:hubbard_u",
+          "kind": "required",
+          "passed": true,
+          "reason": "HUBBARD U ok: Mn2=3.0, Mn1=3.0"
+        },
+        {
+          "name": "required:pw:upf_identity",
+          "kind": "required",
+          "passed": true,
+          "reason": "UPF identity ok"
+        },
+        {
+          "name": "required:pw:species_counts",
+          "kind": "required",
+          "passed": true,
+          "reason": "element counts {'Mn': 16, 'Sb': 2, 'Te': 14} ok"
+        },
+        {
+          "name": "required:pw:ecutwfc",
+          "kind": "required",
+          "passed": true,
+          "reason": "ecutwfc=80.0 (set) ok"
+        },
+        {
+          "name": "required:pw:ecutrho",
+          "kind": "required",
+          "passed": true,
+          "reason": "ecutrho=640.0 (set) vs 4*ecutwfc=320 ok"
+        },
+        {
+          "name": "required:pw:occupations",
+          "kind": "required",
+          "passed": true,
+          "reason": "occupations='smearing', degauss=0.01 (set) ok"
+        },
+        {
+          "name": "required:pw:afm_a",
+          "kind": "required",
+          "passed": true,
+          "reason": "AFM-A ok: {'Mn1': 0.5, 'Mn2': -0.5}, plane parities {'Mn1': {0}, 'Mn2': {1}}"
+        }
+      ]
+    },
+    {
+      "label": "bands_sb_alt",
+      "passed": true,
+      "checks": [
+        {
+          "name": "required:pw:calculation",
+          "kind": "required",
+          "passed": true,
+          "reason": "calculation='bands' (set) ok"
+        },
+        {
+          "name": "required:pw:nbnd",
+          "kind": "required",
+          "passed": true,
+          "reason": "nbnd=200 (set) ok"
+        },
+        {
+          "name": "required:pw:folded_path",
+          "kind": "required",
+          "passed": true,
+          "reason": "folded L-Gamma-L' line ok: legs [(0.5, -0.0, 0.5), (0.0, 0.5, 0.5)] (parities {(0.5, -0.0, 0.5): 0, (0.0, 0.5, 0.5): 1}), 201 points"
+        },
+        {
+          "name": "required:pw:structure",
+          "kind": "required",
+          "passed": true,
+          "reason": "relaxed geometry match ok (max site disp 0.06448061650697005 A, lattice ok=True)"
+        },
+        {
+          "name": "required:pw:nspin",
+          "kind": "required",
+          "passed": true,
+          "reason": "nspin=2 (set) ok"
+        },
+        {
+          "name": "required:pw:hubbard_u",
+          "kind": "required",
+          "passed": true,
+          "reason": "HUBBARD U ok: Mn2=3.0, Mn1=3.0"
+        },
+        {
+          "name": "required:pw:upf_identity",
+          "kind": "required",
+          "passed": true,
+          "reason": "UPF identity ok"
+        },
+        {
+          "name": "required:pw:species_counts",
+          "kind": "required",
+          "passed": true,
+          "reason": "element counts {'Mn': 16, 'Sb': 2, 'Te': 14} ok"
+        },
+        {
+          "name": "required:pw:ecutwfc",
+          "kind": "required",
+          "passed": true,
+          "reason": "ecutwfc=80.0 (set) ok"
+        },
+        {
+          "name": "required:pw:ecutrho",
+          "kind": "required",
+          "passed": true,
+          "reason": "ecutrho=640.0 (set) vs 4*ecutwfc=320 ok"
+        },
+        {
+          "name": "required:pw:occupations",
+          "kind": "required",
+          "passed": true,
+          "reason": "occupations='smearing', degauss=0.01 (set) ok"
+        }
+      ]
+    },
+    {
+      "label": "relax_i_quasi",
+      "passed": true,
+      "checks": [
+        {
+          "name": "required:pw:calculation",
+          "kind": "required",
+          "passed": true,
+          "reason": "calculation='relax' (set) ok"
+        },
+        {
+          "name": "required:pw:conv_thr",
+          "kind": "required",
+          "passed": true,
+          "reason": "conv_thr=1e-08 (set) ok"
+        },
+        {
+          "name": "required:pw:kmesh",
+          "kind": "required",
+          "passed": true,
+          "reason": "mesh 4x4x4 meets per-axis floors 3x3x1"
+        },
+        {
+          "name": "required:pw:structure",
+          "kind": "required",
+          "passed": true,
+          "reason": "unrelaxed build match ok (max site disp 9.718151151359408e-15 A, lattice ok=True)"
+        },
+        {
+          "name": "required:pw:nspin",
+          "kind": "required",
+          "passed": true,
+          "reason": "nspin=2 (set) ok"
+        },
+        {
+          "name": "required:pw:hubbard_u",
+          "kind": "required",
+          "passed": true,
+          "reason": "HUBBARD U ok: Mn2=3.0, Mn1=3.0"
+        },
+        {
+          "name": "required:pw:upf_identity",
+          "kind": "required",
+          "passed": true,
+          "reason": "UPF identity ok"
+        },
+        {
+          "name": "required:pw:species_counts",
+          "kind": "required",
+          "passed": true,
+          "reason": "element counts {'Mn': 16, 'I': 2, 'Te': 14} ok"
+        },
+        {
+          "name": "required:pw:ecutwfc",
+          "kind": "required",
+          "passed": true,
+          "reason": "ecutwfc=80.0 (set) ok"
+        },
+        {
+          "name": "required:pw:ecutrho",
+          "kind": "required",
+          "passed": true,
+          "reason": "ecutrho=640.0 (set) vs 4*ecutwfc=320 ok"
+        },
+        {
+          "name": "required:pw:occupations",
+          "kind": "required",
+          "passed": true,
+          "reason": "occupations='smearing', degauss=0.01 (set) ok"
+        },
+        {
+          "name": "required:pw:afm_a",
+          "kind": "required",
+          "passed": true,
+          "reason": "AFM-A ok: {'Mn1': 0.5, 'Mn2': -0.5}, plane parities {'Mn1': {0}, 'Mn2': {1}}"
+        }
+      ]
+    },
+    {
+      "label": "scf_i_quasi",
+      "passed": true,
+      "checks": [
+        {
+          "name": "required:pw:calculation",
+          "kind": "required",
+          "passed": true,
+          "reason": "calculation='scf' (set) ok"
+        },
+        {
+          "name": "required:pw:conv_thr",
+          "kind": "required",
+          "passed": true,
+          "reason": "conv_thr=1e-08 (set) ok"
+        },
+        {
+          "name": "required:pw:kmesh",
+          "kind": "required",
+          "passed": true,
+          "reason": "mesh 4x4x4 meets per-axis floors 3x3x1"
+        },
+        {
+          "name": "required:pw:structure",
+          "kind": "required",
+          "passed": true,
+          "reason": "relaxed geometry match ok (max site disp 0.28303707192398103 A, lattice ok=True)"
+        },
+        {
+          "name": "required:pw:nspin",
+          "kind": "required",
+          "passed": true,
+          "reason": "nspin=2 (set) ok"
+        },
+        {
+          "name": "required:pw:hubbard_u",
+          "kind": "required",
+          "passed": true,
+          "reason": "HUBBARD U ok: Mn2=3.0, Mn1=3.0"
+        },
+        {
+          "name": "required:pw:upf_identity",
+          "kind": "required",
+          "passed": true,
+          "reason": "UPF identity ok"
+        },
+        {
+          "name": "required:pw:species_counts",
+          "kind": "required",
+          "passed": true,
+          "reason": "element counts {'Mn': 16, 'I': 2, 'Te': 14} ok"
+        },
+        {
+          "name": "required:pw:ecutwfc",
+          "kind": "required",
+          "passed": true,
+          "reason": "ecutwfc=80.0 (set) ok"
+        },
+        {
+          "name": "required:pw:ecutrho",
+          "kind": "required",
+          "passed": true,
+          "reason": "ecutrho=640.0 (set) vs 4*ecutwfc=320 ok"
+        },
+        {
+          "name": "required:pw:occupations",
+          "kind": "required",
+          "passed": true,
+          "reason": "occupations='smearing', degauss=0.01 (set) ok"
+        },
+        {
+          "name": "required:pw:afm_a",
+          "kind": "required",
+          "passed": true,
+          "reason": "AFM-A ok: {'Mn1': 0.5, 'Mn2': -0.5}, plane parities {'Mn1': {0}, 'Mn2': {1}}"
+        }
+      ]
+    },
+    {
+      "label": "bands_i_quasi",
+      "passed": true,
+      "checks": [
+        {
+          "name": "required:pw:calculation",
+          "kind": "required",
+          "passed": true,
+          "reason": "calculation='bands' (set) ok"
+        },
+        {
+          "name": "required:pw:nbnd",
+          "kind": "required",
+          "passed": true,
+          "reason": "nbnd=200 (set) ok"
+        },
+        {
+          "name": "required:pw:folded_path",
+          "kind": "required",
+          "passed": true,
+          "reason": "folded L-Gamma-L' line ok: legs [(0.5, -0.0, 0.5), (0.0, 0.5, 0.5)] (parities {(0.5, -0.0, 0.5): 0, (0.0, 0.5, 0.5): 1}), 201 points"
+        },
+        {
+          "name": "required:pw:structure",
+          "kind": "required",
+          "passed": true,
+          "reason": "relaxed geometry match ok (max site disp 0.28303707192398103 A, lattice ok=True)"
+        },
+        {
+          "name": "required:pw:nspin",
+          "kind": "required",
+          "passed": true,
+          "reason": "nspin=2 (set) ok"
+        },
+        {
+          "name": "required:pw:hubbard_u",
+          "kind": "required",
+          "passed": true,
+          "reason": "HUBBARD U ok: Mn2=3.0, Mn1=3.0"
+        },
+        {
+          "name": "required:pw:upf_identity",
+          "kind": "required",
+          "passed": true,
+          "reason": "UPF identity ok"
+        },
+        {
+          "name": "required:pw:species_counts",
+          "kind": "required",
+          "passed": true,
+          "reason": "element counts {'Mn': 16, 'I': 2, 'Te': 14} ok"
+        },
+        {
+          "name": "required:pw:ecutwfc",
+          "kind": "required",
+          "passed": true,
+          "reason": "ecutwfc=80.0 (set) ok"
+        },
+        {
+          "name": "required:pw:ecutrho",
+          "kind": "required",
+          "passed": true,
+          "reason": "ecutrho=640.0 (set) vs 4*ecutwfc=320 ok"
+        },
+        {
+          "name": "required:pw:occupations",
+          "kind": "required",
+          "passed": true,
+          "reason": "occupations='smearing', degauss=0.01 (set) ok"
+        }
+      ]
+    }
+  ],
+  "cross_deck": [
+    {
+      "name": "required:cross:sb_alt:chain",
+      "passed": true,
+      "reason": "scf->bands prefix chain consistent"
+    },
+    {
+      "name": "required:cross:sb_alt:saved_afm_model",
+      "passed": true,
+      "reason": "collinear bands model inherits AFM-A from the supplied SCF (atomic seeds unscored)"
+    },
+    {
+      "name": "required:cross:i_quasi:chain",
+      "passed": true,
+      "reason": "scf->bands prefix chain consistent"
+    },
+    {
+      "name": "required:cross:i_quasi:saved_afm_model",
+      "passed": true,
+      "reason": "collinear bands model inherits AFM-A from the supplied SCF (atomic seeds unscored)"
+    }
+  ],
+  "extra_labels_ignored": []
+}
+SCORE: 1

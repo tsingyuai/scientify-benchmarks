@@ -1,0 +1,60 @@
+{
+  "score": 1,
+  "checks": [
+    {
+      "passed": true,
+      "value": 3.0746247313705695,
+      "truth": 3.0746247409181326,
+      "abs_err": 9.547563184497676e-09,
+      "tol": 0.15373123704590663,
+      "rule": "+/-5% relative",
+      "name": "alpha0_GJ_m_per_C2"
+    },
+    {
+      "passed": true,
+      "value": 4.991775288411226,
+      "truth": 4.991775265498329,
+      "abs_err": 2.2912897357230122e-08,
+      "tol": 0.24958876327491644,
+      "rule": "+/-5% relative",
+      "name": "gamma_star_GJ_m5_per_C4"
+    },
+    {
+      "passed": true,
+      "value": 8.257571689232622,
+      "truth": 8.257571713052988,
+      "abs_err": 2.3820366124027714e-08,
+      "tol": 0.4128785856526494,
+      "rule": "+/-5% relative",
+      "name": "omega_GJ_m9_per_C6"
+    },
+    {
+      "passed": true,
+      "value": 2.5690691587264376,
+      "truth": 2.5690691494046987,
+      "abs_err": 9.321738936307611e-09,
+      "tol": 0.12845345747023493,
+      "rule": "+/-5% relative",
+      "name": "xc"
+    },
+    {
+      "passed": true,
+      "value": 12.00494620616004,
+      "truth": 12.004946225695118,
+      "abs_err": 1.9535077555588032e-08,
+      "tol": 1.200494622569512,
+      "rule": "+/-10% relative",
+      "name": "kappa_x1"
+    },
+    {
+      "passed": true,
+      "value": -0.7233605850345433,
+      "truth": -0.7233605824697076,
+      "abs_err": 2.564835677176802e-09,
+      "tol": 0.07233605824697076,
+      "rule": "+/-10% relative",
+      "name": "df_x1_GJ_per_m3"
+    }
+  ]
+}
+SCORE: 1

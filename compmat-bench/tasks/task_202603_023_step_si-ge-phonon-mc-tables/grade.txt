@@ -1,0 +1,110 @@
+{
+  "score": 1,
+  "checks": [
+    {
+      "passed": true,
+      "value": 93747,
+      "truth": 93747,
+      "rule": "exact int",
+      "name": "Si.n_rows"
+    },
+    {
+      "passed": true,
+      "value": 1587977.078281892,
+      "truth": 1587977.0782818925,
+      "abs_err": 4.656612873077393e-10,
+      "tol": 158797.70782818925,
+      "rule": "+/-10% relative",
+      "name": "Si.sum_C_J_m3_K"
+    },
+    {
+      "passed": true,
+      "value": 320.3310400768885,
+      "truth": 320.33094981737565,
+      "abs_err": 9.025951283092581e-05,
+      "tol": 32.03309498173757,
+      "rule": "+/-10% relative",
+      "name": "Si.kappa_xx_W_mK"
+    },
+    {
+      "passed": true,
+      "value": 100.09570619187986,
+      "truth": 100.0957061918818,
+      "abs_err": 1.9468870959826745e-12,
+      "tol": 10.009570619188182,
+      "rule": "+/-10% relative",
+      "name": "Si.kappa_below_3THz_W_mK"
+    },
+    {
+      "passed": true,
+      "value": 5635700384.281688,
+      "truth": 5635700370.830542,
+      "abs_err": 13.451146125793457,
+      "tol": 563570037.0830542,
+      "rule": "+/-10% relative",
+      "name": "Si.fourth_moment_W_m_K_s2"
+    },
+    {
+      "passed": true,
+      "value": -2.2853435561235813e-19,
+      "truth": 0.0,
+      "abs_err": 2.2853435561235813e-19,
+      "tol": 0.0001,
+      "rule": "absolute",
+      "name": "Si.odd_ratio"
+    },
+    {
+      "passed": true,
+      "value": 93747,
+      "truth": 93747,
+      "rule": "exact int",
+      "name": "Ge.n_rows"
+    },
+    {
+      "passed": true,
+      "value": 1804675.2960213413,
+      "truth": 1804675.2960213418,
+      "abs_err": 4.656612873077393e-10,
+      "tol": 180467.5296021342,
+      "rule": "+/-10% relative",
+      "name": "Ge.sum_C_J_m3_K"
+    },
+    {
+      "passed": true,
+      "value": 145.90125441800663,
+      "truth": 145.9012544180069,
+      "abs_err": 2.8421709430404007e-13,
+      "tol": 14.590125441800692,
+      "rule": "+/-10% relative",
+      "name": "Ge.kappa_xx_W_mK"
+    },
+    {
+      "passed": true,
+      "value": 58.39428031147484,
+      "truth": 58.39428031147502,
+      "abs_err": 1.8474111129762605e-13,
+      "tol": 5.839428031147502,
+      "rule": "+/-10% relative",
+      "name": "Ge.kappa_below_3THz_W_mK"
+    },
+    {
+      "passed": true,
+      "value": 1257033433.4744208,
+      "truth": 1257033433.4744291,
+      "abs_err": 8.344650268554688e-06,
+      "tol": 125703343.34744292,
+      "rule": "+/-10% relative",
+      "name": "Ge.fourth_moment_W_m_K_s2"
+    },
+    {
+      "passed": true,
+      "value": -3.2678719608081195e-18,
+      "truth": 0.0,
+      "abs_err": 3.2678719608081195e-18,
+      "tol": 0.0001,
+      "rule": "absolute",
+      "name": "Ge.odd_ratio"
+    }
+  ]
+}
+SCORE: 1

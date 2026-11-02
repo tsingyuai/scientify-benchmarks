@@ -1,0 +1,69 @@
+{
+  "score": 1,
+  "checks": [
+    {
+      "passed": true,
+      "n_points": 55,
+      "n_fail": 0,
+      "worst_i": 22,
+      "rule": "per-point +/-10% with floor",
+      "failures": [],
+      "name": "Pz_C_m2"
+    },
+    {
+      "passed": true,
+      "value": 2.217462680408833,
+      "truth": 2.2175,
+      "abs_err": 3.73195911667068e-05,
+      "tol": 0.22175,
+      "rule": "+/-10% relative",
+      "name": "Ec_MV_per_cm"
+    },
+    {
+      "passed": true,
+      "value": 0.20188069795180083,
+      "truth": 0.2019,
+      "abs_err": 1.93020481991657e-05,
+      "tol": 0.02019,
+      "rule": "+/-10% relative",
+      "name": "Pr_C_m2"
+    },
+    {
+      "passed": true,
+      "value": -2.0,
+      "truth": -2.0,
+      "abs_err": 0.0,
+      "tol": 1e-06,
+      "rule": "exact grid field",
+      "name": "switching_fields_descending_MV_per_cm[0]"
+    },
+    {
+      "passed": true,
+      "value": -2.75,
+      "truth": -2.75,
+      "abs_err": 0.0,
+      "tol": 1e-06,
+      "rule": "exact grid field",
+      "name": "switching_fields_descending_MV_per_cm[1]"
+    },
+    {
+      "passed": true,
+      "value": 2.0,
+      "truth": 2.0,
+      "abs_err": 0.0,
+      "tol": 1e-06,
+      "rule": "exact grid field",
+      "name": "switching_fields_ascending_MV_per_cm[0]"
+    },
+    {
+      "passed": true,
+      "value": 2.75,
+      "truth": 2.75,
+      "abs_err": 0.0,
+      "tol": 1e-06,
+      "rule": "exact grid field",
+      "name": "switching_fields_ascending_MV_per_cm[1]"
+    }
+  ]
+}
+SCORE: 1

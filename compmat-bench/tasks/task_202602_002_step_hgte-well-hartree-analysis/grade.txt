@@ -1,0 +1,100 @@
+{
+  "score": 1,
+  "checks": [
+    {
+      "passed": true,
+      "value": 0.11385751,
+      "truth": 0.1139,
+      "abs_err": 4.2490000000006134e-05,
+      "tol": 2.0,
+      "rule": "absolute",
+      "name": "dU_well_B_meV"
+    },
+    {
+      "passed": true,
+      "value": 50.72966332,
+      "truth": 50.7297,
+      "abs_err": 3.6680000000899327e-05,
+      "tol": 5.072970000000001,
+      "rule": "+/-10% relative",
+      "name": "dU_well_A_meV"
+    },
+    {
+      "passed": true,
+      "value": -16.28602338,
+      "truth": -16.286,
+      "abs_err": 2.337999999824092e-05,
+      "tol": 1.6286000000000003,
+      "rule": "+/-10% relative",
+      "name": "dU_well_C_meV"
+    },
+    {
+      "passed": true,
+      "value": -21.94034539934316,
+      "truth": -21.942,
+      "abs_err": 0.0016546006568418647,
+      "tol": 2.1942,
+      "rule": "+/-10% relative",
+      "name": "ef0_A_meV"
+    },
+    {
+      "passed": true,
+      "value": 30.14854413551563,
+      "truth": 30.1461,
+      "abs_err": 0.002444135515627721,
+      "tol": 3.0146100000000002,
+      "rule": "+/-10% relative",
+      "name": "ef0_B_meV"
+    },
+    {
+      "passed": true,
+      "value": 34.357393737716784,
+      "truth": 34.3216,
+      "abs_err": 0.03579373771678718,
+      "tol": 3.4321599999999997,
+      "rule": "+/-10% relative",
+      "name": "ef0_C_meV"
+    },
+    {
+      "passed": true,
+      "value": -199749300276.6,
+      "truth": -199749300000.0,
+      "abs_err": 276.6000061035156,
+      "tol": 19974930000.0,
+      "rule": "+/-10% relative",
+      "name": "n_well_A_cm-2"
+    },
+    {
+      "passed": true,
+      "value": 179575586193.75,
+      "truth": 179575600000.0,
+      "abs_err": 13806.25,
+      "tol": 17957560000.0,
+      "rule": "+/-10% relative",
+      "name": "n_well_B_cm-2"
+    },
+    {
+      "passed": true,
+      "value": 199458169128.75,
+      "truth": 199458200000.0,
+      "abs_err": 30871.25,
+      "tol": 19945820000.0,
+      "rule": "+/-10% relative",
+      "name": "n_well_C_cm-2"
+    },
+    {
+      "passed": true,
+      "name": "symmetric_condition",
+      "value": "B",
+      "truth": "B",
+      "rule": "exact label match"
+    }
+  ],
+  "secondary": {
+    "Uprime_top_A_meV_per_nm": null,
+    "Uprime_top_B_meV_per_nm": null,
+    "Uprime_top_C_meV_per_nm": null,
+    "note": "Uprime_top diagnostics only (Gauss-pinned input constraint at fixed n_tot), not scored"
+  }
+}
+SCORE: 1

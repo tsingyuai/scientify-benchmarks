@@ -1,0 +1,42 @@
+{
+  "score": 1,
+  "checks": [
+    {
+      "passed": true,
+      "n_points": 12,
+      "n_fail": 0,
+      "worst_i": 8,
+      "rule": "per-point +/-10% with floor",
+      "failures": [],
+      "name": "map_per_point"
+    },
+    {
+      "passed": true,
+      "value": 0.13510075807960376,
+      "truth": 0.1321,
+      "abs_err": 0.0030007580796037603,
+      "tol": 0.01321,
+      "rule": "+/-10% relative",
+      "name": "extremum_abs_V"
+    },
+    {
+      "passed": true,
+      "name": "antisymmetry",
+      "flag": true,
+      "max_pair_residual": 2.8019951305191526e-05,
+      "submitted_aligned_scale_V": 0.13510075807960376,
+      "tol": 0.013510075807960376,
+      "rule": "flag true AND canonical periodic pair sums <= 10% of largest submitted aligned magnitude"
+    },
+    {
+      "passed": true,
+      "value": 0.13510075807960376,
+      "truth": 0.13510075807960376,
+      "abs_err": 0.0,
+      "tol": 0.002,
+      "rule": "extremum equals max absolute submitted map value within decimal rounding / 0.002 V allowance",
+      "name": "extremum_consistency"
+    }
+  ]
+}
+SCORE: 1

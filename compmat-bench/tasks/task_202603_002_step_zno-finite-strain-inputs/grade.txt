@@ -1,0 +1,624 @@
+{
+  "score": 0,
+  "runs": [
+    {
+      "label": "vcrelax",
+      "score": 0,
+      "checks": [
+        {
+          "name": "required:pw:calculation",
+          "kind": "required",
+          "passed": true,
+          "reason": "calculation='vc-relax' (set) ok"
+        },
+        {
+          "name": "required:pw:cell_dofree",
+          "kind": "required",
+          "passed": true,
+          "reason": "cell_dofree='all' (set) ok"
+        },
+        {
+          "name": "required:pw:press_conv_thr",
+          "kind": "required",
+          "passed": true,
+          "reason": "press_conv_thr=0.1 (set) ok"
+        },
+        {
+          "name": "required:pw:forc_conv_thr",
+          "kind": "required",
+          "passed": true,
+          "reason": "forc_conv_thr=1e-05 (set) ok"
+        },
+        {
+          "name": "required:pw:conv_thr",
+          "kind": "required",
+          "passed": true,
+          "reason": "conv_thr=1e-10 (set) ok"
+        },
+        {
+          "name": "required:pw:occupations",
+          "kind": "required",
+          "passed": true,
+          "reason": "occupations='fixed' (set) ok"
+        },
+        {
+          "name": "required:pw:kmesh",
+          "kind": "required",
+          "passed": false,
+          "reason": "axis 0 has 6 subdivisions, need >= 8 (frozen k-mesh minimum)"
+        },
+        {
+          "name": "required:pw:structure",
+          "kind": "required",
+          "passed": true,
+          "reason": "starting-cell match ok (frame angle err 0 deg, max site disp 0.0 A, lattice ok=True, max angle err 0.000 deg vs 0.1)"
+        },
+        {
+          "name": "required:pw:ecutwfc",
+          "kind": "required",
+          "passed": true,
+          "reason": "ecutwfc=60.0 (set) ok"
+        },
+        {
+          "name": "required:pw:ecutrho",
+          "kind": "required",
+          "passed": true,
+          "reason": "ecutrho=600.0 (set) ok"
+        },
+        {
+          "name": "required:pw:upf_identity",
+          "kind": "required",
+          "passed": true,
+          "reason": "UPF identity ok"
+        },
+        {
+          "name": "required:pw:species_counts",
+          "kind": "required",
+          "passed": true,
+          "reason": "species {'Zn': 2, 'O': 2} ok"
+        }
+      ]
+    },
+    {
+      "label": "D1_p_relax",
+      "score": 0,
+      "checks": [
+        {
+          "name": "required:pw:calculation",
+          "kind": "required",
+          "passed": true,
+          "reason": "calculation='relax' (set) ok"
+        },
+        {
+          "name": "required:pw:tstress",
+          "kind": "required",
+          "passed": true,
+          "reason": "tstress=True (set) ok"
+        },
+        {
+          "name": "required:pw:forc_conv_thr",
+          "kind": "required",
+          "passed": true,
+          "reason": "forc_conv_thr=1e-05 (set) ok"
+        },
+        {
+          "name": "required:pw:conv_thr",
+          "kind": "required",
+          "passed": true,
+          "reason": "conv_thr=1e-10 (set) ok"
+        },
+        {
+          "name": "required:pw:occupations",
+          "kind": "required",
+          "passed": true,
+          "reason": "occupations='fixed' (set) ok"
+        },
+        {
+          "name": "required:pw:kmesh",
+          "kind": "required",
+          "passed": false,
+          "reason": "axis 0 has 6 subdivisions, need >= 8 (frozen k-mesh minimum)"
+        },
+        {
+          "name": "required:pw:structure",
+          "kind": "required",
+          "passed": true,
+          "reason": "deformed-cell match ok (frame angle err 0 deg, max site disp 0.0 A, lattice ok=True, max angle err 0.000 deg vs 0.1)"
+        },
+        {
+          "name": "required:pw:ecutwfc",
+          "kind": "required",
+          "passed": true,
+          "reason": "ecutwfc=60.0 (set) ok"
+        },
+        {
+          "name": "required:pw:ecutrho",
+          "kind": "required",
+          "passed": true,
+          "reason": "ecutrho=600.0 (set) ok"
+        },
+        {
+          "name": "required:pw:upf_identity",
+          "kind": "required",
+          "passed": true,
+          "reason": "UPF identity ok"
+        },
+        {
+          "name": "required:pw:species_counts",
+          "kind": "required",
+          "passed": true,
+          "reason": "species {'Zn': 2, 'O': 2} ok"
+        },
+        {
+          "name": "required:pw:disk_io",
+          "kind": "required",
+          "passed": true,
+          "reason": "disk_io='low' (set) ok"
+        }
+      ]
+    },
+    {
+      "label": "D1_p_berry",
+      "score": 0,
+      "checks": [
+        {
+          "name": "required:pw:calculation",
+          "kind": "required",
+          "passed": false,
+          "reason": "calculation='scf' (set) fails: need calculation in nscf"
+        },
+        {
+          "name": "required:pw:lberry",
+          "kind": "required",
+          "passed": true,
+          "reason": "lberry=True (set) ok"
+        },
+        {
+          "name": "required:pw:gdir",
+          "kind": "required",
+          "passed": true,
+          "reason": "gdir=3 (set) ok"
+        },
+        {
+          "name": "required:pw:nppstr",
+          "kind": "required",
+          "passed": true,
+          "reason": "nppstr=12 (set) ok"
+        },
+        {
+          "name": "required:pw:occupations",
+          "kind": "required",
+          "passed": true,
+          "reason": "occupations='fixed' (set) ok"
+        },
+        {
+          "name": "required:pw:kmesh",
+          "kind": "required",
+          "passed": false,
+          "reason": "Berry strings must be ordered uniform paths ending at first + G_gdir"
+        },
+        {
+          "name": "required:pw:structure",
+          "kind": "required",
+          "passed": true,
+          "reason": "deformed-cell match ok (frame angle err 0 deg, max site disp 0.0 A, lattice ok=True, max angle err 0.000 deg vs 0.1)"
+        },
+        {
+          "name": "required:pw:ecutwfc",
+          "kind": "required",
+          "passed": true,
+          "reason": "ecutwfc=60.0 (set) ok"
+        },
+        {
+          "name": "required:pw:ecutrho",
+          "kind": "required",
+          "passed": true,
+          "reason": "ecutrho=600.0 (set) ok"
+        },
+        {
+          "name": "required:pw:upf_identity",
+          "kind": "required",
+          "passed": true,
+          "reason": "UPF identity ok"
+        },
+        {
+          "name": "required:pw:species_counts",
+          "kind": "required",
+          "passed": true,
+          "reason": "species {'Zn': 2, 'O': 2} ok"
+        }
+      ]
+    },
+    {
+      "label": "D3_p_relax",
+      "score": 0,
+      "checks": [
+        {
+          "name": "required:pw:calculation",
+          "kind": "required",
+          "passed": true,
+          "reason": "calculation='relax' (set) ok"
+        },
+        {
+          "name": "required:pw:tstress",
+          "kind": "required",
+          "passed": true,
+          "reason": "tstress=True (set) ok"
+        },
+        {
+          "name": "required:pw:forc_conv_thr",
+          "kind": "required",
+          "passed": true,
+          "reason": "forc_conv_thr=1e-05 (set) ok"
+        },
+        {
+          "name": "required:pw:conv_thr",
+          "kind": "required",
+          "passed": true,
+          "reason": "conv_thr=1e-10 (set) ok"
+        },
+        {
+          "name": "required:pw:occupations",
+          "kind": "required",
+          "passed": true,
+          "reason": "occupations='fixed' (set) ok"
+        },
+        {
+          "name": "required:pw:kmesh",
+          "kind": "required",
+          "passed": false,
+          "reason": "axis 0 has 6 subdivisions, need >= 8 (frozen k-mesh minimum)"
+        },
+        {
+          "name": "required:pw:structure",
+          "kind": "required",
+          "passed": true,
+          "reason": "deformed-cell match ok (frame angle err 0 deg, max site disp 0.0 A, lattice ok=True, max angle err 0.000 deg vs 0.1)"
+        },
+        {
+          "name": "required:pw:ecutwfc",
+          "kind": "required",
+          "passed": true,
+          "reason": "ecutwfc=60.0 (set) ok"
+        },
+        {
+          "name": "required:pw:ecutrho",
+          "kind": "required",
+          "passed": true,
+          "reason": "ecutrho=600.0 (set) ok"
+        },
+        {
+          "name": "required:pw:upf_identity",
+          "kind": "required",
+          "passed": true,
+          "reason": "UPF identity ok"
+        },
+        {
+          "name": "required:pw:species_counts",
+          "kind": "required",
+          "passed": true,
+          "reason": "species {'Zn': 2, 'O': 2} ok"
+        },
+        {
+          "name": "required:pw:disk_io",
+          "kind": "required",
+          "passed": true,
+          "reason": "disk_io='low' (set) ok"
+        }
+      ]
+    },
+    {
+      "label": "D3_p_berry",
+      "score": 0,
+      "checks": [
+        {
+          "name": "required:pw:calculation",
+          "kind": "required",
+          "passed": false,
+          "reason": "calculation='scf' (set) fails: need calculation in nscf"
+        },
+        {
+          "name": "required:pw:lberry",
+          "kind": "required",
+          "passed": true,
+          "reason": "lberry=True (set) ok"
+        },
+        {
+          "name": "required:pw:gdir",
+          "kind": "required",
+          "passed": true,
+          "reason": "gdir=3 (set) ok"
+        },
+        {
+          "name": "required:pw:nppstr",
+          "kind": "required",
+          "passed": true,
+          "reason": "nppstr=12 (set) ok"
+        },
+        {
+          "name": "required:pw:occupations",
+          "kind": "required",
+          "passed": true,
+          "reason": "occupations='fixed' (set) ok"
+        },
+        {
+          "name": "required:pw:kmesh",
+          "kind": "required",
+          "passed": false,
+          "reason": "Berry strings must be ordered uniform paths ending at first + G_gdir"
+        },
+        {
+          "name": "required:pw:structure",
+          "kind": "required",
+          "passed": true,
+          "reason": "deformed-cell match ok (frame angle err 0 deg, max site disp 0.0 A, lattice ok=True, max angle err 0.000 deg vs 0.1)"
+        },
+        {
+          "name": "required:pw:ecutwfc",
+          "kind": "required",
+          "passed": true,
+          "reason": "ecutwfc=60.0 (set) ok"
+        },
+        {
+          "name": "required:pw:ecutrho",
+          "kind": "required",
+          "passed": true,
+          "reason": "ecutrho=600.0 (set) ok"
+        },
+        {
+          "name": "required:pw:upf_identity",
+          "kind": "required",
+          "passed": true,
+          "reason": "UPF identity ok"
+        },
+        {
+          "name": "required:pw:species_counts",
+          "kind": "required",
+          "passed": true,
+          "reason": "species {'Zn': 2, 'O': 2} ok"
+        }
+      ]
+    },
+    {
+      "label": "D3_m_relax",
+      "score": 0,
+      "checks": [
+        {
+          "name": "required:pw:calculation",
+          "kind": "required",
+          "passed": true,
+          "reason": "calculation='relax' (set) ok"
+        },
+        {
+          "name": "required:pw:tstress",
+          "kind": "required",
+          "passed": true,
+          "reason": "tstress=True (set) ok"
+        },
+        {
+          "name": "required:pw:forc_conv_thr",
+          "kind": "required",
+          "passed": true,
+          "reason": "forc_conv_thr=1e-05 (set) ok"
+        },
+        {
+          "name": "required:pw:conv_thr",
+          "kind": "required",
+          "passed": true,
+          "reason": "conv_thr=1e-10 (set) ok"
+        },
+        {
+          "name": "required:pw:occupations",
+          "kind": "required",
+          "passed": true,
+          "reason": "occupations='fixed' (set) ok"
+        },
+        {
+          "name": "required:pw:kmesh",
+          "kind": "required",
+          "passed": false,
+          "reason": "axis 0 has 6 subdivisions, need >= 8 (frozen k-mesh minimum)"
+        },
+        {
+          "name": "required:pw:structure",
+          "kind": "required",
+          "passed": true,
+          "reason": "deformed-cell match ok (frame angle err 0 deg, max site disp 0.0 A, lattice ok=True, max angle err 0.000 deg vs 0.1)"
+        },
+        {
+          "name": "required:pw:ecutwfc",
+          "kind": "required",
+          "passed": true,
+          "reason": "ecutwfc=60.0 (set) ok"
+        },
+        {
+          "name": "required:pw:ecutrho",
+          "kind": "required",
+          "passed": true,
+          "reason": "ecutrho=600.0 (set) ok"
+        },
+        {
+          "name": "required:pw:upf_identity",
+          "kind": "required",
+          "passed": true,
+          "reason": "UPF identity ok"
+        },
+        {
+          "name": "required:pw:species_counts",
+          "kind": "required",
+          "passed": true,
+          "reason": "species {'Zn': 2, 'O': 2} ok"
+        },
+        {
+          "name": "required:pw:disk_io",
+          "kind": "required",
+          "passed": true,
+          "reason": "disk_io='low' (set) ok"
+        }
+      ]
+    },
+    {
+      "label": "D3_m_berry",
+      "score": 0,
+      "checks": [
+        {
+          "name": "required:pw:calculation",
+          "kind": "required",
+          "passed": false,
+          "reason": "calculation='scf' (set) fails: need calculation in nscf"
+        },
+        {
+          "name": "required:pw:lberry",
+          "kind": "required",
+          "passed": true,
+          "reason": "lberry=True (set) ok"
+        },
+        {
+          "name": "required:pw:gdir",
+          "kind": "required",
+          "passed": true,
+          "reason": "gdir=3 (set) ok"
+        },
+        {
+          "name": "required:pw:nppstr",
+          "kind": "required",
+          "passed": true,
+          "reason": "nppstr=12 (set) ok"
+        },
+        {
+          "name": "required:pw:occupations",
+          "kind": "required",
+          "passed": true,
+          "reason": "occupations='fixed' (set) ok"
+        },
+        {
+          "name": "required:pw:kmesh",
+          "kind": "required",
+          "passed": false,
+          "reason": "Berry strings must be ordered uniform paths ending at first + G_gdir"
+        },
+        {
+          "name": "required:pw:structure",
+          "kind": "required",
+          "passed": true,
+          "reason": "deformed-cell match ok (frame angle err 0 deg, max site disp 0.0 A, lattice ok=True, max angle err 0.000 deg vs 0.1)"
+        },
+        {
+          "name": "required:pw:ecutwfc",
+          "kind": "required",
+          "passed": true,
+          "reason": "ecutwfc=60.0 (set) ok"
+        },
+        {
+          "name": "required:pw:ecutrho",
+          "kind": "required",
+          "passed": true,
+          "reason": "ecutrho=600.0 (set) ok"
+        },
+        {
+          "name": "required:pw:upf_identity",
+          "kind": "required",
+          "passed": true,
+          "reason": "UPF identity ok"
+        },
+        {
+          "name": "required:pw:species_counts",
+          "kind": "required",
+          "passed": true,
+          "reason": "species {'Zn': 2, 'O': 2} ok"
+        }
+      ]
+    },
+    {
+      "label": "D4_p_relax",
+      "score": 0,
+      "checks": [
+        {
+          "name": "required:pw:calculation",
+          "kind": "required",
+          "passed": true,
+          "reason": "calculation='relax' (set) ok"
+        },
+        {
+          "name": "required:pw:tstress",
+          "kind": "required",
+          "passed": true,
+          "reason": "tstress=True (set) ok"
+        },
+        {
+          "name": "required:pw:forc_conv_thr",
+          "kind": "required",
+          "passed": true,
+          "reason": "forc_conv_thr=1e-05 (set) ok"
+        },
+        {
+          "name": "required:pw:conv_thr",
+          "kind": "required",
+          "passed": true,
+          "reason": "conv_thr=1e-10 (set) ok"
+        },
+        {
+          "name": "required:pw:occupations",
+          "kind": "required",
+          "passed": true,
+          "reason": "occupations='fixed' (set) ok"
+        },
+        {
+          "name": "required:pw:kmesh",
+          "kind": "required",
+          "passed": false,
+          "reason": "axis 0 has 6 subdivisions, need >= 8 (frozen k-mesh minimum)"
+        },
+        {
+          "name": "required:pw:structure",
+          "kind": "required",
+          "passed": true,
+          "reason": "deformed-cell match ok (frame angle err 0 deg, max site disp 0.0 A, lattice ok=True, max angle err 0.000 deg vs 0.1)"
+        },
+        {
+          "name": "required:pw:ecutwfc",
+          "kind": "required",
+          "passed": true,
+          "reason": "ecutwfc=60.0 (set) ok"
+        },
+        {
+          "name": "required:pw:ecutrho",
+          "kind": "required",
+          "passed": true,
+          "reason": "ecutrho=600.0 (set) ok"
+        },
+        {
+          "name": "required:pw:upf_identity",
+          "kind": "required",
+          "passed": true,
+          "reason": "UPF identity ok"
+        },
+        {
+          "name": "required:pw:species_counts",
+          "kind": "required",
+          "passed": true,
+          "reason": "species {'Zn': 2, 'O': 2} ok"
+        }
+      ]
+    }
+  ],
+  "extra_labels": [],
+  "chain": [
+    {
+      "name": "chain:D1_p_relax",
+      "passed": true,
+      "reason": "prefix 'zno_D1_p'/'zno_D1_p' ok; runtime directories ungraded"
+    },
+    {
+      "name": "chain:D3_p_relax",
+      "passed": true,
+      "reason": "prefix 'zno_D3_p'/'zno_D3_p' ok; runtime directories ungraded"
+    },
+    {
+      "name": "chain:D3_m_relax",
+      "passed": true,
+      "reason": "prefix 'zno_D3_m'/'zno_D3_m' ok; runtime directories ungraded"
+    }
+  ]
+}
+SCORE: 0

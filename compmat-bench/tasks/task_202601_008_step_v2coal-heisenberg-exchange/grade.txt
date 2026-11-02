@@ -1,0 +1,47 @@
+{
+  "score": 1,
+  "checks": [
+    {
+      "passed": true,
+      "name": "sign:L2_1_J_V_Co_meV",
+      "value": 8.631643151047898,
+      "sign": "+",
+      "required": "+",
+      "rule": "sign only"
+    },
+    {
+      "passed": true,
+      "name": "sign:XA_J_V1_Co_meV",
+      "value": -0.5725180802374339,
+      "sign": "-",
+      "required": "-",
+      "rule": "sign only"
+    },
+    {
+      "passed": true,
+      "name": "dominant_NN_pair",
+      "value": "V-Co",
+      "accepted_membership": true,
+      "rule": "exact-label membership (V-Co pair)"
+    },
+    {
+      "passed": true,
+      "value": 8.631643151047898,
+      "truth": 8.632,
+      "abs_err": 0.00035684895210152945,
+      "tol": 0.8632,
+      "rule": "+/-10% relative",
+      "name": "magnitude:L2_1_J_V_Co_meV"
+    },
+    {
+      "passed": true,
+      "value": 5.0924563184173595,
+      "truth": 5.092,
+      "abs_err": 0.0004563184173598245,
+      "tol": 0.5092,
+      "rule": "+/-10% relative",
+      "name": "magnitude:XA_J_V2_Co_meV"
+    }
+  ]
+}
+SCORE: 1

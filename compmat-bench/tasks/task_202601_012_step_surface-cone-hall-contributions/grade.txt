@@ -1,0 +1,23 @@
+{
+  "score": 1,
+  "submitted": [
+    0.5,
+    0.5
+  ],
+  "reference": [
+    -0.5,
+    -0.5
+  ],
+  "relative_tolerance": 0.1,
+  "common_sign_alternatives": [
+    [
+      false,
+      false
+    ],
+    [
+      true,
+      true
+    ]
+  ]
+}
+SCORE: 1

@@ -1,0 +1,24 @@
+{
+  "score": 1,
+  "checks": [
+    {
+      "passed": true,
+      "value": 6.979218439575885,
+      "truth": 6.98,
+      "abs_err": 0.0007815604241150353,
+      "tol": 0.6980000000000001,
+      "rule": "+/-10% relative",
+      "name": "top_gap_meV"
+    },
+    {
+      "passed": true,
+      "value": 0.6993999909047921,
+      "truth": 0.0,
+      "abs_err": 0.6993999909047921,
+      "tol": 2.0,
+      "rule": "absolute",
+      "name": "bottom_gap_meV"
+    }
+  ]
+}
+SCORE: 1

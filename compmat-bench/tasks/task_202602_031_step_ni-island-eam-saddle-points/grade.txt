@@ -1,0 +1,102 @@
+{
+  "score": 1,
+  "checks": [
+    {
+      "passed": true,
+      "value": 0.8368183454497284,
+      "truth": 0.83682873,
+      "abs_err": 1.0384550271580473e-05,
+      "tol": 0.083682873,
+      "rule": "+/-10% relative",
+      "name": "start_a.dE_eV"
+    },
+    {
+      "passed": true,
+      "name": "start_a.index1_certificate",
+      "lambda1_eV_A2": -0.7147064768363754,
+      "lambda2_eV_A2": 1.2350807655668032,
+      "rule": "lambda1 < 0 < lambda2 (sign only; magnitudes secondary)"
+    },
+    {
+      "passed": true,
+      "value": 1,
+      "truth": 1,
+      "rule": "exact int",
+      "name": "start_a.n_atoms_moved"
+    },
+    {
+      "passed": true,
+      "value": 0.719969161233621,
+      "truth": 0.71996916,
+      "abs_err": 1.2336209831431688e-09,
+      "tol": 0.07199691600000001,
+      "rule": "+/-10% relative",
+      "name": "start_a.dE_final_eV"
+    },
+    {
+      "passed": true,
+      "value": 0.7217681627521415,
+      "truth": 0.72171885,
+      "abs_err": 4.9312752141483784e-05,
+      "tol": 0.072171885,
+      "rule": "+/-10% relative",
+      "name": "start_b.dE_eV"
+    },
+    {
+      "passed": true,
+      "name": "start_b.index1_certificate",
+      "lambda1_eV_A2": -0.45728075702102433,
+      "lambda2_eV_A2": 0.568450804414116,
+      "rule": "lambda1 < 0 < lambda2 (sign only; magnitudes secondary)"
+    },
+    {
+      "passed": true,
+      "value": 2,
+      "truth": 2,
+      "rule": "exact int",
+      "name": "start_b.n_atoms_moved"
+    },
+    {
+      "passed": true,
+      "value": 0.34310312855154734,
+      "truth": 0.34310313,
+      "abs_err": 1.4484526356106642e-09,
+      "tol": 0.034310313,
+      "rule": "+/-10% relative",
+      "name": "start_b.dE_final_eV"
+    },
+    {
+      "passed": true,
+      "value": 0.6320579441098744,
+      "truth": 0.63204664,
+      "abs_err": 1.1304109874377133e-05,
+      "tol": 0.06320466400000001,
+      "rule": "+/-10% relative",
+      "name": "start_c.dE_eV"
+    },
+    {
+      "passed": true,
+      "name": "start_c.index1_certificate",
+      "lambda1_eV_A2": -0.6175645270391897,
+      "lambda2_eV_A2": 0.2400788024041228,
+      "rule": "lambda1 < 0 < lambda2 (sign only; magnitudes secondary)"
+    },
+    {
+      "passed": true,
+      "value": 7,
+      "truth": 7,
+      "rule": "exact int",
+      "name": "start_c.n_atoms_moved"
+    },
+    {
+      "passed": true,
+      "value": 0.014402047104567828,
+      "truth": 0.01440205,
+      "abs_err": 2.8954321718011045e-09,
+      "tol": 0.005,
+      "rule": "absolute",
+      "name": "start_c.dE_final_eV"
+    }
+  ]
+}
+SCORE: 1

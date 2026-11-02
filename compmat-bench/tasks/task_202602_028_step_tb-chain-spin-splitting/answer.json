@@ -1,0 +1,13 @@
+{
+  "eig_gamma_up_eV": [
+    -4.875701741961645,
+    -4.752799709726749,
+    -2.4759212342969334,
+    -0.5955773140146717
+  ],
+  "gamma_split_base_eV": 0.0,
+  "path_max_split_base_eV": 0.10306991278284006,
+  "gamma_split_modA_eV": 0.18157943361516615,
+  "gamma_split_modB_eV": 0.0,
+  "path_max_split_modC_eV": 0.0
+}

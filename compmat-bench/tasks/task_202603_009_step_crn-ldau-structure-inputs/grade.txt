@@ -1,0 +1,410 @@
+{
+  "score": 1,
+  "runs": [
+    {
+      "label": "relax",
+      "passed": true,
+      "incar": {
+        "label": "relax",
+        "score": 1,
+        "checks": [
+          {
+            "name": "required:ISPIN",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISPIN=2 (set) ok"
+          },
+          {
+            "name": "required:MAGMOM_pattern",
+            "kind": "required",
+            "passed": true,
+            "reason": "|++--> ok (signs [1, -1, -1, 1] at x [np.float64(0.125), np.float64(0.375), np.float64(0.625), np.float64(0.875)], same-spin spacings [np.float64(1.4849), np.float64(1.4849)] A, opposite-spin [np.float64(1.4849), np.float64(1.4849)] A)"
+          },
+          {
+            "name": "required:LDAU_block",
+            "kind": "required",
+            "passed": true,
+            "reason": "LDA+U ok (Dudarev, LDAUL[Cr]=2, U_eff[Cr]=4.1 eV, no U on N)"
+          },
+          {
+            "name": "required:LASPH",
+            "kind": "required",
+            "passed": true,
+            "reason": "LASPH=True (set) ok"
+          },
+          {
+            "name": "required:LMAXMIX",
+            "kind": "required",
+            "passed": true,
+            "reason": "LMAXMIX=4 (set) ok"
+          },
+          {
+            "name": "required:smearing",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISMEAR=0 ok"
+          },
+          {
+            "name": "required:ENCUT",
+            "kind": "required",
+            "passed": true,
+            "reason": "ENCUT=520.0 >= 1.3*max_ENMAX=520 eV (Cr+N)"
+          },
+          {
+            "name": "required:functional",
+            "kind": "required",
+            "passed": true,
+            "reason": "GGA absent (LDA via the potpaw_LDA POTCAR) ok"
+          },
+          {
+            "name": "required:kmesh",
+            "kind": "required",
+            "passed": true,
+            "reason": "mesh 10x20x14 meets frozen per-axis minima 4x8x5"
+          },
+          {
+            "name": "required:relax_cell",
+            "kind": "required",
+            "passed": true,
+            "reason": "full cell relaxation ok"
+          }
+        ]
+      },
+      "structure": {
+        "name": "structure:relax(start)",
+        "species_counts": {
+          "Cr": 4,
+          "N": 4
+        },
+        "abc_A": [
+          5.9397,
+          2.96985,
+          4.2
+        ],
+        "angles_deg": [
+          90.0,
+          90.0,
+          90.0
+        ],
+        "seed_abc_A": [
+          5.939696961967,
+          2.9698484809835,
+          4.2
+        ],
+        "lattice_rel_err": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "internal_match": {
+          "max_site_disp_A": 0.0,
+          "max_disp_threshold_A": 0.17819090885900998,
+          "site_match_ok": true
+        },
+        "passed": true
+      }
+    },
+    {
+      "label": "static_iii",
+      "passed": true,
+      "incar": {
+        "label": "static_iii",
+        "score": 1,
+        "checks": [
+          {
+            "name": "required:ISPIN",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISPIN=2 (set) ok"
+          },
+          {
+            "name": "required:MAGMOM_pattern",
+            "kind": "required",
+            "passed": true,
+            "reason": "|++--> ok (signs [1, -1, -1, 1] at x [np.float64(0.135), np.float64(0.365), np.float64(0.635), np.float64(0.865)], same-spin spacings [np.float64(1.5597), np.float64(1.5597)] A, opposite-spin [np.float64(1.3282), np.float64(1.3282)] A)"
+          },
+          {
+            "name": "required:LDAU_block",
+            "kind": "required",
+            "passed": true,
+            "reason": "LDA+U ok (Dudarev, LDAUL[Cr]=2, U_eff[Cr]=4.1 eV, no U on N)"
+          },
+          {
+            "name": "required:LASPH",
+            "kind": "required",
+            "passed": true,
+            "reason": "LASPH=True (set) ok"
+          },
+          {
+            "name": "required:LMAXMIX",
+            "kind": "required",
+            "passed": true,
+            "reason": "LMAXMIX=4 (set) ok"
+          },
+          {
+            "name": "required:smearing",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISMEAR=-5 ok (mesh [10, 20, 14])"
+          },
+          {
+            "name": "required:ENCUT",
+            "kind": "required",
+            "passed": true,
+            "reason": "ENCUT=520.0 >= 1*max_ENMAX=400 eV (Cr+N)"
+          },
+          {
+            "name": "required:functional",
+            "kind": "required",
+            "passed": true,
+            "reason": "GGA absent (LDA via the potpaw_LDA POTCAR) ok"
+          },
+          {
+            "name": "required:kmesh",
+            "kind": "required",
+            "passed": true,
+            "reason": "mesh 10x20x14 meets frozen per-axis minima 4x8x6"
+          },
+          {
+            "name": "required:static",
+            "kind": "required",
+            "passed": true,
+            "reason": "NSW=0.0 IBRION=-1 ok (static)"
+          },
+          {
+            "name": "required:EDIFF",
+            "kind": "required",
+            "passed": true,
+            "reason": "EDIFF=1e-08 (set) ok"
+          }
+        ]
+      },
+      "structure": {
+        "passed": true,
+        "species_counts_ok": true,
+        "lattice_ok": true,
+        "lattice": {
+          "len_rel_err": 0.0,
+          "ang_abs_err_deg": 0.0,
+          "abc_sub": [
+            5.775870670250322,
+            2.9654911337603655,
+            4.1430715438434085
+          ],
+          "abc_ref": [
+            5.775870670250322,
+            2.9654911337603655,
+            4.1430715438434085
+          ]
+        },
+        "site_match_ok": true,
+        "method": "matcher",
+        "max_site_disp_A": 0.0,
+        "max_disp_threshold_A": 0.02,
+        "name": "structure:static_iii"
+      }
+    },
+    {
+      "label": "static_ii",
+      "passed": true,
+      "incar": {
+        "label": "static_ii",
+        "score": 1,
+        "checks": [
+          {
+            "name": "required:ISPIN",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISPIN=2 (set) ok"
+          },
+          {
+            "name": "required:MAGMOM_pattern",
+            "kind": "required",
+            "passed": true,
+            "reason": "|++--> ok (signs [1, -1, -1, 1] at x [np.float64(0.125), np.float64(0.375), np.float64(0.625), np.float64(0.875)], same-spin spacings [np.float64(1.444), np.float64(1.444)] A, opposite-spin [np.float64(1.444), np.float64(1.444)] A)"
+          },
+          {
+            "name": "required:LDAU_block",
+            "kind": "required",
+            "passed": true,
+            "reason": "LDA+U ok (Dudarev, LDAUL[Cr]=2, U_eff[Cr]=4.1 eV, no U on N)"
+          },
+          {
+            "name": "required:LASPH",
+            "kind": "required",
+            "passed": true,
+            "reason": "LASPH=True (set) ok"
+          },
+          {
+            "name": "required:LMAXMIX",
+            "kind": "required",
+            "passed": true,
+            "reason": "LMAXMIX=4 (set) ok"
+          },
+          {
+            "name": "required:smearing",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISMEAR=-5 ok (mesh [10, 20, 14])"
+          },
+          {
+            "name": "required:ENCUT",
+            "kind": "required",
+            "passed": true,
+            "reason": "ENCUT=520.0 >= 1*max_ENMAX=400 eV (Cr+N)"
+          },
+          {
+            "name": "required:functional",
+            "kind": "required",
+            "passed": true,
+            "reason": "GGA absent (LDA via the potpaw_LDA POTCAR) ok"
+          },
+          {
+            "name": "required:kmesh",
+            "kind": "required",
+            "passed": true,
+            "reason": "mesh 10x20x14 meets frozen per-axis minima 4x8x6"
+          },
+          {
+            "name": "required:static",
+            "kind": "required",
+            "passed": true,
+            "reason": "NSW=0.0 IBRION=-1 ok (static)"
+          },
+          {
+            "name": "required:EDIFF",
+            "kind": "required",
+            "passed": true,
+            "reason": "EDIFF=1e-08 (set) ok"
+          }
+        ]
+      },
+      "structure": {
+        "passed": true,
+        "species_counts_ok": true,
+        "lattice_ok": true,
+        "lattice": {
+          "len_rel_err": 0.0,
+          "ang_abs_err_deg": 0.0,
+          "abc_sub": [
+            5.775870670250322,
+            2.9654911337603655,
+            4.1430715438434085
+          ],
+          "abc_ref": [
+            5.775870670250322,
+            2.9654911337603655,
+            4.1430715438434085
+          ]
+        },
+        "site_match_ok": true,
+        "method": "matcher",
+        "max_site_disp_A": 0.0,
+        "max_disp_threshold_A": 0.02,
+        "name": "structure:static_ii"
+      }
+    },
+    {
+      "label": "static_i",
+      "passed": true,
+      "incar": {
+        "label": "static_i",
+        "score": 1,
+        "checks": [
+          {
+            "name": "required:ISPIN",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISPIN=2 (set) ok"
+          },
+          {
+            "name": "required:MAGMOM_pattern",
+            "kind": "required",
+            "passed": true,
+            "reason": "|++--> ok (signs [1, -1, -1, 1] at x [np.float64(0.125), np.float64(0.375), np.float64(0.625), np.float64(0.875)], same-spin spacings [np.float64(1.4638), np.float64(1.4638)] A, opposite-spin [np.float64(1.4638), np.float64(1.4638)] A)"
+          },
+          {
+            "name": "required:LDAU_block",
+            "kind": "required",
+            "passed": true,
+            "reason": "LDA+U ok (Dudarev, LDAUL[Cr]=2, U_eff[Cr]=4.1 eV, no U on N)"
+          },
+          {
+            "name": "required:LASPH",
+            "kind": "required",
+            "passed": true,
+            "reason": "LASPH=True (set) ok"
+          },
+          {
+            "name": "required:LMAXMIX",
+            "kind": "required",
+            "passed": true,
+            "reason": "LMAXMIX=4 (set) ok"
+          },
+          {
+            "name": "required:smearing",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISMEAR=-5 ok (mesh [10, 20, 14])"
+          },
+          {
+            "name": "required:ENCUT",
+            "kind": "required",
+            "passed": true,
+            "reason": "ENCUT=520.0 >= 1*max_ENMAX=400 eV (Cr+N)"
+          },
+          {
+            "name": "required:functional",
+            "kind": "required",
+            "passed": true,
+            "reason": "GGA absent (LDA via the potpaw_LDA POTCAR) ok"
+          },
+          {
+            "name": "required:kmesh",
+            "kind": "required",
+            "passed": true,
+            "reason": "mesh 10x20x14 meets frozen per-axis minima 4x8x6"
+          },
+          {
+            "name": "required:static",
+            "kind": "required",
+            "passed": true,
+            "reason": "NSW=0.0 IBRION=-1 ok (static)"
+          },
+          {
+            "name": "required:EDIFF",
+            "kind": "required",
+            "passed": true,
+            "reason": "EDIFF=1e-08 (set) ok"
+          }
+        ]
+      },
+      "structure": {
+        "passed": true,
+        "species_counts_ok": true,
+        "lattice_ok": true,
+        "lattice": {
+          "len_rel_err": 2.145300047908579e-16,
+          "ang_abs_err_deg": 1.4210854715202004e-14,
+          "abc_sub": [
+            5.855003677324986,
+            2.9275018386624927,
+            4.14011280410867
+          ],
+          "abc_ref": [
+            5.855003677324987,
+            2.927501838662493,
+            4.1401128041086706
+          ]
+        },
+        "site_match_ok": true,
+        "method": "matcher",
+        "max_site_disp_A": 0.0,
+        "max_disp_threshold_A": 0.02,
+        "name": "structure:static_i"
+      }
+    }
+  ],
+  "extra_labels_ignored": []
+}
+SCORE: 1

@@ -1,0 +1,42 @@
+{
+  "score": 1,
+  "checks": [
+    {
+      "passed": true,
+      "value": 0.312,
+      "truth": 0.312,
+      "abs_err": 0.0,
+      "tol": 0.031200000000000002,
+      "rule": "+/-10% relative",
+      "name": "gap_K_eV"
+    },
+    {
+      "passed": true,
+      "value": 0.5533,
+      "truth": 0.5533,
+      "abs_err": 0.0,
+      "tol": 0.055330000000000004,
+      "rule": "+/-10% relative",
+      "name": "gap_Kprime_eV"
+    },
+    {
+      "passed": true,
+      "value": 0.2413,
+      "truth": 0.2413,
+      "abs_err": 0.0,
+      "tol": 0.02413,
+      "rule": "+/-10% relative",
+      "name": "valley_splitting_eV"
+    },
+    {
+      "passed": true,
+      "value": 3.9657363,
+      "truth": 3.9657,
+      "abs_err": 3.630000000010014e-05,
+      "tol": 0.39657000000000003,
+      "rule": "+/-10% relative",
+      "name": "cell_moment_magnitude_muB"
+    }
+  ]
+}
+SCORE: 1

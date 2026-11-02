@@ -1,0 +1,151 @@
+{
+  "score": 1,
+  "runs": [
+    {
+      "label": "mc",
+      "score": 1,
+      "checks": [
+        {
+          "name": "required:ucf_cell_size",
+          "kind": "required",
+          "passed": true,
+          "reason": "unit cell size [5.775871, 2.965491, 4.143072] A vs [5.775871, 2.965491, 4.143072] A, max rel. dev 2.14e-16 (need <= 0.001)"
+        },
+        {
+          "name": "required:ucf_sites",
+          "kind": "required",
+          "passed": true,
+          "reason": "matched under translation [0.0, 0.0, 0.0] (tolerance 0.02); magnetic sites [0, 1, 2, 3], 4 non-magnetic site(s)"
+        },
+        {
+          "name": "required:ucf_sublattices",
+          "kind": "required",
+          "passed": true,
+          "reason": "materials by POSCAR site {0: 0, 1: 1, 2: 2, 3: 3} ok (every up site on a different material from every down site)"
+        },
+        {
+          "name": "required:ucf_links",
+          "kind": "required",
+          "passed": true,
+          "reason": "link counts {'bond_D': 16, 'bond_A': 8, 'bond_C': 8, 'bond_B': 16}, 12 per site on 4 sites, 48 total"
+        },
+        {
+          "name": "required:ucf_no_further_shells",
+          "kind": "required",
+          "passed": true,
+          "reason": "no interaction longer than 3.2 A"
+        },
+        {
+          "name": "required:ucf_exchange",
+          "kind": "required",
+          "passed": true,
+          "reason": "exchange type 'isotropic'; per shell {'bond_D': '-3.572814e-21..-3.572814e-21 vs -3.572814e-21 J', 'bond_A': '-2.552700e-21..-2.552700e-21 vs -2.552700e-21 J', 'bond_C': '-7.302080e-22..-7.302080e-22 vs -7.302080e-22 J', 'bond_B': '-1.840661e-22..-1.840661e-22 vs -1.840661e-22 J'}"
+        },
+        {
+          "name": "required:mat_num_materials",
+          "kind": "required",
+          "passed": true,
+          "reason": "material:num-materials (set): value 5"
+        },
+        {
+          "name": "required:mat_unit_cell_category",
+          "kind": "required",
+          "passed": true,
+          "reason": "unit cell materials [0, 1, 2, 3, 4] all generated (claimed set [0, 1, 2, 3, 4])"
+        },
+        {
+          "name": "required:mat_no_anisotropy",
+          "kind": "required",
+          "passed": true,
+          "reason": "ok on materials [1, 2, 3, 4, 5]"
+        },
+        {
+          "name": "required:mat_moment_nonzero",
+          "kind": "required",
+          "passed": true,
+          "reason": "moments (J/T) by material {1: 2.85, 2: 2.85, 3: 2.85, 4: 2.85} muB"
+        },
+        {
+          "name": "required:file_wiring",
+          "kind": "required",
+          "passed": true,
+          "reason": "deck wiring {'material:file': 'material.mat', 'material:unit-cell-file': 'unitcell.ucf'}"
+        },
+        {
+          "name": "required:integrator",
+          "kind": "required",
+          "passed": true,
+          "reason": "sim:integrator (set): value 'monte-carlo'"
+        },
+        {
+          "name": "required:algorithm",
+          "kind": "required",
+          "passed": true,
+          "reason": "Monte Carlo update 'hinzke-nowak'; continuous-direction sampling required"
+        },
+        {
+          "name": "required:program",
+          "kind": "required",
+          "passed": true,
+          "reason": "sim:program (set): value 'curie-temperature'"
+        },
+        {
+          "name": "required:periodic",
+          "kind": "required",
+          "passed": true,
+          "reason": "periodic in xyz"
+        },
+        {
+          "name": "required:box",
+          "kind": "required",
+          "passed": true,
+          "reason": "box [184.8278614480103, 189.79143256066342, 198.86743410448355] A lies in retained accepted size envelope"
+        },
+        {
+          "name": "required:T_minimum",
+          "kind": "required",
+          "passed": true,
+          "reason": "sim:minimum-temperature (set): value 10"
+        },
+        {
+          "name": "required:T_maximum",
+          "kind": "required",
+          "passed": true,
+          "reason": "sim:maximum-temperature (set): value 1500"
+        },
+        {
+          "name": "required:T_increment",
+          "kind": "required",
+          "passed": true,
+          "reason": "sim:temperature-increment (set): value 2"
+        },
+        {
+          "name": "required:equilibration_steps",
+          "kind": "required",
+          "passed": true,
+          "reason": "sim:equilibration-time-steps (set): value 100000"
+        },
+        {
+          "name": "required:loop_steps",
+          "kind": "required",
+          "passed": true,
+          "reason": "sim:loop-time-steps (set): value 200000"
+        },
+        {
+          "name": "required:output_sublattice",
+          "kind": "required",
+          "passed": true,
+          "reason": "output carries ['output:material-mean-magnetisation-length']"
+        },
+        {
+          "name": "required:output_temperature",
+          "kind": "required",
+          "passed": true,
+          "reason": "output carries ['output:temperature']"
+        }
+      ]
+    }
+  ],
+  "extra_labels": []
+}
+SCORE: 1

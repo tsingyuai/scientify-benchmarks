@@ -1,0 +1,42 @@
+{
+  "score": 1,
+  "checks": [
+    {
+      "passed": true,
+      "value": 0.6730751370393175,
+      "truth": 0.6730751370393173,
+      "abs_err": 2.220446049250313e-16,
+      "tol": 0.06730751370393173,
+      "rule": "+/-10% relative",
+      "name": "mean_T_dmm_0p5_4p5THz"
+    },
+    {
+      "passed": true,
+      "value": 0.3513953853128578,
+      "truth": 0.35139538531285774,
+      "abs_err": 5.551115123125783e-17,
+      "tol": 0.03513953853128578,
+      "rule": "+/-10% relative",
+      "name": "mean_T_dmm_4p5_7p5THz"
+    },
+    {
+      "passed": true,
+      "value": 0.5750070526683837,
+      "truth": 0.5750070526683837,
+      "abs_err": 0.0,
+      "tol": 0.05750070526683837,
+      "rule": "+/-10% relative",
+      "name": "mean_T_dmm_7p5_11p5THz"
+    },
+    {
+      "passed": true,
+      "value": 3.2792527030273413,
+      "truth": 3.2792527030273417,
+      "abs_err": 4.440892098500626e-16,
+      "tol": 0.3279252703027342,
+      "rule": "+/-10% relative",
+      "name": "agf_above_dmm_bandwidth_THz"
+    }
+  ]
+}
+SCORE: 1

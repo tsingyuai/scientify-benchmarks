@@ -1,0 +1,49 @@
+{
+  "score": 1,
+  "checks": [
+    {
+      "passed": true,
+      "value": 7.608845982344276,
+      "truth": 7.608846,
+      "abs_err": 1.7655723993925676e-08,
+      "tol": 0.7608846,
+      "rule": "+/-10% relative",
+      "name": "a1p_frequency_THz"
+    },
+    {
+      "passed": true,
+      "name": "a1p_ru_disp_frac",
+      "value": 2.1495010863365239e-16,
+      "band": [
+        0.0,
+        0.1
+      ],
+      "rule": "absolute band (a zero-valued target has no relative scale): 0 <= value <= 0.10"
+    },
+    {
+      "passed": true,
+      "name": "a1p_cl_inplane_frac",
+      "value": 3.1784512721969156e-16,
+      "band": [
+        0.0,
+        0.1
+      ],
+      "rule": "absolute band (zero target): 0 <= value <= 0.10"
+    },
+    {
+      "passed": true,
+      "name": "a1p_cl_z_antiphase_product",
+      "value": -1.0,
+      "threshold": -0.5,
+      "rule": "Inclusive [-1.001,-0.5]: antiphase sign/dominance with a small allowance below the physical lower limit -1."
+    },
+    {
+      "passed": true,
+      "value": 0,
+      "truth": 0,
+      "rule": "exact int",
+      "name": "n_imaginary_branches"
+    }
+  ]
+}
+SCORE: 1

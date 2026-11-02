@@ -1,0 +1,135 @@
+{
+  "score": 1,
+  "checks": [
+    {
+      "passed": true,
+      "name": "crossings_lorentz_count",
+      "value": 2,
+      "truth": 2,
+      "tol": 0,
+      "rule": "exactly two crossings"
+    },
+    {
+      "passed": true,
+      "value": 696.6829731871627,
+      "truth": 696.6829731871627,
+      "abs_err": 0.0,
+      "tol": 0.05,
+      "rule": "within 0.05 cm^-1 of ours",
+      "name": "crossings_lorentz_cm1[0]"
+    },
+    {
+      "passed": true,
+      "value": 699.3368830880701,
+      "truth": 699.3368830880701,
+      "abs_err": 0.0,
+      "tol": 0.05,
+      "rule": "within 0.05 cm^-1 of ours",
+      "name": "crossings_lorentz_cm1[1]"
+    },
+    {
+      "passed": true,
+      "value": 0,
+      "truth": 0,
+      "rule": "exact dielectric-threshold count; not a complex-pole existence test",
+      "name": "n_grid_points_eps_re_le_minus1_disordered",
+      "tol": 0
+    },
+    {
+      "passed": true,
+      "value": 699.31,
+      "truth": 699.3368830880701,
+      "tol": 1.0,
+      "agent_crossings": [
+        696.6829731871627,
+        699.3368830880701
+      ],
+      "between_with_slack": true,
+      "between_slack_cm1": 0.05,
+      "gap_to_upper_crossing_cm1": 0.02688308807012163,
+      "name": "G1_peak_lorentz",
+      "rule": "between the agent's own two crossings (0.05 cm^-1 slack each side) and within 1.0 cm^-1 of the upper one"
+    },
+    {
+      "passed": true,
+      "name": "G2_peak_ratio",
+      "value": 50.15596386300589,
+      "truth": 50.15596386300588,
+      "tol": [
+        10.0,
+        200.0
+      ],
+      "peak_beta_over_k0_lorentz": 290.2183859757679,
+      "peak_beta_over_k0_disordered": 5.786318587525493,
+      "rule": "ratio within [10, 200]"
+    },
+    {
+      "passed": true,
+      "name": "G4_xi_p_max_above_50_disordered",
+      "value": 0.37519630607564014,
+      "truth": 0.3740400949459568,
+      "tol": [
+        0.1,
+        0.6
+      ],
+      "rule": "within [0.1, 0.6]"
+    },
+    {
+      "passed": true,
+      "name": "G4_xi_p_max_above_50_lorentz",
+      "value": 0.999999999977261,
+      "truth": 0.9999996097541616,
+      "tol": [
+        0.99,
+        1.0
+      ],
+      "rule": "0.99 <= xi <= 1"
+    },
+    {
+      "passed": true,
+      "name": "curve_disordered",
+      "value": 1.0,
+      "truth": 0.95,
+      "tol": "per point max(0.05, 0.05 |ours|)",
+      "n_points": 6001,
+      "n_fail": 0,
+      "worst_i": 1634,
+      "worst_value": 2.1276301210358666,
+      "worst_truth": 2.1276301210358666,
+      "worst_abs_err": 0.0,
+      "worst_tol": 0.10638150605179333,
+      "rule": "all 6001 points of the selected-pole/fallback curve"
+    },
+    {
+      "passed": true,
+      "name": "curve_lorentz_bound",
+      "value": 1.0,
+      "truth": 0.95,
+      "tol": "per point max(0.05, 0.05 |ours|)",
+      "n_points": 330,
+      "n_fail": 0,
+      "worst_i": 1993,
+      "worst_value": 1.0036869659241716,
+      "worst_truth": 1.0036869659241716,
+      "worst_abs_err": 0.0,
+      "worst_tol": 0.05018434829620858,
+      "rule": "the reference selected-root points (reporting the light line here scores 0)"
+    },
+    {
+      "passed": true,
+      "name": "curve_lorentz_light_line",
+      "value": 1.0,
+      "truth": 0.95,
+      "tol": "per point max(0.05, 0.05 |ours|)",
+      "n_points": 5671,
+      "n_fail": 0,
+      "worst_i": 1961,
+      "worst_value": 0.06775360205090346,
+      "worst_truth": 0.06775360205090346,
+      "worst_abs_err": 0.0,
+      "worst_tol": 0.05,
+      "rule": "the remaining light-line points"
+    }
+  ]
+}
+SCORE: 1

@@ -1,0 +1,59 @@
+{
+  "score": 1,
+  "checks": [
+    {
+      "passed": true,
+      "value": 170.9343870269788,
+      "truth": 170.9,
+      "abs_err": 0.03438702697880558,
+      "tol": 17.09,
+      "rule": "+/-10% relative",
+      "name": "WS2_pp_meV"
+    },
+    {
+      "passed": true,
+      "value": 76.99018141947198,
+      "truth": 77.0,
+      "abs_err": 0.009818580528019538,
+      "tol": 7.7,
+      "rule": "+/-10% relative",
+      "name": "WSe2_pp_meV"
+    },
+    {
+      "passed": true,
+      "value": 2.22021021220437,
+      "truth": 2.219,
+      "abs_err": 0.0012102122043700092,
+      "tol": 0.2219,
+      "rule": "+/-10% relative",
+      "name": "ratio_pp_WS2_over_WSe2"
+    },
+    {
+      "passed": true,
+      "n_points": 6,
+      "n_fail": 0,
+      "worst_i": 2,
+      "rule": "per-point +/-10% with floor",
+      "failures": [],
+      "name": "profile_magnitude"
+    },
+    {
+      "passed": true,
+      "name": "extremum_locale",
+      "by_layer": {
+        "WS2": true,
+        "WSe2": true
+      },
+      "rule": "argmax |mean V^RP| == R^M_h (both layers)"
+    },
+    {
+      "passed": true,
+      "name": "sign_topology",
+      "WS2_RXh_RMh_product": -1231.246339625634,
+      "WSe2_RXh_RMh_product": -318.1069422403782,
+      "between_RMh_product": -727.4414113743863,
+      "rule": "all three products < 0 (R^X_h vs R^M_h opposite per layer; WS2 vs WSe2 opposite at R^M_h)"
+    }
+  ]
+}
+SCORE: 1

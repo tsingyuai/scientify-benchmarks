@@ -1,0 +1,121 @@
+{
+  "score": 1,
+  "checks": [
+    {
+      "passed": true,
+      "value": 696.6750620721538,
+      "truth": 696.6751,
+      "abs_err": 3.7927846278762445e-05,
+      "tol": 0.1,
+      "rule": "within 0.1 cm^-1 of ours (deterministic on the staged force constants: the optically active zone-centre mode of the uniform-mass supercell)",
+      "name": "omega_TO_vc",
+      "margin": 0.09996207215372124
+    },
+    {
+      "passed": true,
+      "value": 20.210000000000036,
+      "truth": 19.96,
+      "abs_err": 0.2500000000000355,
+      "tol": 2.0,
+      "rule": "(above 710) - (below 710) within 19.96 +/- 2.0 cm^-1",
+      "name": "G1_eps2_spacing",
+      "margin": 1.7499999999999645,
+      "eps2_max_below_710_cm1": 693.4,
+      "eps2_max_above_710_cm1": 713.61
+    },
+    {
+      "passed": true,
+      "name": "G6_dominant_is_below_710",
+      "value": 27.872536221777807,
+      "truth": "positive",
+      "tol": "strict inequality",
+      "eps2_max_below_710_value": 29.31860729986921,
+      "eps2_max_above_710_value": 1.4460710780914048,
+      "rule": "the larger of the two eps'' values is the feature below 710 cm^-1 (the 11B-derived resonance dominates at natural abundance)"
+    },
+    {
+      "passed": true,
+      "value": 693.4,
+      "truth": 691.1701,
+      "abs_err": 2.2298999999999296,
+      "tol": 10.0,
+      "rule": "the below-710 feature within 10 cm^-1 of our pure-11B TO 691.1701 cm^-1",
+      "name": "G6_dominant_near_pure_11B",
+      "margin": 7.77010000000007
+    },
+    {
+      "passed": true,
+      "value": 713.61,
+      "truth": 720.5293,
+      "abs_err": 6.919300000000021,
+      "tol": 10.0,
+      "rule": "the above-710 feature within 10 cm^-1 of our pure-10B TO 720.5293 cm^-1",
+      "name": "G6_other_near_pure_10B",
+      "margin": 3.080699999999979
+    },
+    {
+      "passed": true,
+      "value": 6.220000000000027,
+      "truth": 5.77,
+      "abs_err": 0.4500000000000277,
+      "tol": 2.5,
+      "rule": "(dip) - (bump) within 5.77 +/- 2.5 cm^-1",
+      "name": "G2_eps1_spacing",
+      "margin": 2.0499999999999723,
+      "eps1_max_700_740_cm1": 711.88,
+      "eps1_min_above_max_cm1": 718.1
+    },
+    {
+      "passed": true,
+      "name": "G3_sign_disordered",
+      "value": 2.093325469678148,
+      "truth": 2.1063,
+      "tol": "sign only",
+      "want": "positive",
+      "rule": "min eps' of the disordered spectrum is positive (no Reststrahlen window at natural abundance); sign only, the value is not graded"
+    },
+    {
+      "passed": true,
+      "name": "G3_sign_baseline",
+      "value": -90.04072596429258,
+      "truth": -90.0407,
+      "tol": "sign only",
+      "want": "negative",
+      "rule": "min eps' of the virtual-crystal baseline is negative; sign only, the value is not graded"
+    },
+    {
+      "passed": true,
+      "name": "G7_ensemble_convergence",
+      "value": 2.9435607289738837,
+      "truth": 2.95086414891374,
+      "tol": [
+        1.63,
+        6.52
+      ],
+      "margin_to_lower": 1.3135607289738838,
+      "margin_to_upper": 3.576439271026116,
+      "rule": "max relative standard error of |eps_xx| over 680-740 cm^-1 using mean(abs(eps_xx)) as denominator; accepted [1.63, 6.52] % band retained after correction"
+    },
+    {
+      "passed": true,
+      "value": 22.913760493978202,
+      "truth": 22.9123,
+      "abs_err": 0.001460493978203914,
+      "tol": 0.3,
+      "rule": "strength-weighted mean frequency above 710 minus at or below 710, within 22.9123 +/- 0.3 cm^-1",
+      "name": "M1_strength_centroid_split",
+      "margin": 0.2985395060217961
+    },
+    {
+      "passed": true,
+      "value": 0.9228356085448784,
+      "truth": 0.9223,
+      "abs_err": 0.0005356085448784409,
+      "tol": 0.01,
+      "rule": "1 - (strength within +/-1 cm^-1 of omega_TO_vc) / (total pooled strength), within 0.9223 +/- 0.01",
+      "name": "M2_off_vc_strength_fraction",
+      "margin": 0.00946439145512156
+    }
+  ]
+}
+SCORE: 1

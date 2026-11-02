@@ -1,0 +1,4 @@
+compmat-bench/regrade/work/
+compmat-bench/regrade/build/
+__pycache__/
+.DS_Store

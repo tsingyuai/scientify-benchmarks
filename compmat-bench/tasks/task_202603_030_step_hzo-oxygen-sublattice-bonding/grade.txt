@@ -1,0 +1,740 @@
+{
+  "score": 1,
+  "checks": [
+    {
+      "passed": true,
+      "value": 3.1468808070127245,
+      "truth": 3.1469,
+      "abs_err": 1.9192987275484796e-05,
+      "tol": 0.09440699999999999,
+      "rule": "+/-3% relative",
+      "name": "occupied_integral[pristine]"
+    },
+    {
+      "passed": true,
+      "value": 2.576377557050682,
+      "truth": 2.5764,
+      "abs_err": 2.2442949318079997e-05,
+      "tol": 0.077292,
+      "rule": "+/-3% relative",
+      "name": "occupied_integral[4Hf_q0]"
+    },
+    {
+      "passed": true,
+      "value": 2.6032355831461365,
+      "truth": 2.6032,
+      "abs_err": 3.5583146136275445e-05,
+      "tol": 0.078096,
+      "rule": "+/-3% relative",
+      "name": "occupied_integral[3Hf1Zr_q0]"
+    },
+    {
+      "passed": true,
+      "value": 2.6064617682709095,
+      "truth": 2.6065,
+      "abs_err": 3.823172909056538e-05,
+      "tol": 0.078195,
+      "rule": "+/-3% relative",
+      "name": "occupied_integral[2Hf2Zr_q0]"
+    },
+    {
+      "passed": true,
+      "value": 2.666522398467272,
+      "truth": 2.6665,
+      "abs_err": 2.239846727203343e-05,
+      "tol": 0.079995,
+      "rule": "+/-3% relative",
+      "name": "occupied_integral[1Hf3Zr_q0]"
+    },
+    {
+      "passed": true,
+      "value": 2.708421699068863,
+      "truth": 2.7084,
+      "abs_err": 2.169906886306805e-05,
+      "tol": 0.081252,
+      "rule": "+/-3% relative",
+      "name": "occupied_integral[4Zr_q0]"
+    },
+    {
+      "passed": true,
+      "value": 3.1526191293135755,
+      "truth": 3.1526,
+      "abs_err": 1.912931357539449e-05,
+      "tol": 0.094578,
+      "rule": "+/-3% relative",
+      "name": "occupied_integral[3Hf_q+2]"
+    },
+    {
+      "passed": true,
+      "value": 3.149525657395023,
+      "truth": 3.1495,
+      "abs_err": 2.5657395022804508e-05,
+      "tol": 0.094485,
+      "rule": "+/-3% relative",
+      "name": "occupied_integral[1Hf2Zr_q+2]"
+    },
+    {
+      "passed": true,
+      "value": 3.1514728605554305,
+      "truth": 3.1515,
+      "abs_err": 2.713944456944617e-05,
+      "tol": 0.09454499999999999,
+      "rule": "+/-3% relative",
+      "name": "occupied_integral[2Hf1Zr_q+2]"
+    },
+    {
+      "passed": true,
+      "value": 3.1463485991192313,
+      "truth": 3.1463,
+      "abs_err": 4.8599119231163e-05,
+      "tol": 0.094389,
+      "rule": "+/-3% relative",
+      "name": "occupied_integral[3Zr_q+2]"
+    },
+    {
+      "passed": true,
+      "value": 3.1497644106269234,
+      "truth": 3.1498,
+      "abs_err": 3.558937307657217e-05,
+      "tol": 0.094494,
+      "rule": "+/-3% relative",
+      "name": "occupied_integral[4Zr_q+2]"
+    },
+    {
+      "passed": true,
+      "name": "occupied_state[pristine]",
+      "value": null,
+      "truth": null,
+      "rule": "no state in the window"
+    },
+    {
+      "passed": true,
+      "name": "occupied_state[4Hf_q0]",
+      "value": [
+        -0.801,
+        -0.03029590909090909
+      ],
+      "truth": [
+        -0.801,
+        -0.0303
+      ],
+      "matched_candidate": [
+        -0.801,
+        -0.0303
+      ],
+      "position": {
+        "value": -0.801,
+        "truth": -0.801,
+        "abs_err": 0.0,
+        "tol": 0.1,
+        "rule": "absolute"
+      },
+      "depth": {
+        "value": -0.03029590909090909,
+        "truth": -0.0303,
+        "abs_err": 4.0909090909119206e-06,
+        "tol": 0.00303,
+        "rule": "+/-10% relative"
+      },
+      "rule": "position abs 0.1 eV, depth +/-10%, against any of 1 candidate state(s)"
+    },
+    {
+      "passed": true,
+      "name": "occupied_state[3Hf1Zr_q0]",
+      "value": [
+        -0.85106,
+        -0.02951222727272727
+      ],
+      "truth": [
+        -0.8511,
+        -0.0295
+      ],
+      "matched_candidate": [
+        -0.8511,
+        -0.0295
+      ],
+      "position": {
+        "value": -0.85106,
+        "truth": -0.8511,
+        "abs_err": 3.999999999992898e-05,
+        "tol": 0.1,
+        "rule": "absolute"
+      },
+      "depth": {
+        "value": -0.02951222727272727,
+        "truth": -0.0295,
+        "abs_err": 1.2227272727271393e-05,
+        "tol": 0.00295,
+        "rule": "+/-10% relative"
+      },
+      "rule": "position abs 0.1 eV, depth +/-10%, against any of 1 candidate state(s)"
+    },
+    {
+      "passed": true,
+      "name": "occupied_state[2Hf2Zr_q0]",
+      "value": [
+        -0.75094,
+        -0.02850159090909091
+      ],
+      "truth": [
+        -0.7509,
+        -0.0285
+      ],
+      "matched_candidate": [
+        -0.7509,
+        -0.0285
+      ],
+      "position": {
+        "value": -0.75094,
+        "truth": -0.7509,
+        "abs_err": 4.0000000000040004e-05,
+        "tol": 0.1,
+        "rule": "absolute"
+      },
+      "depth": {
+        "value": -0.02850159090909091,
+        "truth": -0.0285,
+        "abs_err": 1.5909090909094203e-06,
+        "tol": 0.00285,
+        "rule": "+/-10% relative"
+      },
+      "rule": "position abs 0.1 eV, depth +/-10%, against any of 1 candidate state(s)"
+    },
+    {
+      "passed": true,
+      "name": "occupied_state[1Hf3Zr_q0]",
+      "value": [
+        -0.801,
+        -0.027014999999999994
+      ],
+      "truth": [
+        -0.801,
+        -0.027
+      ],
+      "matched_candidate": [
+        -0.801,
+        -0.027
+      ],
+      "position": {
+        "value": -0.801,
+        "truth": -0.801,
+        "abs_err": 0.0,
+        "tol": 0.1,
+        "rule": "absolute"
+      },
+      "depth": {
+        "value": -0.027014999999999994,
+        "truth": -0.027,
+        "abs_err": 1.4999999999994185e-05,
+        "tol": 0.0027,
+        "rule": "+/-10% relative"
+      },
+      "rule": "position abs 0.1 eV, depth +/-10%, against any of 1 candidate state(s)"
+    },
+    {
+      "passed": true,
+      "name": "occupied_state[4Zr_q0]",
+      "value": [
+        -0.75094,
+        -0.026559772727272727
+      ],
+      "truth": [
+        -0.7509,
+        -0.0266
+      ],
+      "matched_candidate": [
+        -0.7509,
+        -0.0266
+      ],
+      "position": {
+        "value": -0.75094,
+        "truth": -0.7509,
+        "abs_err": 4.0000000000040004e-05,
+        "tol": 0.1,
+        "rule": "absolute"
+      },
+      "depth": {
+        "value": -0.026559772727272727,
+        "truth": -0.0266,
+        "abs_err": 4.022727272727164e-05,
+        "tol": 0.00266,
+        "rule": "+/-10% relative"
+      },
+      "rule": "position abs 0.1 eV, depth +/-10%, against any of 1 candidate state(s)"
+    },
+    {
+      "passed": true,
+      "name": "occupied_state[3Hf_q+2]",
+      "value": null,
+      "truth": null,
+      "rule": "no state in the window"
+    },
+    {
+      "passed": true,
+      "name": "occupied_state[1Hf2Zr_q+2]",
+      "value": null,
+      "truth": null,
+      "rule": "no state in the window"
+    },
+    {
+      "passed": true,
+      "name": "occupied_state[2Hf1Zr_q+2]",
+      "value": null,
+      "truth": null,
+      "rule": "no state in the window"
+    },
+    {
+      "passed": true,
+      "name": "occupied_state[3Zr_q+2]",
+      "value": null,
+      "truth": null,
+      "rule": "no state in the window"
+    },
+    {
+      "passed": true,
+      "name": "occupied_state[4Zr_q+2]",
+      "value": null,
+      "truth": null,
+      "rule": "no state in the window"
+    },
+    {
+      "passed": true,
+      "name": "unoccupied_state[pristine]",
+      "value": null,
+      "truth": null,
+      "rule": "no state in the window"
+    },
+    {
+      "passed": true,
+      "name": "unoccupied_state[4Hf_q0]",
+      "value": [
+        3.35419,
+        -0.49640577272727276
+      ],
+      "truth": [
+        3.3542,
+        -0.4964
+      ],
+      "matched_candidate": [
+        3.3542,
+        -0.4964
+      ],
+      "position": {
+        "value": 3.35419,
+        "truth": 3.3542,
+        "abs_err": 1.0000000000065512e-05,
+        "tol": 0.1,
+        "rule": "absolute"
+      },
+      "depth": {
+        "value": -0.49640577272727276,
+        "truth": -0.4964,
+        "abs_err": 5.772727272757017e-06,
+        "tol": 0.049640000000000004,
+        "rule": "+/-10% relative"
+      },
+      "rule": "position abs 0.1 eV, depth +/-10%, against any of 2 candidate state(s)"
+    },
+    {
+      "passed": true,
+      "name": "unoccupied_state[3Hf1Zr_q0]",
+      "value": [
+        3.45432,
+        -0.4975990454545455
+      ],
+      "truth": [
+        3.4543,
+        -0.4976
+      ],
+      "matched_candidate": [
+        3.4543,
+        -0.4976
+      ],
+      "position": {
+        "value": 3.45432,
+        "truth": 3.4543,
+        "abs_err": 2.0000000000131024e-05,
+        "tol": 0.1,
+        "rule": "absolute"
+      },
+      "depth": {
+        "value": -0.4975990454545455,
+        "truth": -0.4976,
+        "abs_err": 9.545454545123455e-07,
+        "tol": 0.04976,
+        "rule": "+/-10% relative"
+      },
+      "rule": "position abs 0.1 eV, depth +/-10%, against any of 2 candidate state(s)"
+    },
+    {
+      "passed": true,
+      "name": "unoccupied_state[2Hf2Zr_q0]",
+      "value": [
+        3.55444,
+        -0.5080665454545454
+      ],
+      "truth": [
+        3.5544,
+        -0.5081
+      ],
+      "matched_candidate": [
+        3.5544,
+        -0.5081
+      ],
+      "position": {
+        "value": 3.55444,
+        "truth": 3.5544,
+        "abs_err": 4.000000000026205e-05,
+        "tol": 0.1,
+        "rule": "absolute"
+      },
+      "depth": {
+        "value": -0.5080665454545454,
+        "truth": -0.5081,
+        "abs_err": 3.3454545454558726e-05,
+        "tol": 0.05081,
+        "rule": "+/-10% relative"
+      },
+      "rule": "position abs 0.1 eV, depth +/-10%, against any of 2 candidate state(s)"
+    },
+    {
+      "passed": true,
+      "name": "unoccupied_state[1Hf3Zr_q0]",
+      "value": [
+        3.45432,
+        -0.5160887272727274
+      ],
+      "truth": [
+        3.4543,
+        -0.5161
+      ],
+      "matched_candidate": [
+        3.4543,
+        -0.5161
+      ],
+      "position": {
+        "value": 3.45432,
+        "truth": 3.4543,
+        "abs_err": 2.0000000000131024e-05,
+        "tol": 0.1,
+        "rule": "absolute"
+      },
+      "depth": {
+        "value": -0.5160887272727274,
+        "truth": -0.5161,
+        "abs_err": 1.1272727272637617e-05,
+        "tol": 0.05161,
+        "rule": "+/-10% relative"
+      },
+      "rule": "position abs 0.1 eV, depth +/-10%, against any of 2 candidate state(s)"
+    },
+    {
+      "passed": true,
+      "name": "unoccupied_state[4Zr_q0]",
+      "value": [
+        3.55444,
+        -0.5150024545454546
+      ],
+      "truth": [
+        3.5544,
+        -0.515
+      ],
+      "matched_candidate": [
+        3.5544,
+        -0.515
+      ],
+      "position": {
+        "value": 3.55444,
+        "truth": 3.5544,
+        "abs_err": 4.000000000026205e-05,
+        "tol": 0.1,
+        "rule": "absolute"
+      },
+      "depth": {
+        "value": -0.5150024545454546,
+        "truth": -0.515,
+        "abs_err": 2.454545454555479e-06,
+        "tol": 0.051500000000000004,
+        "rule": "+/-10% relative"
+      },
+      "rule": "position abs 0.1 eV, depth +/-10%, against any of 2 candidate state(s)"
+    },
+    {
+      "passed": true,
+      "name": "unoccupied_state[3Hf_q+2]",
+      "value": [
+        2.65332,
+        -0.033223303167420816
+      ],
+      "truth": [
+        2.6533,
+        -0.0332
+      ],
+      "matched_candidate": [
+        2.6533,
+        -0.0332
+      ],
+      "position": {
+        "value": 2.65332,
+        "truth": 2.6533,
+        "abs_err": 1.9999999999686935e-05,
+        "tol": 0.1,
+        "rule": "absolute"
+      },
+      "depth": {
+        "value": -0.033223303167420816,
+        "truth": -0.0332,
+        "abs_err": 2.3303167420815618e-05,
+        "tol": 0.00332,
+        "rule": "+/-10% relative"
+      },
+      "rule": "position abs 0.1 eV, depth +/-10%, against any of 1 candidate state(s)"
+    },
+    {
+      "passed": true,
+      "name": "unoccupied_state[1Hf2Zr_q+2]",
+      "value": [
+        2.55319,
+        -0.03252760180995475
+      ],
+      "truth": [
+        2.5532,
+        -0.0325
+      ],
+      "matched_candidate": [
+        2.5532,
+        -0.0325
+      ],
+      "position": {
+        "value": 2.55319,
+        "truth": 2.5532,
+        "abs_err": 1.0000000000065512e-05,
+        "tol": 0.1,
+        "rule": "absolute"
+      },
+      "depth": {
+        "value": -0.03252760180995475,
+        "truth": -0.0325,
+        "abs_err": 2.76018099547512e-05,
+        "tol": 0.0032500000000000003,
+        "rule": "+/-10% relative"
+      },
+      "rule": "position abs 0.1 eV, depth +/-10%, against any of 1 candidate state(s)"
+    },
+    {
+      "passed": true,
+      "name": "unoccupied_state[2Hf1Zr_q+2]",
+      "value": [
+        2.60325,
+        -0.033029230769230776
+      ],
+      "truth": [
+        2.6033,
+        -0.033
+      ],
+      "matched_candidate": [
+        2.6033,
+        -0.033
+      ],
+      "position": {
+        "value": 2.60325,
+        "truth": 2.6033,
+        "abs_err": 4.999999999988347e-05,
+        "tol": 0.1,
+        "rule": "absolute"
+      },
+      "depth": {
+        "value": -0.033029230769230776,
+        "truth": -0.033,
+        "abs_err": 2.9230769230774445e-05,
+        "tol": 0.0033000000000000004,
+        "rule": "+/-10% relative"
+      },
+      "rule": "position abs 0.1 eV, depth +/-10%, against any of 1 candidate state(s)"
+    },
+    {
+      "passed": true,
+      "name": "unoccupied_state[3Zr_q+2]",
+      "value": [
+        2.45307,
+        -0.03286493212669683
+      ],
+      "truth": [
+        2.4531,
+        -0.0329
+      ],
+      "matched_candidate": [
+        2.4531,
+        -0.0329
+      ],
+      "position": {
+        "value": 2.45307,
+        "truth": 2.4531,
+        "abs_err": 3.0000000000196536e-05,
+        "tol": 0.1,
+        "rule": "absolute"
+      },
+      "depth": {
+        "value": -0.03286493212669683,
+        "truth": -0.0329,
+        "abs_err": 3.506787330316563e-05,
+        "tol": 0.00329,
+        "rule": "+/-10% relative"
+      },
+      "rule": "position abs 0.1 eV, depth +/-10%, against any of 1 candidate state(s)"
+    },
+    {
+      "passed": true,
+      "name": "unoccupied_state[4Zr_q+2]",
+      "value": [
+        2.45307,
+        -0.030251131221719452
+      ],
+      "truth": [
+        2.4531,
+        -0.0302
+      ],
+      "matched_candidate": [
+        2.4531,
+        -0.0302
+      ],
+      "position": {
+        "value": 2.45307,
+        "truth": 2.4531,
+        "abs_err": 3.0000000000196536e-05,
+        "tol": 0.1,
+        "rule": "absolute"
+      },
+      "depth": {
+        "value": -0.030251131221719452,
+        "truth": -0.0302,
+        "abs_err": 5.1131221719451225e-05,
+        "tol": 0.00302,
+        "rule": "+/-10% relative"
+      },
+      "rule": "position abs 0.1 eV, depth +/-10%, against any of 1 candidate state(s)"
+    },
+    {
+      "passed": true,
+      "value": 3.0832716574875003,
+      "truth": 3.0833,
+      "abs_err": 2.8342512499612837e-05,
+      "tol": 0.061666,
+      "rule": "+/-2% relative",
+      "name": "B[4Hf]"
+    },
+    {
+      "passed": true,
+      "value": 2.9888760923,
+      "truth": 2.9889,
+      "abs_err": 2.3907700000158627e-05,
+      "tol": 0.059778000000000005,
+      "rule": "+/-2% relative",
+      "name": "B[3Hf1Zr]"
+    },
+    {
+      "passed": true,
+      "value": 2.83016601795,
+      "truth": 2.8302,
+      "abs_err": 3.398205000015864e-05,
+      "tol": 0.056604,
+      "rule": "+/-2% relative",
+      "name": "B[2Hf2Zr]"
+    },
+    {
+      "passed": true,
+      "value": 2.7323051695625007,
+      "truth": 2.7323,
+      "abs_err": 5.169562500739744e-06,
+      "tol": 0.054646,
+      "rule": "+/-2% relative",
+      "name": "B[1Hf3Zr]"
+    },
+    {
+      "passed": true,
+      "value": 2.6274405959000005,
+      "truth": 2.6274,
+      "abs_err": 4.059590000027313e-05,
+      "tol": 0.052548000000000004,
+      "rule": "+/-2% relative",
+      "name": "B[4Zr]"
+    },
+    {
+      "passed": true,
+      "value": 3.8099777439666687,
+      "truth": 3.81,
+      "abs_err": 2.2256033331391478e-05,
+      "tol": 0.0762,
+      "rule": "+/-2% relative",
+      "name": "B[3Hf]"
+    },
+    {
+      "passed": true,
+      "value": 3.586148862966669,
+      "truth": 3.5861,
+      "abs_err": 4.8862966668838936e-05,
+      "tol": 0.07172200000000001,
+      "rule": "+/-2% relative",
+      "name": "B[2Hf1Zr]"
+    },
+    {
+      "passed": true,
+      "value": 3.4225988359000024,
+      "truth": 3.4226,
+      "abs_err": 1.1640999977302613e-06,
+      "tol": 0.068452,
+      "rule": "+/-2% relative",
+      "name": "B[1Hf2Zr]"
+    },
+    {
+      "passed": true,
+      "value": 3.2523412688833355,
+      "truth": 3.2523,
+      "abs_err": 4.126888333555456e-05,
+      "tol": 0.065046,
+      "rule": "+/-2% relative",
+      "name": "B[3Zr]"
+    },
+    {
+      "passed": true,
+      "name": "partial_4Zr_states_eV",
+      "value": [
+        -2.20275,
+        -1.35169
+      ],
+      "truth": [
+        -2.2027,
+        -1.3517
+      ],
+      "rule": "count exact, each position abs 0.1 eV"
+    },
+    {
+      "passed": true,
+      "value": -13.614169999999998,
+      "truth": -13.6142,
+      "abs_err": 3.0000000002416982e-05,
+      "tol": 0.136142,
+      "rule": "+/-1% relative",
+      "name": "icohp_sum_4Zr_eV"
+    },
+    {
+      "passed": true,
+      "value": 11.06765405521565,
+      "truth": 11.0677,
+      "abs_err": 4.5944784350382406e-05,
+      "tol": 0.22135400000000002,
+      "rule": "+/-2% relative",
+      "name": "slope[Hf]"
+    },
+    {
+      "passed": true,
+      "value": 11.55061915064995,
+      "truth": 11.5506,
+      "abs_err": 1.9150649951171772e-05,
+      "tol": 0.231012,
+      "rule": "+/-2% relative",
+      "name": "slope[Zr]"
+    }
+  ]
+}
+SCORE: 1

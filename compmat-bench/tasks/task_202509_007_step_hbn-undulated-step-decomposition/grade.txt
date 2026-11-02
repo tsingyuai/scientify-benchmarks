@@ -1,0 +1,130 @@
+{
+  "score": 1,
+  "checks": [
+    {
+      "passed": true,
+      "name": "y_over_L_grid",
+      "rule": "y_over_L[j] == j/24 within 0.01"
+    },
+    {
+      "passed": true,
+      "n_points": 24,
+      "n_fail": 0,
+      "worst_i": 5,
+      "rule": "per-point +/-10% with floor",
+      "failures": [],
+      "name": "dVn_V"
+    },
+    {
+      "passed": true,
+      "n_points": 24,
+      "n_fail": 0,
+      "worst_i": 18,
+      "rule": "per-point +/-10% with floor",
+      "failures": [],
+      "name": "dVfl_I_V"
+    },
+    {
+      "passed": true,
+      "n_points": 24,
+      "n_fail": 0,
+      "worst_i": 6,
+      "rule": "per-point +/-10% with floor",
+      "failures": [],
+      "name": "dVfl_II_V"
+    },
+    {
+      "passed": true,
+      "n_points": 24,
+      "n_fail": 0,
+      "worst_i": 7,
+      "rule": "per-point +/-10% with floor",
+      "failures": [],
+      "name": "dVfl_an_V"
+    },
+    {
+      "passed": true,
+      "n_points": 24,
+      "n_fail": 0,
+      "worst_i": 5,
+      "rule": "per-point +/-10% with floor",
+      "failures": [],
+      "name": "dVsl_V"
+    },
+    {
+      "passed": true,
+      "n_points": 24,
+      "n_fail": 0,
+      "worst_i": 15,
+      "rule": "per-point +/-10% with floor",
+      "failures": [],
+      "name": "dVsl_an_V"
+    },
+    {
+      "passed": true,
+      "name": "dVsl_consistency",
+      "worst_abs_err_V": 0.0,
+      "rule": "dVsl = dVn - dVfl_I - dVfl_II within max(0.002 V, propagated decimal rounding)",
+      "n_fail": 0,
+      "failures": []
+    },
+    {
+      "passed": true,
+      "value": 0.16233746107462943,
+      "truth": 0.14841,
+      "abs_err": 0.013927461074629444,
+      "tol": 0.01634,
+      "rule": "absolute",
+      "name": "dVsl_max_V"
+    },
+    {
+      "passed": true,
+      "value": -0.16795780303720753,
+      "truth": -0.16342,
+      "abs_err": 0.004537803037207522,
+      "tol": 0.016342000000000002,
+      "rule": "absolute",
+      "name": "dVsl_min_V"
+    },
+    {
+      "passed": true,
+      "value": 0.16233746107462943,
+      "truth": 0.16233746107462943,
+      "abs_err": 0.0,
+      "tol": 0.002,
+      "rule": "absolute",
+      "name": "dVsl_max_consistency"
+    },
+    {
+      "passed": true,
+      "value": -0.16795780303720753,
+      "truth": -0.16795780303720753,
+      "abs_err": 0.0,
+      "tol": 0.002,
+      "rule": "absolute",
+      "name": "dVsl_min_consistency"
+    },
+    {
+      "passed": true,
+      "value": 2,
+      "truth": 2,
+      "rule": "exact int",
+      "name": "sign_changes_per_period"
+    },
+    {
+      "passed": true,
+      "value": 2,
+      "truth": 2,
+      "rule": "exact int",
+      "name": "sign_changes_consistency"
+    }
+  ],
+  "diagnostics": {
+    "note": "recomputed from the submitted arrays; ours in ground_truth.json",
+    "flexo_rms_V": 0.0088,
+    "flexo_max_V": 0.0179,
+    "total_rms_V": 0.0441,
+    "sliding_rms_V": 0.0314
+  }
+}
+SCORE: 1

@@ -1,0 +1,39 @@
+{
+  "score": 1,
+  "checks": [
+    {
+      "passed": true,
+      "n_points": 43,
+      "n_fail": 0,
+      "worst_i": 41,
+      "rule": "PRIMARY, handbook 2(2) per-point curve rule: |sub_i - truth_i| <= max(0.10*|truth_i|, floor) with floor = 0.10 (= 0.10 * max|truth| = 0.10 * 1.0, the curve's characteristic scale, so this is the standard 2(2) floor written out, not an exception). One entry per grid temperature in ASCENDING temperature order; a list of any other length is a gating failure (score 0 before any primary check).",
+      "failures": [],
+      "name": "M_stag_norm"
+    },
+    {
+      "passed": true,
+      "value": 282.5,
+      "truth": 284.213,
+      "abs_err": 1.7130000000000223,
+      "tol": 28.421300000000002,
+      "rule": "+/-10% relative",
+      "name": "T_N_K",
+      "band_K": [
+        255.792,
+        312.634
+      ]
+    }
+  ],
+  "diagnostics": {
+    "note": "recorded, not scored (handbook 1(2)); ours in ground_truth.json",
+    "value_at_lowest_T": 1.0,
+    "normalised_at_lowest_T": true,
+    "n_rises": 0,
+    "monotonic_decrease": true,
+    "max_abs_deviation": 4.82333333332724e-07,
+    "T_N_K": 282.5,
+    "our_chi_peak_K": 284.099,
+    "T_N_minus_our_chi_peak_K": -1.5989999999999895
+  }
+}
+SCORE: 1

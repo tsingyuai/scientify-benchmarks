@@ -1,0 +1,297 @@
+{
+  "score": 1,
+  "runs": [
+    {
+      "label": "relax",
+      "passed": true,
+      "incar": {
+        "label": "relax",
+        "score": 1,
+        "checks": [
+          {
+            "name": "required:ENCUT",
+            "kind": "required",
+            "passed": true,
+            "reason": "ENCUT=520.0 >= 1*max_ENMAX=400 eV (O+Ru+Sn+Te)"
+          },
+          {
+            "name": "required:EDIFF",
+            "kind": "required",
+            "passed": true,
+            "reason": "EDIFF=1e-08 (set) ok"
+          },
+          {
+            "name": "required:smearing",
+            "kind": "required",
+            "passed": true,
+            "reason": "Fermi-Dirac, Gaussian or Methfessel-Paxton integration"
+          },
+          {
+            "name": "required:LDIPOL",
+            "kind": "required",
+            "passed": true,
+            "reason": "LDIPOL=True (set) ok"
+          },
+          {
+            "name": "required:IDIPOL",
+            "kind": "required",
+            "passed": true,
+            "reason": "IDIPOL=3 (set) ok"
+          },
+          {
+            "name": "required:LDAU",
+            "kind": "required",
+            "passed": true,
+            "reason": "LDAU=True (set) ok"
+          },
+          {
+            "name": "required:LDAUTYPE",
+            "kind": "required",
+            "passed": true,
+            "reason": "LDAUTYPE=2 (set) ok"
+          },
+          {
+            "name": "required:LDAU_U_on_Ru",
+            "kind": "required",
+            "passed": true,
+            "reason": "Dudarev U-J on Ru d only"
+          },
+          {
+            "name": "required:functional",
+            "kind": "required",
+            "passed": true,
+            "reason": "GGA=Pe ok"
+          },
+          {
+            "name": "required:kmesh",
+            "kind": "required",
+            "passed": true,
+            "reason": "mesh 12x4x1 meets frozen per-axis minima 3x1x1"
+          },
+          {
+            "name": "required:poscar_species",
+            "kind": "required",
+            "passed": true,
+            "reason": "species {'Sn': 160, 'Te': 160, 'Ru': 36, 'O': 72} ok"
+          },
+          {
+            "name": "required:poscar_vacuum",
+            "kind": "required",
+            "passed": true,
+            "reason": "vacuum along axis 2 ~20.0 A ok"
+          },
+          {
+            "name": "required:selective_dynamics",
+            "kind": "required",
+            "passed": true,
+            "reason": "bottom 20 SnTe planes must be FFF and every other coordinate TTT"
+          },
+          {
+            "name": "required:ISPIN",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISPIN=2 (set) ok"
+          },
+          {
+            "name": "required:LSORBIT",
+            "kind": "required",
+            "passed": true,
+            "reason": "LSORBIT=False (set) ok"
+          },
+          {
+            "name": "required:relax_fixed_cell",
+            "kind": "required",
+            "passed": true,
+            "reason": "fixed-cell relax ok"
+          },
+          {
+            "name": "required:positive_NSW",
+            "kind": "required",
+            "passed": true,
+            "reason": "NSW must be a positive integer for ionic relaxation"
+          },
+          {
+            "name": "required:MAGMOM_altermagnet",
+            "kind": "required",
+            "passed": true,
+            "reason": "spatially alternating Ru sublattices share one Neel axis"
+          }
+        ]
+      },
+      "structure": {
+        "passed": true,
+        "species_counts_ok": true,
+        "lattice_ok": true,
+        "lattice": {
+          "len_rel_err": 5.8069913036413526e-05,
+          "ang_abs_err_deg": 1.4210854715202004e-14,
+          "abc_sub": [
+            6.372,
+            18.022,
+            117.834097714127
+          ],
+          "abc_ref": [
+            6.37163,
+            18.021691120846565,
+            117.83409771412703
+          ]
+        },
+        "site_match_ok": true,
+        "method": "two_block",
+        "substrate_block": [
+          "Sn",
+          "Te"
+        ],
+        "film_block": [
+          "Ru",
+          "O"
+        ],
+        "substrate_max_disp_A": 8.51049709745475e-14,
+        "film_max_disp_A": 6.593301744521351e-14,
+        "max_disp_threshold_A": 0.1,
+        "name": "structure:relax"
+      }
+    },
+    {
+      "label": "static",
+      "passed": true,
+      "incar": {
+        "label": "static",
+        "score": 1,
+        "checks": [
+          {
+            "name": "required:ENCUT",
+            "kind": "required",
+            "passed": true,
+            "reason": "ENCUT=520.0 >= 1*max_ENMAX=400 eV (O+Ru+Sn+Te)"
+          },
+          {
+            "name": "required:EDIFF",
+            "kind": "required",
+            "passed": true,
+            "reason": "EDIFF=1e-09 (set) ok"
+          },
+          {
+            "name": "required:smearing",
+            "kind": "required",
+            "passed": true,
+            "reason": "Fermi-Dirac, Gaussian or Methfessel-Paxton integration"
+          },
+          {
+            "name": "required:LDIPOL",
+            "kind": "required",
+            "passed": true,
+            "reason": "LDIPOL=True (set) ok"
+          },
+          {
+            "name": "required:IDIPOL",
+            "kind": "required",
+            "passed": true,
+            "reason": "IDIPOL=3 (set) ok"
+          },
+          {
+            "name": "required:LDAU",
+            "kind": "required",
+            "passed": true,
+            "reason": "LDAU=True (set) ok"
+          },
+          {
+            "name": "required:LDAUTYPE",
+            "kind": "required",
+            "passed": true,
+            "reason": "LDAUTYPE=2 (set) ok"
+          },
+          {
+            "name": "required:LDAU_U_on_Ru",
+            "kind": "required",
+            "passed": true,
+            "reason": "Dudarev U-J on Ru d only"
+          },
+          {
+            "name": "required:functional",
+            "kind": "required",
+            "passed": true,
+            "reason": "GGA=Pe ok"
+          },
+          {
+            "name": "required:kmesh",
+            "kind": "required",
+            "passed": true,
+            "reason": "mesh 18x6x1 meets frozen per-axis minima 3x1x1"
+          },
+          {
+            "name": "required:poscar_species",
+            "kind": "required",
+            "passed": true,
+            "reason": "species {'Sn': 160, 'Te': 160, 'Ru': 36, 'O': 72} ok"
+          },
+          {
+            "name": "required:poscar_vacuum",
+            "kind": "required",
+            "passed": true,
+            "reason": "vacuum along axis 2 ~20.0 A ok"
+          },
+          {
+            "name": "required:selective_dynamics",
+            "kind": "required",
+            "passed": true,
+            "reason": "bottom 20 SnTe planes must be FFF and every other coordinate TTT"
+          },
+          {
+            "name": "required:static",
+            "kind": "required",
+            "passed": true,
+            "reason": "NSW=0.0 IBRION=-1 ok (static)"
+          },
+          {
+            "name": "required:LSORBIT",
+            "kind": "required",
+            "passed": true,
+            "reason": "LSORBIT=True (set) ok"
+          },
+          {
+            "name": "required:MAGMOM_altermagnet",
+            "kind": "required",
+            "passed": true,
+            "reason": "spatially alternating Ru sublattices share one Neel axis"
+          }
+        ]
+      },
+      "structure": {
+        "passed": true,
+        "species_counts_ok": true,
+        "lattice_ok": true,
+        "lattice": {
+          "len_rel_err": 5.8069913036413526e-05,
+          "ang_abs_err_deg": 1.4210854715202004e-14,
+          "abc_sub": [
+            6.372,
+            18.022,
+            117.834097714127
+          ],
+          "abc_ref": [
+            6.37163,
+            18.021691120846565,
+            117.83409771412703
+          ]
+        },
+        "site_match_ok": true,
+        "method": "two_block",
+        "substrate_block": [
+          "Sn",
+          "Te"
+        ],
+        "film_block": [
+          "Ru",
+          "O"
+        ],
+        "substrate_max_disp_A": 8.51049709745475e-14,
+        "film_max_disp_A": 6.593301744521351e-14,
+        "max_disp_threshold_A": 0.1,
+        "name": "structure:static"
+      }
+    }
+  ],
+  "extra_labels_ignored": []
+}
+SCORE: 1

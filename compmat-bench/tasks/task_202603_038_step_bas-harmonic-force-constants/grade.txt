@@ -1,0 +1,170 @@
+{
+  "score": 1,
+  "checks": [
+    {
+      "passed": true,
+      "value": 1,
+      "truth": 1,
+      "rule": "exact 1-based index in the deck's atom order",
+      "name": "displaced_runs.disp_a.atom_index"
+    },
+    {
+      "passed": true,
+      "name": "displaced_runs.disp_a.species",
+      "value": "B",
+      "truth": "B",
+      "rule": "exact species"
+    },
+    {
+      "passed": true,
+      "name": "displaced_runs.disp_a.axis",
+      "value": "x",
+      "truth": "x",
+      "rule": "exact Cartesian axis"
+    },
+    {
+      "passed": true,
+      "value": 0.01,
+      "truth": 0.01,
+      "abs_err": 0.0,
+      "tol": 0.0005,
+      "rule": "within 0.0005 A of ours, sign included",
+      "name": "displaced_runs.disp_a.displacement_A"
+    },
+    {
+      "passed": true,
+      "value": 1,
+      "truth": 1,
+      "rule": "exact 1-based index in the deck's atom order",
+      "name": "displaced_runs.disp_b.atom_index"
+    },
+    {
+      "passed": true,
+      "name": "displaced_runs.disp_b.species",
+      "value": "B",
+      "truth": "B",
+      "rule": "exact species"
+    },
+    {
+      "passed": true,
+      "name": "displaced_runs.disp_b.axis",
+      "value": "x",
+      "truth": "x",
+      "rule": "exact Cartesian axis"
+    },
+    {
+      "passed": true,
+      "value": -0.01,
+      "truth": -0.01,
+      "abs_err": 0.0,
+      "tol": 0.0005,
+      "rule": "within 0.0005 A of ours, sign included",
+      "name": "displaced_runs.disp_b.displacement_A"
+    },
+    {
+      "passed": true,
+      "value": 257,
+      "truth": 257,
+      "rule": "exact 1-based index in the deck's atom order",
+      "name": "displaced_runs.disp_c.atom_index"
+    },
+    {
+      "passed": true,
+      "name": "displaced_runs.disp_c.species",
+      "value": "As",
+      "truth": "As",
+      "rule": "exact species"
+    },
+    {
+      "passed": true,
+      "name": "displaced_runs.disp_c.axis",
+      "value": "x",
+      "truth": "x",
+      "rule": "exact Cartesian axis"
+    },
+    {
+      "passed": true,
+      "value": 0.01,
+      "truth": 0.01,
+      "abs_err": 0.0,
+      "tol": 0.0005,
+      "rule": "within 0.0005 A of ours, sign included",
+      "name": "displaced_runs.disp_c.displacement_A"
+    },
+    {
+      "passed": true,
+      "value": 257,
+      "truth": 257,
+      "rule": "exact 1-based index in the deck's atom order",
+      "name": "displaced_runs.disp_d.atom_index"
+    },
+    {
+      "passed": true,
+      "name": "displaced_runs.disp_d.species",
+      "value": "As",
+      "truth": "As",
+      "rule": "exact species"
+    },
+    {
+      "passed": true,
+      "name": "displaced_runs.disp_d.axis",
+      "value": "x",
+      "truth": "x",
+      "rule": "exact Cartesian axis"
+    },
+    {
+      "passed": true,
+      "value": -0.01,
+      "truth": -0.01,
+      "abs_err": 0.0,
+      "tol": 0.0005,
+      "rule": "within 0.0005 A of ours, sign included",
+      "name": "displaced_runs.disp_d.displacement_A"
+    },
+    {
+      "passed": true,
+      "name": "acoustic_sum_residual_max",
+      "value": 3.520240732314376e-05,
+      "truth": 3.52e-05,
+      "bound": 0.001,
+      "rule": "0 <= value <= 0.001 (handbook 2(3) upper bound; a negative ratio is impossible)"
+    },
+    {
+      "passed": true,
+      "value": 691.1700905211093,
+      "truth": 691.1701,
+      "abs_err": 9.478890774516913e-06,
+      "tol": 0.5,
+      "rule": "within 0.5 cm^-1 of ours",
+      "name": "omega_TO_11B_cm1"
+    },
+    {
+      "passed": true,
+      "value": 720.5292608142971,
+      "truth": 720.5293,
+      "abs_err": 3.9185702917166054e-05,
+      "tol": 0.5,
+      "rule": "within 0.5 cm^-1 of ours",
+      "name": "omega_TO_10B_cm1"
+    },
+    {
+      "passed": true,
+      "value": 696.6750623084108,
+      "truth": 696.6751,
+      "abs_err": 3.7691589227506483e-05,
+      "tol": 0.5,
+      "rule": "within 0.5 cm^-1 of ours",
+      "name": "omega_TO_natural_cm1"
+    },
+    {
+      "passed": true,
+      "value": 730.2870290810914,
+      "truth": 730.287,
+      "abs_err": 2.9081091383886815e-05,
+      "tol": 1.0,
+      "rule": "within 1 cm^-1 of ours",
+      "name": "omega_max_supercell_natural_cm1"
+    }
+  ]
+}
+SCORE: 1

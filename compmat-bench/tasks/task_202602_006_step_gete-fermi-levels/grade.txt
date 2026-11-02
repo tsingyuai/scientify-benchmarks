@@ -1,0 +1,51 @@
+{
+  "score": 1,
+  "checks": [
+    {
+      "passed": true,
+      "value": 10.859994402620863,
+      "truth": 10.859994,
+      "abs_err": 4.0262086287157217e-07,
+      "tol": 0.05,
+      "rule": "absolute",
+      "name": "E_DP_eV"
+    },
+    {
+      "passed": true,
+      "value": -0.06572493231567833,
+      "truth": -0.065725,
+      "abs_err": 6.768432167514327e-08,
+      "tol": 0.006572500000000001,
+      "rule": "absolute",
+      "name": "EF_minus_EDP_p1.1e21_eV"
+    },
+    {
+      "passed": true,
+      "value": 0.03760230492738614,
+      "truth": 0.037603,
+      "abs_err": 6.95072613854375e-07,
+      "tol": 0.005,
+      "rule": "absolute",
+      "name": "EF_minus_EDP_p5.3e20_eV"
+    },
+    {
+      "passed": true,
+      "value": 0.2629065153867298,
+      "truth": 0.262907,
+      "abs_err": 4.84613270179679e-07,
+      "tol": 0.0262907,
+      "rule": "absolute",
+      "name": "EF_minus_EDP_p1.8e19_eV"
+    },
+    {
+      "passed": true,
+      "value": 53.80572929506456,
+      "truth": 53.8057,
+      "abs_err": 2.9295064557288697e-05,
+      "tol": 1.076114,
+      "rule": "+/-2% relative",
+      "name": "cell_volume_A3"
+    }
+  ]
+}
+SCORE: 1

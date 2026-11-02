@@ -1,0 +1,1298 @@
+{
+  "score": 1,
+  "runs": [
+    {
+      "label": "nu_0.000",
+      "passed": true,
+      "incar": {
+        "label": "nu_0.000",
+        "score": 1,
+        "checks": [
+          {
+            "name": "required:static",
+            "kind": "required",
+            "passed": true,
+            "reason": "NSW=0.0 IBRION=-1 ok (static)"
+          },
+          {
+            "name": "required:self_consistent_charge",
+            "kind": "required",
+            "passed": true,
+            "reason": "ICHARG=2 must use a documented charge-updating mode, not frozen density"
+          },
+          {
+            "name": "required:charge_start_files",
+            "kind": "required",
+            "passed": true,
+            "reason": "no charge/potential initialization file required by this check"
+          },
+          {
+            "name": "required:potential_output",
+            "kind": "required",
+            "passed": true,
+            "reason": "LVHAR writes ionic + Hartree potential"
+          },
+          {
+            "name": "required:LDIPOL",
+            "kind": "required",
+            "passed": true,
+            "reason": "LDIPOL=True (set) ok"
+          },
+          {
+            "name": "required:IDIPOL",
+            "kind": "required",
+            "passed": true,
+            "reason": "IDIPOL=3 (set) ok"
+          },
+          {
+            "name": "required:ENCUT",
+            "kind": "required",
+            "passed": true,
+            "reason": "ENCUT=520.0 >= 1*max_ENMAX=400 eV (B+N)"
+          },
+          {
+            "name": "required:smearing",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISMEAR=0 ok"
+          },
+          {
+            "name": "required:positive_mesh",
+            "kind": "required",
+            "passed": true,
+            "reason": "automatic mesh subdivisions must be positive integers"
+          },
+          {
+            "name": "required:electronic_convergence",
+            "kind": "required",
+            "passed": true,
+            "reason": "0 < effective EDIFF <= 1e-05 eV (static)"
+          },
+          {
+            "name": "required:electronic_model",
+            "kind": "required",
+            "passed": true,
+            "reason": "effective semilocal GGA=pe"
+          },
+          {
+            "name": "required:kmesh",
+            "kind": "required",
+            "passed": true,
+            "reason": "mesh 24x14x1 meets frozen per-axis minima 10x5x1"
+          }
+        ]
+      },
+      "structure": {
+        "passed": true,
+        "species_counts_ok": true,
+        "lattice_ok": true,
+        "lattice": {
+          "len_rel_err": 0.0,
+          "ang_abs_err_deg": 0.0,
+          "abc_sub": [
+            2.51243,
+            4.35165,
+            30.0
+          ],
+          "abc_ref": [
+            2.51243,
+            4.35165,
+            30.0
+          ]
+        },
+        "site_match_ok": true,
+        "method": "fallback",
+        "max_site_disp_A": 5.578709103981144e-16,
+        "max_disp_threshold_A": 0.1,
+        "name": "structure:nu_0.000"
+      }
+    },
+    {
+      "label": "nu_0.083",
+      "passed": true,
+      "incar": {
+        "label": "nu_0.083",
+        "score": 1,
+        "checks": [
+          {
+            "name": "required:static",
+            "kind": "required",
+            "passed": true,
+            "reason": "NSW=0.0 IBRION=-1 ok (static)"
+          },
+          {
+            "name": "required:self_consistent_charge",
+            "kind": "required",
+            "passed": true,
+            "reason": "ICHARG=2 must use a documented charge-updating mode, not frozen density"
+          },
+          {
+            "name": "required:charge_start_files",
+            "kind": "required",
+            "passed": true,
+            "reason": "no charge/potential initialization file required by this check"
+          },
+          {
+            "name": "required:potential_output",
+            "kind": "required",
+            "passed": true,
+            "reason": "LVHAR writes ionic + Hartree potential"
+          },
+          {
+            "name": "required:LDIPOL",
+            "kind": "required",
+            "passed": true,
+            "reason": "LDIPOL=True (set) ok"
+          },
+          {
+            "name": "required:IDIPOL",
+            "kind": "required",
+            "passed": true,
+            "reason": "IDIPOL=3 (set) ok"
+          },
+          {
+            "name": "required:ENCUT",
+            "kind": "required",
+            "passed": true,
+            "reason": "ENCUT=520.0 >= 1*max_ENMAX=400 eV (B+N)"
+          },
+          {
+            "name": "required:smearing",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISMEAR=0 ok"
+          },
+          {
+            "name": "required:positive_mesh",
+            "kind": "required",
+            "passed": true,
+            "reason": "automatic mesh subdivisions must be positive integers"
+          },
+          {
+            "name": "required:electronic_convergence",
+            "kind": "required",
+            "passed": true,
+            "reason": "0 < effective EDIFF <= 1e-05 eV (static)"
+          },
+          {
+            "name": "required:electronic_model",
+            "kind": "required",
+            "passed": true,
+            "reason": "effective semilocal GGA=pe"
+          },
+          {
+            "name": "required:kmesh",
+            "kind": "required",
+            "passed": true,
+            "reason": "mesh 24x14x1 meets frozen per-axis minima 10x5x1"
+          }
+        ]
+      },
+      "structure": {
+        "passed": true,
+        "species_counts_ok": true,
+        "lattice_ok": true,
+        "lattice": {
+          "len_rel_err": 0.0,
+          "ang_abs_err_deg": 0.0,
+          "abc_sub": [
+            2.51243,
+            4.35165,
+            30.0
+          ],
+          "abc_ref": [
+            2.51243,
+            4.35165,
+            30.0
+          ]
+        },
+        "site_match_ok": true,
+        "method": "fallback",
+        "max_site_disp_A": 5.578709103981144e-16,
+        "max_disp_threshold_A": 0.1,
+        "name": "structure:nu_0.083"
+      }
+    },
+    {
+      "label": "nu_0.167",
+      "passed": true,
+      "incar": {
+        "label": "nu_0.167",
+        "score": 1,
+        "checks": [
+          {
+            "name": "required:static",
+            "kind": "required",
+            "passed": true,
+            "reason": "NSW=0.0 IBRION=-1 ok (static)"
+          },
+          {
+            "name": "required:self_consistent_charge",
+            "kind": "required",
+            "passed": true,
+            "reason": "ICHARG=2 must use a documented charge-updating mode, not frozen density"
+          },
+          {
+            "name": "required:charge_start_files",
+            "kind": "required",
+            "passed": true,
+            "reason": "no charge/potential initialization file required by this check"
+          },
+          {
+            "name": "required:potential_output",
+            "kind": "required",
+            "passed": true,
+            "reason": "LVHAR writes ionic + Hartree potential"
+          },
+          {
+            "name": "required:LDIPOL",
+            "kind": "required",
+            "passed": true,
+            "reason": "LDIPOL=True (set) ok"
+          },
+          {
+            "name": "required:IDIPOL",
+            "kind": "required",
+            "passed": true,
+            "reason": "IDIPOL=3 (set) ok"
+          },
+          {
+            "name": "required:ENCUT",
+            "kind": "required",
+            "passed": true,
+            "reason": "ENCUT=520.0 >= 1*max_ENMAX=400 eV (B+N)"
+          },
+          {
+            "name": "required:smearing",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISMEAR=0 ok"
+          },
+          {
+            "name": "required:positive_mesh",
+            "kind": "required",
+            "passed": true,
+            "reason": "automatic mesh subdivisions must be positive integers"
+          },
+          {
+            "name": "required:electronic_convergence",
+            "kind": "required",
+            "passed": true,
+            "reason": "0 < effective EDIFF <= 1e-05 eV (static)"
+          },
+          {
+            "name": "required:electronic_model",
+            "kind": "required",
+            "passed": true,
+            "reason": "effective semilocal GGA=pe"
+          },
+          {
+            "name": "required:kmesh",
+            "kind": "required",
+            "passed": true,
+            "reason": "mesh 24x14x1 meets frozen per-axis minima 10x5x1"
+          }
+        ]
+      },
+      "structure": {
+        "passed": true,
+        "species_counts_ok": true,
+        "lattice_ok": true,
+        "lattice": {
+          "len_rel_err": 0.0,
+          "ang_abs_err_deg": 0.0,
+          "abc_sub": [
+            2.51243,
+            4.35165,
+            30.0
+          ],
+          "abc_ref": [
+            2.51243,
+            4.35165,
+            30.0
+          ]
+        },
+        "site_match_ok": true,
+        "method": "fallback",
+        "max_site_disp_A": 5.578709103981144e-16,
+        "max_disp_threshold_A": 0.1,
+        "name": "structure:nu_0.167"
+      }
+    },
+    {
+      "label": "nu_0.250",
+      "passed": true,
+      "incar": {
+        "label": "nu_0.250",
+        "score": 1,
+        "checks": [
+          {
+            "name": "required:static",
+            "kind": "required",
+            "passed": true,
+            "reason": "NSW=0.0 IBRION=-1 ok (static)"
+          },
+          {
+            "name": "required:self_consistent_charge",
+            "kind": "required",
+            "passed": true,
+            "reason": "ICHARG=2 must use a documented charge-updating mode, not frozen density"
+          },
+          {
+            "name": "required:charge_start_files",
+            "kind": "required",
+            "passed": true,
+            "reason": "no charge/potential initialization file required by this check"
+          },
+          {
+            "name": "required:potential_output",
+            "kind": "required",
+            "passed": true,
+            "reason": "LVHAR writes ionic + Hartree potential"
+          },
+          {
+            "name": "required:LDIPOL",
+            "kind": "required",
+            "passed": true,
+            "reason": "LDIPOL=True (set) ok"
+          },
+          {
+            "name": "required:IDIPOL",
+            "kind": "required",
+            "passed": true,
+            "reason": "IDIPOL=3 (set) ok"
+          },
+          {
+            "name": "required:ENCUT",
+            "kind": "required",
+            "passed": true,
+            "reason": "ENCUT=520.0 >= 1*max_ENMAX=400 eV (B+N)"
+          },
+          {
+            "name": "required:smearing",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISMEAR=0 ok"
+          },
+          {
+            "name": "required:positive_mesh",
+            "kind": "required",
+            "passed": true,
+            "reason": "automatic mesh subdivisions must be positive integers"
+          },
+          {
+            "name": "required:electronic_convergence",
+            "kind": "required",
+            "passed": true,
+            "reason": "0 < effective EDIFF <= 1e-05 eV (static)"
+          },
+          {
+            "name": "required:electronic_model",
+            "kind": "required",
+            "passed": true,
+            "reason": "effective semilocal GGA=pe"
+          },
+          {
+            "name": "required:kmesh",
+            "kind": "required",
+            "passed": true,
+            "reason": "mesh 24x14x1 meets frozen per-axis minima 10x5x1"
+          }
+        ]
+      },
+      "structure": {
+        "passed": true,
+        "species_counts_ok": true,
+        "lattice_ok": true,
+        "lattice": {
+          "len_rel_err": 0.0,
+          "ang_abs_err_deg": 0.0,
+          "abc_sub": [
+            2.51243,
+            4.35165,
+            30.0
+          ],
+          "abc_ref": [
+            2.51243,
+            4.35165,
+            30.0
+          ]
+        },
+        "site_match_ok": true,
+        "method": "fallback",
+        "max_site_disp_A": 7.765233051179652e-16,
+        "max_disp_threshold_A": 0.1,
+        "name": "structure:nu_0.250"
+      }
+    },
+    {
+      "label": "nu_0.333",
+      "passed": true,
+      "incar": {
+        "label": "nu_0.333",
+        "score": 1,
+        "checks": [
+          {
+            "name": "required:static",
+            "kind": "required",
+            "passed": true,
+            "reason": "NSW=0.0 IBRION=-1 ok (static)"
+          },
+          {
+            "name": "required:self_consistent_charge",
+            "kind": "required",
+            "passed": true,
+            "reason": "ICHARG=2 must use a documented charge-updating mode, not frozen density"
+          },
+          {
+            "name": "required:charge_start_files",
+            "kind": "required",
+            "passed": true,
+            "reason": "no charge/potential initialization file required by this check"
+          },
+          {
+            "name": "required:potential_output",
+            "kind": "required",
+            "passed": true,
+            "reason": "LVHAR writes ionic + Hartree potential"
+          },
+          {
+            "name": "required:LDIPOL",
+            "kind": "required",
+            "passed": true,
+            "reason": "LDIPOL=True (set) ok"
+          },
+          {
+            "name": "required:IDIPOL",
+            "kind": "required",
+            "passed": true,
+            "reason": "IDIPOL=3 (set) ok"
+          },
+          {
+            "name": "required:ENCUT",
+            "kind": "required",
+            "passed": true,
+            "reason": "ENCUT=520.0 >= 1*max_ENMAX=400 eV (B+N)"
+          },
+          {
+            "name": "required:smearing",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISMEAR=0 ok"
+          },
+          {
+            "name": "required:positive_mesh",
+            "kind": "required",
+            "passed": true,
+            "reason": "automatic mesh subdivisions must be positive integers"
+          },
+          {
+            "name": "required:electronic_convergence",
+            "kind": "required",
+            "passed": true,
+            "reason": "0 < effective EDIFF <= 1e-05 eV (static)"
+          },
+          {
+            "name": "required:electronic_model",
+            "kind": "required",
+            "passed": true,
+            "reason": "effective semilocal GGA=pe"
+          },
+          {
+            "name": "required:kmesh",
+            "kind": "required",
+            "passed": true,
+            "reason": "mesh 24x14x1 meets frozen per-axis minima 10x5x1"
+          }
+        ]
+      },
+      "structure": {
+        "passed": true,
+        "species_counts_ok": true,
+        "lattice_ok": true,
+        "lattice": {
+          "len_rel_err": 0.0,
+          "ang_abs_err_deg": 0.0,
+          "abc_sub": [
+            2.51243,
+            4.35165,
+            30.0
+          ],
+          "abc_ref": [
+            2.51243,
+            4.35165,
+            30.0
+          ]
+        },
+        "site_match_ok": true,
+        "method": "fallback",
+        "max_site_disp_A": 7.765233051179652e-16,
+        "max_disp_threshold_A": 0.1,
+        "name": "structure:nu_0.333"
+      }
+    },
+    {
+      "label": "nu_0.417",
+      "passed": true,
+      "incar": {
+        "label": "nu_0.417",
+        "score": 1,
+        "checks": [
+          {
+            "name": "required:static",
+            "kind": "required",
+            "passed": true,
+            "reason": "NSW=0.0 IBRION=-1 ok (static)"
+          },
+          {
+            "name": "required:self_consistent_charge",
+            "kind": "required",
+            "passed": true,
+            "reason": "ICHARG=2 must use a documented charge-updating mode, not frozen density"
+          },
+          {
+            "name": "required:charge_start_files",
+            "kind": "required",
+            "passed": true,
+            "reason": "no charge/potential initialization file required by this check"
+          },
+          {
+            "name": "required:potential_output",
+            "kind": "required",
+            "passed": true,
+            "reason": "LVHAR writes ionic + Hartree potential"
+          },
+          {
+            "name": "required:LDIPOL",
+            "kind": "required",
+            "passed": true,
+            "reason": "LDIPOL=True (set) ok"
+          },
+          {
+            "name": "required:IDIPOL",
+            "kind": "required",
+            "passed": true,
+            "reason": "IDIPOL=3 (set) ok"
+          },
+          {
+            "name": "required:ENCUT",
+            "kind": "required",
+            "passed": true,
+            "reason": "ENCUT=520.0 >= 1*max_ENMAX=400 eV (B+N)"
+          },
+          {
+            "name": "required:smearing",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISMEAR=0 ok"
+          },
+          {
+            "name": "required:positive_mesh",
+            "kind": "required",
+            "passed": true,
+            "reason": "automatic mesh subdivisions must be positive integers"
+          },
+          {
+            "name": "required:electronic_convergence",
+            "kind": "required",
+            "passed": true,
+            "reason": "0 < effective EDIFF <= 1e-05 eV (static)"
+          },
+          {
+            "name": "required:electronic_model",
+            "kind": "required",
+            "passed": true,
+            "reason": "effective semilocal GGA=pe"
+          },
+          {
+            "name": "required:kmesh",
+            "kind": "required",
+            "passed": true,
+            "reason": "mesh 24x14x1 meets frozen per-axis minima 10x5x1"
+          }
+        ]
+      },
+      "structure": {
+        "passed": true,
+        "species_counts_ok": true,
+        "lattice_ok": true,
+        "lattice": {
+          "len_rel_err": 0.0,
+          "ang_abs_err_deg": 0.0,
+          "abc_sub": [
+            2.51243,
+            4.35165,
+            30.0
+          ],
+          "abc_ref": [
+            2.51243,
+            4.35165,
+            30.0
+          ]
+        },
+        "site_match_ok": true,
+        "method": "fallback",
+        "max_site_disp_A": 5.578709103981144e-16,
+        "max_disp_threshold_A": 0.1,
+        "name": "structure:nu_0.417"
+      }
+    },
+    {
+      "label": "nu_0.500",
+      "passed": true,
+      "incar": {
+        "label": "nu_0.500",
+        "score": 1,
+        "checks": [
+          {
+            "name": "required:static",
+            "kind": "required",
+            "passed": true,
+            "reason": "NSW=0.0 IBRION=-1 ok (static)"
+          },
+          {
+            "name": "required:self_consistent_charge",
+            "kind": "required",
+            "passed": true,
+            "reason": "ICHARG=2 must use a documented charge-updating mode, not frozen density"
+          },
+          {
+            "name": "required:charge_start_files",
+            "kind": "required",
+            "passed": true,
+            "reason": "no charge/potential initialization file required by this check"
+          },
+          {
+            "name": "required:potential_output",
+            "kind": "required",
+            "passed": true,
+            "reason": "LVHAR writes ionic + Hartree potential"
+          },
+          {
+            "name": "required:LDIPOL",
+            "kind": "required",
+            "passed": true,
+            "reason": "LDIPOL=True (set) ok"
+          },
+          {
+            "name": "required:IDIPOL",
+            "kind": "required",
+            "passed": true,
+            "reason": "IDIPOL=3 (set) ok"
+          },
+          {
+            "name": "required:ENCUT",
+            "kind": "required",
+            "passed": true,
+            "reason": "ENCUT=520.0 >= 1*max_ENMAX=400 eV (B+N)"
+          },
+          {
+            "name": "required:smearing",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISMEAR=0 ok"
+          },
+          {
+            "name": "required:positive_mesh",
+            "kind": "required",
+            "passed": true,
+            "reason": "automatic mesh subdivisions must be positive integers"
+          },
+          {
+            "name": "required:electronic_convergence",
+            "kind": "required",
+            "passed": true,
+            "reason": "0 < effective EDIFF <= 1e-05 eV (static)"
+          },
+          {
+            "name": "required:electronic_model",
+            "kind": "required",
+            "passed": true,
+            "reason": "effective semilocal GGA=pe"
+          },
+          {
+            "name": "required:kmesh",
+            "kind": "required",
+            "passed": true,
+            "reason": "mesh 24x14x1 meets frozen per-axis minima 10x5x1"
+          }
+        ]
+      },
+      "structure": {
+        "passed": true,
+        "species_counts_ok": true,
+        "lattice_ok": true,
+        "lattice": {
+          "len_rel_err": 0.0,
+          "ang_abs_err_deg": 0.0,
+          "abc_sub": [
+            2.51243,
+            4.35165,
+            30.0
+          ],
+          "abc_ref": [
+            2.51243,
+            4.35165,
+            30.0
+          ]
+        },
+        "site_match_ok": true,
+        "method": "fallback",
+        "max_site_disp_A": 5.578709103981144e-16,
+        "max_disp_threshold_A": 0.1,
+        "name": "structure:nu_0.500"
+      }
+    },
+    {
+      "label": "nu_0.583",
+      "passed": true,
+      "incar": {
+        "label": "nu_0.583",
+        "score": 1,
+        "checks": [
+          {
+            "name": "required:static",
+            "kind": "required",
+            "passed": true,
+            "reason": "NSW=0.0 IBRION=-1 ok (static)"
+          },
+          {
+            "name": "required:self_consistent_charge",
+            "kind": "required",
+            "passed": true,
+            "reason": "ICHARG=2 must use a documented charge-updating mode, not frozen density"
+          },
+          {
+            "name": "required:charge_start_files",
+            "kind": "required",
+            "passed": true,
+            "reason": "no charge/potential initialization file required by this check"
+          },
+          {
+            "name": "required:potential_output",
+            "kind": "required",
+            "passed": true,
+            "reason": "LVHAR writes ionic + Hartree potential"
+          },
+          {
+            "name": "required:LDIPOL",
+            "kind": "required",
+            "passed": true,
+            "reason": "LDIPOL=True (set) ok"
+          },
+          {
+            "name": "required:IDIPOL",
+            "kind": "required",
+            "passed": true,
+            "reason": "IDIPOL=3 (set) ok"
+          },
+          {
+            "name": "required:ENCUT",
+            "kind": "required",
+            "passed": true,
+            "reason": "ENCUT=520.0 >= 1*max_ENMAX=400 eV (B+N)"
+          },
+          {
+            "name": "required:smearing",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISMEAR=0 ok"
+          },
+          {
+            "name": "required:positive_mesh",
+            "kind": "required",
+            "passed": true,
+            "reason": "automatic mesh subdivisions must be positive integers"
+          },
+          {
+            "name": "required:electronic_convergence",
+            "kind": "required",
+            "passed": true,
+            "reason": "0 < effective EDIFF <= 1e-05 eV (static)"
+          },
+          {
+            "name": "required:electronic_model",
+            "kind": "required",
+            "passed": true,
+            "reason": "effective semilocal GGA=pe"
+          },
+          {
+            "name": "required:kmesh",
+            "kind": "required",
+            "passed": true,
+            "reason": "mesh 24x14x1 meets frozen per-axis minima 10x5x1"
+          }
+        ]
+      },
+      "structure": {
+        "passed": true,
+        "species_counts_ok": true,
+        "lattice_ok": true,
+        "lattice": {
+          "len_rel_err": 0.0,
+          "ang_abs_err_deg": 0.0,
+          "abc_sub": [
+            2.51243,
+            4.35165,
+            30.0
+          ],
+          "abc_ref": [
+            2.51243,
+            4.35165,
+            30.0
+          ]
+        },
+        "site_match_ok": true,
+        "method": "fallback",
+        "max_site_disp_A": 1.0057158298462836e-15,
+        "max_disp_threshold_A": 0.1,
+        "name": "structure:nu_0.583"
+      }
+    },
+    {
+      "label": "nu_0.667",
+      "passed": true,
+      "incar": {
+        "label": "nu_0.667",
+        "score": 1,
+        "checks": [
+          {
+            "name": "required:static",
+            "kind": "required",
+            "passed": true,
+            "reason": "NSW=0.0 IBRION=-1 ok (static)"
+          },
+          {
+            "name": "required:self_consistent_charge",
+            "kind": "required",
+            "passed": true,
+            "reason": "ICHARG=2 must use a documented charge-updating mode, not frozen density"
+          },
+          {
+            "name": "required:charge_start_files",
+            "kind": "required",
+            "passed": true,
+            "reason": "no charge/potential initialization file required by this check"
+          },
+          {
+            "name": "required:potential_output",
+            "kind": "required",
+            "passed": true,
+            "reason": "LVHAR writes ionic + Hartree potential"
+          },
+          {
+            "name": "required:LDIPOL",
+            "kind": "required",
+            "passed": true,
+            "reason": "LDIPOL=True (set) ok"
+          },
+          {
+            "name": "required:IDIPOL",
+            "kind": "required",
+            "passed": true,
+            "reason": "IDIPOL=3 (set) ok"
+          },
+          {
+            "name": "required:ENCUT",
+            "kind": "required",
+            "passed": true,
+            "reason": "ENCUT=520.0 >= 1*max_ENMAX=400 eV (B+N)"
+          },
+          {
+            "name": "required:smearing",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISMEAR=0 ok"
+          },
+          {
+            "name": "required:positive_mesh",
+            "kind": "required",
+            "passed": true,
+            "reason": "automatic mesh subdivisions must be positive integers"
+          },
+          {
+            "name": "required:electronic_convergence",
+            "kind": "required",
+            "passed": true,
+            "reason": "0 < effective EDIFF <= 1e-05 eV (static)"
+          },
+          {
+            "name": "required:electronic_model",
+            "kind": "required",
+            "passed": true,
+            "reason": "effective semilocal GGA=pe"
+          },
+          {
+            "name": "required:kmesh",
+            "kind": "required",
+            "passed": true,
+            "reason": "mesh 24x14x1 meets frozen per-axis minima 10x5x1"
+          }
+        ]
+      },
+      "structure": {
+        "passed": true,
+        "species_counts_ok": true,
+        "lattice_ok": true,
+        "lattice": {
+          "len_rel_err": 0.0,
+          "ang_abs_err_deg": 0.0,
+          "abc_sub": [
+            2.51243,
+            4.35165,
+            30.0
+          ],
+          "abc_ref": [
+            2.51243,
+            4.35165,
+            30.0
+          ]
+        },
+        "site_match_ok": true,
+        "method": "fallback",
+        "max_site_disp_A": 9.662604050220125e-16,
+        "max_disp_threshold_A": 0.1,
+        "name": "structure:nu_0.667"
+      }
+    },
+    {
+      "label": "nu_0.750",
+      "passed": true,
+      "incar": {
+        "label": "nu_0.750",
+        "score": 1,
+        "checks": [
+          {
+            "name": "required:static",
+            "kind": "required",
+            "passed": true,
+            "reason": "NSW=0.0 IBRION=-1 ok (static)"
+          },
+          {
+            "name": "required:self_consistent_charge",
+            "kind": "required",
+            "passed": true,
+            "reason": "ICHARG=2 must use a documented charge-updating mode, not frozen density"
+          },
+          {
+            "name": "required:charge_start_files",
+            "kind": "required",
+            "passed": true,
+            "reason": "no charge/potential initialization file required by this check"
+          },
+          {
+            "name": "required:potential_output",
+            "kind": "required",
+            "passed": true,
+            "reason": "LVHAR writes ionic + Hartree potential"
+          },
+          {
+            "name": "required:LDIPOL",
+            "kind": "required",
+            "passed": true,
+            "reason": "LDIPOL=True (set) ok"
+          },
+          {
+            "name": "required:IDIPOL",
+            "kind": "required",
+            "passed": true,
+            "reason": "IDIPOL=3 (set) ok"
+          },
+          {
+            "name": "required:ENCUT",
+            "kind": "required",
+            "passed": true,
+            "reason": "ENCUT=520.0 >= 1*max_ENMAX=400 eV (B+N)"
+          },
+          {
+            "name": "required:smearing",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISMEAR=0 ok"
+          },
+          {
+            "name": "required:positive_mesh",
+            "kind": "required",
+            "passed": true,
+            "reason": "automatic mesh subdivisions must be positive integers"
+          },
+          {
+            "name": "required:electronic_convergence",
+            "kind": "required",
+            "passed": true,
+            "reason": "0 < effective EDIFF <= 1e-05 eV (static)"
+          },
+          {
+            "name": "required:electronic_model",
+            "kind": "required",
+            "passed": true,
+            "reason": "effective semilocal GGA=pe"
+          },
+          {
+            "name": "required:kmesh",
+            "kind": "required",
+            "passed": true,
+            "reason": "mesh 24x14x1 meets frozen per-axis minima 10x5x1"
+          }
+        ]
+      },
+      "structure": {
+        "passed": true,
+        "species_counts_ok": true,
+        "lattice_ok": true,
+        "lattice": {
+          "len_rel_err": 0.0,
+          "ang_abs_err_deg": 0.0,
+          "abc_sub": [
+            2.51243,
+            4.35165,
+            30.0
+          ],
+          "abc_ref": [
+            2.51243,
+            4.35165,
+            30.0
+          ]
+        },
+        "site_match_ok": true,
+        "method": "fallback",
+        "max_site_disp_A": 1.23961591378323e-15,
+        "max_disp_threshold_A": 0.1,
+        "name": "structure:nu_0.750"
+      }
+    },
+    {
+      "label": "nu_0.833",
+      "passed": true,
+      "incar": {
+        "label": "nu_0.833",
+        "score": 1,
+        "checks": [
+          {
+            "name": "required:static",
+            "kind": "required",
+            "passed": true,
+            "reason": "NSW=0.0 IBRION=-1 ok (static)"
+          },
+          {
+            "name": "required:self_consistent_charge",
+            "kind": "required",
+            "passed": true,
+            "reason": "ICHARG=2 must use a documented charge-updating mode, not frozen density"
+          },
+          {
+            "name": "required:charge_start_files",
+            "kind": "required",
+            "passed": true,
+            "reason": "no charge/potential initialization file required by this check"
+          },
+          {
+            "name": "required:potential_output",
+            "kind": "required",
+            "passed": true,
+            "reason": "LVHAR writes ionic + Hartree potential"
+          },
+          {
+            "name": "required:LDIPOL",
+            "kind": "required",
+            "passed": true,
+            "reason": "LDIPOL=True (set) ok"
+          },
+          {
+            "name": "required:IDIPOL",
+            "kind": "required",
+            "passed": true,
+            "reason": "IDIPOL=3 (set) ok"
+          },
+          {
+            "name": "required:ENCUT",
+            "kind": "required",
+            "passed": true,
+            "reason": "ENCUT=520.0 >= 1*max_ENMAX=400 eV (B+N)"
+          },
+          {
+            "name": "required:smearing",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISMEAR=0 ok"
+          },
+          {
+            "name": "required:positive_mesh",
+            "kind": "required",
+            "passed": true,
+            "reason": "automatic mesh subdivisions must be positive integers"
+          },
+          {
+            "name": "required:electronic_convergence",
+            "kind": "required",
+            "passed": true,
+            "reason": "0 < effective EDIFF <= 1e-05 eV (static)"
+          },
+          {
+            "name": "required:electronic_model",
+            "kind": "required",
+            "passed": true,
+            "reason": "effective semilocal GGA=pe"
+          },
+          {
+            "name": "required:kmesh",
+            "kind": "required",
+            "passed": true,
+            "reason": "mesh 24x14x1 meets frozen per-axis minima 10x5x1"
+          }
+        ]
+      },
+      "structure": {
+        "passed": true,
+        "species_counts_ok": true,
+        "lattice_ok": true,
+        "lattice": {
+          "len_rel_err": 0.0,
+          "ang_abs_err_deg": 0.0,
+          "abc_sub": [
+            2.51243,
+            4.35165,
+            30.0
+          ],
+          "abc_ref": [
+            2.51243,
+            4.35165,
+            30.0
+          ]
+        },
+        "site_match_ok": true,
+        "method": "fallback",
+        "max_site_disp_A": 5.578709103981144e-16,
+        "max_disp_threshold_A": 0.1,
+        "name": "structure:nu_0.833"
+      }
+    },
+    {
+      "label": "nu_0.917",
+      "passed": true,
+      "incar": {
+        "label": "nu_0.917",
+        "score": 1,
+        "checks": [
+          {
+            "name": "required:static",
+            "kind": "required",
+            "passed": true,
+            "reason": "NSW=0.0 IBRION=-1 ok (static)"
+          },
+          {
+            "name": "required:self_consistent_charge",
+            "kind": "required",
+            "passed": true,
+            "reason": "ICHARG=2 must use a documented charge-updating mode, not frozen density"
+          },
+          {
+            "name": "required:charge_start_files",
+            "kind": "required",
+            "passed": true,
+            "reason": "no charge/potential initialization file required by this check"
+          },
+          {
+            "name": "required:potential_output",
+            "kind": "required",
+            "passed": true,
+            "reason": "LVHAR writes ionic + Hartree potential"
+          },
+          {
+            "name": "required:LDIPOL",
+            "kind": "required",
+            "passed": true,
+            "reason": "LDIPOL=True (set) ok"
+          },
+          {
+            "name": "required:IDIPOL",
+            "kind": "required",
+            "passed": true,
+            "reason": "IDIPOL=3 (set) ok"
+          },
+          {
+            "name": "required:ENCUT",
+            "kind": "required",
+            "passed": true,
+            "reason": "ENCUT=520.0 >= 1*max_ENMAX=400 eV (B+N)"
+          },
+          {
+            "name": "required:smearing",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISMEAR=0 ok"
+          },
+          {
+            "name": "required:positive_mesh",
+            "kind": "required",
+            "passed": true,
+            "reason": "automatic mesh subdivisions must be positive integers"
+          },
+          {
+            "name": "required:electronic_convergence",
+            "kind": "required",
+            "passed": true,
+            "reason": "0 < effective EDIFF <= 1e-05 eV (static)"
+          },
+          {
+            "name": "required:electronic_model",
+            "kind": "required",
+            "passed": true,
+            "reason": "effective semilocal GGA=pe"
+          },
+          {
+            "name": "required:kmesh",
+            "kind": "required",
+            "passed": true,
+            "reason": "mesh 24x14x1 meets frozen per-axis minima 10x5x1"
+          }
+        ]
+      },
+      "structure": {
+        "passed": true,
+        "species_counts_ok": true,
+        "lattice_ok": true,
+        "lattice": {
+          "len_rel_err": 0.0,
+          "ang_abs_err_deg": 0.0,
+          "abc_sub": [
+            2.51243,
+            4.35165,
+            30.0
+          ],
+          "abc_ref": [
+            2.51243,
+            4.35165,
+            30.0
+          ]
+        },
+        "site_match_ok": true,
+        "method": "fallback",
+        "max_site_disp_A": 9.662604050220125e-16,
+        "max_disp_threshold_A": 0.1,
+        "name": "structure:nu_0.917"
+      }
+    }
+  ],
+  "campaign": {
+    "name": "campaign_electronic_model_consistency",
+    "passed": true,
+    "models": [
+      "pe",
+      "pe",
+      "pe",
+      "pe",
+      "pe",
+      "pe",
+      "pe",
+      "pe",
+      "pe",
+      "pe",
+      "pe",
+      "pe"
+    ],
+    "rule": "all required runs use the same accepted semilocal functional"
+  },
+  "extra_labels_ignored": []
+}
+SCORE: 1

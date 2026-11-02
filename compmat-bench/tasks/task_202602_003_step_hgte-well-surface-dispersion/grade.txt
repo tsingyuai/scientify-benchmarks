@@ -1,0 +1,61 @@
+{
+  "score": 1,
+  "checks": [
+    {
+      "passed": true,
+      "value": 10.726126140714008,
+      "truth": 10.706,
+      "abs_err": 0.020126140714008756,
+      "tol": 1.0706,
+      "rule": "+/-10% relative",
+      "name": "gap_k0_neg2e11_meV"
+    },
+    {
+      "passed": true,
+      "value": 4.907724794558288,
+      "truth": 4.888,
+      "abs_err": 0.019724794558287684,
+      "tol": 0.4888,
+      "rule": "+/-10% relative",
+      "name": "gap_k0_pos2e11_meV"
+    },
+    {
+      "passed": true,
+      "name": "anisotropy_contrast",
+      "anisotropy_neg2e11_meV": 3.170164901700133,
+      "anisotropy_pos2e11_meV": 0.6294841734716456,
+      "truth_neg": 3.17,
+      "truth_pos": 0.63,
+      "rule": "neg >= 2.0 meV AND pos >= 0 AND neg >= 3.0 x pos"
+    },
+    {
+      "passed": true,
+      "name": "z_extremes_neg2e11",
+      "zmax_nm": 16.045818045087852,
+      "zmin_nm": -3.115256934932747,
+      "spread_nm": 19.1610749800206,
+      "truth_zmax_nm": 16.0456,
+      "truth_zmin_nm": -3.1155,
+      "rule": "zmax > 0 AND zmin < 0 AND spread >= 7.5 nm"
+    },
+    {
+      "passed": true,
+      "name": "z_extremes_pos2e11",
+      "zmax_nm": 2.89476188053619,
+      "zmin_nm": -8.289134950380708,
+      "spread_nm": 11.183896830916899,
+      "truth_zmax_nm": 2.8954,
+      "truth_zmin_nm": -8.2894,
+      "rule": "zmax > 0 AND zmin < 0 AND spread >= 7.5 nm"
+    }
+  ],
+  "secondary_recorded_not_scored": {
+    "cnp0_neg2e11_meV": null,
+    "cnp0_pos2e11_meV": null,
+    "truth": {
+      "cnp0_neg2e11_meV": -33.743,
+      "cnp0_pos2e11_meV": 23.077
+    }
+  }
+}
+SCORE: 1
