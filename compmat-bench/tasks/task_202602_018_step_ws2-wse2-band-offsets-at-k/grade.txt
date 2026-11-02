@@ -1,0 +1,60 @@
+{
+  "score": 1,
+  "checks": [
+    {
+      "passed": true,
+      "value": 847.0,
+      "truth": 847.0,
+      "abs_err": 0.0,
+      "tol": 84.7,
+      "rule": "+/-10% relative",
+      "name": "CBO_meV"
+    },
+    {
+      "passed": true,
+      "value": 623.1,
+      "truth": 623.1,
+      "abs_err": 0.0,
+      "tol": 62.31,
+      "rule": "+/-10% relative",
+      "name": "VBO_meV"
+    },
+    {
+      "passed": true,
+      "value": 0.7343,
+      "truth": 0.7343,
+      "abs_err": 0.0,
+      "tol": 0.07343,
+      "rule": "+/-10% relative",
+      "name": "direct_gap_at_K_eV"
+    },
+    {
+      "passed": true,
+      "name": "min_host_f",
+      "value": 0.9826241619920647,
+      "lower_bound": 0.9,
+      "rule": ">= 0.9 (2(5) exception: bounded ratio near 1, one-sided quenched-hybridization threshold)"
+    },
+    {
+      "passed": true,
+      "name": "labels",
+      "by_field": {
+        "alignment": true,
+        "cbm_layer": true,
+        "vbm_layer": true
+      },
+      "submitted": {
+        "alignment": "type-II",
+        "cbm_layer": "WS2",
+        "vbm_layer": "WSe2"
+      },
+      "truth": {
+        "alignment": "type-II",
+        "cbm_layer": "WS2",
+        "vbm_layer": "WSe2"
+      },
+      "rule": "exact string match, case-insensitive"
+    }
+  ]
+}
+SCORE: 1

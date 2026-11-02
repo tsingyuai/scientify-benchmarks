@@ -1,0 +1,58 @@
+{
+  "score": 1,
+  "checks": [
+    {
+      "passed": true,
+      "value": 0.748,
+      "truth": 0.7479,
+      "abs_err": 9.999999999998899e-05,
+      "tol": 0.07479000000000001,
+      "rule": "+/-10% relative",
+      "name": "gap_eV"
+    },
+    {
+      "passed": true,
+      "value": 4.588,
+      "truth": 4.4911,
+      "abs_err": 0.09689999999999976,
+      "tol": 0.44911000000000006,
+      "rule": "+/-10% relative",
+      "name": "mn_lsm_muB"
+    },
+    {
+      "passed": true,
+      "value": 0.8862,
+      "truth": 0.886,
+      "abs_err": 0.00019999999999997797,
+      "tol": 0.08860000000000001,
+      "rule": "+/-10% relative",
+      "name": "amss_valence_max_eV"
+    },
+    {
+      "passed": true,
+      "value": 0.31226,
+      "truth": 0.312,
+      "abs_err": 0.00025999999999998247,
+      "tol": 0.031200000000000002,
+      "rule": "+/-10% relative",
+      "name": "split_mean_LG_eV"
+    },
+    {
+      "passed": true,
+      "value": -0.3122675,
+      "truth": -0.312,
+      "abs_err": 0.0002674999999999761,
+      "tol": 0.031200000000000002,
+      "rule": "+/-10% relative",
+      "name": "split_mean_GLp_eV"
+    },
+    {
+      "passed": true,
+      "name": "sc_vbm_at_gamma",
+      "value": true,
+      "truth": true,
+      "rule": "exact boolean true"
+    }
+  ]
+}
+SCORE: 1

@@ -1,0 +1,195 @@
+{
+  "score": 1,
+  "checks": [
+    {
+      "passed": true,
+      "name": "energies_meV",
+      "per_k_point": {
+        "Gamma": {
+          "submitted": [
+            0.0,
+            0.0,
+            64.0435986497,
+            64.0435986497
+          ],
+          "truth": [
+            0.0,
+            0.0,
+            64.0436,
+            64.0436
+          ],
+          "max_abs_err_meV": 1.3502999962611284e-06
+        },
+        "X": {
+          "submitted": [
+            46.8633081759,
+            46.8633081759,
+            52.9905081759,
+            52.9905081759
+          ],
+          "truth": [
+            46.8633,
+            46.8633,
+            52.9905,
+            52.9905
+          ],
+          "max_abs_err_meV": 8.175899999685043e-06
+        },
+        "S": {
+          "submitted": [
+            65.4924,
+            65.4924,
+            65.4924,
+            65.4924
+          ],
+          "truth": [
+            65.4924,
+            65.4924,
+            65.4924,
+            65.4924
+          ],
+          "max_abs_err_meV": 0.0
+        },
+        "Y": {
+          "submitted": [
+            61.9513027853,
+            61.9513027853,
+            61.9513027853,
+            61.9513027853
+          ],
+          "truth": [
+            61.9513,
+            61.9513,
+            61.9513,
+            61.9513
+          ],
+          "max_abs_err_meV": 2.7852999977540094e-06
+        },
+        "Z": {
+          "submitted": [
+            74.6834036118,
+            74.6834036118,
+            74.6834036118,
+            74.6834036118
+          ],
+          "truth": [
+            74.6834,
+            74.6834,
+            74.6834,
+            74.6834
+          ],
+          "max_abs_err_meV": 3.6117999968610093e-06
+        },
+        "U": {
+          "submitted": [
+            77.646,
+            77.646,
+            77.646,
+            77.646
+          ],
+          "truth": [
+            77.646,
+            77.646,
+            77.646,
+            77.646
+          ],
+          "max_abs_err_meV": 0.0
+        },
+        "T": {
+          "submitted": [
+            61.9513027853,
+            61.9513027853,
+            61.9513027853,
+            61.9513027853
+          ],
+          "truth": [
+            61.951303,
+            61.951303,
+            61.951303,
+            61.951303
+          ],
+          "max_abs_err_meV": 2.147000017771461e-07
+        },
+        "R": {
+          "submitted": [
+            65.4924,
+            65.4924,
+            65.4924,
+            65.4924
+          ],
+          "truth": [
+            65.4924,
+            65.4924,
+            65.4924,
+            65.4924
+          ],
+          "max_abs_err_meV": 0.0
+        },
+        "P": {
+          "submitted": [
+            63.5688843254,
+            63.5688843254,
+            66.6324843254,
+            66.6324843254
+          ],
+          "truth": [
+            63.568884,
+            63.568884,
+            66.632484,
+            66.632484
+          ],
+          "max_abs_err_meV": 3.2540000205472097e-07
+        }
+      },
+      "n_points": 36,
+      "n_fail": 0,
+      "worst_i": 4,
+      "rule": "per-point +/-10% with floor",
+      "failures": [],
+      "floor_meV": 7.7646
+    },
+    {
+      "passed": true,
+      "name": "splitting_X_meV",
+      "band": [
+        5.51448,
+        6.73992
+      ],
+      "value": 6.1272,
+      "truth": 6.1272,
+      "abs_err": 0.0,
+      "tol": 0.61272,
+      "rule": "+/-10% relative"
+    }
+  ],
+  "diagnostics": {
+    "note": "recorded, not scored (handbook 1(2)); ours in ground_truth.json",
+    "fourfold_degeneracy": {
+      "S": {
+        "span_meV": 0.0,
+        "fourfold": true
+      },
+      "Y": {
+        "span_meV": 0.0,
+        "fourfold": true
+      },
+      "Z": {
+        "span_meV": 0.0,
+        "fourfold": true
+      }
+    },
+    "gamma_zero_pair": {
+      "two_lowest_meV": [
+        0.0,
+        0.0
+      ],
+      "both_zero_within_tol": true
+    },
+    "splitting_consistency": {
+      "submitted_splitting_meV": 6.1272,
+      "span_of_submitted_X_row_meV": 6.127199999999995,
+      "consistent": true
+    }
+  }
+}
+SCORE: 1

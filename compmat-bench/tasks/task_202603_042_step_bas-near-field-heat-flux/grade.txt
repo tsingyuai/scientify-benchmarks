@@ -1,0 +1,276 @@
+{
+  "score": 1,
+  "checks": [
+    {
+      "passed": true,
+      "name": "format.Q_symmetric_W_m2_positive",
+      "value": {
+        "n_nonpositive": 0,
+        "indices": []
+      },
+      "truth": "all 14 entries > 0",
+      "tol": null,
+      "rule": "finite and positive"
+    },
+    {
+      "passed": true,
+      "name": "format.Q_cold_pure11B_W_m2_positive",
+      "value": {
+        "n_nonpositive": 0,
+        "indices": []
+      },
+      "truth": "all 14 entries > 0",
+      "tol": null,
+      "rule": "finite and positive"
+    },
+    {
+      "passed": true,
+      "name": "format.Q_cold_natural_W_m2_positive",
+      "value": {
+        "n_nonpositive": 0,
+        "indices": []
+      },
+      "truth": "all 14 entries > 0",
+      "tol": null,
+      "rule": "finite and positive"
+    },
+    {
+      "passed": true,
+      "name": "format.n10_min_Q_symmetric_consistent",
+      "value": 102,
+      "truth": [
+        102
+      ],
+      "tol": 1e-06,
+      "rule": "n10 of any minimiser of the submitted Q_symmetric tied within 1e-6 relative"
+    },
+    {
+      "passed": true,
+      "name": "format.n10_max_Q_cold_natural_consistent",
+      "value": 26,
+      "truth": [
+        26
+      ],
+      "tol": 1e-06,
+      "rule": "n10 of any maximiser of the submitted Q_cold_natural tied within 1e-6 relative"
+    },
+    {
+      "passed": true,
+      "name": "pair_consistency.n10_0_symmetric_vs_cold_pure11B",
+      "value": {
+        "a": 94642.05557609613,
+        "b": 94642.05557609613,
+        "rel_diff": 0.0
+      },
+      "truth": "identical",
+      "tol": 1e-06,
+      "rule": "the two series share this pair"
+    },
+    {
+      "passed": true,
+      "name": "pair_consistency.n10_51_symmetric_vs_cold_natural",
+      "value": {
+        "a": 45821.82481209753,
+        "b": 45821.82481209753,
+        "rel_diff": 0.0
+      },
+      "truth": "identical",
+      "tol": 1e-06,
+      "rule": "the two series share this pair"
+    },
+    {
+      "passed": true,
+      "name": "G6.argmin_x_interior",
+      "value": {
+        "n10": 102,
+        "x": 0.3984375,
+        "Q_min": 38584.3304916575
+      },
+      "truth": 102,
+      "tol": [
+        0.15,
+        0.85
+      ],
+      "rule": "x = n10/256 inside [0.15, 0.85] (handbook 2(7))"
+    },
+    {
+      "passed": true,
+      "name": "G6.pure_ends_above_minimum",
+      "value": {
+        "Q_at_n10_0": 94642.05557609613,
+        "Q_at_n10_256": 95343.30458178971,
+        "Q_min": 38584.3304916575
+      },
+      "truth": "both ends strictly above the minimum",
+      "tol": null,
+      "rule": "strict inequalities carrying the U shape"
+    },
+    {
+      "passed": true,
+      "name": "G7.U_depth",
+      "value": 0.40768694484487505,
+      "truth": 0.407687576408805,
+      "tol": [
+        0.35,
+        0.6
+      ],
+      "rule": "min(Q_symmetric)/Q_symmetric[n10=0] in band, inclusive"
+    },
+    {
+      "passed": true,
+      "value": 693.8,
+      "truth": 691.1701,
+      "abs_err": 2.629899999999907,
+      "tol": 10.0,
+      "rule": "within 10 cm^-1 of our pure TO frequency",
+      "name": "G8.peak_nu_pure11B_cm1"
+    },
+    {
+      "passed": true,
+      "value": 723.27,
+      "truth": 720.5293,
+      "abs_err": 2.740699999999947,
+      "tol": 10.0,
+      "rule": "within 10 cm^-1 of our pure TO frequency",
+      "name": "G8.peak_nu_pure10B_cm1"
+    },
+    {
+      "passed": true,
+      "name": "G8.peak_ordering",
+      "value": {
+        "pure11B": 693.8,
+        "pure10B": 723.27
+      },
+      "truth": "pure 11B peak strictly below pure 10B peak",
+      "tol": null,
+      "rule": "the 29.36 cm^-1 isotope splitting, sign fixed"
+    },
+    {
+      "passed": true,
+      "name": "G9.peak_height_ratio",
+      "value": 22.58668424335555,
+      "truth": 22.586688856368564,
+      "tol": [
+        10.0,
+        60.0
+      ],
+      "rule": "peak q of 11B/11B over nat/nat, band inclusive"
+    },
+    {
+      "passed": true,
+      "name": "G10.cold_pure11B_non_increasing",
+      "value": {
+        "n_rises": 0,
+        "rises": []
+      },
+      "truth": {
+        "n_violations": 0,
+        "least_negative_step_percent": -0.092
+      },
+      "tol": {
+        "max_rises": 1,
+        "max_rel_rise": 0.005
+      },
+      "rule": "at most one increase, below 0.5 percent of the value it rises from"
+    },
+    {
+      "passed": true,
+      "name": "G11.argmax_n10_interval",
+      "value": {
+        "n10": 26,
+        "x": 0.1015625,
+        "Q_at_argmax": 48265.51427676296
+      },
+      "truth": 26,
+      "tol": [
+        5,
+        26
+      ],
+      "rule": "closed n10 interval [5, 26] (handbook 2(7))"
+    },
+    {
+      "passed": true,
+      "name": "G11.argmax_above_n10_51",
+      "value": {
+        "Q_at_argmax": 48265.51427676296,
+        "Q_at_n10_51": 45821.82481209753
+      },
+      "truth": "strictly above the nat/nat pair",
+      "tol": null,
+      "rule": "strict inequality"
+    },
+    {
+      "passed": true,
+      "name": "G11.argmax_above_n10_0",
+      "value": {
+        "Q_at_argmax": 48265.51427676296,
+        "Q_at_n10_0": 43329.35563773719
+      },
+      "truth": "strictly above the pure-11B hot side",
+      "tol": null,
+      "rule": "strict inequality"
+    },
+    {
+      "passed": true,
+      "name": "G12.dip_below_baseline",
+      "value": 0.3049975996481447,
+      "truth": 0.3050159497773446,
+      "tol": [
+        0.0,
+        0.85
+      ],
+      "rule": "nonnegative and strictly below 0.85"
+    }
+  ],
+  "recorded_not_graded": {
+    "Q_symmetric_W_m2": [
+      94642.05557609613,
+      89364.39715544859,
+      85702.60246645284,
+      83137.4606191395,
+      79302.60131614462,
+      63694.432731204215,
+      45821.82481209753,
+      38584.3304916575,
+      39425.7787309484,
+      44126.56374017277,
+      50638.579179404005,
+      59440.21428416236,
+      74066.54363977871,
+      95343.30458178971
+    ],
+    "Q_cold_pure11B_W_m2": [
+      94642.05557609613,
+      88715.72218941958,
+      84682.12018491552,
+      81821.93284225764,
+      77464.04235338462,
+      60645.23377014589,
+      42221.09122711464,
+      30960.60111836781,
+      30409.977137865208,
+      29786.62360298667,
+      29534.323380632944,
+      29440.50903670478,
+      29411.956738365494,
+      29382.279555113204
+    ],
+    "Q_cold_natural_W_m2": [
+      43329.35563773719,
+      44789.42568894848,
+      45575.162854598995,
+      46051.8095986895,
+      46691.17735485863,
+      48265.51427676296,
+      45821.82481209753,
+      35794.46945353046,
+      33348.04827737988,
+      32685.48888462656,
+      31986.93008104374,
+      31499.19663635239,
+      31276.976436257137,
+      31186.931322694625
+    ]
+  }
+}
+SCORE: 1

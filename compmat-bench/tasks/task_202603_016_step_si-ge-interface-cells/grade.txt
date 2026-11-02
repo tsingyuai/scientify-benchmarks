@@ -1,0 +1,88 @@
+{
+  "score": 1,
+  "checks": [
+    {
+      "passed": true,
+      "species_counts_ok": true,
+      "lattice_ok": true,
+      "lattice": {
+        "len_rel_err": 0.0,
+        "ang_abs_err_deg": 0.0,
+        "abc_sub": [
+          32.58419892,
+          16.29209946,
+          16.29209946
+        ],
+        "abc_ref": [
+          32.58419892,
+          16.29209946,
+          16.29209946
+        ]
+      },
+      "site_match_ok": true,
+      "method": "matcher",
+      "max_disp_threshold_A": 0.1,
+      "name": "POSCAR_central",
+      "translation_only_max_site_disp_A": 4.4306037189826676e-15,
+      "displacement_diagnostic_note": "Translation-only auxiliary distance; not the residual used by the symmetry-aware site_match_ok decision."
+    },
+    {
+      "passed": true,
+      "species_counts_ok": true,
+      "lattice_ok": true,
+      "lattice": {
+        "len_rel_err": 0.0,
+        "ang_abs_err_deg": 0.0,
+        "abc_sub": [
+          16.29209946,
+          16.29209946,
+          16.29209946
+        ],
+        "abc_ref": [
+          16.29209946,
+          16.29209946,
+          16.29209946
+        ]
+      },
+      "site_match_ok": true,
+      "method": "matcher",
+      "max_disp_threshold_A": 0.1,
+      "name": "POSCAR_lead_Si",
+      "translation_only_max_site_disp_A": 3.132909934442981e-15,
+      "displacement_diagnostic_note": "Translation-only auxiliary distance; not the residual used by the symmetry-aware site_match_ok decision."
+    },
+    {
+      "passed": true,
+      "species_counts_ok": true,
+      "lattice_ok": true,
+      "lattice": {
+        "len_rel_err": 0.0,
+        "ang_abs_err_deg": 0.0,
+        "abc_sub": [
+          16.29209946,
+          16.29209946,
+          16.29209946
+        ],
+        "abc_ref": [
+          16.29209946,
+          16.29209946,
+          16.29209946
+        ]
+      },
+      "site_match_ok": true,
+      "method": "matcher",
+      "max_disp_threshold_A": 0.1,
+      "name": "POSCAR_lead_Ge",
+      "translation_only_max_site_disp_A": 3.132909934442981e-15,
+      "displacement_diagnostic_note": "Translation-only auxiliary distance; not the residual used by the symmetry-aware site_match_ok decision."
+    },
+    {
+      "passed": true,
+      "value": 72,
+      "truth": 72,
+      "rule": "exact int",
+      "name": "n_SiGe_bonds_central"
+    }
+  ]
+}
+SCORE: 1

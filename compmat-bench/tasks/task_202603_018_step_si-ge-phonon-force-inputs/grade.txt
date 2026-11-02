@@ -1,0 +1,311 @@
+{
+  "score": 1,
+  "runs": [
+    {
+      "label": "Si_harmonic",
+      "passed": true,
+      "incar": {
+        "label": "Si_harmonic",
+        "score": 1,
+        "checks": [
+          {
+            "name": "required:static",
+            "kind": "required",
+            "passed": true,
+            "reason": "NSW=0.0 IBRION=-1 ok (static)"
+          },
+          {
+            "name": "required:ENCUT",
+            "kind": "required",
+            "passed": true,
+            "reason": "ENCUT=400.0 >= 1*max_ENMAX=246 eV (Si)"
+          },
+          {
+            "name": "required:EDIFF",
+            "kind": "required",
+            "passed": true,
+            "reason": "EDIFF=1e-08 (set) ok"
+          },
+          {
+            "name": "required:smearing",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISMEAR=0 accepted for this gapped force calculation"
+          },
+          {
+            "name": "required:functional",
+            "kind": "required",
+            "passed": true,
+            "reason": "GGA=Ca ok"
+          },
+          {
+            "name": "required:kmesh",
+            "kind": "required",
+            "passed": true,
+            "reason": "mesh [3, 3, 3] (Gamma) meets the floor (1, 1, 1) per axis"
+          },
+          {
+            "name": "required:poscar_species",
+            "kind": "required",
+            "passed": true,
+            "reason": "species {'Si': 128} ok"
+          }
+        ]
+      },
+      "structure": {
+        "passed": true,
+        "species_counts_ok": true,
+        "lattice_ok": true,
+        "lattice": {
+          "len_rel_err": 0.0,
+          "ang_abs_err_deg": 0.0,
+          "abc_sub": [
+            15.360338677242252,
+            15.360338677242252,
+            15.360338677242252
+          ],
+          "abc_ref": [
+            15.360338677242252,
+            15.360338677242252,
+            15.360338677242252
+          ]
+        },
+        "site_match_ok": true,
+        "method": "matcher",
+        "max_site_disp_A": 0.0,
+        "max_disp_threshold_A": 0.001,
+        "name": "structure:Si_harmonic"
+      }
+    },
+    {
+      "label": "Si_third_order",
+      "passed": true,
+      "incar": {
+        "label": "Si_third_order",
+        "score": 1,
+        "checks": [
+          {
+            "name": "required:static",
+            "kind": "required",
+            "passed": true,
+            "reason": "NSW=0.0 IBRION=-1 ok (static)"
+          },
+          {
+            "name": "required:ENCUT",
+            "kind": "required",
+            "passed": true,
+            "reason": "ENCUT=400.0 >= 1*max_ENMAX=246 eV (Si)"
+          },
+          {
+            "name": "required:EDIFF",
+            "kind": "required",
+            "passed": true,
+            "reason": "EDIFF=1e-08 (set) ok"
+          },
+          {
+            "name": "required:smearing",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISMEAR=0 accepted for this gapped force calculation"
+          },
+          {
+            "name": "required:functional",
+            "kind": "required",
+            "passed": true,
+            "reason": "GGA=Ca ok"
+          },
+          {
+            "name": "required:kmesh",
+            "kind": "required",
+            "passed": true,
+            "reason": "mesh [2, 2, 2] (Gamma) meets the floor (1, 1, 1) per axis"
+          },
+          {
+            "name": "required:poscar_species",
+            "kind": "required",
+            "passed": true,
+            "reason": "species {'Si': 128} ok"
+          }
+        ]
+      },
+      "structure": {
+        "passed": true,
+        "species_counts_ok": true,
+        "lattice_ok": true,
+        "lattice": {
+          "len_rel_err": 0.0,
+          "ang_abs_err_deg": 0.0,
+          "abc_sub": [
+            15.360338677242252,
+            15.360338677242252,
+            15.360338677242252
+          ],
+          "abc_ref": [
+            15.360338677242252,
+            15.360338677242252,
+            15.360338677242252
+          ]
+        },
+        "site_match_ok": true,
+        "method": "matcher",
+        "max_site_disp_A": 0.0,
+        "max_disp_threshold_A": 0.001,
+        "name": "structure:Si_third_order"
+      }
+    },
+    {
+      "label": "Ge_harmonic",
+      "passed": true,
+      "incar": {
+        "label": "Ge_harmonic",
+        "score": 1,
+        "checks": [
+          {
+            "name": "required:static",
+            "kind": "required",
+            "passed": true,
+            "reason": "NSW=0.0 IBRION=-1 ok (static)"
+          },
+          {
+            "name": "required:ENCUT",
+            "kind": "required",
+            "passed": true,
+            "reason": "ENCUT=400.0 >= 1*max_ENMAX=174 eV (Ge)"
+          },
+          {
+            "name": "required:EDIFF",
+            "kind": "required",
+            "passed": true,
+            "reason": "EDIFF=1e-08 (set) ok"
+          },
+          {
+            "name": "required:smearing",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISMEAR=0 accepted for this gapped force calculation"
+          },
+          {
+            "name": "required:functional",
+            "kind": "required",
+            "passed": true,
+            "reason": "GGA=Ca ok"
+          },
+          {
+            "name": "required:kmesh",
+            "kind": "required",
+            "passed": true,
+            "reason": "mesh [3, 3, 3] (Gamma) meets the floor (1, 1, 1) per axis"
+          },
+          {
+            "name": "required:poscar_species",
+            "kind": "required",
+            "passed": true,
+            "reason": "species {'Ge': 128} ok"
+          }
+        ]
+      },
+      "structure": {
+        "passed": true,
+        "species_counts_ok": true,
+        "lattice_ok": true,
+        "lattice": {
+          "len_rel_err": 0.0,
+          "ang_abs_err_deg": 0.0,
+          "abc_sub": [
+            15.360338677242252,
+            15.360338677242252,
+            15.360338677242252
+          ],
+          "abc_ref": [
+            15.360338677242252,
+            15.360338677242252,
+            15.360338677242252
+          ]
+        },
+        "site_match_ok": true,
+        "method": "matcher",
+        "max_site_disp_A": 0.0,
+        "max_disp_threshold_A": 0.001,
+        "name": "structure:Ge_harmonic"
+      }
+    },
+    {
+      "label": "Ge_third_order",
+      "passed": true,
+      "incar": {
+        "label": "Ge_third_order",
+        "score": 1,
+        "checks": [
+          {
+            "name": "required:static",
+            "kind": "required",
+            "passed": true,
+            "reason": "NSW=0.0 IBRION=-1 ok (static)"
+          },
+          {
+            "name": "required:ENCUT",
+            "kind": "required",
+            "passed": true,
+            "reason": "ENCUT=400.0 >= 1*max_ENMAX=174 eV (Ge)"
+          },
+          {
+            "name": "required:EDIFF",
+            "kind": "required",
+            "passed": true,
+            "reason": "EDIFF=1e-08 (set) ok"
+          },
+          {
+            "name": "required:smearing",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISMEAR=0 accepted for this gapped force calculation"
+          },
+          {
+            "name": "required:functional",
+            "kind": "required",
+            "passed": true,
+            "reason": "GGA=Ca ok"
+          },
+          {
+            "name": "required:kmesh",
+            "kind": "required",
+            "passed": true,
+            "reason": "mesh [2, 2, 2] (Gamma) meets the floor (1, 1, 1) per axis"
+          },
+          {
+            "name": "required:poscar_species",
+            "kind": "required",
+            "passed": true,
+            "reason": "species {'Ge': 128} ok"
+          }
+        ]
+      },
+      "structure": {
+        "passed": true,
+        "species_counts_ok": true,
+        "lattice_ok": true,
+        "lattice": {
+          "len_rel_err": 0.0,
+          "ang_abs_err_deg": 0.0,
+          "abc_sub": [
+            15.360338677242252,
+            15.360338677242252,
+            15.360338677242252
+          ],
+          "abc_ref": [
+            15.360338677242252,
+            15.360338677242252,
+            15.360338677242252
+          ]
+        },
+        "site_match_ok": true,
+        "method": "matcher",
+        "max_site_disp_A": 0.0,
+        "max_disp_threshold_A": 0.001,
+        "name": "structure:Ge_third_order"
+      }
+    }
+  ],
+  "extra_labels_ignored": []
+}
+SCORE: 1

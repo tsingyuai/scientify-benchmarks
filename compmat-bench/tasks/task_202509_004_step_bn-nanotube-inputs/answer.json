@@ -1,0 +1,6 @@
+{
+  "runs": {
+    "relax": "answer/relax",
+    "static": "answer/static"
+  }
+}

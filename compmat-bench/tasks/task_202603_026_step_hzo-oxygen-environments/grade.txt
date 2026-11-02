@@ -1,0 +1,139 @@
+{
+  "score": 1,
+  "checks": [
+    {
+      "passed": true,
+      "name": "site_environments",
+      "rows": 64,
+      "distinct_sites": 64,
+      "wrong_labels": 0,
+      "problems": [],
+      "rule": "64 rows, exact labels"
+    },
+    {
+      "passed": true,
+      "value": 3,
+      "truth": 3,
+      "rule": "exact int",
+      "name": "class_counts[4Hf]"
+    },
+    {
+      "passed": true,
+      "value": 9,
+      "truth": 9,
+      "rule": "exact int",
+      "name": "class_counts[3Hf1Zr]"
+    },
+    {
+      "passed": true,
+      "value": 8,
+      "truth": 8,
+      "rule": "exact int",
+      "name": "class_counts[2Hf2Zr]"
+    },
+    {
+      "passed": true,
+      "value": 9,
+      "truth": 9,
+      "rule": "exact int",
+      "name": "class_counts[1Hf3Zr]"
+    },
+    {
+      "passed": true,
+      "value": 3,
+      "truth": 3,
+      "rule": "exact int",
+      "name": "class_counts[4Zr]"
+    },
+    {
+      "passed": true,
+      "value": 6,
+      "truth": 6,
+      "rule": "exact int",
+      "name": "class_counts[3Hf]"
+    },
+    {
+      "passed": true,
+      "value": 10,
+      "truth": 10,
+      "rule": "exact int",
+      "name": "class_counts[2Hf1Zr]"
+    },
+    {
+      "passed": true,
+      "value": 10,
+      "truth": 10,
+      "rule": "exact int",
+      "name": "class_counts[1Hf2Zr]"
+    },
+    {
+      "passed": true,
+      "value": 6,
+      "truth": 6,
+      "rule": "exact int",
+      "name": "class_counts[3Zr]"
+    },
+    {
+      "passed": true,
+      "value": 0.05811904689726299,
+      "truth": 0.0581,
+      "abs_err": 1.904689726298786e-05,
+      "tol": 0.00581,
+      "rule": "+/-10% relative",
+      "name": "displacement_max_doped_A"
+    },
+    {
+      "passed": true,
+      "value": 0.02496112456472419,
+      "truth": 0.025,
+      "abs_err": 3.8875435275812636e-05,
+      "tol": 0.0025000000000000005,
+      "rule": "+/-10% relative",
+      "name": "displacement_rms_doped_A"
+    },
+    {
+      "passed": true,
+      "value": 0.00819429143366963,
+      "truth": 0.0082,
+      "abs_err": 5.708566330369855e-06,
+      "tol": 0.0008200000000000001,
+      "rule": "+/-10% relative",
+      "name": "displacement_max_undoped_A"
+    },
+    {
+      "passed": true,
+      "value": 0.0057418310291778825,
+      "truth": 0.0057,
+      "abs_err": 4.183102917788232e-05,
+      "tol": 0.0005700000000000001,
+      "rule": "+/-10% relative",
+      "name": "displacement_rms_undoped_A"
+    },
+    {
+      "passed": true,
+      "value": 2.2456873564448054,
+      "truth": 2.2457,
+      "abs_err": 1.2643555194369327e-05,
+      "tol": 0.01,
+      "rule": "absolute",
+      "name": "longest_bond_A"
+    },
+    {
+      "passed": true,
+      "value": 3.26379318191023,
+      "truth": 3.2638,
+      "abs_err": 6.8180897696557e-06,
+      "tol": 0.01,
+      "rule": "absolute",
+      "name": "closest_nonbonded_cation_A"
+    },
+    {
+      "passed": true,
+      "value": 29,
+      "truth": 29,
+      "rule": "exact int",
+      "name": "space_group_number_undoped_relaxed"
+    }
+  ]
+}
+SCORE: 1

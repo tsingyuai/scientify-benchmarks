@@ -1,0 +1,78 @@
+{
+  "score": 1,
+  "checks": [
+    {
+      "passed": true,
+      "value": 62.82509311443192,
+      "truth": 62.82509311443192,
+      "abs_err": 0.0,
+      "tol": 6.282509311443192,
+      "rule": "+/-10% relative",
+      "name": "kappa_eff_Si_100nm_W_per_mK"
+    },
+    {
+      "passed": true,
+      "value": 0.47693725920894725,
+      "truth": 0.47693725920893826,
+      "abs_err": 8.992806499463768e-15,
+      "tol": 0.047693725920893826,
+      "rule": "+/-10% relative",
+      "name": "interior_drop_fraction_Si_100nm"
+    },
+    {
+      "passed": true,
+      "value": 226.26439990664295,
+      "truth": 226.26439990664295,
+      "abs_err": 0.0,
+      "tol": 22.626439990664295,
+      "rule": "+/-10% relative",
+      "name": "kappa_eff_Si_2000nm_W_per_mK"
+    },
+    {
+      "passed": true,
+      "value": 0.8363592592915083,
+      "truth": 0.8363592592915381,
+      "abs_err": 2.9753977059954195e-14,
+      "tol": 0.08363592592915381,
+      "rule": "+/-10% relative",
+      "name": "interior_drop_fraction_Si_2000nm"
+    },
+    {
+      "passed": true,
+      "value": 43.03231442773509,
+      "truth": 43.03231442773508,
+      "abs_err": 7.105427357601002e-15,
+      "tol": 4.303231442773508,
+      "rule": "+/-10% relative",
+      "name": "kappa_eff_Ge_100nm_W_per_mK"
+    },
+    {
+      "passed": true,
+      "value": 0.5580642721532195,
+      "truth": 0.5580642721532569,
+      "abs_err": 3.7414515929867775e-14,
+      "tol": 0.055806427215325694,
+      "rule": "+/-10% relative",
+      "name": "interior_drop_fraction_Ge_100nm"
+    },
+    {
+      "passed": true,
+      "value": 118.93359900977737,
+      "truth": 118.93359900977737,
+      "abs_err": 0.0,
+      "tol": 11.893359900977737,
+      "rule": "+/-10% relative",
+      "name": "kappa_eff_Ge_2000nm_W_per_mK"
+    },
+    {
+      "passed": true,
+      "value": 0.876864490005086,
+      "truth": 0.8768644900050617,
+      "abs_err": 2.4313884239290928e-14,
+      "tol": 0.08768644900050618,
+      "rule": "+/-10% relative",
+      "name": "interior_drop_fraction_Ge_2000nm"
+    }
+  ]
+}
+SCORE: 1

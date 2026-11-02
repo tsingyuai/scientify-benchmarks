@@ -1,0 +1,72 @@
+{
+  "score": 1,
+  "checks": [
+    {
+      "passed": true,
+      "value": 0.1570443980596981,
+      "truth": 0.15704439805970255,
+      "abs_err": 4.440892098500626e-15,
+      "tol": 0.015704439805970256,
+      "rule": "+/-10% relative",
+      "name": "ratio_J005_over_J020_p1.1e21"
+    },
+    {
+      "passed": true,
+      "value": 0,
+      "truth": 0,
+      "rule": "exact int",
+      "name": "n_decreasing_steps_p1.1e21"
+    },
+    {
+      "passed": true,
+      "value": 0.19962032542718625,
+      "truth": 0.19962032542719044,
+      "abs_err": 4.191091917959966e-15,
+      "tol": 0.019962032542719044,
+      "rule": "+/-10% relative",
+      "name": "ratio_J005_over_J020_p5.3e20"
+    },
+    {
+      "passed": true,
+      "value": 0,
+      "truth": 0,
+      "rule": "exact int",
+      "name": "n_decreasing_steps_p5.3e20"
+    },
+    {
+      "passed": true,
+      "value": 0.554801760766697,
+      "truth": 0.5548017607666864,
+      "abs_err": 1.0547118733938987e-14,
+      "tol": 0.05548017607666864,
+      "rule": "+/-10% relative",
+      "name": "ratio_J005_over_J020_p1.8e19"
+    },
+    {
+      "passed": true,
+      "value": 0,
+      "truth": 0,
+      "rule": "exact int",
+      "name": "n_decreasing_steps_p1.8e19"
+    },
+    {
+      "passed": true,
+      "value": 0.1494157785855345,
+      "truth": 0.14941577858553096,
+      "abs_err": 3.552713678800501e-15,
+      "tol": 0.014941577858553096,
+      "rule": "+/-10% relative",
+      "name": "cross_ratio_0p10eV_p1.8e19_over_p1.1e21"
+    },
+    {
+      "passed": true,
+      "value": 0.6829236651029357,
+      "truth": 0.6829236651029567,
+      "abs_err": 2.098321516541546e-14,
+      "tol": 0.06829236651029567,
+      "rule": "+/-10% relative",
+      "name": "cross_ratio_0p10eV_p5.3e20_over_p1.1e21"
+    }
+  ]
+}
+SCORE: 1

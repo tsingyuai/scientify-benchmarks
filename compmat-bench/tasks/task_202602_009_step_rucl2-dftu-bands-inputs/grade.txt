@@ -1,0 +1,225 @@
+{
+  "score": 1,
+  "runs": [
+    {
+      "label": "scf",
+      "passed": true,
+      "incar": {
+        "label": "scf",
+        "score": 1,
+        "checks": [
+          {
+            "name": "required:static",
+            "kind": "required",
+            "passed": true,
+            "reason": "NSW=0.0 IBRION=-1 ok (static)"
+          },
+          {
+            "name": "required:ENCUT",
+            "kind": "required",
+            "passed": true,
+            "reason": "ENCUT=400.0 >= 1*max_ENMAX=280 eV (Cl+Ru)"
+          },
+          {
+            "name": "required:EDIFF",
+            "kind": "required",
+            "passed": true,
+            "reason": "EDIFF=1e-08 (set) ok"
+          },
+          {
+            "name": "required:functional",
+            "kind": "required",
+            "passed": true,
+            "reason": "GGA=Pe ok"
+          },
+          {
+            "name": "required:LASPH",
+            "kind": "required",
+            "passed": true,
+            "reason": "LASPH=True (set) ok"
+          },
+          {
+            "name": "required:LMAXMIX",
+            "kind": "required",
+            "passed": true,
+            "reason": "LMAXMIX=4 (set) ok"
+          },
+          {
+            "name": "required:LSORBIT",
+            "kind": "required",
+            "passed": true,
+            "reason": "LSORBIT=True (set) ok"
+          },
+          {
+            "name": "required:LDAU_Ru_d",
+            "kind": "required",
+            "passed": true,
+            "reason": "Dudarev U_eff=2.00 eV on Ru-4d ok"
+          },
+          {
+            "name": "required:self_consistent_charge",
+            "kind": "required",
+            "passed": true,
+            "reason": "ICHARG=2 must use a documented charge-updating mode, not frozen density"
+          },
+          {
+            "name": "required:smearing",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISMEAR=0 ok"
+          },
+          {
+            "name": "required:SAXIS",
+            "kind": "required",
+            "passed": true,
+            "reason": "SAXIS=[0.0, 0.0, 1.0] ok (|| c)"
+          },
+          {
+            "name": "required:MAGMOM_out_of_plane",
+            "kind": "required",
+            "passed": true,
+            "reason": "Ru moment (0,0,2): |z|=2.00 inplane=0.00 ok (out-of-plane FM seed)"
+          },
+          {
+            "name": "required:LCHARG",
+            "kind": "required",
+            "passed": true,
+            "reason": "LCHARG=True (set) ok"
+          },
+          {
+            "name": "required:kmesh",
+            "kind": "required",
+            "passed": true,
+            "reason": "mesh 21x21x1 meets frozen per-axis minima 7x7x1"
+          }
+        ]
+      },
+      "structure": {
+        "passed": true,
+        "species_counts_ok": true,
+        "lattice_ok": true,
+        "lattice": {
+          "len_rel_err": 0.0,
+          "ang_abs_err_deg": 0.0,
+          "abc_sub": [
+            3.5095,
+            3.5094999999999996,
+            20.0
+          ],
+          "abc_ref": [
+            3.5095,
+            3.5094999999999996,
+            20.0
+          ]
+        },
+        "site_match_ok": true,
+        "method": "matcher",
+        "max_site_disp_A": 0.0,
+        "max_disp_threshold_A": 0.1,
+        "name": "structure:scf"
+      }
+    },
+    {
+      "label": "bands",
+      "passed": true,
+      "incar": {
+        "label": "bands",
+        "score": 1,
+        "checks": [
+          {
+            "name": "required:static",
+            "kind": "required",
+            "passed": true,
+            "reason": "NSW=0.0 IBRION=-1 ok (static)"
+          },
+          {
+            "name": "required:ENCUT",
+            "kind": "required",
+            "passed": true,
+            "reason": "ENCUT=400.0 >= 1*max_ENMAX=280 eV (Cl+Ru)"
+          },
+          {
+            "name": "required:EDIFF",
+            "kind": "required",
+            "passed": true,
+            "reason": "EDIFF=1e-08 (set) ok"
+          },
+          {
+            "name": "required:functional",
+            "kind": "required",
+            "passed": true,
+            "reason": "GGA=Pe ok"
+          },
+          {
+            "name": "required:LASPH",
+            "kind": "required",
+            "passed": true,
+            "reason": "LASPH=True (set) ok"
+          },
+          {
+            "name": "required:LMAXMIX",
+            "kind": "required",
+            "passed": true,
+            "reason": "LMAXMIX=4 (set) ok"
+          },
+          {
+            "name": "required:LSORBIT",
+            "kind": "required",
+            "passed": true,
+            "reason": "LSORBIT=True (set) ok"
+          },
+          {
+            "name": "required:LDAU_Ru_d",
+            "kind": "required",
+            "passed": true,
+            "reason": "Dudarev U_eff=2.00 eV on Ru-4d ok"
+          },
+          {
+            "name": "required:ICHARG",
+            "kind": "required",
+            "passed": true,
+            "reason": "ICHARG=11 (set) ok"
+          },
+          {
+            "name": "required:SAXIS",
+            "kind": "required",
+            "passed": true,
+            "reason": "SAXIS=[0.0, 0.0, 1.0] ok (|| c)"
+          },
+          {
+            "name": "required:kpath",
+            "kind": "required",
+            "passed": true,
+            "reason": "path contains Gamma, K, M, Kprime"
+          }
+        ]
+      },
+      "structure": {
+        "passed": true,
+        "species_counts_ok": true,
+        "lattice_ok": true,
+        "lattice": {
+          "len_rel_err": 0.0,
+          "ang_abs_err_deg": 0.0,
+          "abc_sub": [
+            3.5095,
+            3.5094999999999996,
+            20.0
+          ],
+          "abc_ref": [
+            3.5095,
+            3.5094999999999996,
+            20.0
+          ]
+        },
+        "site_match_ok": true,
+        "method": "matcher",
+        "max_site_disp_A": 0.0,
+        "max_disp_threshold_A": 0.1,
+        "name": "structure:bands"
+      }
+    }
+  ],
+  "extra_labels_ignored": []
+}
+SCORE: 1

@@ -1,0 +1,1939 @@
+{
+  "score": 1,
+  "runs": [
+    {
+      "label": "WS2_eps_m15_relax",
+      "score": 1,
+      "checks": [
+        {
+          "name": "required:relax_fixed_cell",
+          "kind": "required",
+          "passed": true,
+          "reason": "fixed-cell relax ok"
+        },
+        {
+          "name": "required:NSW",
+          "kind": "required",
+          "passed": true,
+          "reason": "NSW=200 (set) ok"
+        },
+        {
+          "name": "required:ENCUT",
+          "kind": "required",
+          "passed": true,
+          "reason": "ENCUT=364.0 >= 1*max_ENMAX=280 eV (S+W)"
+        },
+        {
+          "name": "required:smearing",
+          "kind": "required",
+          "passed": true,
+          "reason": "ISMEAR=0 ok"
+        },
+        {
+          "name": "required:EDIFF",
+          "kind": "required",
+          "passed": true,
+          "reason": "EDIFF=1e-08 (set) ok"
+        },
+        {
+          "name": "required:functional",
+          "kind": "required",
+          "passed": true,
+          "reason": "GGA=Pe ok"
+        },
+        {
+          "name": "required:kmesh",
+          "kind": "required",
+          "passed": true,
+          "reason": "mesh 24x24x1 meets frozen per-axis minima 8x8x1"
+        },
+        {
+          "name": "required:poscar_species",
+          "kind": "required",
+          "passed": true,
+          "reason": "species {'S': 2, 'W': 1} ok"
+        },
+        {
+          "name": "required:poscar_vacuum",
+          "kind": "required",
+          "passed": true,
+          "reason": "vacuum along axis 2 ~20.0 A ok"
+        },
+        {
+          "name": "required:structure",
+          "kind": "required",
+          "passed": true,
+          "reason": "structure matches POSCAR_WS2_eps_m15.vasp"
+        }
+      ]
+    },
+    {
+      "label": "WS2_eps_m15_static",
+      "score": 1,
+      "checks": [
+        {
+          "name": "required:kmesh_K",
+          "kind": "required",
+          "passed": true,
+          "reason": "contains K=(1/3,1/3,0)"
+        },
+        {
+          "name": "required:static",
+          "kind": "required",
+          "passed": true,
+          "reason": "NSW=0.0 IBRION=-1 ok (static)"
+        },
+        {
+          "name": "required:LSORBIT",
+          "kind": "required",
+          "passed": true,
+          "reason": "LSORBIT=True (set) ok"
+        },
+        {
+          "name": "required:ENCUT",
+          "kind": "required",
+          "passed": true,
+          "reason": "ENCUT=364.0 >= 1*max_ENMAX=280 eV (S+W)"
+        },
+        {
+          "name": "required:smearing",
+          "kind": "required",
+          "passed": true,
+          "reason": "ISMEAR=0 ok"
+        },
+        {
+          "name": "required:EDIFF",
+          "kind": "required",
+          "passed": true,
+          "reason": "EDIFF=1e-08 (set) ok"
+        },
+        {
+          "name": "required:functional",
+          "kind": "required",
+          "passed": true,
+          "reason": "GGA=Pe ok"
+        },
+        {
+          "name": "required:kmesh",
+          "kind": "required",
+          "passed": true,
+          "reason": "mesh 24x24x1 meets frozen per-axis minima 8x8x1"
+        },
+        {
+          "name": "required:poscar_species",
+          "kind": "required",
+          "passed": true,
+          "reason": "species {'S': 2, 'W': 1} ok"
+        },
+        {
+          "name": "required:poscar_vacuum",
+          "kind": "required",
+          "passed": true,
+          "reason": "vacuum along axis 2 ~20.0 A ok"
+        },
+        {
+          "name": "required:structure",
+          "kind": "required",
+          "passed": true,
+          "reason": "structure matches POSCAR_WS2_eps_m15.vasp"
+        }
+      ]
+    },
+    {
+      "label": "WS2_eps_m10_relax",
+      "score": 1,
+      "checks": [
+        {
+          "name": "required:relax_fixed_cell",
+          "kind": "required",
+          "passed": true,
+          "reason": "fixed-cell relax ok"
+        },
+        {
+          "name": "required:NSW",
+          "kind": "required",
+          "passed": true,
+          "reason": "NSW=200 (set) ok"
+        },
+        {
+          "name": "required:ENCUT",
+          "kind": "required",
+          "passed": true,
+          "reason": "ENCUT=364.0 >= 1*max_ENMAX=280 eV (S+W)"
+        },
+        {
+          "name": "required:smearing",
+          "kind": "required",
+          "passed": true,
+          "reason": "ISMEAR=0 ok"
+        },
+        {
+          "name": "required:EDIFF",
+          "kind": "required",
+          "passed": true,
+          "reason": "EDIFF=1e-08 (set) ok"
+        },
+        {
+          "name": "required:functional",
+          "kind": "required",
+          "passed": true,
+          "reason": "GGA=Pe ok"
+        },
+        {
+          "name": "required:kmesh",
+          "kind": "required",
+          "passed": true,
+          "reason": "mesh 24x24x1 meets frozen per-axis minima 8x8x1"
+        },
+        {
+          "name": "required:poscar_species",
+          "kind": "required",
+          "passed": true,
+          "reason": "species {'S': 2, 'W': 1} ok"
+        },
+        {
+          "name": "required:poscar_vacuum",
+          "kind": "required",
+          "passed": true,
+          "reason": "vacuum along axis 2 ~20.0 A ok"
+        },
+        {
+          "name": "required:structure",
+          "kind": "required",
+          "passed": true,
+          "reason": "structure matches POSCAR_WS2_eps_m10.vasp"
+        }
+      ]
+    },
+    {
+      "label": "WS2_eps_m10_static",
+      "score": 1,
+      "checks": [
+        {
+          "name": "required:kmesh_K",
+          "kind": "required",
+          "passed": true,
+          "reason": "contains K=(1/3,1/3,0)"
+        },
+        {
+          "name": "required:static",
+          "kind": "required",
+          "passed": true,
+          "reason": "NSW=0.0 IBRION=-1 ok (static)"
+        },
+        {
+          "name": "required:LSORBIT",
+          "kind": "required",
+          "passed": true,
+          "reason": "LSORBIT=True (set) ok"
+        },
+        {
+          "name": "required:ENCUT",
+          "kind": "required",
+          "passed": true,
+          "reason": "ENCUT=364.0 >= 1*max_ENMAX=280 eV (S+W)"
+        },
+        {
+          "name": "required:smearing",
+          "kind": "required",
+          "passed": true,
+          "reason": "ISMEAR=0 ok"
+        },
+        {
+          "name": "required:EDIFF",
+          "kind": "required",
+          "passed": true,
+          "reason": "EDIFF=1e-08 (set) ok"
+        },
+        {
+          "name": "required:functional",
+          "kind": "required",
+          "passed": true,
+          "reason": "GGA=Pe ok"
+        },
+        {
+          "name": "required:kmesh",
+          "kind": "required",
+          "passed": true,
+          "reason": "mesh 24x24x1 meets frozen per-axis minima 8x8x1"
+        },
+        {
+          "name": "required:poscar_species",
+          "kind": "required",
+          "passed": true,
+          "reason": "species {'S': 2, 'W': 1} ok"
+        },
+        {
+          "name": "required:poscar_vacuum",
+          "kind": "required",
+          "passed": true,
+          "reason": "vacuum along axis 2 ~20.0 A ok"
+        },
+        {
+          "name": "required:structure",
+          "kind": "required",
+          "passed": true,
+          "reason": "structure matches POSCAR_WS2_eps_m10.vasp"
+        }
+      ]
+    },
+    {
+      "label": "WS2_eps_m05_relax",
+      "score": 1,
+      "checks": [
+        {
+          "name": "required:relax_fixed_cell",
+          "kind": "required",
+          "passed": true,
+          "reason": "fixed-cell relax ok"
+        },
+        {
+          "name": "required:NSW",
+          "kind": "required",
+          "passed": true,
+          "reason": "NSW=200 (set) ok"
+        },
+        {
+          "name": "required:ENCUT",
+          "kind": "required",
+          "passed": true,
+          "reason": "ENCUT=364.0 >= 1*max_ENMAX=280 eV (S+W)"
+        },
+        {
+          "name": "required:smearing",
+          "kind": "required",
+          "passed": true,
+          "reason": "ISMEAR=0 ok"
+        },
+        {
+          "name": "required:EDIFF",
+          "kind": "required",
+          "passed": true,
+          "reason": "EDIFF=1e-08 (set) ok"
+        },
+        {
+          "name": "required:functional",
+          "kind": "required",
+          "passed": true,
+          "reason": "GGA=Pe ok"
+        },
+        {
+          "name": "required:kmesh",
+          "kind": "required",
+          "passed": true,
+          "reason": "mesh 24x24x1 meets frozen per-axis minima 8x8x1"
+        },
+        {
+          "name": "required:poscar_species",
+          "kind": "required",
+          "passed": true,
+          "reason": "species {'S': 2, 'W': 1} ok"
+        },
+        {
+          "name": "required:poscar_vacuum",
+          "kind": "required",
+          "passed": true,
+          "reason": "vacuum along axis 2 ~20.0 A ok"
+        },
+        {
+          "name": "required:structure",
+          "kind": "required",
+          "passed": true,
+          "reason": "structure matches POSCAR_WS2_eps_m05.vasp"
+        }
+      ]
+    },
+    {
+      "label": "WS2_eps_m05_static",
+      "score": 1,
+      "checks": [
+        {
+          "name": "required:kmesh_K",
+          "kind": "required",
+          "passed": true,
+          "reason": "contains K=(1/3,1/3,0)"
+        },
+        {
+          "name": "required:static",
+          "kind": "required",
+          "passed": true,
+          "reason": "NSW=0.0 IBRION=-1 ok (static)"
+        },
+        {
+          "name": "required:LSORBIT",
+          "kind": "required",
+          "passed": true,
+          "reason": "LSORBIT=True (set) ok"
+        },
+        {
+          "name": "required:ENCUT",
+          "kind": "required",
+          "passed": true,
+          "reason": "ENCUT=364.0 >= 1*max_ENMAX=280 eV (S+W)"
+        },
+        {
+          "name": "required:smearing",
+          "kind": "required",
+          "passed": true,
+          "reason": "ISMEAR=0 ok"
+        },
+        {
+          "name": "required:EDIFF",
+          "kind": "required",
+          "passed": true,
+          "reason": "EDIFF=1e-08 (set) ok"
+        },
+        {
+          "name": "required:functional",
+          "kind": "required",
+          "passed": true,
+          "reason": "GGA=Pe ok"
+        },
+        {
+          "name": "required:kmesh",
+          "kind": "required",
+          "passed": true,
+          "reason": "mesh 24x24x1 meets frozen per-axis minima 8x8x1"
+        },
+        {
+          "name": "required:poscar_species",
+          "kind": "required",
+          "passed": true,
+          "reason": "species {'S': 2, 'W': 1} ok"
+        },
+        {
+          "name": "required:poscar_vacuum",
+          "kind": "required",
+          "passed": true,
+          "reason": "vacuum along axis 2 ~20.0 A ok"
+        },
+        {
+          "name": "required:structure",
+          "kind": "required",
+          "passed": true,
+          "reason": "structure matches POSCAR_WS2_eps_m05.vasp"
+        }
+      ]
+    },
+    {
+      "label": "WS2_eps_p00_relax",
+      "score": 1,
+      "checks": [
+        {
+          "name": "required:relax_fixed_cell",
+          "kind": "required",
+          "passed": true,
+          "reason": "fixed-cell relax ok"
+        },
+        {
+          "name": "required:NSW",
+          "kind": "required",
+          "passed": true,
+          "reason": "NSW=200 (set) ok"
+        },
+        {
+          "name": "required:ENCUT",
+          "kind": "required",
+          "passed": true,
+          "reason": "ENCUT=364.0 >= 1*max_ENMAX=280 eV (S+W)"
+        },
+        {
+          "name": "required:smearing",
+          "kind": "required",
+          "passed": true,
+          "reason": "ISMEAR=0 ok"
+        },
+        {
+          "name": "required:EDIFF",
+          "kind": "required",
+          "passed": true,
+          "reason": "EDIFF=1e-08 (set) ok"
+        },
+        {
+          "name": "required:functional",
+          "kind": "required",
+          "passed": true,
+          "reason": "GGA=Pe ok"
+        },
+        {
+          "name": "required:kmesh",
+          "kind": "required",
+          "passed": true,
+          "reason": "mesh 24x24x1 meets frozen per-axis minima 8x8x1"
+        },
+        {
+          "name": "required:poscar_species",
+          "kind": "required",
+          "passed": true,
+          "reason": "species {'S': 2, 'W': 1} ok"
+        },
+        {
+          "name": "required:poscar_vacuum",
+          "kind": "required",
+          "passed": true,
+          "reason": "vacuum along axis 2 ~20.0 A ok"
+        },
+        {
+          "name": "required:structure",
+          "kind": "required",
+          "passed": true,
+          "reason": "structure matches POSCAR_WS2_eps_p00.vasp"
+        }
+      ]
+    },
+    {
+      "label": "WS2_eps_p00_static",
+      "score": 1,
+      "checks": [
+        {
+          "name": "required:kmesh_K",
+          "kind": "required",
+          "passed": true,
+          "reason": "contains K=(1/3,1/3,0)"
+        },
+        {
+          "name": "required:static",
+          "kind": "required",
+          "passed": true,
+          "reason": "NSW=0.0 IBRION=-1 ok (static)"
+        },
+        {
+          "name": "required:LSORBIT",
+          "kind": "required",
+          "passed": true,
+          "reason": "LSORBIT=True (set) ok"
+        },
+        {
+          "name": "required:ENCUT",
+          "kind": "required",
+          "passed": true,
+          "reason": "ENCUT=364.0 >= 1*max_ENMAX=280 eV (S+W)"
+        },
+        {
+          "name": "required:smearing",
+          "kind": "required",
+          "passed": true,
+          "reason": "ISMEAR=0 ok"
+        },
+        {
+          "name": "required:EDIFF",
+          "kind": "required",
+          "passed": true,
+          "reason": "EDIFF=1e-08 (set) ok"
+        },
+        {
+          "name": "required:functional",
+          "kind": "required",
+          "passed": true,
+          "reason": "GGA=Pe ok"
+        },
+        {
+          "name": "required:kmesh",
+          "kind": "required",
+          "passed": true,
+          "reason": "mesh 24x24x1 meets frozen per-axis minima 8x8x1"
+        },
+        {
+          "name": "required:poscar_species",
+          "kind": "required",
+          "passed": true,
+          "reason": "species {'S': 2, 'W': 1} ok"
+        },
+        {
+          "name": "required:poscar_vacuum",
+          "kind": "required",
+          "passed": true,
+          "reason": "vacuum along axis 2 ~20.0 A ok"
+        },
+        {
+          "name": "required:structure",
+          "kind": "required",
+          "passed": true,
+          "reason": "structure matches POSCAR_WS2_eps_p00.vasp"
+        }
+      ]
+    },
+    {
+      "label": "WS2_eps_p05_relax",
+      "score": 1,
+      "checks": [
+        {
+          "name": "required:relax_fixed_cell",
+          "kind": "required",
+          "passed": true,
+          "reason": "fixed-cell relax ok"
+        },
+        {
+          "name": "required:NSW",
+          "kind": "required",
+          "passed": true,
+          "reason": "NSW=200 (set) ok"
+        },
+        {
+          "name": "required:ENCUT",
+          "kind": "required",
+          "passed": true,
+          "reason": "ENCUT=364.0 >= 1*max_ENMAX=280 eV (S+W)"
+        },
+        {
+          "name": "required:smearing",
+          "kind": "required",
+          "passed": true,
+          "reason": "ISMEAR=0 ok"
+        },
+        {
+          "name": "required:EDIFF",
+          "kind": "required",
+          "passed": true,
+          "reason": "EDIFF=1e-08 (set) ok"
+        },
+        {
+          "name": "required:functional",
+          "kind": "required",
+          "passed": true,
+          "reason": "GGA=Pe ok"
+        },
+        {
+          "name": "required:kmesh",
+          "kind": "required",
+          "passed": true,
+          "reason": "mesh 24x24x1 meets frozen per-axis minima 8x8x1"
+        },
+        {
+          "name": "required:poscar_species",
+          "kind": "required",
+          "passed": true,
+          "reason": "species {'S': 2, 'W': 1} ok"
+        },
+        {
+          "name": "required:poscar_vacuum",
+          "kind": "required",
+          "passed": true,
+          "reason": "vacuum along axis 2 ~20.0 A ok"
+        },
+        {
+          "name": "required:structure",
+          "kind": "required",
+          "passed": true,
+          "reason": "structure matches POSCAR_WS2_eps_p05.vasp"
+        }
+      ]
+    },
+    {
+      "label": "WS2_eps_p05_static",
+      "score": 1,
+      "checks": [
+        {
+          "name": "required:kmesh_K",
+          "kind": "required",
+          "passed": true,
+          "reason": "contains K=(1/3,1/3,0)"
+        },
+        {
+          "name": "required:static",
+          "kind": "required",
+          "passed": true,
+          "reason": "NSW=0.0 IBRION=-1 ok (static)"
+        },
+        {
+          "name": "required:LSORBIT",
+          "kind": "required",
+          "passed": true,
+          "reason": "LSORBIT=True (set) ok"
+        },
+        {
+          "name": "required:ENCUT",
+          "kind": "required",
+          "passed": true,
+          "reason": "ENCUT=364.0 >= 1*max_ENMAX=280 eV (S+W)"
+        },
+        {
+          "name": "required:smearing",
+          "kind": "required",
+          "passed": true,
+          "reason": "ISMEAR=0 ok"
+        },
+        {
+          "name": "required:EDIFF",
+          "kind": "required",
+          "passed": true,
+          "reason": "EDIFF=1e-08 (set) ok"
+        },
+        {
+          "name": "required:functional",
+          "kind": "required",
+          "passed": true,
+          "reason": "GGA=Pe ok"
+        },
+        {
+          "name": "required:kmesh",
+          "kind": "required",
+          "passed": true,
+          "reason": "mesh 24x24x1 meets frozen per-axis minima 8x8x1"
+        },
+        {
+          "name": "required:poscar_species",
+          "kind": "required",
+          "passed": true,
+          "reason": "species {'S': 2, 'W': 1} ok"
+        },
+        {
+          "name": "required:poscar_vacuum",
+          "kind": "required",
+          "passed": true,
+          "reason": "vacuum along axis 2 ~20.0 A ok"
+        },
+        {
+          "name": "required:structure",
+          "kind": "required",
+          "passed": true,
+          "reason": "structure matches POSCAR_WS2_eps_p05.vasp"
+        }
+      ]
+    },
+    {
+      "label": "WS2_eps_p10_relax",
+      "score": 1,
+      "checks": [
+        {
+          "name": "required:relax_fixed_cell",
+          "kind": "required",
+          "passed": true,
+          "reason": "fixed-cell relax ok"
+        },
+        {
+          "name": "required:NSW",
+          "kind": "required",
+          "passed": true,
+          "reason": "NSW=200 (set) ok"
+        },
+        {
+          "name": "required:ENCUT",
+          "kind": "required",
+          "passed": true,
+          "reason": "ENCUT=364.0 >= 1*max_ENMAX=280 eV (S+W)"
+        },
+        {
+          "name": "required:smearing",
+          "kind": "required",
+          "passed": true,
+          "reason": "ISMEAR=0 ok"
+        },
+        {
+          "name": "required:EDIFF",
+          "kind": "required",
+          "passed": true,
+          "reason": "EDIFF=1e-08 (set) ok"
+        },
+        {
+          "name": "required:functional",
+          "kind": "required",
+          "passed": true,
+          "reason": "GGA=Pe ok"
+        },
+        {
+          "name": "required:kmesh",
+          "kind": "required",
+          "passed": true,
+          "reason": "mesh 24x24x1 meets frozen per-axis minima 8x8x1"
+        },
+        {
+          "name": "required:poscar_species",
+          "kind": "required",
+          "passed": true,
+          "reason": "species {'S': 2, 'W': 1} ok"
+        },
+        {
+          "name": "required:poscar_vacuum",
+          "kind": "required",
+          "passed": true,
+          "reason": "vacuum along axis 2 ~20.0 A ok"
+        },
+        {
+          "name": "required:structure",
+          "kind": "required",
+          "passed": true,
+          "reason": "structure matches POSCAR_WS2_eps_p10.vasp"
+        }
+      ]
+    },
+    {
+      "label": "WS2_eps_p10_static",
+      "score": 1,
+      "checks": [
+        {
+          "name": "required:kmesh_K",
+          "kind": "required",
+          "passed": true,
+          "reason": "contains K=(1/3,1/3,0)"
+        },
+        {
+          "name": "required:static",
+          "kind": "required",
+          "passed": true,
+          "reason": "NSW=0.0 IBRION=-1 ok (static)"
+        },
+        {
+          "name": "required:LSORBIT",
+          "kind": "required",
+          "passed": true,
+          "reason": "LSORBIT=True (set) ok"
+        },
+        {
+          "name": "required:ENCUT",
+          "kind": "required",
+          "passed": true,
+          "reason": "ENCUT=364.0 >= 1*max_ENMAX=280 eV (S+W)"
+        },
+        {
+          "name": "required:smearing",
+          "kind": "required",
+          "passed": true,
+          "reason": "ISMEAR=0 ok"
+        },
+        {
+          "name": "required:EDIFF",
+          "kind": "required",
+          "passed": true,
+          "reason": "EDIFF=1e-08 (set) ok"
+        },
+        {
+          "name": "required:functional",
+          "kind": "required",
+          "passed": true,
+          "reason": "GGA=Pe ok"
+        },
+        {
+          "name": "required:kmesh",
+          "kind": "required",
+          "passed": true,
+          "reason": "mesh 24x24x1 meets frozen per-axis minima 8x8x1"
+        },
+        {
+          "name": "required:poscar_species",
+          "kind": "required",
+          "passed": true,
+          "reason": "species {'S': 2, 'W': 1} ok"
+        },
+        {
+          "name": "required:poscar_vacuum",
+          "kind": "required",
+          "passed": true,
+          "reason": "vacuum along axis 2 ~20.0 A ok"
+        },
+        {
+          "name": "required:structure",
+          "kind": "required",
+          "passed": true,
+          "reason": "structure matches POSCAR_WS2_eps_p10.vasp"
+        }
+      ]
+    },
+    {
+      "label": "WS2_eps_p15_relax",
+      "score": 1,
+      "checks": [
+        {
+          "name": "required:relax_fixed_cell",
+          "kind": "required",
+          "passed": true,
+          "reason": "fixed-cell relax ok"
+        },
+        {
+          "name": "required:NSW",
+          "kind": "required",
+          "passed": true,
+          "reason": "NSW=200 (set) ok"
+        },
+        {
+          "name": "required:ENCUT",
+          "kind": "required",
+          "passed": true,
+          "reason": "ENCUT=364.0 >= 1*max_ENMAX=280 eV (S+W)"
+        },
+        {
+          "name": "required:smearing",
+          "kind": "required",
+          "passed": true,
+          "reason": "ISMEAR=0 ok"
+        },
+        {
+          "name": "required:EDIFF",
+          "kind": "required",
+          "passed": true,
+          "reason": "EDIFF=1e-08 (set) ok"
+        },
+        {
+          "name": "required:functional",
+          "kind": "required",
+          "passed": true,
+          "reason": "GGA=Pe ok"
+        },
+        {
+          "name": "required:kmesh",
+          "kind": "required",
+          "passed": true,
+          "reason": "mesh 24x24x1 meets frozen per-axis minima 8x8x1"
+        },
+        {
+          "name": "required:poscar_species",
+          "kind": "required",
+          "passed": true,
+          "reason": "species {'S': 2, 'W': 1} ok"
+        },
+        {
+          "name": "required:poscar_vacuum",
+          "kind": "required",
+          "passed": true,
+          "reason": "vacuum along axis 2 ~20.0 A ok"
+        },
+        {
+          "name": "required:structure",
+          "kind": "required",
+          "passed": true,
+          "reason": "structure matches POSCAR_WS2_eps_p15.vasp"
+        }
+      ]
+    },
+    {
+      "label": "WS2_eps_p15_static",
+      "score": 1,
+      "checks": [
+        {
+          "name": "required:kmesh_K",
+          "kind": "required",
+          "passed": true,
+          "reason": "contains K=(1/3,1/3,0)"
+        },
+        {
+          "name": "required:static",
+          "kind": "required",
+          "passed": true,
+          "reason": "NSW=0.0 IBRION=-1 ok (static)"
+        },
+        {
+          "name": "required:LSORBIT",
+          "kind": "required",
+          "passed": true,
+          "reason": "LSORBIT=True (set) ok"
+        },
+        {
+          "name": "required:ENCUT",
+          "kind": "required",
+          "passed": true,
+          "reason": "ENCUT=364.0 >= 1*max_ENMAX=280 eV (S+W)"
+        },
+        {
+          "name": "required:smearing",
+          "kind": "required",
+          "passed": true,
+          "reason": "ISMEAR=0 ok"
+        },
+        {
+          "name": "required:EDIFF",
+          "kind": "required",
+          "passed": true,
+          "reason": "EDIFF=1e-08 (set) ok"
+        },
+        {
+          "name": "required:functional",
+          "kind": "required",
+          "passed": true,
+          "reason": "GGA=Pe ok"
+        },
+        {
+          "name": "required:kmesh",
+          "kind": "required",
+          "passed": true,
+          "reason": "mesh 24x24x1 meets frozen per-axis minima 8x8x1"
+        },
+        {
+          "name": "required:poscar_species",
+          "kind": "required",
+          "passed": true,
+          "reason": "species {'S': 2, 'W': 1} ok"
+        },
+        {
+          "name": "required:poscar_vacuum",
+          "kind": "required",
+          "passed": true,
+          "reason": "vacuum along axis 2 ~20.0 A ok"
+        },
+        {
+          "name": "required:structure",
+          "kind": "required",
+          "passed": true,
+          "reason": "structure matches POSCAR_WS2_eps_p15.vasp"
+        }
+      ]
+    },
+    {
+      "label": "WSe2_eps_m15_relax",
+      "score": 1,
+      "checks": [
+        {
+          "name": "required:relax_fixed_cell",
+          "kind": "required",
+          "passed": true,
+          "reason": "fixed-cell relax ok"
+        },
+        {
+          "name": "required:NSW",
+          "kind": "required",
+          "passed": true,
+          "reason": "NSW=200 (set) ok"
+        },
+        {
+          "name": "required:ENCUT",
+          "kind": "required",
+          "passed": true,
+          "reason": "ENCUT=290.0 >= 1*max_ENMAX=223 eV (Se+W)"
+        },
+        {
+          "name": "required:smearing",
+          "kind": "required",
+          "passed": true,
+          "reason": "ISMEAR=0 ok"
+        },
+        {
+          "name": "required:EDIFF",
+          "kind": "required",
+          "passed": true,
+          "reason": "EDIFF=1e-08 (set) ok"
+        },
+        {
+          "name": "required:functional",
+          "kind": "required",
+          "passed": true,
+          "reason": "GGA=Pe ok"
+        },
+        {
+          "name": "required:kmesh",
+          "kind": "required",
+          "passed": true,
+          "reason": "mesh 24x24x1 meets frozen per-axis minima 8x8x1"
+        },
+        {
+          "name": "required:poscar_species",
+          "kind": "required",
+          "passed": true,
+          "reason": "species {'Se': 2, 'W': 1} ok"
+        },
+        {
+          "name": "required:poscar_vacuum",
+          "kind": "required",
+          "passed": true,
+          "reason": "vacuum along axis 2 ~20.0 A ok"
+        },
+        {
+          "name": "required:structure",
+          "kind": "required",
+          "passed": true,
+          "reason": "structure matches POSCAR_WSe2_eps_m15.vasp"
+        }
+      ]
+    },
+    {
+      "label": "WSe2_eps_m15_static",
+      "score": 1,
+      "checks": [
+        {
+          "name": "required:kmesh_K",
+          "kind": "required",
+          "passed": true,
+          "reason": "contains K=(1/3,1/3,0)"
+        },
+        {
+          "name": "required:static",
+          "kind": "required",
+          "passed": true,
+          "reason": "NSW=0.0 IBRION=-1 ok (static)"
+        },
+        {
+          "name": "required:LSORBIT",
+          "kind": "required",
+          "passed": true,
+          "reason": "LSORBIT=True (set) ok"
+        },
+        {
+          "name": "required:ENCUT",
+          "kind": "required",
+          "passed": true,
+          "reason": "ENCUT=290.0 >= 1*max_ENMAX=223 eV (Se+W)"
+        },
+        {
+          "name": "required:smearing",
+          "kind": "required",
+          "passed": true,
+          "reason": "ISMEAR=0 ok"
+        },
+        {
+          "name": "required:EDIFF",
+          "kind": "required",
+          "passed": true,
+          "reason": "EDIFF=1e-08 (set) ok"
+        },
+        {
+          "name": "required:functional",
+          "kind": "required",
+          "passed": true,
+          "reason": "GGA=Pe ok"
+        },
+        {
+          "name": "required:kmesh",
+          "kind": "required",
+          "passed": true,
+          "reason": "mesh 24x24x1 meets frozen per-axis minima 8x8x1"
+        },
+        {
+          "name": "required:poscar_species",
+          "kind": "required",
+          "passed": true,
+          "reason": "species {'Se': 2, 'W': 1} ok"
+        },
+        {
+          "name": "required:poscar_vacuum",
+          "kind": "required",
+          "passed": true,
+          "reason": "vacuum along axis 2 ~20.0 A ok"
+        },
+        {
+          "name": "required:structure",
+          "kind": "required",
+          "passed": true,
+          "reason": "structure matches POSCAR_WSe2_eps_m15.vasp"
+        }
+      ]
+    },
+    {
+      "label": "WSe2_eps_m10_relax",
+      "score": 1,
+      "checks": [
+        {
+          "name": "required:relax_fixed_cell",
+          "kind": "required",
+          "passed": true,
+          "reason": "fixed-cell relax ok"
+        },
+        {
+          "name": "required:NSW",
+          "kind": "required",
+          "passed": true,
+          "reason": "NSW=200 (set) ok"
+        },
+        {
+          "name": "required:ENCUT",
+          "kind": "required",
+          "passed": true,
+          "reason": "ENCUT=290.0 >= 1*max_ENMAX=223 eV (Se+W)"
+        },
+        {
+          "name": "required:smearing",
+          "kind": "required",
+          "passed": true,
+          "reason": "ISMEAR=0 ok"
+        },
+        {
+          "name": "required:EDIFF",
+          "kind": "required",
+          "passed": true,
+          "reason": "EDIFF=1e-08 (set) ok"
+        },
+        {
+          "name": "required:functional",
+          "kind": "required",
+          "passed": true,
+          "reason": "GGA=Pe ok"
+        },
+        {
+          "name": "required:kmesh",
+          "kind": "required",
+          "passed": true,
+          "reason": "mesh 24x24x1 meets frozen per-axis minima 8x8x1"
+        },
+        {
+          "name": "required:poscar_species",
+          "kind": "required",
+          "passed": true,
+          "reason": "species {'Se': 2, 'W': 1} ok"
+        },
+        {
+          "name": "required:poscar_vacuum",
+          "kind": "required",
+          "passed": true,
+          "reason": "vacuum along axis 2 ~20.0 A ok"
+        },
+        {
+          "name": "required:structure",
+          "kind": "required",
+          "passed": true,
+          "reason": "structure matches POSCAR_WSe2_eps_m10.vasp"
+        }
+      ]
+    },
+    {
+      "label": "WSe2_eps_m10_static",
+      "score": 1,
+      "checks": [
+        {
+          "name": "required:kmesh_K",
+          "kind": "required",
+          "passed": true,
+          "reason": "contains K=(1/3,1/3,0)"
+        },
+        {
+          "name": "required:static",
+          "kind": "required",
+          "passed": true,
+          "reason": "NSW=0.0 IBRION=-1 ok (static)"
+        },
+        {
+          "name": "required:LSORBIT",
+          "kind": "required",
+          "passed": true,
+          "reason": "LSORBIT=True (set) ok"
+        },
+        {
+          "name": "required:ENCUT",
+          "kind": "required",
+          "passed": true,
+          "reason": "ENCUT=290.0 >= 1*max_ENMAX=223 eV (Se+W)"
+        },
+        {
+          "name": "required:smearing",
+          "kind": "required",
+          "passed": true,
+          "reason": "ISMEAR=0 ok"
+        },
+        {
+          "name": "required:EDIFF",
+          "kind": "required",
+          "passed": true,
+          "reason": "EDIFF=1e-08 (set) ok"
+        },
+        {
+          "name": "required:functional",
+          "kind": "required",
+          "passed": true,
+          "reason": "GGA=Pe ok"
+        },
+        {
+          "name": "required:kmesh",
+          "kind": "required",
+          "passed": true,
+          "reason": "mesh 24x24x1 meets frozen per-axis minima 8x8x1"
+        },
+        {
+          "name": "required:poscar_species",
+          "kind": "required",
+          "passed": true,
+          "reason": "species {'Se': 2, 'W': 1} ok"
+        },
+        {
+          "name": "required:poscar_vacuum",
+          "kind": "required",
+          "passed": true,
+          "reason": "vacuum along axis 2 ~20.0 A ok"
+        },
+        {
+          "name": "required:structure",
+          "kind": "required",
+          "passed": true,
+          "reason": "structure matches POSCAR_WSe2_eps_m10.vasp"
+        }
+      ]
+    },
+    {
+      "label": "WSe2_eps_m05_relax",
+      "score": 1,
+      "checks": [
+        {
+          "name": "required:relax_fixed_cell",
+          "kind": "required",
+          "passed": true,
+          "reason": "fixed-cell relax ok"
+        },
+        {
+          "name": "required:NSW",
+          "kind": "required",
+          "passed": true,
+          "reason": "NSW=200 (set) ok"
+        },
+        {
+          "name": "required:ENCUT",
+          "kind": "required",
+          "passed": true,
+          "reason": "ENCUT=290.0 >= 1*max_ENMAX=223 eV (Se+W)"
+        },
+        {
+          "name": "required:smearing",
+          "kind": "required",
+          "passed": true,
+          "reason": "ISMEAR=0 ok"
+        },
+        {
+          "name": "required:EDIFF",
+          "kind": "required",
+          "passed": true,
+          "reason": "EDIFF=1e-08 (set) ok"
+        },
+        {
+          "name": "required:functional",
+          "kind": "required",
+          "passed": true,
+          "reason": "GGA=Pe ok"
+        },
+        {
+          "name": "required:kmesh",
+          "kind": "required",
+          "passed": true,
+          "reason": "mesh 24x24x1 meets frozen per-axis minima 8x8x1"
+        },
+        {
+          "name": "required:poscar_species",
+          "kind": "required",
+          "passed": true,
+          "reason": "species {'Se': 2, 'W': 1} ok"
+        },
+        {
+          "name": "required:poscar_vacuum",
+          "kind": "required",
+          "passed": true,
+          "reason": "vacuum along axis 2 ~20.0 A ok"
+        },
+        {
+          "name": "required:structure",
+          "kind": "required",
+          "passed": true,
+          "reason": "structure matches POSCAR_WSe2_eps_m05.vasp"
+        }
+      ]
+    },
+    {
+      "label": "WSe2_eps_m05_static",
+      "score": 1,
+      "checks": [
+        {
+          "name": "required:kmesh_K",
+          "kind": "required",
+          "passed": true,
+          "reason": "contains K=(1/3,1/3,0)"
+        },
+        {
+          "name": "required:static",
+          "kind": "required",
+          "passed": true,
+          "reason": "NSW=0.0 IBRION=-1 ok (static)"
+        },
+        {
+          "name": "required:LSORBIT",
+          "kind": "required",
+          "passed": true,
+          "reason": "LSORBIT=True (set) ok"
+        },
+        {
+          "name": "required:ENCUT",
+          "kind": "required",
+          "passed": true,
+          "reason": "ENCUT=290.0 >= 1*max_ENMAX=223 eV (Se+W)"
+        },
+        {
+          "name": "required:smearing",
+          "kind": "required",
+          "passed": true,
+          "reason": "ISMEAR=0 ok"
+        },
+        {
+          "name": "required:EDIFF",
+          "kind": "required",
+          "passed": true,
+          "reason": "EDIFF=1e-08 (set) ok"
+        },
+        {
+          "name": "required:functional",
+          "kind": "required",
+          "passed": true,
+          "reason": "GGA=Pe ok"
+        },
+        {
+          "name": "required:kmesh",
+          "kind": "required",
+          "passed": true,
+          "reason": "mesh 24x24x1 meets frozen per-axis minima 8x8x1"
+        },
+        {
+          "name": "required:poscar_species",
+          "kind": "required",
+          "passed": true,
+          "reason": "species {'Se': 2, 'W': 1} ok"
+        },
+        {
+          "name": "required:poscar_vacuum",
+          "kind": "required",
+          "passed": true,
+          "reason": "vacuum along axis 2 ~20.0 A ok"
+        },
+        {
+          "name": "required:structure",
+          "kind": "required",
+          "passed": true,
+          "reason": "structure matches POSCAR_WSe2_eps_m05.vasp"
+        }
+      ]
+    },
+    {
+      "label": "WSe2_eps_p00_relax",
+      "score": 1,
+      "checks": [
+        {
+          "name": "required:relax_fixed_cell",
+          "kind": "required",
+          "passed": true,
+          "reason": "fixed-cell relax ok"
+        },
+        {
+          "name": "required:NSW",
+          "kind": "required",
+          "passed": true,
+          "reason": "NSW=200 (set) ok"
+        },
+        {
+          "name": "required:ENCUT",
+          "kind": "required",
+          "passed": true,
+          "reason": "ENCUT=290.0 >= 1*max_ENMAX=223 eV (Se+W)"
+        },
+        {
+          "name": "required:smearing",
+          "kind": "required",
+          "passed": true,
+          "reason": "ISMEAR=0 ok"
+        },
+        {
+          "name": "required:EDIFF",
+          "kind": "required",
+          "passed": true,
+          "reason": "EDIFF=1e-08 (set) ok"
+        },
+        {
+          "name": "required:functional",
+          "kind": "required",
+          "passed": true,
+          "reason": "GGA=Pe ok"
+        },
+        {
+          "name": "required:kmesh",
+          "kind": "required",
+          "passed": true,
+          "reason": "mesh 24x24x1 meets frozen per-axis minima 8x8x1"
+        },
+        {
+          "name": "required:poscar_species",
+          "kind": "required",
+          "passed": true,
+          "reason": "species {'Se': 2, 'W': 1} ok"
+        },
+        {
+          "name": "required:poscar_vacuum",
+          "kind": "required",
+          "passed": true,
+          "reason": "vacuum along axis 2 ~20.0 A ok"
+        },
+        {
+          "name": "required:structure",
+          "kind": "required",
+          "passed": true,
+          "reason": "structure matches POSCAR_WSe2_eps_p00.vasp"
+        }
+      ]
+    },
+    {
+      "label": "WSe2_eps_p00_static",
+      "score": 1,
+      "checks": [
+        {
+          "name": "required:kmesh_K",
+          "kind": "required",
+          "passed": true,
+          "reason": "contains K=(1/3,1/3,0)"
+        },
+        {
+          "name": "required:static",
+          "kind": "required",
+          "passed": true,
+          "reason": "NSW=0.0 IBRION=-1 ok (static)"
+        },
+        {
+          "name": "required:LSORBIT",
+          "kind": "required",
+          "passed": true,
+          "reason": "LSORBIT=True (set) ok"
+        },
+        {
+          "name": "required:ENCUT",
+          "kind": "required",
+          "passed": true,
+          "reason": "ENCUT=290.0 >= 1*max_ENMAX=223 eV (Se+W)"
+        },
+        {
+          "name": "required:smearing",
+          "kind": "required",
+          "passed": true,
+          "reason": "ISMEAR=0 ok"
+        },
+        {
+          "name": "required:EDIFF",
+          "kind": "required",
+          "passed": true,
+          "reason": "EDIFF=1e-08 (set) ok"
+        },
+        {
+          "name": "required:functional",
+          "kind": "required",
+          "passed": true,
+          "reason": "GGA=Pe ok"
+        },
+        {
+          "name": "required:kmesh",
+          "kind": "required",
+          "passed": true,
+          "reason": "mesh 24x24x1 meets frozen per-axis minima 8x8x1"
+        },
+        {
+          "name": "required:poscar_species",
+          "kind": "required",
+          "passed": true,
+          "reason": "species {'Se': 2, 'W': 1} ok"
+        },
+        {
+          "name": "required:poscar_vacuum",
+          "kind": "required",
+          "passed": true,
+          "reason": "vacuum along axis 2 ~20.0 A ok"
+        },
+        {
+          "name": "required:structure",
+          "kind": "required",
+          "passed": true,
+          "reason": "structure matches POSCAR_WSe2_eps_p00.vasp"
+        }
+      ]
+    },
+    {
+      "label": "WSe2_eps_p05_relax",
+      "score": 1,
+      "checks": [
+        {
+          "name": "required:relax_fixed_cell",
+          "kind": "required",
+          "passed": true,
+          "reason": "fixed-cell relax ok"
+        },
+        {
+          "name": "required:NSW",
+          "kind": "required",
+          "passed": true,
+          "reason": "NSW=200 (set) ok"
+        },
+        {
+          "name": "required:ENCUT",
+          "kind": "required",
+          "passed": true,
+          "reason": "ENCUT=290.0 >= 1*max_ENMAX=223 eV (Se+W)"
+        },
+        {
+          "name": "required:smearing",
+          "kind": "required",
+          "passed": true,
+          "reason": "ISMEAR=0 ok"
+        },
+        {
+          "name": "required:EDIFF",
+          "kind": "required",
+          "passed": true,
+          "reason": "EDIFF=1e-08 (set) ok"
+        },
+        {
+          "name": "required:functional",
+          "kind": "required",
+          "passed": true,
+          "reason": "GGA=Pe ok"
+        },
+        {
+          "name": "required:kmesh",
+          "kind": "required",
+          "passed": true,
+          "reason": "mesh 24x24x1 meets frozen per-axis minima 7x7x1"
+        },
+        {
+          "name": "required:poscar_species",
+          "kind": "required",
+          "passed": true,
+          "reason": "species {'Se': 2, 'W': 1} ok"
+        },
+        {
+          "name": "required:poscar_vacuum",
+          "kind": "required",
+          "passed": true,
+          "reason": "vacuum along axis 2 ~20.0 A ok"
+        },
+        {
+          "name": "required:structure",
+          "kind": "required",
+          "passed": true,
+          "reason": "structure matches POSCAR_WSe2_eps_p05.vasp"
+        }
+      ]
+    },
+    {
+      "label": "WSe2_eps_p05_static",
+      "score": 1,
+      "checks": [
+        {
+          "name": "required:kmesh_K",
+          "kind": "required",
+          "passed": true,
+          "reason": "contains K=(1/3,1/3,0)"
+        },
+        {
+          "name": "required:static",
+          "kind": "required",
+          "passed": true,
+          "reason": "NSW=0.0 IBRION=-1 ok (static)"
+        },
+        {
+          "name": "required:LSORBIT",
+          "kind": "required",
+          "passed": true,
+          "reason": "LSORBIT=True (set) ok"
+        },
+        {
+          "name": "required:ENCUT",
+          "kind": "required",
+          "passed": true,
+          "reason": "ENCUT=290.0 >= 1*max_ENMAX=223 eV (Se+W)"
+        },
+        {
+          "name": "required:smearing",
+          "kind": "required",
+          "passed": true,
+          "reason": "ISMEAR=0 ok"
+        },
+        {
+          "name": "required:EDIFF",
+          "kind": "required",
+          "passed": true,
+          "reason": "EDIFF=1e-08 (set) ok"
+        },
+        {
+          "name": "required:functional",
+          "kind": "required",
+          "passed": true,
+          "reason": "GGA=Pe ok"
+        },
+        {
+          "name": "required:kmesh",
+          "kind": "required",
+          "passed": true,
+          "reason": "mesh 24x24x1 meets frozen per-axis minima 7x7x1"
+        },
+        {
+          "name": "required:poscar_species",
+          "kind": "required",
+          "passed": true,
+          "reason": "species {'Se': 2, 'W': 1} ok"
+        },
+        {
+          "name": "required:poscar_vacuum",
+          "kind": "required",
+          "passed": true,
+          "reason": "vacuum along axis 2 ~20.0 A ok"
+        },
+        {
+          "name": "required:structure",
+          "kind": "required",
+          "passed": true,
+          "reason": "structure matches POSCAR_WSe2_eps_p05.vasp"
+        }
+      ]
+    },
+    {
+      "label": "WSe2_eps_p10_relax",
+      "score": 1,
+      "checks": [
+        {
+          "name": "required:relax_fixed_cell",
+          "kind": "required",
+          "passed": true,
+          "reason": "fixed-cell relax ok"
+        },
+        {
+          "name": "required:NSW",
+          "kind": "required",
+          "passed": true,
+          "reason": "NSW=200 (set) ok"
+        },
+        {
+          "name": "required:ENCUT",
+          "kind": "required",
+          "passed": true,
+          "reason": "ENCUT=290.0 >= 1*max_ENMAX=223 eV (Se+W)"
+        },
+        {
+          "name": "required:smearing",
+          "kind": "required",
+          "passed": true,
+          "reason": "ISMEAR=0 ok"
+        },
+        {
+          "name": "required:EDIFF",
+          "kind": "required",
+          "passed": true,
+          "reason": "EDIFF=1e-08 (set) ok"
+        },
+        {
+          "name": "required:functional",
+          "kind": "required",
+          "passed": true,
+          "reason": "GGA=Pe ok"
+        },
+        {
+          "name": "required:kmesh",
+          "kind": "required",
+          "passed": true,
+          "reason": "mesh 24x24x1 meets frozen per-axis minima 7x7x1"
+        },
+        {
+          "name": "required:poscar_species",
+          "kind": "required",
+          "passed": true,
+          "reason": "species {'Se': 2, 'W': 1} ok"
+        },
+        {
+          "name": "required:poscar_vacuum",
+          "kind": "required",
+          "passed": true,
+          "reason": "vacuum along axis 2 ~20.0 A ok"
+        },
+        {
+          "name": "required:structure",
+          "kind": "required",
+          "passed": true,
+          "reason": "structure matches POSCAR_WSe2_eps_p10.vasp"
+        }
+      ]
+    },
+    {
+      "label": "WSe2_eps_p10_static",
+      "score": 1,
+      "checks": [
+        {
+          "name": "required:kmesh_K",
+          "kind": "required",
+          "passed": true,
+          "reason": "contains K=(1/3,1/3,0)"
+        },
+        {
+          "name": "required:static",
+          "kind": "required",
+          "passed": true,
+          "reason": "NSW=0.0 IBRION=-1 ok (static)"
+        },
+        {
+          "name": "required:LSORBIT",
+          "kind": "required",
+          "passed": true,
+          "reason": "LSORBIT=True (set) ok"
+        },
+        {
+          "name": "required:ENCUT",
+          "kind": "required",
+          "passed": true,
+          "reason": "ENCUT=290.0 >= 1*max_ENMAX=223 eV (Se+W)"
+        },
+        {
+          "name": "required:smearing",
+          "kind": "required",
+          "passed": true,
+          "reason": "ISMEAR=0 ok"
+        },
+        {
+          "name": "required:EDIFF",
+          "kind": "required",
+          "passed": true,
+          "reason": "EDIFF=1e-08 (set) ok"
+        },
+        {
+          "name": "required:functional",
+          "kind": "required",
+          "passed": true,
+          "reason": "GGA=Pe ok"
+        },
+        {
+          "name": "required:kmesh",
+          "kind": "required",
+          "passed": true,
+          "reason": "mesh 24x24x1 meets frozen per-axis minima 7x7x1"
+        },
+        {
+          "name": "required:poscar_species",
+          "kind": "required",
+          "passed": true,
+          "reason": "species {'Se': 2, 'W': 1} ok"
+        },
+        {
+          "name": "required:poscar_vacuum",
+          "kind": "required",
+          "passed": true,
+          "reason": "vacuum along axis 2 ~20.0 A ok"
+        },
+        {
+          "name": "required:structure",
+          "kind": "required",
+          "passed": true,
+          "reason": "structure matches POSCAR_WSe2_eps_p10.vasp"
+        }
+      ]
+    },
+    {
+      "label": "WSe2_eps_p15_relax",
+      "score": 1,
+      "checks": [
+        {
+          "name": "required:relax_fixed_cell",
+          "kind": "required",
+          "passed": true,
+          "reason": "fixed-cell relax ok"
+        },
+        {
+          "name": "required:NSW",
+          "kind": "required",
+          "passed": true,
+          "reason": "NSW=200 (set) ok"
+        },
+        {
+          "name": "required:ENCUT",
+          "kind": "required",
+          "passed": true,
+          "reason": "ENCUT=290.0 >= 1*max_ENMAX=223 eV (Se+W)"
+        },
+        {
+          "name": "required:smearing",
+          "kind": "required",
+          "passed": true,
+          "reason": "ISMEAR=0 ok"
+        },
+        {
+          "name": "required:EDIFF",
+          "kind": "required",
+          "passed": true,
+          "reason": "EDIFF=1e-08 (set) ok"
+        },
+        {
+          "name": "required:functional",
+          "kind": "required",
+          "passed": true,
+          "reason": "GGA=Pe ok"
+        },
+        {
+          "name": "required:kmesh",
+          "kind": "required",
+          "passed": true,
+          "reason": "mesh 24x24x1 meets frozen per-axis minima 7x7x1"
+        },
+        {
+          "name": "required:poscar_species",
+          "kind": "required",
+          "passed": true,
+          "reason": "species {'Se': 2, 'W': 1} ok"
+        },
+        {
+          "name": "required:poscar_vacuum",
+          "kind": "required",
+          "passed": true,
+          "reason": "vacuum along axis 2 ~20.0 A ok"
+        },
+        {
+          "name": "required:structure",
+          "kind": "required",
+          "passed": true,
+          "reason": "structure matches POSCAR_WSe2_eps_p15.vasp"
+        }
+      ]
+    },
+    {
+      "label": "WSe2_eps_p15_static",
+      "score": 1,
+      "checks": [
+        {
+          "name": "required:kmesh_K",
+          "kind": "required",
+          "passed": true,
+          "reason": "contains K=(1/3,1/3,0)"
+        },
+        {
+          "name": "required:static",
+          "kind": "required",
+          "passed": true,
+          "reason": "NSW=0.0 IBRION=-1 ok (static)"
+        },
+        {
+          "name": "required:LSORBIT",
+          "kind": "required",
+          "passed": true,
+          "reason": "LSORBIT=True (set) ok"
+        },
+        {
+          "name": "required:ENCUT",
+          "kind": "required",
+          "passed": true,
+          "reason": "ENCUT=290.0 >= 1*max_ENMAX=223 eV (Se+W)"
+        },
+        {
+          "name": "required:smearing",
+          "kind": "required",
+          "passed": true,
+          "reason": "ISMEAR=0 ok"
+        },
+        {
+          "name": "required:EDIFF",
+          "kind": "required",
+          "passed": true,
+          "reason": "EDIFF=1e-08 (set) ok"
+        },
+        {
+          "name": "required:functional",
+          "kind": "required",
+          "passed": true,
+          "reason": "GGA=Pe ok"
+        },
+        {
+          "name": "required:kmesh",
+          "kind": "required",
+          "passed": true,
+          "reason": "mesh 24x24x1 meets frozen per-axis minima 7x7x1"
+        },
+        {
+          "name": "required:poscar_species",
+          "kind": "required",
+          "passed": true,
+          "reason": "species {'Se': 2, 'W': 1} ok"
+        },
+        {
+          "name": "required:poscar_vacuum",
+          "kind": "required",
+          "passed": true,
+          "reason": "vacuum along axis 2 ~20.0 A ok"
+        },
+        {
+          "name": "required:structure",
+          "kind": "required",
+          "passed": true,
+          "reason": "structure matches POSCAR_WSe2_eps_p15.vasp"
+        }
+      ]
+    }
+  ],
+  "extra_labels": []
+}
+SCORE: 1

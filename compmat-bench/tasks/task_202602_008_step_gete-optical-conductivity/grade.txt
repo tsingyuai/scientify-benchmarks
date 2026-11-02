@@ -1,0 +1,51 @@
+{
+  "score": 1,
+  "checks": [
+    {
+      "passed": true,
+      "value": 0.7181610823633958,
+      "truth": 0.7181610823634083,
+      "abs_err": 1.2434497875801753e-14,
+      "tol": 0.07181610823634083,
+      "rule": "+/-10% relative",
+      "name": "retention_p1.1e21"
+    },
+    {
+      "passed": true,
+      "value": 0.7703235958265492,
+      "truth": 0.7703235958265203,
+      "abs_err": 2.886579864025407e-14,
+      "tol": 0.07703235958265203,
+      "rule": "+/-10% relative",
+      "name": "retention_p5.3e20"
+    },
+    {
+      "passed": true,
+      "value": 0.8058742659840301,
+      "truth": 0.8058742659840284,
+      "abs_err": 1.6653345369377348e-15,
+      "tol": 0.08058742659840284,
+      "rule": "+/-10% relative",
+      "name": "retention_p1.8e19"
+    },
+    {
+      "passed": true,
+      "value": 1.9026418505421134,
+      "truth": 1.9026418505421168,
+      "abs_err": 3.3306690738754696e-15,
+      "tol": 0.1902641850542117,
+      "rule": "+/-10% relative",
+      "name": "peak_ratio_p1.1e21"
+    },
+    {
+      "passed": true,
+      "value": 1.9130704038863249,
+      "truth": 1.9130704038863093,
+      "abs_err": 1.554312234475219e-14,
+      "tol": 0.19130704038863094,
+      "rule": "+/-10% relative",
+      "name": "peak_ratio_p5.3e20"
+    }
+  ]
+}
+SCORE: 1

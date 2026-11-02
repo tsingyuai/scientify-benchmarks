@@ -1,0 +1,150 @@
+{
+  "score": 1,
+  "checks": [
+    {
+      "passed": true,
+      "value": 0.0,
+      "truth": 0.0,
+      "abs_err": 0.0,
+      "tol": 5.0,
+      "rule": "absolute",
+      "name": "gamma_split_meV_sb_p1"
+    },
+    {
+      "passed": true,
+      "value": 255.8,
+      "truth": 255.75678005593795,
+      "abs_err": 0.04321994406205931,
+      "tol": 38.363517008390694,
+      "rule": "+/-15% relative",
+      "name": "peak_split_meV_sb_p1"
+    },
+    {
+      "passed": true,
+      "value": -0.478625,
+      "truth": -0.4786358084060822,
+      "abs_err": 1.0808406082196687e-05,
+      "tol": 0.047863580840608225,
+      "rule": "+/-10% relative",
+      "name": "ef_shift_eV_sb_p1"
+    },
+    {
+      "passed": true,
+      "value": 0.0,
+      "truth": 0.0,
+      "abs_err": 0.0,
+      "tol": 0.05,
+      "rule": "absolute",
+      "name": "net_mag_muB_sb_p1"
+    },
+    {
+      "passed": true,
+      "value": 0.0,
+      "truth": 0.0,
+      "abs_err": 0.0,
+      "tol": 5.0,
+      "rule": "absolute",
+      "name": "gamma_split_meV_i_p1"
+    },
+    {
+      "passed": true,
+      "value": 123.2,
+      "truth": 123.1939756884568,
+      "abs_err": 0.006024311543200156,
+      "tol": 18.47909635326852,
+      "rule": "+/-15% relative",
+      "name": "peak_split_meV_i_p1"
+    },
+    {
+      "passed": true,
+      "value": 0.72386875,
+      "truth": 0.7238526089207511,
+      "abs_err": 1.6141079248854773e-05,
+      "tol": 0.07238526089207512,
+      "rule": "+/-10% relative",
+      "name": "ef_shift_eV_i_p1"
+    },
+    {
+      "passed": true,
+      "value": 0.0,
+      "truth": 0.0,
+      "abs_err": 0.0,
+      "tol": 0.05,
+      "rule": "absolute",
+      "name": "net_mag_muB_i_p1"
+    },
+    {
+      "passed": true,
+      "value": 70.9,
+      "truth": 70.97773426415799,
+      "abs_err": 0.07773426415798212,
+      "tol": 7.097773426415799,
+      "rule": "+/-10% relative",
+      "name": "gamma_split_meV_sb_p2"
+    },
+    {
+      "passed": true,
+      "value": 94.7,
+      "truth": 94.71057880773692,
+      "abs_err": 0.01057880773691977,
+      "tol": 14.206586821160538,
+      "rule": "+/-15% relative",
+      "name": "peak_split_meV_sb_p2"
+    },
+    {
+      "passed": true,
+      "value": -0.454475,
+      "truth": -0.4545446524248007,
+      "abs_err": 6.965242480067024e-05,
+      "tol": 0.04545446524248007,
+      "rule": "+/-10% relative",
+      "name": "ef_shift_eV_sb_p2"
+    },
+    {
+      "passed": true,
+      "value": 0.06,
+      "truth": 0.06,
+      "abs_err": 0.0,
+      "tol": 0.03,
+      "rule": "absolute",
+      "name": "net_mag_muB_sb_p2"
+    },
+    {
+      "passed": true,
+      "value": 80.6,
+      "truth": 80.5424306405893,
+      "abs_err": 0.0575693594106923,
+      "tol": 8.05424306405893,
+      "rule": "+/-10% relative",
+      "name": "gamma_split_meV_i_p2"
+    },
+    {
+      "passed": true,
+      "value": 148.9,
+      "truth": 148.8663108177377,
+      "abs_err": 0.033689182262293116,
+      "tol": 22.329946622660657,
+      "rule": "+/-15% relative",
+      "name": "peak_split_meV_i_p2"
+    },
+    {
+      "passed": true,
+      "value": 0.708128125,
+      "truth": 0.7081232076380815,
+      "abs_err": 4.917361918543861e-06,
+      "tol": 0.07081232076380815,
+      "rule": "+/-10% relative",
+      "name": "ef_shift_eV_i_p2"
+    },
+    {
+      "passed": true,
+      "value": 0.2,
+      "truth": 0.2,
+      "abs_err": 0.0,
+      "tol": 0.05,
+      "rule": "+/-25% relative",
+      "name": "net_mag_muB_i_p2"
+    }
+  ]
+}
+SCORE: 1

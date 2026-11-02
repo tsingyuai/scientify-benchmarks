@@ -1,0 +1,150 @@
+{
+  "score": 0,
+  "checks": [
+    {
+      "passed": true,
+      "value": 3.2394227802899125,
+      "truth": 3.23942278028988,
+      "abs_err": 3.241851231905457e-14,
+      "tol": 0.323942278028988,
+      "rule": "+/-10% relative",
+      "name": "nu_L_Si_THz[0]"
+    },
+    {
+      "passed": true,
+      "value": 3.2394227802899174,
+      "truth": 3.2394227802898996,
+      "abs_err": 1.7763568394002505e-14,
+      "tol": 0.32394227802899,
+      "rule": "+/-10% relative",
+      "name": "nu_L_Si_THz[1]"
+    },
+    {
+      "passed": true,
+      "value": 11.090244463385725,
+      "truth": 11.090244463385725,
+      "abs_err": 0.0,
+      "tol": 1.1090244463385726,
+      "rule": "+/-10% relative",
+      "name": "nu_L_Si_THz[2]"
+    },
+    {
+      "passed": true,
+      "value": 12.064906466251795,
+      "truth": 12.0649064662518,
+      "abs_err": 5.329070518200751e-15,
+      "tol": 1.2064906466251801,
+      "rule": "+/-10% relative",
+      "name": "nu_L_Si_THz[3]"
+    },
+    {
+      "passed": true,
+      "value": 14.386044002451564,
+      "truth": 14.386044002451575,
+      "abs_err": 1.0658141036401503e-14,
+      "tol": 1.4386044002451577,
+      "rule": "+/-10% relative",
+      "name": "nu_L_Si_THz[4]"
+    },
+    {
+      "passed": true,
+      "value": 14.386044002451566,
+      "truth": 14.386044002451579,
+      "abs_err": 1.2434497875801753e-14,
+      "tol": 1.438604400245158,
+      "rule": "+/-10% relative",
+      "name": "nu_L_Si_THz[5]"
+    },
+    {
+      "passed": true,
+      "value": 15.133588615418413,
+      "truth": 15.133588615418402,
+      "abs_err": 1.0658141036401503e-14,
+      "tol": 1.5133588615418403,
+      "rule": "+/-10% relative",
+      "name": "nu_Gamma_optical_Si_THz"
+    },
+    {
+      "passed": false,
+      "value": 81.48701615131064,
+      "truth": 123.37221725133439,
+      "abs_err": 41.88520110002375,
+      "tol": 12.337221725133439,
+      "rule": "+/-10% relative",
+      "name": "kappa_300K_Si_W_per_mK"
+    },
+    {
+      "passed": true,
+      "value": 1.2938324020419645,
+      "truth": 1.2938324020419312,
+      "abs_err": 3.3306690738754696e-14,
+      "tol": 0.12938324020419312,
+      "rule": "+/-10% relative",
+      "name": "nu_L_Ge_THz[0]"
+    },
+    {
+      "passed": true,
+      "value": 1.29383240204197,
+      "truth": 1.293832402041959,
+      "abs_err": 1.1102230246251565e-14,
+      "tol": 0.1293832402041959,
+      "rule": "+/-10% relative",
+      "name": "nu_L_Ge_THz[1]"
+    },
+    {
+      "passed": true,
+      "value": 6.895928844896658,
+      "truth": 6.895928844896655,
+      "abs_err": 2.6645352591003757e-15,
+      "tol": 0.6895928844896656,
+      "rule": "+/-10% relative",
+      "name": "nu_L_Ge_THz[2]"
+    },
+    {
+      "passed": true,
+      "value": 8.619379939659908,
+      "truth": 8.619379939659908,
+      "abs_err": 0.0,
+      "tol": 0.8619379939659908,
+      "rule": "+/-10% relative",
+      "name": "nu_L_Ge_THz[3]"
+    },
+    {
+      "passed": true,
+      "value": 9.799392534460264,
+      "truth": 9.799392534460267,
+      "abs_err": 3.552713678800501e-15,
+      "tol": 0.9799392534460267,
+      "rule": "+/-10% relative",
+      "name": "nu_L_Ge_THz[4]"
+    },
+    {
+      "passed": true,
+      "value": 9.799392534460265,
+      "truth": 9.799392534460269,
+      "abs_err": 3.552713678800501e-15,
+      "tol": 0.979939253446027,
+      "rule": "+/-10% relative",
+      "name": "nu_L_Ge_THz[5]"
+    },
+    {
+      "passed": true,
+      "value": 9.999746907905386,
+      "truth": 9.999746907905386,
+      "abs_err": 0.0,
+      "tol": 0.9999746907905387,
+      "rule": "+/-10% relative",
+      "name": "nu_Gamma_optical_Ge_THz"
+    },
+    {
+      "passed": false,
+      "value": 36.92715259850926,
+      "truth": 61.3455268332229,
+      "abs_err": 24.41837423471364,
+      "tol": 6.1345526833222905,
+      "rule": "+/-10% relative",
+      "name": "kappa_300K_Ge_W_per_mK"
+    }
+  ]
+}
+SCORE: 0

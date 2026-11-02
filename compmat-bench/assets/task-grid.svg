@@ -1,0 +1,104 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='672' height='284' viewBox='0 0 672 284' font-family='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif'>
+<rect width='672' height='284' rx='12' fill='#ffffff' stroke='#e5e7eb'/>
+<text x='24' y='34' font-size='17' font-weight='600' fill='#111827'>All 94 tasks · filled = passed, × = failed</text>
+<text x='24' y='60' font-size='14' font-weight='600' fill='#111827'>Analyse computed data</text>
+<text x='648' y='60' font-size='14' text-anchor='end' fill='#6b7280'>63/64 passed</text>
+<rect x='24' y='72' width='22' height='22' rx='4' fill='#2563eb'><title>task_202509_002_step_hbn-sliding-potential-step · 4/4 checks · score 1</title></rect>
+<rect x='50' y='72' width='22' height='22' rx='4' fill='#2563eb'><title>task_202509_003_step_hbn-undulated-sliding-ratio · 8/8 checks · score 1</title></rect>
+<rect x='76' y='72' width='22' height='22' rx='4' fill='#2563eb'><title>task_202509_005_step_bn-nanotube-flexoelectric-constant · 1/1 checks · score 1</title></rect>
+<rect x='102' y='72' width='22' height='22' rx='4' fill='#2563eb'><title>task_202509_007_step_hbn-undulated-step-decomposition · 14/14 checks · score 1</title></rect>
+<rect x='128' y='72' width='22' height='22' rx='4' fill='#2563eb'><title>task_202601_001_step_v2coal-heusler-structures · 2/2 checks · score 1</title></rect>
+<rect x='154' y='72' width='22' height='22' rx='4' fill='#2563eb'><title>task_202601_003_step_v2coal-formation-energies-ordering · 10/10 checks · score 1</title></rect>
+<rect x='180' y='72' width='22' height='22' rx='4' fill='#2563eb'><title>task_202601_005_step_v2coal-l21-magnetic-moment · 2/2 checks · score 1</title></rect>
+<rect x='206' y='72' width='22' height='22' rx='4' fill='#2563eb'><title>task_202601_007_step_v2coal-xa-site-moments · 3/3 checks · score 1</title></rect>
+<rect x='232' y='72' width='22' height='22' rx='4' fill='#2563eb'><title>task_202601_008_step_v2coal-heisenberg-exchange · 5/5 checks · score 1</title></rect>
+<rect x='258' y='72' width='22' height='22' rx='4' fill='#2563eb'><title>task_202601_009_step_snte-110-surface-dirac-cones · 1/1 checks · score 1</title></rect>
+<rect x='284' y='72' width='22' height='22' rx='4' fill='#2563eb'><title>task_202601_011_step_coupled-slab-surface-splittings · 2/2 checks · score 1</title></rect>
+<rect x='310' y='72' width='22' height='22' rx='4' fill='#2563eb'><title>task_202601_012_step_surface-cone-hall-contributions · 0/0 checks · score 1</title></rect>
+<rect x='336' y='72' width='22' height='22' rx='4' fill='#2563eb'><title>task_202601_013_step_slab-hall-interface-distribution · 2/2 checks · score 1</title></rect>
+<rect x='362' y='72' width='22' height='22' rx='4' fill='#2563eb'><title>task_202602_002_step_hgte-well-hartree-analysis · 10/10 checks · score 1</title></rect>
+<rect x='388' y='72' width='22' height='22' rx='4' fill='#2563eb'><title>task_202602_003_step_hgte-well-surface-dispersion · 5/5 checks · score 1</title></rect>
+<rect x='414' y='72' width='22' height='22' rx='4' fill='#2563eb'><title>task_202602_004_step_hgte-well-sdh-densities · 10/10 checks · score 1</title></rect>
+<rect x='440' y='72' width='22' height='22' rx='4' fill='#2563eb'><title>task_202602_006_step_gete-fermi-levels · 5/5 checks · score 1</title></rect>
+<rect x='466' y='72' width='22' height='22' rx='4' fill='#2563eb'><title>task_202602_007_step_gete-interband-jdos · 8/8 checks · score 1</title></rect>
+<rect x='492' y='72' width='22' height='22' rx='4' fill='#2563eb'><title>task_202602_008_step_gete-optical-conductivity · 5/5 checks · score 1</title></rect>
+<rect x='518' y='72' width='22' height='22' rx='4' fill='#2563eb'><title>task_202602_010_step_rucl2-valley-gaps · 4/4 checks · score 1</title></rect>
+<rect x='544' y='72' width='22' height='22' rx='4' fill='#2563eb'><title>task_202602_012_step_rucl2-a1p-phonon-mode · 5/5 checks · score 1</title></rect>
+<rect x='570' y='72' width='22' height='22' rx='4' fill='#2563eb'><title>task_202602_014_step_rucl2-magneto-raman-tensor · 6/6 checks · score 1</title></rect>
+<rect x='596' y='72' width='22' height='22' rx='4' fill='#2563eb'><title>task_202602_016_step_ws2-wse2-moire-reconstruction-fields · 17/17 checks · score 1</title></rect>
+<rect x='622' y='72' width='22' height='22' rx='4' fill='#2563eb'><title>task_202602_018_step_ws2-wse2-band-offsets-at-k · 5/5 checks · score 1</title></rect>
+<rect x='24' y='98' width='22' height='22' rx='4' fill='#2563eb'><title>task_202602_020_step_tmd-strain-deformation-potentials · 6/6 checks · score 1</title></rect>
+<rect x='50' y='98' width='22' height='22' rx='4' fill='#2563eb'><title>task_202602_021_step_moire-piezoelectric-bound-charge · 7/7 checks · score 1</title></rect>
+<rect x='76' y='98' width='22' height='22' rx='4' fill='#2563eb'><title>task_202602_022_step_moire-screened-piezo-potential · 6/6 checks · score 1</title></rect>
+<rect x='102' y='98' width='22' height='22' rx='4' fill='#2563eb'><title>task_202602_024_step_mnte-altermagnet-spin-splitting · 6/6 checks · score 1</title></rect>
+<rect x='128' y='98' width='22' height='22' rx='4' fill='#2563eb'><title>task_202602_025_step_doped-mnte-space-group-classification · 2/2 checks · score 1</title></rect>
+<rect x='154' y='98' width='22' height='22' rx='4' fill='#2563eb'><title>task_202602_027_step_doped-mnte-momentum-spin-splitting · 16/16 checks · score 1</title></rect>
+<rect x='180' y='98' width='22' height='22' rx='4' fill='#2563eb'><title>task_202602_028_step_tb-chain-spin-splitting · 9/9 checks · score 1</title></rect>
+<rect x='206' y='98' width='22' height='22' rx='4' fill='#2563eb'><title>task_202602_029_step_substituted-tb-chain-spectrum · 13/13 checks · score 1</title></rect>
+<rect x='232' y='98' width='22' height='22' rx='4' fill='#2563eb'><title>task_202602_030_step_spin-lattice-hessian-minimum-modes · 9/9 checks · score 1</title></rect>
+<rect x='258' y='98' width='22' height='22' rx='4' fill='#2563eb'><title>task_202602_031_step_ni-island-eam-saddle-points · 12/12 checks · score 1</title></rect>
+<rect x='284' y='98' width='22' height='22' rx='4' fill='#2563eb'><title>task_202602_032_step_ni-island-mlp-saddle-certification · 8/8 checks · score 1</title></rect>
+<rect x='310' y='98' width='22' height='22' rx='4' fill='#2563eb'><title>task_202603_001_step_zno-mgo-phase-boundaries · 6/6 checks · score 1</title></rect>
+<rect x='336' y='98' width='22' height='22' rx='4' fill='#2563eb'><title>task_202603_003_step_znmgo-elastic-piezoelectric · 28/28 checks · score 1</title></rect>
+<rect x='362' y='98' width='22' height='22' rx='4' fill='#2563eb'><title>task_202603_005_step_znmgo-spontaneous-polarization · 7/7 checks · score 1</title></rect>
+<rect x='388' y='98' width='22' height='22' rx='4' fill='#2563eb'><title>task_202603_006_step_znmgo-landau-devonshire-model · 6/6 checks · score 1</title></rect>
+<rect x='414' y='98' width='22' height='22' rx='4' fill='#2563eb'><title>task_202603_007_step_znmgo-strain-composition-phase-map · 6/6 checks · score 1</title></rect>
+<rect x='440' y='98' width='22' height='22' rx='4' fill='#2563eb'><title>task_202603_008_step_afm-chain-magnon-spectrum · 2/2 checks · score 1</title></rect>
+<rect x='466' y='98' width='22' height='22' rx='4' fill='#2563eb'><title>task_202603_010_step_crn-relaxed-structure-exchange-paths · 15/15 checks · score 1</title></rect>
+<rect x='492' y='98' width='22' height='22' rx='4' fill='#2563eb'><title>task_202603_012_step_crn-nearest-neighbour-exchange · 12/12 checks · score 1</title></rect>
+<rect x='518' y='98' width='22' height='22' rx='4' fill='#2563eb'><title>task_202603_013_step_crn-linear-spin-wave-spectrum · 2/2 checks · score 1</title></rect>
+<rect x='544' y='98' width='22' height='22' rx='4' fill='#2563eb'><title>task_202603_015_step_crn-neel-temperature · 2/2 checks · score 1</title></rect>
+<rect x='570' y='98' width='22' height='22' rx='4' fill='#2563eb'><title>task_202603_016_step_si-ge-interface-cells · 4/4 checks · score 1</title></rect>
+<rect x='596' y='98' width='22' height='22' rx='4' fill='#2563eb'><title>task_202603_017_step_si-ge-empirical-phonons · 16/16 checks · score 1</title></rect>
+<rect x='622' y='98' width='22' height='22' rx='4' fill='#ffffff' stroke='#9ca3af' stroke-width='1.5'><title>task_202603_019_step_si-ge-abinitio-phonons · 14/16 checks · score 0</title></rect>
+<text x='633.0' y='114' font-size='14' text-anchor='middle' fill='#6b7280'>×</text>
+<rect x='24' y='124' width='22' height='22' rx='4' fill='#2563eb'><title>task_202603_020_step_si-ge-mode-resolved-transmission · 45/45 checks · score 1</title></rect>
+<rect x='50' y='124' width='22' height='22' rx='4' fill='#2563eb'><title>task_202603_021_step_si-ge-diffuse-mismatch-transmission · 4/4 checks · score 1</title></rect>
+<rect x='76' y='124' width='22' height='22' rx='4' fill='#2563eb'><title>task_202603_022_step_si-ge-reflection-specularity · 4/4 checks · score 1</title></rect>
+<rect x='102' y='124' width='22' height='22' rx='4' fill='#2563eb'><title>task_202603_024_step_si-ge-slab-thermal-conductivity · 8/8 checks · score 1</title></rect>
+<rect x='128' y='124' width='22' height='22' rx='4' fill='#2563eb'><title>task_202603_026_step_hzo-oxygen-environments · 17/17 checks · score 1</title></rect>
+<rect x='154' y='124' width='22' height='22' rx='4' fill='#2563eb'><title>task_202603_028_step_hzo-vacancy-charge-thermodynamics · 55/55 checks · score 1</title></rect>
+<rect x='180' y='124' width='22' height='22' rx='4' fill='#2563eb'><title>task_202603_030_step_hzo-oxygen-sublattice-bonding · 46/46 checks · score 1</title></rect>
+<rect x='206' y='124' width='22' height='22' rx='4' fill='#2563eb'><title>task_202603_032_step_batio3-polarization-hysteresis · 7/7 checks · score 1</title></rect>
+<rect x='232' y='124' width='22' height='22' rx='4' fill='#2563eb'><title>task_202603_034_step_batio3-dislocation-dipole-relaxed · 16/16 checks · score 1</title></rect>
+<rect x='258' y='124' width='22' height='22' rx='4' fill='#2563eb'><title>task_202603_035_step_batio3-dislocation-strain-maps · 14/14 checks · score 1</title></rect>
+<rect x='284' y='124' width='22' height='22' rx='4' fill='#2563eb'><title>task_202603_036_step_batio3-dislocation-core-polarization · 36/36 checks · score 1</title></rect>
+<rect x='310' y='124' width='22' height='22' rx='4' fill='#2563eb'><title>task_202603_038_step_bas-harmonic-force-constants · 21/21 checks · score 1</title></rect>
+<rect x='336' y='124' width='22' height='22' rx='4' fill='#2563eb'><title>task_202603_039_step_bas-natural-isotope-dielectric · 11/11 checks · score 1</title></rect>
+<rect x='362' y='124' width='22' height='22' rx='4' fill='#2563eb'><title>task_202603_040_step_bas-isotope-dielectric-dependence · 12/12 checks · score 1</title></rect>
+<rect x='388' y='124' width='22' height='22' rx='4' fill='#2563eb'><title>task_202603_041_step_bas-surface-phonon-polariton-gap · 11/11 checks · score 1</title></rect>
+<rect x='414' y='124' width='22' height='22' rx='4' fill='#2563eb'><title>task_202603_042_step_bas-near-field-heat-flux · 19/19 checks · score 1</title></rect>
+<text x='24' y='180' font-size='14' font-weight='600' fill='#111827'>Prepare simulation inputs</text>
+<text x='648' y='180' font-size='14' text-anchor='end' fill='#6b7280'>29/30 passed</text>
+<rect x='24' y='192' width='22' height='22' rx='4' fill='#2563eb'><title>task_202509_001_step_hbn-sliding-sweep-inputs · 169/169 checks · score 1</title></rect>
+<rect x='50' y='192' width='22' height='22' rx='4' fill='#2563eb'><title>task_202509_004_step_bn-nanotube-inputs · 28/28 checks · score 1</title></rect>
+<rect x='76' y='192' width='22' height='22' rx='4' fill='#2563eb'><title>task_202509_006_step_hbn-flexo-sliding-decomposition-inputs · 64/64 checks · score 1</title></rect>
+<rect x='102' y='192' width='22' height='22' rx='4' fill='#2563eb'><title>task_202601_002_step_v2coal-relax-energy-inputs · 48/48 checks · score 1</title></rect>
+<rect x='128' y='192' width='22' height='22' rx='4' fill='#2563eb'><title>task_202601_004_step_v2coal-l21-abacus-inputs · 13/13 checks · score 1</title></rect>
+<rect x='154' y='192' width='22' height='22' rx='4' fill='#2563eb'><title>task_202601_006_step_v2coal-xa-abacus-inputs · 13/13 checks · score 1</title></rect>
+<rect x='180' y='192' width='22' height='22' rx='4' fill='#2563eb'><title>task_202601_010_step_ruo2-snte-interface-inputs · 38/38 checks · score 1</title></rect>
+<rect x='206' y='192' width='22' height='22' rx='4' fill='#2563eb'><title>task_202602_001_step_hgte-well-hartree-inputs · 48/48 checks · score 1</title></rect>
+<rect x='232' y='192' width='22' height='22' rx='4' fill='#2563eb'><title>task_202602_005_step_gete-wannier-inputs · 40/40 checks · score 1</title></rect>
+<rect x='258' y='192' width='22' height='22' rx='4' fill='#2563eb'><title>task_202602_009_step_rucl2-dftu-bands-inputs · 29/29 checks · score 1</title></rect>
+<rect x='284' y='192' width='22' height='22' rx='4' fill='#2563eb'><title>task_202602_011_step_rucl2-phonon-forces-inputs · 15/15 checks · score 1</title></rect>
+<rect x='310' y='192' width='22' height='22' rx='4' fill='#2563eb'><title>task_202602_013_step_rucl2-frozen-phonon-optics-inputs · 155/155 checks · score 1</title></rect>
+<rect x='336' y='192' width='22' height='22' rx='4' fill='#2563eb'><title>task_202602_015_step_ws2-wse2-moire-lammps-inputs · 24/24 checks · score 1</title></rect>
+<rect x='362' y='192' width='22' height='22' rx='4' fill='#2563eb'><title>task_202602_017_step_ws2-wse2-bilayer-soc-band-inputs · 37/37 checks · score 1</title></rect>
+<rect x='388' y='192' width='22' height='22' rx='4' fill='#2563eb'><title>task_202602_019_step_tmd-monolayer-strain-sweep-inputs · 294/294 checks · score 1</title></rect>
+<rect x='414' y='192' width='22' height='22' rx='4' fill='#2563eb'><title>task_202602_023_step_mnte-altermagnet-pipeline-inputs · 65/65 checks · score 1</title></rect>
+<rect x='440' y='192' width='22' height='22' rx='4' fill='#2563eb'><title>task_202602_026_step_doped-mnte-supercell-band-inputs · 80/80 checks · score 1</title></rect>
+<rect x='466' y='192' width='22' height='22' rx='4' fill='#ffffff' stroke='#9ca3af' stroke-width='1.5'><title>task_202603_002_step_zno-finite-strain-inputs · 84/95 checks · score 0</title></rect>
+<text x='477.0' y='208' font-size='14' text-anchor='middle' fill='#6b7280'>×</text>
+<rect x='492' y='192' width='22' height='22' rx='4' fill='#2563eb'><title>task_202603_004_step_znmgo-berry-phase-inputs · 66/66 checks · score 1</title></rect>
+<rect x='518' y='192' width='22' height='22' rx='4' fill='#2563eb'><title>task_202603_009_step_crn-ldau-structure-inputs · 51/51 checks · score 1</title></rect>
+<rect x='544' y='192' width='22' height='22' rx='4' fill='#2563eb'><title>task_202603_011_step_crn-wannier-exchange-inputs · 33/33 checks · score 1</title></rect>
+<rect x='570' y='192' width='22' height='22' rx='4' fill='#2563eb'><title>task_202603_014_step_crn-monte-carlo-deck · 23/23 checks · score 1</title></rect>
+<rect x='596' y='192' width='22' height='22' rx='4' fill='#2563eb'><title>task_202603_018_step_si-ge-phonon-force-inputs · 36/36 checks · score 1</title></rect>
+<rect x='622' y='192' width='22' height='22' rx='4' fill='#2563eb'><title>task_202603_023_step_si-ge-phonon-mc-tables · 12/12 checks · score 1</title></rect>
+<rect x='24' y='218' width='22' height='22' rx='4' fill='#2563eb'><title>task_202603_025_step_hzo-disordered-supercell-inputs · 15/15 checks · score 1</title></rect>
+<rect x='50' y='218' width='22' height='22' rx='4' fill='#2563eb'><title>task_202603_027_step_hzo-oxygen-vacancy-inputs · 36/36 checks · score 1</title></rect>
+<rect x='76' y='218' width='22' height='22' rx='4' fill='#2563eb'><title>task_202603_029_step_hzo-bonding-analysis-inputs · 36/36 checks · score 1</title></rect>
+<rect x='102' y='218' width='22' height='22' rx='4' fill='#2563eb'><title>task_202603_031_step_batio3-hysteresis-lammps-inputs · 35/35 checks · score 1</title></rect>
+<rect x='128' y='218' width='22' height='22' rx='4' fill='#2563eb'><title>task_202603_033_step_batio3-dislocation-dipole-inputs · 22/22 checks · score 1</title></rect>
+<rect x='154' y='218' width='22' height='22' rx='4' fill='#2563eb'><title>task_202603_037_step_bas-force-constant-inputs · 66/66 checks · score 1</title></rect>
+</svg>

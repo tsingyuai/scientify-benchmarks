@@ -1,0 +1,24 @@
+{
+  "n_rows_y": 80,
+  "n_rows_region_A": 40,
+  "core_BaO_xy_A": [
+    77.43062737245256,
+    236.4394730027107
+  ],
+  "core_TiO2_xy_A": [
+    77.19725827042076,
+    80.83024439782918
+  ],
+  "core_separation_over_Ly": 0.4877292829132046,
+  "ba_spacing_x_region_A_A": 4.1145622729935525,
+  "ba_spacing_x_region_B_A": 4.011698216168713,
+  "min_Ti_core_O_shell_A": 1.5886667939436443,
+  "min_contact_nearest_core": "BaO",
+  "min_contact_distance_to_core_A": 5.470749931357518,
+  "Ti_shell_displacement_mean_A": [
+    -0.0501033939344961,
+    0.0007130725257190885,
+    0.001999997395361483
+  ],
+  "polarization_direction": "+x"
+}

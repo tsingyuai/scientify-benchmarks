@@ -1,0 +1,234 @@
+{
+  "score": 1,
+  "runs": [
+    {
+      "label": "wannier",
+      "passed": true,
+      "incar": {
+        "label": "wannier",
+        "score": 1,
+        "checks": [
+          {
+            "name": "required:static",
+            "kind": "required",
+            "passed": true,
+            "reason": "NSW=0.0 IBRION=-1 ok (static)"
+          },
+          {
+            "name": "required:ISPIN",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISPIN=2 (set) ok"
+          },
+          {
+            "name": "required:MAGMOM",
+            "kind": "required",
+            "passed": true,
+            "reason": "up-up-down-down ok (wide gaps [1.328, 1.56, 1.328, 1.56] A, moments [3.0, -3.0, -3.0, 3.0])"
+          },
+          {
+            "name": "required:LDAU_block",
+            "kind": "required",
+            "passed": true,
+            "reason": "LDA+U ok (Dudarev, LDAUL[Cr]=2, U_eff[Cr]=4.1 eV, no U on N)"
+          },
+          {
+            "name": "required:LASPH",
+            "kind": "required",
+            "passed": true,
+            "reason": "LASPH=True (set) ok"
+          },
+          {
+            "name": "required:LMAXMIX",
+            "kind": "required",
+            "passed": true,
+            "reason": "LMAXMIX=4 (set) ok"
+          },
+          {
+            "name": "required:ENCUT",
+            "kind": "required",
+            "passed": true,
+            "reason": "ENCUT=520.0 >= 1*max_ENMAX=400 eV (Cr+N)"
+          },
+          {
+            "name": "required:smearing",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISMEAR=0 ok"
+          },
+          {
+            "name": "required:EDIFF",
+            "kind": "required",
+            "passed": true,
+            "reason": "EDIFF=1e-08 (set) ok"
+          },
+          {
+            "name": "required:functional",
+            "kind": "required",
+            "passed": true,
+            "reason": "GGA=Ca ok"
+          },
+          {
+            "name": "required:LWANNIER90_RUN",
+            "kind": "required",
+            "passed": true,
+            "reason": "LWANNIER90_RUN=True (set) ok"
+          },
+          {
+            "name": "required:NUM_WANN",
+            "kind": "required",
+            "passed": true,
+            "reason": "effective NUM_WANN=32 from INCAR NUM_WANN; need 32; VASP supplies this value to Wannier90, overriding .win num_wann"
+          },
+          {
+            "name": "required:ISYM",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISYM=-1 (set) ok"
+          },
+          {
+            "name": "required:NCORE",
+            "kind": "required",
+            "passed": true,
+            "reason": "NCORE=1 (default) ok"
+          },
+          {
+            "name": "required:NBANDS",
+            "kind": "required",
+            "passed": true,
+            "reason": "NBANDS=64 (set) ok"
+          },
+          {
+            "name": "required:kmesh",
+            "kind": "required",
+            "passed": true,
+            "reason": "mesh 8x16x12 meets frozen per-axis minima 4x8x6"
+          }
+        ]
+      },
+      "structure": {
+        "passed": true,
+        "species_counts_ok": true,
+        "lattice_ok": true,
+        "lattice": {
+          "len_rel_err": 0.0,
+          "ang_abs_err_deg": 0.0,
+          "abc_sub": [
+            5.775870670250322,
+            2.9654911337603655,
+            4.1430715438434085
+          ],
+          "abc_ref": [
+            5.775870670250322,
+            2.9654911337603655,
+            4.1430715438434085
+          ]
+        },
+        "site_match_ok": true,
+        "method": "matcher",
+        "max_site_disp_A": 0.0,
+        "max_disp_threshold_A": 0.1,
+        "name": "structure:wannier"
+      },
+      "wannier90_win": [
+        {
+          "name": "secondary:win_num_wann",
+          "kind": "secondary",
+          "passed": true,
+          "reason": "raw .win num_wann='32'; overridden by VASP NUM_WANN"
+        },
+        {
+          "name": "required:spinors",
+          "kind": "required",
+          "passed": true,
+          "reason": "Separate collinear spin channels require scalar projections"
+        },
+        {
+          "name": "required:projections",
+          "kind": "required",
+          "passed": true,
+          "reason": "Wannier90 3.1.0: complete independent atomic shells (32 selected projections)"
+        },
+        {
+          "name": "required:write_hr",
+          "kind": "required",
+          "passed": true,
+          "reason": "write_hr=.true. ok"
+        },
+        {
+          "name": "required:write_xyz",
+          "kind": "required",
+          "passed": true,
+          "reason": "write_xyz=.true. ok"
+        },
+        {
+          "name": "required:reference_window_occupancy",
+          "kind": "required",
+          "passed": true,
+          "reason": "archived-spectrum outer counts 34..34, frozen counts 18..18 for 32 functions; this is not certification of the submitted SCF spectrum",
+          "evidence_scope": "archived_static_spectrum",
+          "submitted_spectrum_certified": false,
+          "unknown_higher_band_effects_unresolved": false
+        },
+        {
+          "name": "secondary:win_keys",
+          "kind": "secondary",
+          "passed": true,
+          "reason": "{\"num_bands\": null, \"exclude_bands\": null, \"write_tb\": null, \"use_ws_distance\": null, \"guiding_centres\": null}"
+        }
+      ],
+      "extra_files": []
+    },
+    {
+      "label": "tb2j",
+      "passed": true,
+      "run_sh": [
+        {
+          "name": "required:wann2J_invocation",
+          "kind": "required",
+          "passed": true,
+          "reason": "wann2J.py invoked with options ['efermi', 'elements', 'kmesh', 'np', 'nz', 'output_path', 'path', 'posfile', 'prefix_down', 'prefix_up', 'rcut']"
+        },
+        {
+          "name": "required:elements",
+          "kind": "required",
+          "passed": true,
+          "reason": "--elements ['Cr']"
+        },
+        {
+          "name": "required:efermi",
+          "kind": "required",
+          "passed": true,
+          "reason": "--efermi 9.6929406 vs 9.6929406 eV (tolerance +/- 0.3)"
+        },
+        {
+          "name": "required:prefix_up",
+          "kind": "required",
+          "passed": true,
+          "reason": "--prefix_up 'wannier90.1': file prefix 'wannier90.1' ok; directory ungraded"
+        },
+        {
+          "name": "required:prefix_down",
+          "kind": "required",
+          "passed": true,
+          "reason": "--prefix_down 'wannier90.2': file prefix 'wannier90.2' ok; directory ungraded"
+        },
+        {
+          "name": "required:kmesh",
+          "kind": "required",
+          "passed": true,
+          "reason": "--kmesh [15, 29, 21] vs per-axis floor [4, 8, 6] (automatic-default policy)"
+        },
+        {
+          "name": "required:rcut",
+          "kind": "required",
+          "passed": true,
+          "reason": "--rcut 3.1 >= 2.987058701 A (the full first Cr shell reaches 2.99 A)"
+        }
+      ],
+      "extra_files": []
+    }
+  ],
+  "extra_labels_ignored": []
+}
+SCORE: 1

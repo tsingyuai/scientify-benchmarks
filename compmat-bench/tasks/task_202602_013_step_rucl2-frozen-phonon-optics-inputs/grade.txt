@@ -1,0 +1,1157 @@
+{
+  "score": 1,
+  "runs": [
+    {
+      "label": "u_0p00_scf",
+      "passed": true,
+      "incar": {
+        "label": "u_0p00_scf",
+        "score": 1,
+        "checks": [
+          {
+            "name": "required:static",
+            "kind": "required",
+            "passed": true,
+            "reason": "NSW=0.0 IBRION=-1 ok (static)"
+          },
+          {
+            "name": "required:smearing",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISMEAR=0 ok"
+          },
+          {
+            "name": "required:ENCUT",
+            "kind": "required",
+            "passed": true,
+            "reason": "ENCUT=500.0 >= 1*max_ENMAX=280 eV (Cl+Ru)"
+          },
+          {
+            "name": "required:EDIFF",
+            "kind": "required",
+            "passed": true,
+            "reason": "EDIFF=1e-08 (set) ok"
+          },
+          {
+            "name": "required:functional",
+            "kind": "required",
+            "passed": true,
+            "reason": "GGA=Pe ok"
+          },
+          {
+            "name": "required:LSORBIT",
+            "kind": "required",
+            "passed": true,
+            "reason": "LSORBIT=True (set) ok"
+          },
+          {
+            "name": "required:LDAU_block",
+            "kind": "required",
+            "passed": true,
+            "reason": "DFT+U ok (Dudarev, LDAUL[Ru]=2, U_eff(Ru)=2.0)"
+          },
+          {
+            "name": "required:LASPH",
+            "kind": "required",
+            "passed": true,
+            "reason": "LASPH=True (set) ok"
+          },
+          {
+            "name": "required:LMAXMIX",
+            "kind": "required",
+            "passed": true,
+            "reason": "LMAXMIX=4 (set) ok"
+          },
+          {
+            "name": "required:MAGMOM_SAXIS",
+            "kind": "required",
+            "passed": true,
+            "reason": "out-of-plane FM seed ok"
+          },
+          {
+            "name": "required:kmesh",
+            "kind": "required",
+            "passed": true,
+            "reason": "mesh 48x48x1 meets frozen per-axis minima 7x7x1"
+          },
+          {
+            "name": "required:LCHARG",
+            "kind": "required",
+            "passed": true,
+            "reason": "LCHARG=True (set) ok"
+          },
+          {
+            "name": "required:self_consistent_charge",
+            "kind": "required",
+            "passed": true,
+            "reason": "ICHARG=2 must use a documented charge-updating mode, not frozen density"
+          }
+        ]
+      },
+      "structure": {
+        "passed": true,
+        "species_counts_ok": true,
+        "lattice_ok": true,
+        "lattice": {
+          "len_rel_err": 0.0,
+          "ang_abs_err_deg": 0.0,
+          "abc_sub": [
+            3.5095,
+            3.5094999999999996,
+            20.0
+          ],
+          "abc_ref": [
+            3.5095,
+            3.5094999999999996,
+            20.0
+          ]
+        },
+        "site_match_ok": true,
+        "method": "fallback",
+        "max_site_disp_A": 2.254372274819035e-15,
+        "max_disp_threshold_A": 0.002,
+        "name": "structure:u_0p00_scf"
+      }
+    },
+    {
+      "label": "u_0p00_opt",
+      "passed": true,
+      "incar": {
+        "label": "u_0p00_opt",
+        "score": 1,
+        "checks": [
+          {
+            "name": "required:static",
+            "kind": "required",
+            "passed": true,
+            "reason": "NSW=0.0 IBRION=-1 ok (static)"
+          },
+          {
+            "name": "required:smearing",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISMEAR=0 ok"
+          },
+          {
+            "name": "required:ENCUT",
+            "kind": "required",
+            "passed": true,
+            "reason": "ENCUT=500.0 >= 1*max_ENMAX=280 eV (Cl+Ru)"
+          },
+          {
+            "name": "required:EDIFF",
+            "kind": "required",
+            "passed": true,
+            "reason": "EDIFF=1e-08 (set) ok"
+          },
+          {
+            "name": "required:functional",
+            "kind": "required",
+            "passed": true,
+            "reason": "GGA=Pe ok"
+          },
+          {
+            "name": "required:LSORBIT",
+            "kind": "required",
+            "passed": true,
+            "reason": "LSORBIT=True (set) ok"
+          },
+          {
+            "name": "required:LDAU_block",
+            "kind": "required",
+            "passed": true,
+            "reason": "DFT+U ok (Dudarev, LDAUL[Ru]=2, U_eff(Ru)=2.0)"
+          },
+          {
+            "name": "required:LASPH",
+            "kind": "required",
+            "passed": true,
+            "reason": "LASPH=True (set) ok"
+          },
+          {
+            "name": "required:LMAXMIX",
+            "kind": "required",
+            "passed": true,
+            "reason": "LMAXMIX=4 (set) ok"
+          },
+          {
+            "name": "required:MAGMOM_SAXIS",
+            "kind": "required",
+            "passed": true,
+            "reason": "out-of-plane FM seed ok"
+          },
+          {
+            "name": "required:kmesh",
+            "kind": "required",
+            "passed": true,
+            "reason": "mesh 48x48x1 meets frozen per-axis minima 7x7x1"
+          },
+          {
+            "name": "required:LOPTICS",
+            "kind": "required",
+            "passed": true,
+            "reason": "LOPTICS=True (set) ok"
+          },
+          {
+            "name": "required:ICHARG",
+            "kind": "required",
+            "passed": true,
+            "reason": "ICHARG=11 (set) ok"
+          },
+          {
+            "name": "required:NBANDS",
+            "kind": "required",
+            "passed": true,
+            "reason": "NBANDS=96 (set) ok"
+          }
+        ]
+      },
+      "structure": {
+        "passed": true,
+        "species_counts_ok": true,
+        "lattice_ok": true,
+        "lattice": {
+          "len_rel_err": 0.0,
+          "ang_abs_err_deg": 0.0,
+          "abc_sub": [
+            3.5095,
+            3.5094999999999996,
+            20.0
+          ],
+          "abc_ref": [
+            3.5095,
+            3.5094999999999996,
+            20.0
+          ]
+        },
+        "site_match_ok": true,
+        "method": "fallback",
+        "max_site_disp_A": 2.254372274819035e-15,
+        "max_disp_threshold_A": 0.002,
+        "name": "structure:u_0p00_opt"
+      }
+    },
+    {
+      "label": "u_p010_scf",
+      "passed": true,
+      "incar": {
+        "label": "u_p010_scf",
+        "score": 1,
+        "checks": [
+          {
+            "name": "required:static",
+            "kind": "required",
+            "passed": true,
+            "reason": "NSW=0.0 IBRION=-1 ok (static)"
+          },
+          {
+            "name": "required:smearing",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISMEAR=0 ok"
+          },
+          {
+            "name": "required:ENCUT",
+            "kind": "required",
+            "passed": true,
+            "reason": "ENCUT=500.0 >= 1*max_ENMAX=280 eV (Cl+Ru)"
+          },
+          {
+            "name": "required:EDIFF",
+            "kind": "required",
+            "passed": true,
+            "reason": "EDIFF=1e-08 (set) ok"
+          },
+          {
+            "name": "required:functional",
+            "kind": "required",
+            "passed": true,
+            "reason": "GGA=Pe ok"
+          },
+          {
+            "name": "required:LSORBIT",
+            "kind": "required",
+            "passed": true,
+            "reason": "LSORBIT=True (set) ok"
+          },
+          {
+            "name": "required:LDAU_block",
+            "kind": "required",
+            "passed": true,
+            "reason": "DFT+U ok (Dudarev, LDAUL[Ru]=2, U_eff(Ru)=2.0)"
+          },
+          {
+            "name": "required:LASPH",
+            "kind": "required",
+            "passed": true,
+            "reason": "LASPH=True (set) ok"
+          },
+          {
+            "name": "required:LMAXMIX",
+            "kind": "required",
+            "passed": true,
+            "reason": "LMAXMIX=4 (set) ok"
+          },
+          {
+            "name": "required:MAGMOM_SAXIS",
+            "kind": "required",
+            "passed": true,
+            "reason": "out-of-plane FM seed ok"
+          },
+          {
+            "name": "required:kmesh",
+            "kind": "required",
+            "passed": true,
+            "reason": "mesh 48x48x1 meets frozen per-axis minima 7x7x1"
+          },
+          {
+            "name": "required:LCHARG",
+            "kind": "required",
+            "passed": true,
+            "reason": "LCHARG=True (set) ok"
+          },
+          {
+            "name": "required:self_consistent_charge",
+            "kind": "required",
+            "passed": true,
+            "reason": "ICHARG=2 must use a documented charge-updating mode, not frozen density"
+          }
+        ]
+      },
+      "structure": {
+        "passed": true,
+        "species_counts_ok": true,
+        "lattice_ok": true,
+        "lattice": {
+          "len_rel_err": 0.0,
+          "ang_abs_err_deg": 0.0,
+          "abc_sub": [
+            3.5095,
+            3.5094999999999996,
+            20.0
+          ],
+          "abc_ref": [
+            3.5095,
+            3.5094999999999996,
+            20.0
+          ]
+        },
+        "site_match_ok": true,
+        "method": "fallback",
+        "max_site_disp_A": 3.8963277049219865e-16,
+        "max_disp_threshold_A": 0.002,
+        "name": "structure:u_p010_scf"
+      }
+    },
+    {
+      "label": "u_p010_opt",
+      "passed": true,
+      "incar": {
+        "label": "u_p010_opt",
+        "score": 1,
+        "checks": [
+          {
+            "name": "required:static",
+            "kind": "required",
+            "passed": true,
+            "reason": "NSW=0.0 IBRION=-1 ok (static)"
+          },
+          {
+            "name": "required:smearing",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISMEAR=0 ok"
+          },
+          {
+            "name": "required:ENCUT",
+            "kind": "required",
+            "passed": true,
+            "reason": "ENCUT=500.0 >= 1*max_ENMAX=280 eV (Cl+Ru)"
+          },
+          {
+            "name": "required:EDIFF",
+            "kind": "required",
+            "passed": true,
+            "reason": "EDIFF=1e-08 (set) ok"
+          },
+          {
+            "name": "required:functional",
+            "kind": "required",
+            "passed": true,
+            "reason": "GGA=Pe ok"
+          },
+          {
+            "name": "required:LSORBIT",
+            "kind": "required",
+            "passed": true,
+            "reason": "LSORBIT=True (set) ok"
+          },
+          {
+            "name": "required:LDAU_block",
+            "kind": "required",
+            "passed": true,
+            "reason": "DFT+U ok (Dudarev, LDAUL[Ru]=2, U_eff(Ru)=2.0)"
+          },
+          {
+            "name": "required:LASPH",
+            "kind": "required",
+            "passed": true,
+            "reason": "LASPH=True (set) ok"
+          },
+          {
+            "name": "required:LMAXMIX",
+            "kind": "required",
+            "passed": true,
+            "reason": "LMAXMIX=4 (set) ok"
+          },
+          {
+            "name": "required:MAGMOM_SAXIS",
+            "kind": "required",
+            "passed": true,
+            "reason": "out-of-plane FM seed ok"
+          },
+          {
+            "name": "required:kmesh",
+            "kind": "required",
+            "passed": true,
+            "reason": "mesh 48x48x1 meets frozen per-axis minima 7x7x1"
+          },
+          {
+            "name": "required:LOPTICS",
+            "kind": "required",
+            "passed": true,
+            "reason": "LOPTICS=True (set) ok"
+          },
+          {
+            "name": "required:ICHARG",
+            "kind": "required",
+            "passed": true,
+            "reason": "ICHARG=11 (set) ok"
+          },
+          {
+            "name": "required:NBANDS",
+            "kind": "required",
+            "passed": true,
+            "reason": "NBANDS=96 (set) ok"
+          }
+        ]
+      },
+      "structure": {
+        "passed": true,
+        "species_counts_ok": true,
+        "lattice_ok": true,
+        "lattice": {
+          "len_rel_err": 0.0,
+          "ang_abs_err_deg": 0.0,
+          "abc_sub": [
+            3.5095,
+            3.5094999999999996,
+            20.0
+          ],
+          "abc_ref": [
+            3.5095,
+            3.5094999999999996,
+            20.0
+          ]
+        },
+        "site_match_ok": true,
+        "method": "fallback",
+        "max_site_disp_A": 3.8963277049219865e-16,
+        "max_disp_threshold_A": 0.002,
+        "name": "structure:u_p010_opt"
+      }
+    },
+    {
+      "label": "u_m010_scf",
+      "passed": true,
+      "incar": {
+        "label": "u_m010_scf",
+        "score": 1,
+        "checks": [
+          {
+            "name": "required:static",
+            "kind": "required",
+            "passed": true,
+            "reason": "NSW=0.0 IBRION=-1 ok (static)"
+          },
+          {
+            "name": "required:smearing",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISMEAR=0 ok"
+          },
+          {
+            "name": "required:ENCUT",
+            "kind": "required",
+            "passed": true,
+            "reason": "ENCUT=500.0 >= 1*max_ENMAX=280 eV (Cl+Ru)"
+          },
+          {
+            "name": "required:EDIFF",
+            "kind": "required",
+            "passed": true,
+            "reason": "EDIFF=1e-08 (set) ok"
+          },
+          {
+            "name": "required:functional",
+            "kind": "required",
+            "passed": true,
+            "reason": "GGA=Pe ok"
+          },
+          {
+            "name": "required:LSORBIT",
+            "kind": "required",
+            "passed": true,
+            "reason": "LSORBIT=True (set) ok"
+          },
+          {
+            "name": "required:LDAU_block",
+            "kind": "required",
+            "passed": true,
+            "reason": "DFT+U ok (Dudarev, LDAUL[Ru]=2, U_eff(Ru)=2.0)"
+          },
+          {
+            "name": "required:LASPH",
+            "kind": "required",
+            "passed": true,
+            "reason": "LASPH=True (set) ok"
+          },
+          {
+            "name": "required:LMAXMIX",
+            "kind": "required",
+            "passed": true,
+            "reason": "LMAXMIX=4 (set) ok"
+          },
+          {
+            "name": "required:MAGMOM_SAXIS",
+            "kind": "required",
+            "passed": true,
+            "reason": "out-of-plane FM seed ok"
+          },
+          {
+            "name": "required:kmesh",
+            "kind": "required",
+            "passed": true,
+            "reason": "mesh 48x48x1 meets frozen per-axis minima 7x7x1"
+          },
+          {
+            "name": "required:LCHARG",
+            "kind": "required",
+            "passed": true,
+            "reason": "LCHARG=True (set) ok"
+          },
+          {
+            "name": "required:self_consistent_charge",
+            "kind": "required",
+            "passed": true,
+            "reason": "ICHARG=2 must use a documented charge-updating mode, not frozen density"
+          }
+        ]
+      },
+      "structure": {
+        "passed": true,
+        "species_counts_ok": true,
+        "lattice_ok": true,
+        "lattice": {
+          "len_rel_err": 0.0,
+          "ang_abs_err_deg": 0.0,
+          "abc_sub": [
+            3.5095,
+            3.5094999999999996,
+            20.0
+          ],
+          "abc_ref": [
+            3.5095,
+            3.5094999999999996,
+            20.0
+          ]
+        },
+        "site_match_ok": true,
+        "method": "fallback",
+        "max_site_disp_A": 2.254372274819035e-15,
+        "max_disp_threshold_A": 0.002,
+        "name": "structure:u_m010_scf"
+      }
+    },
+    {
+      "label": "u_m010_opt",
+      "passed": true,
+      "incar": {
+        "label": "u_m010_opt",
+        "score": 1,
+        "checks": [
+          {
+            "name": "required:static",
+            "kind": "required",
+            "passed": true,
+            "reason": "NSW=0.0 IBRION=-1 ok (static)"
+          },
+          {
+            "name": "required:smearing",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISMEAR=0 ok"
+          },
+          {
+            "name": "required:ENCUT",
+            "kind": "required",
+            "passed": true,
+            "reason": "ENCUT=500.0 >= 1*max_ENMAX=280 eV (Cl+Ru)"
+          },
+          {
+            "name": "required:EDIFF",
+            "kind": "required",
+            "passed": true,
+            "reason": "EDIFF=1e-08 (set) ok"
+          },
+          {
+            "name": "required:functional",
+            "kind": "required",
+            "passed": true,
+            "reason": "GGA=Pe ok"
+          },
+          {
+            "name": "required:LSORBIT",
+            "kind": "required",
+            "passed": true,
+            "reason": "LSORBIT=True (set) ok"
+          },
+          {
+            "name": "required:LDAU_block",
+            "kind": "required",
+            "passed": true,
+            "reason": "DFT+U ok (Dudarev, LDAUL[Ru]=2, U_eff(Ru)=2.0)"
+          },
+          {
+            "name": "required:LASPH",
+            "kind": "required",
+            "passed": true,
+            "reason": "LASPH=True (set) ok"
+          },
+          {
+            "name": "required:LMAXMIX",
+            "kind": "required",
+            "passed": true,
+            "reason": "LMAXMIX=4 (set) ok"
+          },
+          {
+            "name": "required:MAGMOM_SAXIS",
+            "kind": "required",
+            "passed": true,
+            "reason": "out-of-plane FM seed ok"
+          },
+          {
+            "name": "required:kmesh",
+            "kind": "required",
+            "passed": true,
+            "reason": "mesh 48x48x1 meets frozen per-axis minima 7x7x1"
+          },
+          {
+            "name": "required:LOPTICS",
+            "kind": "required",
+            "passed": true,
+            "reason": "LOPTICS=True (set) ok"
+          },
+          {
+            "name": "required:ICHARG",
+            "kind": "required",
+            "passed": true,
+            "reason": "ICHARG=11 (set) ok"
+          },
+          {
+            "name": "required:NBANDS",
+            "kind": "required",
+            "passed": true,
+            "reason": "NBANDS=96 (set) ok"
+          }
+        ]
+      },
+      "structure": {
+        "passed": true,
+        "species_counts_ok": true,
+        "lattice_ok": true,
+        "lattice": {
+          "len_rel_err": 0.0,
+          "ang_abs_err_deg": 0.0,
+          "abc_sub": [
+            3.5095,
+            3.5094999999999996,
+            20.0
+          ],
+          "abc_ref": [
+            3.5095,
+            3.5094999999999996,
+            20.0
+          ]
+        },
+        "site_match_ok": true,
+        "method": "fallback",
+        "max_site_disp_A": 2.254372274819035e-15,
+        "max_disp_threshold_A": 0.002,
+        "name": "structure:u_m010_opt"
+      }
+    },
+    {
+      "label": "u_p020_scf",
+      "passed": true,
+      "incar": {
+        "label": "u_p020_scf",
+        "score": 1,
+        "checks": [
+          {
+            "name": "required:static",
+            "kind": "required",
+            "passed": true,
+            "reason": "NSW=0.0 IBRION=-1 ok (static)"
+          },
+          {
+            "name": "required:smearing",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISMEAR=0 ok"
+          },
+          {
+            "name": "required:ENCUT",
+            "kind": "required",
+            "passed": true,
+            "reason": "ENCUT=500.0 >= 1*max_ENMAX=280 eV (Cl+Ru)"
+          },
+          {
+            "name": "required:EDIFF",
+            "kind": "required",
+            "passed": true,
+            "reason": "EDIFF=1e-08 (set) ok"
+          },
+          {
+            "name": "required:functional",
+            "kind": "required",
+            "passed": true,
+            "reason": "GGA=Pe ok"
+          },
+          {
+            "name": "required:LSORBIT",
+            "kind": "required",
+            "passed": true,
+            "reason": "LSORBIT=True (set) ok"
+          },
+          {
+            "name": "required:LDAU_block",
+            "kind": "required",
+            "passed": true,
+            "reason": "DFT+U ok (Dudarev, LDAUL[Ru]=2, U_eff(Ru)=2.0)"
+          },
+          {
+            "name": "required:LASPH",
+            "kind": "required",
+            "passed": true,
+            "reason": "LASPH=True (set) ok"
+          },
+          {
+            "name": "required:LMAXMIX",
+            "kind": "required",
+            "passed": true,
+            "reason": "LMAXMIX=4 (set) ok"
+          },
+          {
+            "name": "required:MAGMOM_SAXIS",
+            "kind": "required",
+            "passed": true,
+            "reason": "out-of-plane FM seed ok"
+          },
+          {
+            "name": "required:kmesh",
+            "kind": "required",
+            "passed": true,
+            "reason": "mesh 48x48x1 meets frozen per-axis minima 7x7x1"
+          },
+          {
+            "name": "required:LCHARG",
+            "kind": "required",
+            "passed": true,
+            "reason": "LCHARG=True (set) ok"
+          },
+          {
+            "name": "required:self_consistent_charge",
+            "kind": "required",
+            "passed": true,
+            "reason": "ICHARG=2 must use a documented charge-updating mode, not frozen density"
+          }
+        ]
+      },
+      "structure": {
+        "passed": true,
+        "species_counts_ok": true,
+        "lattice_ok": true,
+        "lattice": {
+          "len_rel_err": 0.0,
+          "ang_abs_err_deg": 0.0,
+          "abc_sub": [
+            3.5095,
+            3.5094999999999996,
+            20.0
+          ],
+          "abc_ref": [
+            3.5095,
+            3.5094999999999996,
+            20.0
+          ]
+        },
+        "site_match_ok": true,
+        "method": "fallback",
+        "max_site_disp_A": 2.254372274819035e-15,
+        "max_disp_threshold_A": 0.002,
+        "name": "structure:u_p020_scf"
+      }
+    },
+    {
+      "label": "u_p020_opt",
+      "passed": true,
+      "incar": {
+        "label": "u_p020_opt",
+        "score": 1,
+        "checks": [
+          {
+            "name": "required:static",
+            "kind": "required",
+            "passed": true,
+            "reason": "NSW=0.0 IBRION=-1 ok (static)"
+          },
+          {
+            "name": "required:smearing",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISMEAR=0 ok"
+          },
+          {
+            "name": "required:ENCUT",
+            "kind": "required",
+            "passed": true,
+            "reason": "ENCUT=500.0 >= 1*max_ENMAX=280 eV (Cl+Ru)"
+          },
+          {
+            "name": "required:EDIFF",
+            "kind": "required",
+            "passed": true,
+            "reason": "EDIFF=1e-08 (set) ok"
+          },
+          {
+            "name": "required:functional",
+            "kind": "required",
+            "passed": true,
+            "reason": "GGA=Pe ok"
+          },
+          {
+            "name": "required:LSORBIT",
+            "kind": "required",
+            "passed": true,
+            "reason": "LSORBIT=True (set) ok"
+          },
+          {
+            "name": "required:LDAU_block",
+            "kind": "required",
+            "passed": true,
+            "reason": "DFT+U ok (Dudarev, LDAUL[Ru]=2, U_eff(Ru)=2.0)"
+          },
+          {
+            "name": "required:LASPH",
+            "kind": "required",
+            "passed": true,
+            "reason": "LASPH=True (set) ok"
+          },
+          {
+            "name": "required:LMAXMIX",
+            "kind": "required",
+            "passed": true,
+            "reason": "LMAXMIX=4 (set) ok"
+          },
+          {
+            "name": "required:MAGMOM_SAXIS",
+            "kind": "required",
+            "passed": true,
+            "reason": "out-of-plane FM seed ok"
+          },
+          {
+            "name": "required:kmesh",
+            "kind": "required",
+            "passed": true,
+            "reason": "mesh 48x48x1 meets frozen per-axis minima 7x7x1"
+          },
+          {
+            "name": "required:LOPTICS",
+            "kind": "required",
+            "passed": true,
+            "reason": "LOPTICS=True (set) ok"
+          },
+          {
+            "name": "required:ICHARG",
+            "kind": "required",
+            "passed": true,
+            "reason": "ICHARG=11 (set) ok"
+          },
+          {
+            "name": "required:NBANDS",
+            "kind": "required",
+            "passed": true,
+            "reason": "NBANDS=96 (set) ok"
+          }
+        ]
+      },
+      "structure": {
+        "passed": true,
+        "species_counts_ok": true,
+        "lattice_ok": true,
+        "lattice": {
+          "len_rel_err": 0.0,
+          "ang_abs_err_deg": 0.0,
+          "abc_sub": [
+            3.5095,
+            3.5094999999999996,
+            20.0
+          ],
+          "abc_ref": [
+            3.5095,
+            3.5094999999999996,
+            20.0
+          ]
+        },
+        "site_match_ok": true,
+        "method": "fallback",
+        "max_site_disp_A": 2.254372274819035e-15,
+        "max_disp_threshold_A": 0.002,
+        "name": "structure:u_p020_opt"
+      }
+    },
+    {
+      "label": "u_m020_scf",
+      "passed": true,
+      "incar": {
+        "label": "u_m020_scf",
+        "score": 1,
+        "checks": [
+          {
+            "name": "required:static",
+            "kind": "required",
+            "passed": true,
+            "reason": "NSW=0.0 IBRION=-1 ok (static)"
+          },
+          {
+            "name": "required:smearing",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISMEAR=0 ok"
+          },
+          {
+            "name": "required:ENCUT",
+            "kind": "required",
+            "passed": true,
+            "reason": "ENCUT=500.0 >= 1*max_ENMAX=280 eV (Cl+Ru)"
+          },
+          {
+            "name": "required:EDIFF",
+            "kind": "required",
+            "passed": true,
+            "reason": "EDIFF=1e-08 (set) ok"
+          },
+          {
+            "name": "required:functional",
+            "kind": "required",
+            "passed": true,
+            "reason": "GGA=Pe ok"
+          },
+          {
+            "name": "required:LSORBIT",
+            "kind": "required",
+            "passed": true,
+            "reason": "LSORBIT=True (set) ok"
+          },
+          {
+            "name": "required:LDAU_block",
+            "kind": "required",
+            "passed": true,
+            "reason": "DFT+U ok (Dudarev, LDAUL[Ru]=2, U_eff(Ru)=2.0)"
+          },
+          {
+            "name": "required:LASPH",
+            "kind": "required",
+            "passed": true,
+            "reason": "LASPH=True (set) ok"
+          },
+          {
+            "name": "required:LMAXMIX",
+            "kind": "required",
+            "passed": true,
+            "reason": "LMAXMIX=4 (set) ok"
+          },
+          {
+            "name": "required:MAGMOM_SAXIS",
+            "kind": "required",
+            "passed": true,
+            "reason": "out-of-plane FM seed ok"
+          },
+          {
+            "name": "required:kmesh",
+            "kind": "required",
+            "passed": true,
+            "reason": "mesh 48x48x1 meets frozen per-axis minima 7x7x1"
+          },
+          {
+            "name": "required:LCHARG",
+            "kind": "required",
+            "passed": true,
+            "reason": "LCHARG=True (set) ok"
+          },
+          {
+            "name": "required:self_consistent_charge",
+            "kind": "required",
+            "passed": true,
+            "reason": "ICHARG=2 must use a documented charge-updating mode, not frozen density"
+          }
+        ]
+      },
+      "structure": {
+        "passed": true,
+        "species_counts_ok": true,
+        "lattice_ok": true,
+        "lattice": {
+          "len_rel_err": 0.0,
+          "ang_abs_err_deg": 0.0,
+          "abc_sub": [
+            3.5095,
+            3.5094999999999996,
+            20.0
+          ],
+          "abc_ref": [
+            3.5095,
+            3.5094999999999996,
+            20.0
+          ]
+        },
+        "site_match_ok": true,
+        "method": "fallback",
+        "max_site_disp_A": 3.8963277049219865e-16,
+        "max_disp_threshold_A": 0.002,
+        "name": "structure:u_m020_scf"
+      }
+    },
+    {
+      "label": "u_m020_opt",
+      "passed": true,
+      "incar": {
+        "label": "u_m020_opt",
+        "score": 1,
+        "checks": [
+          {
+            "name": "required:static",
+            "kind": "required",
+            "passed": true,
+            "reason": "NSW=0.0 IBRION=-1 ok (static)"
+          },
+          {
+            "name": "required:smearing",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISMEAR=0 ok"
+          },
+          {
+            "name": "required:ENCUT",
+            "kind": "required",
+            "passed": true,
+            "reason": "ENCUT=500.0 >= 1*max_ENMAX=280 eV (Cl+Ru)"
+          },
+          {
+            "name": "required:EDIFF",
+            "kind": "required",
+            "passed": true,
+            "reason": "EDIFF=1e-08 (set) ok"
+          },
+          {
+            "name": "required:functional",
+            "kind": "required",
+            "passed": true,
+            "reason": "GGA=Pe ok"
+          },
+          {
+            "name": "required:LSORBIT",
+            "kind": "required",
+            "passed": true,
+            "reason": "LSORBIT=True (set) ok"
+          },
+          {
+            "name": "required:LDAU_block",
+            "kind": "required",
+            "passed": true,
+            "reason": "DFT+U ok (Dudarev, LDAUL[Ru]=2, U_eff(Ru)=2.0)"
+          },
+          {
+            "name": "required:LASPH",
+            "kind": "required",
+            "passed": true,
+            "reason": "LASPH=True (set) ok"
+          },
+          {
+            "name": "required:LMAXMIX",
+            "kind": "required",
+            "passed": true,
+            "reason": "LMAXMIX=4 (set) ok"
+          },
+          {
+            "name": "required:MAGMOM_SAXIS",
+            "kind": "required",
+            "passed": true,
+            "reason": "out-of-plane FM seed ok"
+          },
+          {
+            "name": "required:kmesh",
+            "kind": "required",
+            "passed": true,
+            "reason": "mesh 48x48x1 meets frozen per-axis minima 7x7x1"
+          },
+          {
+            "name": "required:LOPTICS",
+            "kind": "required",
+            "passed": true,
+            "reason": "LOPTICS=True (set) ok"
+          },
+          {
+            "name": "required:ICHARG",
+            "kind": "required",
+            "passed": true,
+            "reason": "ICHARG=11 (set) ok"
+          },
+          {
+            "name": "required:NBANDS",
+            "kind": "required",
+            "passed": true,
+            "reason": "NBANDS=96 (set) ok"
+          }
+        ]
+      },
+      "structure": {
+        "passed": true,
+        "species_counts_ok": true,
+        "lattice_ok": true,
+        "lattice": {
+          "len_rel_err": 0.0,
+          "ang_abs_err_deg": 0.0,
+          "abc_sub": [
+            3.5095,
+            3.5094999999999996,
+            20.0
+          ],
+          "abc_ref": [
+            3.5095,
+            3.5094999999999996,
+            20.0
+          ]
+        },
+        "site_match_ok": true,
+        "method": "fallback",
+        "max_site_disp_A": 3.8963277049219865e-16,
+        "max_disp_threshold_A": 0.002,
+        "name": "structure:u_m020_opt"
+      }
+    }
+  ],
+  "extra_labels_ignored": []
+}
+SCORE: 1

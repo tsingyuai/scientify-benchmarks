@@ -1,0 +1,60 @@
+{
+  "score": 1,
+  "checks": [
+    {
+      "passed": true,
+      "value": 0.33800234569314336,
+      "truth": 0.338002,
+      "abs_err": 3.4569314333321444e-07,
+      "tol": 0.0338002,
+      "rule": "+/-10% relative",
+      "name": "x_T0_573K"
+    },
+    {
+      "passed": true,
+      "value": -10.06805805,
+      "truth": -10.06806,
+      "abs_err": 1.949999999695251e-06,
+      "tol": 1.0068059999999999,
+      "rule": "+/-10% relative",
+      "name": "dG_RS_minus_WZ_x0p5_573K_kJ_per_mol"
+    },
+    {
+      "passed": true,
+      "value": 0.05643912689222434,
+      "truth": 0.056439,
+      "abs_err": 1.2689222433914793e-07,
+      "tol": 0.0056439,
+      "rule": "+/-10% relative",
+      "name": "x_WZ_solvus_1273K"
+    },
+    {
+      "passed": true,
+      "value": 0.7323852423955888,
+      "truth": 0.732385,
+      "abs_err": 2.4239558882310774e-07,
+      "tol": 0.0732385,
+      "rule": "+/-10% relative",
+      "name": "x_RS_solvus_1273K"
+    },
+    {
+      "passed": true,
+      "value": 0.1609495222378158,
+      "truth": 0.16095,
+      "abs_err": 4.777621842033675e-07,
+      "tol": 0.016095,
+      "rule": "+/-10% relative",
+      "name": "x_WZ_solvus_1773K"
+    },
+    {
+      "passed": true,
+      "value": 0.5655931939452007,
+      "truth": 0.565593,
+      "abs_err": 1.9394520067717025e-07,
+      "tol": 0.05655930000000001,
+      "rule": "+/-10% relative",
+      "name": "x_RS_solvus_1773K"
+    }
+  ]
+}
+SCORE: 1

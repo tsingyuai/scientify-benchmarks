@@ -1,0 +1,165 @@
+{
+  "score": 1,
+  "checks": [
+    {
+      "passed": true,
+      "n_points": 3,
+      "n_fail": 0,
+      "worst_i": 0,
+      "rule": "per-point +/-10% with floor",
+      "failures": [],
+      "name": "eps_WS2_curve"
+    },
+    {
+      "passed": true,
+      "n_points": 3,
+      "n_fail": 0,
+      "worst_i": 2,
+      "rule": "per-point +/-10% with floor",
+      "failures": [],
+      "name": "eps_WSe2_curve"
+    },
+    {
+      "passed": true,
+      "value": 6.858913241509901,
+      "truth": 6.858888888888889,
+      "abs_err": 2.4352621012191378e-05,
+      "tol": 0.685888888888889,
+      "rule": "+/-10% relative",
+      "name": "d_Rhh_A"
+    },
+    {
+      "passed": true,
+      "value": 6.293943397712885,
+      "truth": 6.293915789473684,
+      "abs_err": 2.7608239201448725e-05,
+      "tol": 0.6293915789473684,
+      "rule": "+/-10% relative",
+      "name": "d_RXh_A"
+    },
+    {
+      "passed": true,
+      "value": 6.305801781611197,
+      "truth": 6.305812244897958,
+      "abs_err": 1.0463286761464019e-05,
+      "tol": 0.6305812244897959,
+      "rule": "+/-10% relative",
+      "name": "d_RMh_A"
+    },
+    {
+      "passed": true,
+      "name": "d_max_at_Rhh",
+      "d": {
+        "Rhh": 6.858913241509901,
+        "RXh": 6.293943397712885,
+        "RMh": 6.305801781611197
+      },
+      "rule": "d(R^h_h) is the max of the three"
+    },
+    {
+      "passed": true,
+      "value": 2.9298796509735787,
+      "truth": 2.9299,
+      "abs_err": 2.0349026421229155e-05,
+      "tol": 0.29299000000000003,
+      "rule": "+/-10% relative",
+      "name": "corrugation_WS2_A"
+    },
+    {
+      "passed": true,
+      "value": 2.282883742628435,
+      "truth": 2.282899999999998,
+      "abs_err": 1.6257371562744538e-05,
+      "tol": 0.2282899999999998,
+      "rule": "+/-10% relative",
+      "name": "corrugation_WSe2_A"
+    },
+    {
+      "passed": true,
+      "value": -0.02436835555555556,
+      "truth": -0.02436835555555556,
+      "abs_err": 0.0,
+      "tol": 0.0024368355555555565,
+      "rule": "+/-10% relative",
+      "name": "adhesion_Rhh_eV"
+    },
+    {
+      "passed": true,
+      "value": -0.04233334561403508,
+      "truth": -0.04233334561403508,
+      "abs_err": 0.0,
+      "tol": 0.004233334561403508,
+      "rule": "+/-10% relative",
+      "name": "adhesion_RXh_eV"
+    },
+    {
+      "passed": true,
+      "value": -0.04047724489795919,
+      "truth": -0.04047724489795919,
+      "abs_err": 0.0,
+      "tol": 0.004047724489795919,
+      "rule": "+/-10% relative",
+      "name": "adhesion_RMh_eV"
+    },
+    {
+      "passed": true,
+      "name": "adhesion_order",
+      "adh": {
+        "Rhh": -0.02436835555555556,
+        "RXh": -0.04233334561403508,
+        "RMh": -0.04047724489795919
+      },
+      "rule": "R^X_h < R^M_h < R^h_h (R^X_h lowest, R^h_h highest)"
+    },
+    {
+      "passed": true,
+      "value": 0.08875739644970414,
+      "truth": 0.08875739644970414,
+      "abs_err": 0.0,
+      "tol": 0.008875739644970414,
+      "rule": "+/-10% relative",
+      "name": "area_frac_RXh_rigid"
+    },
+    {
+      "passed": true,
+      "value": 0.15236686390532544,
+      "truth": 0.15384615384615385,
+      "abs_err": 0.00147928994082841,
+      "tol": 0.015384615384615385,
+      "rule": "+/-10% relative",
+      "name": "area_frac_RXh_relaxed"
+    },
+    {
+      "passed": true,
+      "value": 0.06656804733727811,
+      "truth": 0.06656804733727811,
+      "abs_err": 0.0,
+      "tol": 0.006656804733727812,
+      "rule": "+/-10% relative",
+      "name": "area_frac_Rhh_rigid"
+    },
+    {
+      "passed": true,
+      "value": 0.03106508875739645,
+      "truth": 0.03106508875739645,
+      "abs_err": 0.0,
+      "tol": 0.003106508875739645,
+      "rule": "+/-10% relative",
+      "name": "area_frac_Rhh_relaxed"
+    },
+    {
+      "passed": true,
+      "name": "domain_growth",
+      "RXh": [
+        0.08875739644970414,
+        0.15236686390532544
+      ],
+      "Rhh": [
+        0.06656804733727811,
+        0.03106508875739645
+      ],
+      "rule": "R^X_h relaxed > rigid and R^h_h relaxed < rigid"
+    }
+  ]
+}
+SCORE: 1

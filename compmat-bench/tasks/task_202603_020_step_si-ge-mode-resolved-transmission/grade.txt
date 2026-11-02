@@ -1,0 +1,375 @@
+{
+  "score": 1,
+  "checks": [
+    {
+      "passed": true,
+      "value": 3,
+      "truth": 3,
+      "rule": "exact int",
+      "name": "1.00THz.n_Si"
+    },
+    {
+      "passed": true,
+      "value": 3,
+      "truth": 3,
+      "rule": "exact int",
+      "name": "1.00THz.n_Ge"
+    },
+    {
+      "passed": true,
+      "value": 1.8572615369561205,
+      "truth": 1.8572615366674896,
+      "abs_err": 2.8863089696073985e-10,
+      "tol": 0.18572615366674897,
+      "rule": "+/-10% relative",
+      "name": "1.00THz.Xi"
+    },
+    {
+      "passed": true,
+      "value": 0.6190871789853735,
+      "truth": 0.6190871788891632,
+      "abs_err": 9.621026197947913e-11,
+      "tol": 0.061908717888916324,
+      "rule": "+/-10% relative",
+      "name": "1.00THz.mean_T_Si"
+    },
+    {
+      "passed": true,
+      "value": 0.2500502862014678,
+      "truth": 0.25005028616016967,
+      "abs_err": 4.1298131581157804e-11,
+      "tol": 0.02500502861601697,
+      "rule": "+/-10% relative",
+      "name": "1.00THz.std_tau_Si"
+    },
+    {
+      "passed": true,
+      "value": 3,
+      "truth": 3,
+      "rule": "exact int",
+      "name": "2.00THz.n_Si"
+    },
+    {
+      "passed": true,
+      "value": 15,
+      "truth": 15,
+      "rule": "exact int",
+      "name": "2.00THz.n_Ge"
+    },
+    {
+      "passed": true,
+      "value": 2.301351334311396,
+      "truth": 2.3013513341301057,
+      "abs_err": 1.812900940478812e-10,
+      "tol": 0.2301351334130106,
+      "rule": "+/-10% relative",
+      "name": "2.00THz.Xi"
+    },
+    {
+      "passed": true,
+      "value": 0.7671171114371319,
+      "truth": 0.7671171113767019,
+      "abs_err": 6.042999434185958e-11,
+      "tol": 0.0767117111376702,
+      "rule": "+/-10% relative",
+      "name": "2.00THz.mean_T_Si"
+    },
+    {
+      "passed": true,
+      "value": 0.17499714999083046,
+      "truth": 0.1749971499804222,
+      "abs_err": 1.0408257589133996e-11,
+      "tol": 0.01749971499804222,
+      "rule": "+/-10% relative",
+      "name": "2.00THz.std_tau_Si"
+    },
+    {
+      "passed": true,
+      "value": 23,
+      "truth": 23,
+      "rule": "exact int",
+      "name": "4.00THz.n_Si"
+    },
+    {
+      "passed": true,
+      "value": 63,
+      "truth": 63,
+      "rule": "exact int",
+      "name": "4.00THz.n_Ge"
+    },
+    {
+      "passed": true,
+      "value": 17.723278913261183,
+      "truth": 17.723278912262998,
+      "abs_err": 9.98184646050504e-10,
+      "tol": 1.7723278912262999,
+      "rule": "+/-10% relative",
+      "name": "4.00THz.Xi"
+    },
+    {
+      "passed": true,
+      "value": 0.770577344054834,
+      "truth": 0.7705773440114347,
+      "abs_err": 4.3399284166412144e-11,
+      "tol": 0.07705773440114348,
+      "rule": "+/-10% relative",
+      "name": "4.00THz.mean_T_Si"
+    },
+    {
+      "passed": true,
+      "value": 0.20872907713559505,
+      "truth": 0.20872907712258165,
+      "abs_err": 1.3013395916416926e-11,
+      "tol": 0.020872907712258165,
+      "rule": "+/-10% relative",
+      "name": "4.00THz.std_tau_Si"
+    },
+    {
+      "passed": true,
+      "value": 59,
+      "truth": 59,
+      "rule": "exact int",
+      "name": "5.05THz.n_Si"
+    },
+    {
+      "passed": true,
+      "value": 53,
+      "truth": 53,
+      "rule": "exact int",
+      "name": "5.05THz.n_Ge"
+    },
+    {
+      "passed": true,
+      "value": 27.646574153227657,
+      "truth": 27.646574151620168,
+      "abs_err": 1.607489252819505e-09,
+      "tol": 2.764657415162017,
+      "rule": "+/-10% relative",
+      "name": "5.05THz.Xi"
+    },
+    {
+      "passed": true,
+      "value": 0.46858600259707894,
+      "truth": 0.46858600256983335,
+      "abs_err": 2.7245594669267348e-11,
+      "tol": 0.04685860025698334,
+      "rule": "+/-10% relative",
+      "name": "5.05THz.mean_T_Si"
+    },
+    {
+      "passed": true,
+      "value": 0.4473421854434164,
+      "truth": 0.44734218541733134,
+      "abs_err": 2.6085078541626672e-11,
+      "tol": 0.04473421854173314,
+      "rule": "+/-10% relative",
+      "name": "5.05THz.std_tau_Si"
+    },
+    {
+      "passed": true,
+      "value": 63,
+      "truth": 63,
+      "rule": "exact int",
+      "name": "6.00THz.n_Si"
+    },
+    {
+      "passed": true,
+      "value": 29,
+      "truth": 29,
+      "rule": "exact int",
+      "name": "6.00THz.n_Ge"
+    },
+    {
+      "passed": true,
+      "value": 12.41678192873027,
+      "truth": 12.41678192804903,
+      "abs_err": 6.812399533373537e-10,
+      "tol": 1.241678192804903,
+      "rule": "+/-10% relative",
+      "name": "6.00THz.Xi"
+    },
+    {
+      "passed": true,
+      "value": 0.19709177664651223,
+      "truth": 0.19709177663569888,
+      "abs_err": 1.08133502152441e-11,
+      "tol": 0.019709177663569888,
+      "rule": "+/-10% relative",
+      "name": "6.00THz.mean_T_Si"
+    },
+    {
+      "passed": true,
+      "value": 0.3447191296836883,
+      "truth": 0.34471912966545964,
+      "abs_err": 1.8228640819017983e-11,
+      "tol": 0.03447191296654597,
+      "rule": "+/-10% relative",
+      "name": "6.00THz.std_tau_Si"
+    },
+    {
+      "passed": true,
+      "value": 33,
+      "truth": 33,
+      "rule": "exact int",
+      "name": "8.00THz.n_Si"
+    },
+    {
+      "passed": true,
+      "value": 21,
+      "truth": 21,
+      "rule": "exact int",
+      "name": "8.00THz.n_Ge"
+    },
+    {
+      "passed": true,
+      "value": 6.909127839534916,
+      "truth": 6.909127839252961,
+      "abs_err": 2.8195490386906386e-10,
+      "tol": 0.6909127839252962,
+      "rule": "+/-10% relative",
+      "name": "8.00THz.Xi"
+    },
+    {
+      "passed": true,
+      "value": 0.20936751028893685,
+      "truth": 0.20936751028039277,
+      "abs_err": 8.544082108485895e-12,
+      "tol": 0.02093675102803928,
+      "rule": "+/-10% relative",
+      "name": "8.00THz.mean_T_Si"
+    },
+    {
+      "passed": true,
+      "value": 0.30120645477854485,
+      "truth": 0.30120645476972047,
+      "abs_err": 8.824385666628132e-12,
+      "tol": 0.030120645476972047,
+      "rule": "+/-10% relative",
+      "name": "8.00THz.std_tau_Si"
+    },
+    {
+      "passed": true,
+      "value": 37,
+      "truth": 37,
+      "rule": "exact int",
+      "name": "10.00THz.n_Si"
+    },
+    {
+      "passed": true,
+      "value": 25,
+      "truth": 25,
+      "rule": "exact int",
+      "name": "10.00THz.n_Ge"
+    },
+    {
+      "passed": true,
+      "value": 6.912490269662052,
+      "truth": 6.9124902694748664,
+      "abs_err": 1.871853783086408e-10,
+      "tol": 0.6912490269474867,
+      "rule": "+/-10% relative",
+      "name": "10.00THz.Xi"
+    },
+    {
+      "passed": true,
+      "value": 0.18682406134221763,
+      "truth": 0.18682406133715856,
+      "abs_err": 5.059064278611913e-12,
+      "tol": 0.018682406133715856,
+      "rule": "+/-10% relative",
+      "name": "10.00THz.mean_T_Si"
+    },
+    {
+      "passed": true,
+      "value": 0.26963770518368574,
+      "truth": 0.2696377051771153,
+      "abs_err": 6.570410882034139e-12,
+      "tol": 0.026963770517711535,
+      "rule": "+/-10% relative",
+      "name": "10.00THz.std_tau_Si"
+    },
+    {
+      "passed": true,
+      "value": 17,
+      "truth": 17,
+      "rule": "exact int",
+      "name": "11.50THz.n_Si"
+    },
+    {
+      "passed": true,
+      "value": 3,
+      "truth": 3,
+      "rule": "exact int",
+      "name": "11.50THz.n_Ge"
+    },
+    {
+      "passed": true,
+      "value": 3.312216383337687e-10,
+      "truth": 3.3122163832513244e-10,
+      "abs_err": 8.636282582936455e-21,
+      "tol": 0.001,
+      "rule": "absolute",
+      "name": "11.50THz.Xi"
+    },
+    {
+      "passed": true,
+      "value": 1.9483625784339338e-11,
+      "truth": 1.948362578383132e-11,
+      "abs_err": 5.080181430782704e-22,
+      "tol": 0.001,
+      "rule": "absolute",
+      "name": "11.50THz.mean_T_Si"
+    },
+    {
+      "passed": true,
+      "value": 7.793450313735734e-11,
+      "truth": 7.793450313532528e-11,
+      "abs_err": 2.0320596476160105e-21,
+      "tol": 0.001,
+      "rule": "absolute",
+      "name": "11.50THz.std_tau_Si"
+    },
+    {
+      "passed": true,
+      "value": 17,
+      "truth": 17,
+      "rule": "exact int",
+      "name": "12.00THz.n_Si"
+    },
+    {
+      "passed": true,
+      "value": 0,
+      "truth": 0,
+      "rule": "exact int",
+      "name": "12.00THz.n_Ge"
+    },
+    {
+      "passed": true,
+      "value": 0.0,
+      "truth": 0.0,
+      "abs_err": 0.0,
+      "tol": 0.001,
+      "rule": "absolute",
+      "name": "12.00THz.Xi"
+    },
+    {
+      "passed": true,
+      "value": 0.0,
+      "truth": 0.0,
+      "abs_err": 0.0,
+      "tol": 0.001,
+      "rule": "absolute",
+      "name": "12.00THz.mean_T_Si"
+    },
+    {
+      "passed": true,
+      "value": 0.0,
+      "truth": 0.0,
+      "abs_err": 0.0,
+      "tol": 0.001,
+      "rule": "absolute",
+      "name": "12.00THz.std_tau_Si"
+    }
+  ]
+}
+SCORE: 1

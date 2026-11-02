@@ -1,0 +1,138 @@
+{
+  "score": 1,
+  "structure": {
+    "score": 1,
+    "checks": [
+      {
+        "name": "counts",
+        "passed": true,
+        "detail": "particle counts by seed type {1: 3160, 2: 3160, 3: 9480, 4: 3160, 5: 3160, 6: 9480}; bonds 15800"
+      },
+      {
+        "name": "core_shell_bijection",
+        "passed": true,
+        "detail": "0 particles with degree != 1; 0 bonds with wrong seed type pairing"
+      },
+      {
+        "name": "molecule_pairing",
+        "passed": true,
+        "detail": "0 bonds with missing/different molecule IDs"
+      },
+      {
+        "name": "shells_on_cores",
+        "passed": true,
+        "detail": "max core-shell separation 0 A"
+      },
+      {
+        "name": "net_charge",
+        "passed": true,
+        "detail": "net charge 2.80664e-12 e"
+      },
+      {
+        "name": "box",
+        "passed": true,
+        "detail": "box [160.18, 320.36, 4.0045] A; seed replication [160.18, 320.36, 4.0045] A"
+      },
+      {
+        "name": "seed_core_occupancy_type_1",
+        "passed": true,
+        "detail": "max matched distance 6.355287432313019e-14 A; 3160 distinct expected sites; x scale 1, anchor 0 A"
+      },
+      {
+        "name": "seed_core_occupancy_type_2",
+        "passed": true,
+        "detail": "max matched distance 6.355287432313019e-14 A; 3160 distinct expected sites; x scale 1, anchor 0 A"
+      },
+      {
+        "name": "seed_core_occupancy_type_3",
+        "passed": true,
+        "detail": "max matched distance 6.355287432313019e-14 A; 9480 distinct expected sites; x scale 1, anchor 0 A"
+      }
+    ]
+  },
+  "deck": {
+    "label": "relax",
+    "score": 1,
+    "checks": [
+      {
+        "name": "required:units",
+        "kind": "required",
+        "passed": true,
+        "reason": "units ['metal'] ok"
+      },
+      {
+        "name": "required:atom_style",
+        "kind": "required",
+        "passed": true,
+        "reason": "atom_style ['full'] ok"
+      },
+      {
+        "name": "required:boundary",
+        "kind": "required",
+        "passed": true,
+        "reason": "boundary p p p ok"
+      },
+      {
+        "name": "required:read_data",
+        "kind": "required",
+        "passed": true,
+        "reason": "read_data ['input.lmp'] ok"
+      },
+      {
+        "name": "required:charges",
+        "kind": "required",
+        "passed": true,
+        "reason": "charges per species ok"
+      },
+      {
+        "name": "required:pair_style",
+        "kind": "required",
+        "passed": true,
+        "reason": "pair_style buck/coul/long/cs 15.0 ok"
+      },
+      {
+        "name": "required:buckingham",
+        "kind": "required",
+        "passed": true,
+        "reason": "Buckingham shell-shell table ok"
+      },
+      {
+        "name": "required:kspace",
+        "kind": "required",
+        "passed": true,
+        "reason": "kspace_style pppm 1.0e-5 ok"
+      },
+      {
+        "name": "required:core_shell_spring",
+        "kind": "required",
+        "passed": true,
+        "reason": "class2 core-shell springs ok"
+      },
+      {
+        "name": "required:special_bonds",
+        "kind": "required",
+        "passed": true,
+        "reason": "special_bonds lj/coul 0.0 1.0 1.0 ok"
+      },
+      {
+        "name": "required:initial_core_shell_safety",
+        "kind": "required",
+        "passed": true,
+        "reason": "core-shell-safe Coulomb style"
+      },
+      {
+        "name": "required:minimize",
+        "kind": "required",
+        "passed": true,
+        "reason": "10 minimize call(s), force criterion ok"
+      },
+      {
+        "name": "required:relaxation_protocol",
+        "kind": "required",
+        "passed": true,
+        "reason": "constrained -> free positions -> repeated with-field cycles -> with-field output -> repeated field-free cycles -> field-free output ok"
+      }
+    ]
+  }
+}
+SCORE: 1

@@ -1,0 +1,114 @@
+{
+  "score": 1,
+  "rubric": {
+    "score": 1,
+    "runs": [
+      {
+        "label": "V2CoAl_XA",
+        "score": 1,
+        "checks": [
+          {
+            "name": "required:stru_species",
+            "kind": "required",
+            "passed": true,
+            "reason": "species {'V': 8, 'Co': 4, 'Al': 4} ok"
+          },
+          {
+            "name": "required:calculation",
+            "kind": "required",
+            "passed": true,
+            "reason": "calculation=scf (set) ok"
+          },
+          {
+            "name": "required:basis_type",
+            "kind": "required",
+            "passed": true,
+            "reason": "basis_type=lcao (set) ok"
+          },
+          {
+            "name": "required:nspin",
+            "kind": "required",
+            "passed": true,
+            "reason": "nspin=2 (set) ok"
+          },
+          {
+            "name": "required:ecutwfc",
+            "kind": "required",
+            "passed": true,
+            "reason": "ecutwfc=100 (set) ok"
+          },
+          {
+            "name": "required:sg15_identity",
+            "kind": "required",
+            "passed": true,
+            "reason": "SG15 pseudo+orbital identity ok"
+          },
+          {
+            "name": "required:out_mul",
+            "kind": "required",
+            "passed": true,
+            "reason": "out_mul=1 (set) ok"
+          },
+          {
+            "name": "required:dft_plus_u",
+            "kind": "required",
+            "passed": true,
+            "reason": "dft_plus_u=0 (default) ok"
+          },
+          {
+            "name": "required:dft_functional",
+            "kind": "required",
+            "passed": true,
+            "reason": "dft_functional=pbe (set) ok"
+          },
+          {
+            "name": "required:kmesh",
+            "kind": "required",
+            "passed": true,
+            "reason": "mesh 16x16x16 (gamma) meets frozen per-axis minima (4, 4, 4)"
+          },
+          {
+            "name": "required:mag_seed",
+            "kind": "required",
+            "passed": true,
+            "reason": "magnetic seed present on Co,V"
+          },
+          {
+            "name": "required:ferri_seed",
+            "kind": "required",
+            "passed": true,
+            "reason": "V 4b mag~+3.00 vs 4d mag~-2.00 (antiparallel (ferri) ok)"
+          }
+        ]
+      }
+    ],
+    "extra_labels": []
+  },
+  "structure": [
+    {
+      "passed": true,
+      "species_counts_ok": true,
+      "lattice_ok": true,
+      "lattice": {
+        "len_rel_err": 1.5118663164923993e-12,
+        "ang_abs_err_deg": 0.0,
+        "abc_sub": [
+          5.917013260793921,
+          5.917013260793921,
+          5.917013260793921
+        ],
+        "abc_ref": [
+          5.917013260784976,
+          5.917013260784976,
+          5.917013260784976
+        ]
+      },
+      "site_match_ok": true,
+      "method": "matcher",
+      "max_site_disp_A": 0.0,
+      "max_disp_threshold_A": 0.1,
+      "name": "structure:V2CoAl_XA"
+    }
+  ]
+}
+SCORE: 1

@@ -1,0 +1,246 @@
+{
+  "score": 1,
+  "structure": {
+    "passed": true,
+    "checks": [
+      {
+        "name": "structure:inplane_lattice",
+        "passed": true,
+        "detail": {
+          "ab_sub": [
+            82.46000000000001,
+            82.46000000000001
+          ],
+          "ab_ref": [
+            82.46,
+            82.46000000003048
+          ],
+          "len_rel_err": 3.6948911604877317e-13,
+          "gamma_err_deg": 1.2235545909788925e-11,
+          "c_axis_tilt_deg": 0.0
+        }
+      },
+      {
+        "name": "structure:vacuum",
+        "passed": true,
+        "detail": {
+          "vacuum_A": 20.0,
+          "min_A": 15.0
+        }
+      },
+      {
+        "name": "structure:species_counts",
+        "passed": true,
+        "detail": {
+          "submitted": {
+            "W": 1301,
+            "S": 1352,
+            "Se": 1250
+          },
+          "reference": {
+            "W": 1301,
+            "S": 1352,
+            "Se": 1250
+          }
+        }
+      },
+      {
+        "name": "structure:per_layer_W_counts",
+        "passed": true,
+        "detail": {
+          "submitted": [
+            676,
+            625
+          ],
+          "reference": [
+            676,
+            625
+          ]
+        }
+      },
+      {
+        "name": "structure:layer_identity",
+        "passed": true,
+        "detail": {
+          "submitted_bottom_(S,Se)": [
+            1352,
+            0
+          ],
+          "submitted_top_(S,Se)": [
+            0,
+            1250
+          ],
+          "reference_bottom_(S,Se)": [
+            1352,
+            0
+          ],
+          "reference_top_(S,Se)": [
+            0,
+            1250
+          ]
+        }
+      },
+      {
+        "name": "structure:layer_lattice_constant",
+        "passed": true,
+        "detail": {
+          "submitted": [
+            3.1715,
+            3.2984
+          ],
+          "reference": [
+            3.1715,
+            3.2984
+          ],
+          "rel_tol": 0.02
+        }
+      },
+      {
+        "name": "structure:W_over_W_anchor",
+        "passed": true,
+        "detail": {
+          "min_inplane_WW_A": 0.0,
+          "max_A": 0.3
+        }
+      },
+      {
+        "name": "structure:z_planes",
+        "passed": true,
+        "detail": {
+          "submitted": {
+            "wplane_sep_A": 6.5,
+            "half_S_A": 1.57,
+            "half_Se_A": 1.67
+          },
+          "reference": {
+            "wplane_sep_A": 6.5,
+            "half_S_A": 1.57,
+            "half_Se_A": 1.67
+          }
+        }
+      },
+      {
+        "name": "structure:atomic_plane_sites",
+        "passed": true,
+        "detail": {
+          "W_bottom": {
+            "passed": true,
+            "max_inplane_A": 9.30537104967709e-11,
+            "submitted_count": 676,
+            "reference_count": 676
+          },
+          "S_lower": {
+            "passed": true,
+            "max_inplane_A": 8.64361511881286e-11,
+            "submitted_count": 676,
+            "reference_count": 676
+          },
+          "S_upper": {
+            "passed": true,
+            "max_inplane_A": 8.64361511881286e-11,
+            "submitted_count": 676,
+            "reference_count": 676
+          },
+          "W_top": {
+            "passed": true,
+            "max_inplane_A": 6.80131521515843e-11,
+            "submitted_count": 625,
+            "reference_count": 625
+          },
+          "Se_lower": {
+            "passed": true,
+            "max_inplane_A": 7.198510174305085e-11,
+            "submitted_count": 625,
+            "reference_count": 625
+          },
+          "Se_upper": {
+            "passed": true,
+            "max_inplane_A": 7.198510174305085e-11,
+            "submitted_count": 625,
+            "reference_count": 625
+          }
+        }
+      },
+      {
+        "name": "structure:data_lattice_consistency",
+        "passed": true,
+        "detail": {
+          "length_rel_errors": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "angle_errors_deg": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "name": "structure:data_coordinate_consistency",
+        "passed": true,
+        "detail": {
+          "max_inplane_A": 8.316689495813723e-14,
+          "max_z_A": 8.881784197001252e-15,
+          "common_xy_shift_fractional": [
+            -3.2931879462151504e-17,
+            -1.455902180300528e-17
+          ],
+          "common_z_shift_A": 5.329070518200751e-15,
+          "xy_tolerance_A": 0.1,
+          "z_tolerance_A": 0.15
+        }
+      }
+    ]
+  },
+  "deck": {
+    "score": 1,
+    "runs": [
+      {
+        "label": "relax",
+        "score": 1,
+        "checks": [
+          {
+            "name": "required:units",
+            "kind": "required",
+            "passed": true,
+            "reason": "units ['metal'] ok"
+          },
+          {
+            "name": "required:boundary",
+            "kind": "required",
+            "passed": true,
+            "reason": "boundary p p f ok"
+          },
+          {
+            "name": "required:forcefield_mapping",
+            "kind": "required",
+            "passed": true,
+            "reason": "complete ordinary SW sheets; four inner-interface KC channels covered by 4 type pairs, without duplicate or intra/outer KC"
+          },
+          {
+            "name": "required:fixed_box",
+            "kind": "required",
+            "passed": true,
+            "reason": "box fixed ok"
+          },
+          {
+            "name": "required:minimize",
+            "kind": "required",
+            "passed": true,
+            "reason": "minimize etol=0 ftol=1e-08 <= 1e-06"
+          },
+          {
+            "name": "required:atom_counts",
+            "kind": "required",
+            "passed": true,
+            "reason": "atom counts {'S': 1352, 'Se': 1250, 'W': 1301} ok"
+          }
+        ]
+      }
+    ],
+    "extra_labels": []
+  }
+}
+SCORE: 1

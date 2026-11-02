@@ -1,0 +1,1393 @@
+{
+  "summary": {
+    "benchmark": "CompMat-Bench",
+    "version": "v1.0.0",
+    "split": "single-step (full94)",
+    "tasks": 94,
+    "passed": 92,
+    "pass_rate_percent": 97.87,
+    "checks_passed": 2349,
+    "checks_total": 2362,
+    "baselines": [
+      {
+        "name": "Codex (GPT-5.6)",
+        "passed": 86,
+        "pass_rate_percent": 91.49
+      },
+      {
+        "name": "GPT-5.6-sol",
+        "passed": 85,
+        "pass_rate_percent": 90.43
+      },
+      {
+        "name": "Gemini 3.8 Flash",
+        "passed": 84,
+        "pass_rate_percent": 89.36
+      },
+      {
+        "name": "DeepSeek V4.1 Flash",
+        "passed": 62,
+        "pass_rate_percent": 65.96
+      }
+    ]
+  },
+  "tasks": [
+    {
+      "task_id": "task_202509_001_step_hbn-sliding-sweep-inputs",
+      "title": "input files for a bilayer sliding sweep",
+      "role": "gen_input",
+      "codes": [
+        "vasp"
+      ],
+      "source_date": "2025-09-19",
+      "score": 1,
+      "checks_passed": 169,
+      "checks_total": 169,
+      "format_repair": null,
+      "submission_sha256": "22b69a638a68c6851529297d691b32409eead0311577903e1704ba51cc1637dd",
+      "submission_bytes": 2480
+    },
+    {
+      "task_id": "task_202509_002_step_hbn-sliding-potential-step",
+      "title": "the sliding-induced potential-step map",
+      "role": "analyze",
+      "codes": [
+        "vasp"
+      ],
+      "source_date": "2025-09-19",
+      "score": 1,
+      "checks_passed": 4,
+      "checks_total": 4,
+      "format_repair": null,
+      "submission_sha256": "1061d3189c5cafb9e822800c24420439774b62b041bd93ec5f891ae6ea270d99",
+      "submission_bytes": 37739252
+    },
+    {
+      "task_id": "task_202509_003_step_hbn-undulated-sliding-ratio",
+      "title": "build an undulated bilayer and derive its local sliding ratio",
+      "role": "analyze",
+      "codes": [],
+      "source_date": "2025-09-19",
+      "score": 1,
+      "checks_passed": 8,
+      "checks_total": 8,
+      "format_repair": null,
+      "submission_sha256": "82d99cf3061d0d0c6c5513b10ebf96eb96bb08be7462bdff508b7d8a346666af",
+      "submission_bytes": 22515
+    },
+    {
+      "task_id": "task_202509_004_step_bn-nanotube-inputs",
+      "title": "construct a BN nanotube and prepare relaxation and static inputs",
+      "role": "gen_input",
+      "codes": [
+        "vasp"
+      ],
+      "source_date": "2025-09-19",
+      "score": 1,
+      "checks_passed": 28,
+      "checks_total": 28,
+      "format_repair": null,
+      "submission_sha256": "848942547750e0cbb101677ecca05a83f99189057e4de2eb49f53b68d6452433",
+      "submission_bytes": 9790
+    },
+    {
+      "task_id": "task_202509_005_step_bn-nanotube-flexoelectric-constant",
+      "title": "determine the flexoelectric constant of BN nanotubes",
+      "role": "analyze",
+      "codes": [
+        "vasp"
+      ],
+      "source_date": "2025-09-19",
+      "score": 1,
+      "checks_passed": 1,
+      "checks_total": 1,
+      "format_repair": null,
+      "submission_sha256": "9b1f6a1d0460e66cc3af84182660b28b6c8ddcf622c58c6710809db746b51a91",
+      "submission_bytes": 31927972
+    },
+    {
+      "task_id": "task_202509_006_step_hbn-flexo-sliding-decomposition-inputs",
+      "title": "prepare inputs for a flexoelectric/sliding decomposition",
+      "role": "gen_input",
+      "codes": [
+        "vasp"
+      ],
+      "source_date": "2025-09-19",
+      "score": 1,
+      "checks_passed": 64,
+      "checks_total": 64,
+      "format_repair": null,
+      "submission_sha256": "1f4a7ce6c9638b6a8b31f93dbd0758324cdfc13475b3deaf27f8ba00c1a42974",
+      "submission_bytes": 15387
+    },
+    {
+      "task_id": "task_202509_007_step_hbn-undulated-step-decomposition",
+      "title": "decompose the potential step of an undulated bilayer",
+      "role": "analyze",
+      "codes": [
+        "vasp"
+      ],
+      "source_date": "2025-09-19",
+      "score": 1,
+      "checks_passed": 14,
+      "checks_total": 14,
+      "format_repair": null,
+      "submission_sha256": "3aba5f52527c65cf2203b7d7fb14cd1b864fbe7540cfac3771a721b36b37cfbe",
+      "submission_bytes": 6464
+    },
+    {
+      "task_id": "task_202601_001_step_v2coal-heusler-structures",
+      "title": "Build two ordered Heusler structures of V2CoAl",
+      "role": "analyze",
+      "codes": [],
+      "source_date": "2026-01-22",
+      "score": 1,
+      "checks_passed": 2,
+      "checks_total": 2,
+      "format_repair": null,
+      "submission_sha256": "e807775f29d87e6963526dca4e4b8a30e799841af4180537dff0fec2405cb13f",
+      "submission_bytes": 2018
+    },
+    {
+      "task_id": "task_202601_002_step_v2coal-relax-energy-inputs",
+      "title": "VASP inputs for structural relaxation and total energies of V2CoAl",
+      "role": "gen_input",
+      "codes": [
+        "vasp"
+      ],
+      "source_date": "2026-01-22",
+      "score": 1,
+      "checks_passed": 48,
+      "checks_total": 48,
+      "format_repair": null,
+      "submission_sha256": "0bd61fd66b260d57717f940553857a309bf86307ac2d8af4a0d31058f7174bb7",
+      "submission_bytes": 1448
+    },
+    {
+      "task_id": "task_202601_003_step_v2coal-formation-energies-ordering",
+      "title": "Formation energies and lowest-energy ordering of V2CoAl",
+      "role": "analyze",
+      "codes": [
+        "vasp"
+      ],
+      "source_date": "2026-01-22",
+      "score": 1,
+      "checks_passed": 10,
+      "checks_total": 10,
+      "format_repair": null,
+      "submission_sha256": "7b0606112f7d1cfe56fbadab1e9cd6c7749a2d3edf9f3236893a374ae3f1cc4c",
+      "submission_bytes": 6926
+    },
+    {
+      "task_id": "task_202601_004_step_v2coal-l21-abacus-inputs",
+      "title": "ABACUS LCAO inputs for the magnetic moments of L2_1 V2CoAl",
+      "role": "gen_input",
+      "codes": [
+        "abacus"
+      ],
+      "source_date": "2026-01-22",
+      "score": 1,
+      "checks_passed": 13,
+      "checks_total": 13,
+      "format_repair": null,
+      "submission_sha256": "96cb04a6c56daf367910dc16369c8384af9fd21ffeef82ecb740cd90688c147a",
+      "submission_bytes": 1259
+    },
+    {
+      "task_id": "task_202601_005_step_v2coal-l21-magnetic-moment",
+      "title": "Magnetic moment and order of L2_1 V2CoAl",
+      "role": "analyze",
+      "codes": [
+        "abacus"
+      ],
+      "source_date": "2026-01-22",
+      "score": 1,
+      "checks_passed": 2,
+      "checks_total": 2,
+      "format_repair": null,
+      "submission_sha256": "7c358401697f8453ce4de7274a2e6799c811e7b6cefc03b74200b433a9ede41e",
+      "submission_bytes": 308774
+    },
+    {
+      "task_id": "task_202601_006_step_v2coal-xa-abacus-inputs",
+      "title": "ABACUS LCAO inputs for XA V2CoAl with a ferrimagnetic seed",
+      "role": "gen_input",
+      "codes": [
+        "abacus"
+      ],
+      "source_date": "2026-01-22",
+      "score": 1,
+      "checks_passed": 13,
+      "checks_total": 13,
+      "format_repair": null,
+      "submission_sha256": "216eb1aa53f365093aa6d91fdee2a80595d9a78c067438c9bcfba016cd171525",
+      "submission_bytes": 1419
+    },
+    {
+      "task_id": "task_202601_007_step_v2coal-xa-site-moments",
+      "title": "Site moments and magnetic order of XA V2CoAl",
+      "role": "analyze",
+      "codes": [
+        "abacus"
+      ],
+      "source_date": "2026-01-22",
+      "score": 1,
+      "checks_passed": 3,
+      "checks_total": 3,
+      "format_repair": null,
+      "submission_sha256": "90e3b889dbaa8e4e3fdd90d21649e6ea9b097d7cd927498c34d0b267519dc17e",
+      "submission_bytes": 273797
+    },
+    {
+      "task_id": "task_202601_008_step_v2coal-heisenberg-exchange",
+      "title": "Nearest-neighbor Heisenberg exchange couplings of V2CoAl",
+      "role": "analyze",
+      "codes": [
+        "abacus"
+      ],
+      "source_date": "2026-01-22",
+      "score": 1,
+      "checks_passed": 5,
+      "checks_total": 5,
+      "format_repair": null,
+      "submission_sha256": "f82fff4a215fb17aa646f74c21556dcdc947c180d710da10212ccd89faf50e3b",
+      "submission_bytes": 92362774
+    },
+    {
+      "task_id": "task_202601_009_step_snte-110-surface-dirac-cones",
+      "title": "Surface Dirac cones of a SnTe (110) slab",
+      "role": "analyze",
+      "codes": [],
+      "source_date": "2026-01-20",
+      "score": 1,
+      "checks_passed": 1,
+      "checks_total": 1,
+      "format_repair": null,
+      "submission_sha256": "055037cf00124c28b19fa2787ac7232d0615a8b3b4e859e6a26e1f8ba143e4c0",
+      "submission_bytes": 192
+    },
+    {
+      "task_id": "task_202601_010_step_ruo2-snte-interface-inputs",
+      "title": "build a RuO2/SnTe(110) interface slab and its two-step VASP deck",
+      "role": "gen_input",
+      "codes": [
+        "vasp"
+      ],
+      "source_date": "2026-01-20",
+      "score": 1,
+      "checks_passed": 38,
+      "checks_total": 38,
+      "format_repair": null,
+      "submission_sha256": "e4a175631508fc420e32a485c7f748f7b62446e027c4589dafff7f6899f9f7a0",
+      "submission_bytes": 17487
+    },
+    {
+      "task_id": "task_202601_011_step_coupled-slab-surface-splittings",
+      "title": "Surface spectral splittings in a prescribed coupled-slab model",
+      "role": "analyze",
+      "codes": [],
+      "source_date": "2026-01-20",
+      "score": 1,
+      "checks_passed": 2,
+      "checks_total": 2,
+      "format_repair": null,
+      "submission_sha256": "218522c4f228dd1ae693beae3209268caf05c2f93d1b30643d2f60a877c121c3",
+      "submission_bytes": 10641
+    },
+    {
+      "task_id": "task_202601_012_step_surface-cone-hall-contributions",
+      "title": "Hall contributions of surface cones",
+      "role": "analyze",
+      "codes": [],
+      "source_date": "2026-01-20",
+      "score": 1,
+      "checks_passed": 0,
+      "checks_total": 0,
+      "format_repair": null,
+      "submission_sha256": "7d7c7b0fe1acd8266fd6885342226ef7ab6c2a990464953d88126d1bf861ac65",
+      "submission_bytes": 1656
+    },
+    {
+      "task_id": "task_202601_013_step_slab-hall-interface-distribution",
+      "title": "Interface distribution of a slab Hall response",
+      "role": "analyze",
+      "codes": [],
+      "source_date": "2026-01-20",
+      "score": 1,
+      "checks_passed": 2,
+      "checks_total": 2,
+      "format_repair": null,
+      "submission_sha256": "bfa2d83578d2203033fce6b52386d45812a998fae9938ea718fec6ae342abe72",
+      "submission_bytes": 7794
+    },
+    {
+      "task_id": "task_202602_001_step_hgte-well-hartree-inputs",
+      "title": "write the kdotpy run set for a self-consistent Hartree sweep of a gated HgTe quantum well",
+      "role": "gen_input",
+      "codes": [],
+      "source_date": "2026-02-19",
+      "score": 1,
+      "checks_passed": 48,
+      "checks_total": 48,
+      "format_repair": null,
+      "submission_sha256": "b73aed8fec17ea4aa0ea6f05ce1286aad7cb27e9b76aa422783a4786150652dd",
+      "submission_bytes": 2728
+    },
+    {
+      "task_id": "task_202602_002_step_hgte-well-hartree-analysis",
+      "title": "potential asymmetry, charge-neutral Fermi level, and well charge of a gated HgTe quantum well",
+      "role": "analyze",
+      "codes": [],
+      "source_date": "2026-02-19",
+      "score": 1,
+      "checks_passed": 10,
+      "checks_total": 10,
+      "format_repair": null,
+      "submission_sha256": "434ca88b33a9d6bcc42796d307ee18c0380dd1d3e32b728b1ffca6be4f63cc8f",
+      "submission_bytes": 126425
+    },
+    {
+      "task_id": "task_202602_003_step_hgte-well-surface-dispersion",
+      "title": "Band structure of a gated 45 nm HgTe quantum well at fixed Hartree potentials",
+      "role": "analyze",
+      "codes": [],
+      "source_date": "2026-02-19",
+      "score": 1,
+      "checks_passed": 5,
+      "checks_total": 5,
+      "format_repair": null,
+      "submission_sha256": "e02690810747e60bc2646e9f370ab77ba4bc4a44688bdef76de46692dbe4529a",
+      "submission_bytes": 1936138
+    },
+    {
+      "task_id": "task_202602_004_step_hgte-well-sdh-densities",
+      "title": "Subband densities from Shubnikov-de Haas oscillations of a gated HgTe quantum well",
+      "role": "analyze",
+      "codes": [],
+      "source_date": "2026-02-19",
+      "score": 1,
+      "checks_passed": 10,
+      "checks_total": 10,
+      "format_repair": null,
+      "submission_sha256": "c9f9bae59c9f1f054213ebe67eb8c6e28d18cc845e7eac20bde75f411cdba319",
+      "submission_bytes": 2104819
+    },
+    {
+      "task_id": "task_202602_005_step_gete-wannier-inputs",
+      "title": "input decks for a fully relativistic Wannier model of rhombohedral GeTe",
+      "role": "gen_input",
+      "codes": [
+        "qe",
+        "wannier90"
+      ],
+      "source_date": "2026-02-04",
+      "score": 1,
+      "checks_passed": 40,
+      "checks_total": 40,
+      "format_repair": null,
+      "submission_sha256": "01a0c978e12b06f18c65d295f73194628e3ae7f4e8798c5edfa9a0c6c263984b",
+      "submission_bytes": 36748
+    },
+    {
+      "task_id": "task_202602_006_step_gete-fermi-levels",
+      "title": "Dirac-point reference and Fermi levels of hole-doped rhombohedral GeTe under an in-plane exchange field",
+      "role": "analyze",
+      "codes": [
+        "wannier90"
+      ],
+      "source_date": "2026-02-04",
+      "score": 1,
+      "checks_passed": 5,
+      "checks_total": 5,
+      "format_repair": null,
+      "submission_sha256": "4f22549d6da287f90de1df7c5165cd6b4db4f14ffe27e112e47fc5c1786cfe23",
+      "submission_bytes": 20965461
+    },
+    {
+      "task_id": "task_202602_007_step_gete-interband-jdos",
+      "title": "Interband JDOS of a Zeeman-split GeTe valence-band model at three doping levels",
+      "role": "analyze",
+      "codes": [
+        "wannier90"
+      ],
+      "source_date": "2026-02-04",
+      "score": 1,
+      "checks_passed": 8,
+      "checks_total": 8,
+      "format_repair": null,
+      "submission_sha256": "cac272014b2fb618fc385aebcc495ee31a31e8fdb74d653af8f32e097eac13d7",
+      "submission_bytes": 20965735
+    },
+    {
+      "task_id": "task_202602_008_step_gete-optical-conductivity",
+      "title": "Low-frequency interband optical conductivity of a Zeeman-split GeTe valence-band model",
+      "role": "analyze",
+      "codes": [
+        "wannier90"
+      ],
+      "source_date": "2026-02-04",
+      "score": 1,
+      "checks_passed": 5,
+      "checks_total": 5,
+      "format_repair": null,
+      "submission_sha256": "8f28b8bb4cb5654819e3fb3c76087b46436693014bbb15854b5114d1fbea1ee1",
+      "submission_bytes": 20965436
+    },
+    {
+      "task_id": "task_202602_009_step_rucl2-dftu-bands-inputs",
+      "title": "input files for the DFT+U+SOC valley band structure of monolayer 2H-RuCl2",
+      "role": "gen_input",
+      "codes": [
+        "vasp"
+      ],
+      "source_date": "2026-02-05",
+      "score": 1,
+      "checks_passed": 29,
+      "checks_total": 29,
+      "format_repair": null,
+      "submission_sha256": "e4f9e4e9e02105865e906f4b3f8ccea35d9dc33b029ce21b4fd114bcca4455d1",
+      "submission_bytes": 3776
+    },
+    {
+      "task_id": "task_202602_010_step_rucl2-valley-gaps",
+      "title": "valley gaps and moment of the DFT+U+SOC monolayer 2H-RuCl2 band structure",
+      "role": "analyze",
+      "codes": [
+        "vasp"
+      ],
+      "source_date": "2026-02-05",
+      "score": 1,
+      "checks_passed": 4,
+      "checks_total": 4,
+      "format_repair": null,
+      "submission_sha256": "dc5ff63a24655ff70fc70fa401b58720380e3a2bc5e5afa72a1ac0db1d7f82a4",
+      "submission_bytes": 673976
+    },
+    {
+      "task_id": "task_202602_011_step_rucl2-phonon-forces-inputs",
+      "title": "force-calculation input set for the phonon spectrum of a monolayer 2H-RuCl2 sheet",
+      "role": "gen_input",
+      "codes": [
+        "vasp"
+      ],
+      "source_date": "2026-02-05",
+      "score": 1,
+      "checks_passed": 15,
+      "checks_total": 15,
+      "format_repair": null,
+      "submission_sha256": "00a207f116cf73afd952fb05e8c9a8139f07eeff98deec28b855cd3720c51c7c",
+      "submission_bytes": 1712
+    },
+    {
+      "task_id": "task_202602_012_step_rucl2-a1p-phonon-mode",
+      "title": "phonons of a monolayer 2H-RuCl2 sheet and its out-of-plane A'1 optical mode",
+      "role": "analyze",
+      "codes": [
+        "vasp"
+      ],
+      "source_date": "2026-02-05",
+      "score": 1,
+      "checks_passed": 5,
+      "checks_total": 5,
+      "format_repair": null,
+      "submission_sha256": "9d2e8fc3a78153e1d176795bf95caaae460e1434af229266de9e8b007b7eb560",
+      "submission_bytes": 59909
+    },
+    {
+      "task_id": "task_202602_013_step_rucl2-frozen-phonon-optics-inputs",
+      "title": "input files for the frozen-phonon optics runs behind an out-of-plane-phonon Raman tensor",
+      "role": "gen_input",
+      "codes": [
+        "vasp"
+      ],
+      "source_date": "2026-02-05",
+      "score": 1,
+      "checks_passed": 155,
+      "checks_total": 155,
+      "format_repair": null,
+      "submission_sha256": "ed18f5af7c2039c898d722b2b00755b3c43e116738c4d35abc0763e539a41f95",
+      "submission_bytes": 13007
+    },
+    {
+      "task_id": "task_202602_014_step_rucl2-magneto-raman-tensor",
+      "title": "the magneto-Raman tensor of an out-of-plane phonon from displaced-geometry optics runs",
+      "role": "analyze",
+      "codes": [
+        "vasp"
+      ],
+      "source_date": "2026-02-05",
+      "score": 1,
+      "checks_passed": 6,
+      "checks_total": 6,
+      "format_repair": null,
+      "submission_sha256": "3dfb99550e66cfc203e88c47c962bd8429eb95aad035e8bbc09b4929d5f186a2",
+      "submission_bytes": 106563719
+    },
+    {
+      "task_id": "task_202602_015_step_ws2-wse2-moire-lammps-inputs",
+      "title": "build an R-type WS2/WSe2 moire supercell and its LAMMPS relaxation deck",
+      "role": "gen_input",
+      "codes": [
+        "lammps"
+      ],
+      "source_date": "2026-02-04",
+      "score": 1,
+      "checks_passed": 24,
+      "checks_total": 24,
+      "format_repair": null,
+      "submission_sha256": "50c9b221bf7a36f39fa2ba4e3ba90041d15605d5201634c05d57e4e600746eb0",
+      "submission_bytes": 74530
+    },
+    {
+      "task_id": "task_202602_016_step_ws2-wse2-moire-reconstruction-fields",
+      "title": "extract the reconstruction fields of a relaxed R-type WS2/WSe2 moire",
+      "role": "analyze",
+      "codes": [
+        "lammps"
+      ],
+      "source_date": "2026-02-04",
+      "score": 1,
+      "checks_passed": 17,
+      "checks_total": 17,
+      "format_repair": null,
+      "submission_sha256": "afdac226e81f6a0b089be630712d54a723dd73cb65d47ae3e3ba4527620546a4",
+      "submission_bytes": 277000
+    },
+    {
+      "task_id": "task_202602_017_step_ws2-wse2-bilayer-soc-band-inputs",
+      "title": "build a commensurate WS2/WSe2 heterobilayer and its three-step spin-orbit band deck",
+      "role": "gen_input",
+      "codes": [
+        "vasp"
+      ],
+      "source_date": "2026-02-04",
+      "score": 1,
+      "checks_passed": 37,
+      "checks_total": 37,
+      "format_repair": null,
+      "submission_sha256": "351c5a261012e9bb2bf02613eeb01da471e753f47c9068e3f9749c86b51b3b84",
+      "submission_bytes": 7711
+    },
+    {
+      "task_id": "task_202602_018_step_ws2-wse2-band-offsets-at-k",
+      "title": "read the band offsets and layer character at K of a heterobilayer",
+      "role": "analyze",
+      "codes": [
+        "vasp"
+      ],
+      "source_date": "2026-02-04",
+      "score": 1,
+      "checks_passed": 5,
+      "checks_total": 5,
+      "format_repair": null,
+      "submission_sha256": "34c80907d43afe60455afb81c39c03e81c682fede4c87f3c711753aad3a8b862",
+      "submission_bytes": 1938079
+    },
+    {
+      "task_id": "task_202602_019_step_tmd-monolayer-strain-sweep-inputs",
+      "title": "input files for a biaxial-strain sweep of two 1H TMD monolayers",
+      "role": "gen_input",
+      "codes": [
+        "vasp"
+      ],
+      "source_date": "2026-02-04",
+      "score": 1,
+      "checks_passed": 294,
+      "checks_total": 294,
+      "format_repair": null,
+      "submission_sha256": "f4391a4c0721a56776effc0285a3e344f14b6b5497fb134e51fd8945de60ad19",
+      "submission_bytes": 22318
+    },
+    {
+      "task_id": "task_202602_020_step_tmd-strain-deformation-potentials",
+      "title": "strain deformation potentials and the moire band-edge modulation",
+      "role": "analyze",
+      "codes": [
+        "vasp"
+      ],
+      "source_date": "2026-02-04",
+      "score": 1,
+      "checks_passed": 6,
+      "checks_total": 6,
+      "format_repair": null,
+      "submission_sha256": "9576abd6fd32aef5b3597793861e75a045019d04d5354819e961412b68d94a8a",
+      "submission_bytes": 211432
+    },
+    {
+      "task_id": "task_202602_021_step_moire-piezoelectric-bound-charge",
+      "title": "layer-resolved piezoelectric bound charge of a reconstructed moire",
+      "role": "analyze",
+      "codes": [
+        "lammps"
+      ],
+      "source_date": "2026-02-04",
+      "score": 1,
+      "checks_passed": 7,
+      "checks_total": 7,
+      "format_repair": null,
+      "submission_sha256": "5d9bf15c5d2cc01a468ae4f6bac0af5dafa48c772260519a8a2ef10f084bff1a",
+      "submission_bytes": 229943
+    },
+    {
+      "task_id": "task_202602_022_step_moire-screened-piezo-potential",
+      "title": "screen a moire piezoelectric charge and compute its band-edge potential",
+      "role": "analyze",
+      "codes": [],
+      "source_date": "2026-02-04",
+      "score": 1,
+      "checks_passed": 6,
+      "checks_total": 6,
+      "format_repair": null,
+      "submission_sha256": "ce6ed4f91410653e57c151a229b02dd28eca986f770ab7c894cb430e29b49091",
+      "submission_bytes": 23690
+    },
+    {
+      "task_id": "task_202602_023_step_mnte-altermagnet-pipeline-inputs",
+      "title": "input decks for the pristine MnTe altermagnet pipeline",
+      "role": "gen_input",
+      "codes": [
+        "qe"
+      ],
+      "source_date": "2026-02-25",
+      "score": 1,
+      "checks_passed": 65,
+      "checks_total": 65,
+      "format_repair": null,
+      "submission_sha256": "a93e1b9519d1f7c99105a0a1b0a94cedcdff004bf1cb315937f5be802497ead5",
+      "submission_bytes": 5195
+    },
+    {
+      "task_id": "task_202602_024_step_mnte-altermagnet-spin-splitting",
+      "title": "Spin splitting and magnetism of an altermagnetic MnTe pipeline",
+      "role": "analyze",
+      "codes": [
+        "qe"
+      ],
+      "source_date": "2026-02-25",
+      "score": 1,
+      "checks_passed": 6,
+      "checks_total": 6,
+      "format_repair": null,
+      "submission_sha256": "5ef8a6f3eccf04a1ab66fd6f25a7e42c75885631793a5c5979457b1ad74c6fac",
+      "submission_bytes": 439836
+    },
+    {
+      "task_id": "task_202602_025_step_doped-mnte-space-group-classification",
+      "title": "space-group classification of pair-doped MnTe supercells",
+      "role": "analyze",
+      "codes": [],
+      "source_date": "2026-02-25",
+      "score": 1,
+      "checks_passed": 2,
+      "checks_total": 2,
+      "format_repair": null,
+      "submission_sha256": "5d6d02dc2e26ccaf03a3eaa5d77405e2493da633902fe24999d756fa0e9c55a2",
+      "submission_bytes": 447
+    },
+    {
+      "task_id": "task_202602_026_step_doped-mnte-supercell-band-inputs",
+      "title": "input decks for the band structures of dopant-pair-substituted MnTe supercells",
+      "role": "gen_input",
+      "codes": [
+        "qe"
+      ],
+      "source_date": "2026-02-25",
+      "score": 1,
+      "checks_passed": 80,
+      "checks_total": 80,
+      "format_repair": null,
+      "submission_sha256": "b3a648356c3de08dca155c95cab6fd048c73cb6fcf1dbb46f0003677c172520a",
+      "submission_bytes": 3664
+    },
+    {
+      "task_id": "task_202602_027_step_doped-mnte-momentum-spin-splitting",
+      "title": "Momentum-dependent spin splitting of doped MnTe supercells",
+      "role": "analyze",
+      "codes": [
+        "qe"
+      ],
+      "source_date": "2026-02-25",
+      "score": 1,
+      "checks_passed": 16,
+      "checks_total": 16,
+      "format_repair": null,
+      "submission_sha256": "720fae2e234f3c03a52ad415b89a94fedb4b7f8d86faf8161326ee62c9864bb2",
+      "submission_bytes": 1060393
+    },
+    {
+      "task_id": "task_202602_028_step_tb-chain-spin-splitting",
+      "title": "Spin splitting of a tight-binding chain",
+      "role": "analyze",
+      "codes": [],
+      "source_date": "2026-02-25",
+      "score": 1,
+      "checks_passed": 9,
+      "checks_total": 9,
+      "format_repair": null,
+      "submission_sha256": "a3294d9ba5eb5f4eae343d8e4bfe1c10f20e2da045df2759f03666db87c2cf74",
+      "submission_bytes": 314
+    },
+    {
+      "task_id": "task_202602_029_step_substituted-tb-chain-spectrum",
+      "title": "Spin-resolved spectrum of a substituted quasi-one-dimensional tight-binding chain",
+      "role": "analyze",
+      "codes": [],
+      "source_date": "2026-02-25",
+      "score": 1,
+      "checks_passed": 13,
+      "checks_total": 13,
+      "format_repair": null,
+      "submission_sha256": "a205a5f0adc8eafe14a5875748ef3e9347f1cbcbeae594aa1ff5fb26e28e90b8",
+      "submission_bytes": 367
+    },
+    {
+      "task_id": "task_202602_030_step_spin-lattice-hessian-minimum-modes",
+      "title": "minimum modes of the tangent-space Hessian of a lattice spin model",
+      "role": "analyze",
+      "codes": [],
+      "source_date": "2026-02-06",
+      "score": 1,
+      "checks_passed": 9,
+      "checks_total": 9,
+      "format_repair": null,
+      "submission_sha256": "554920f96068b084a5218630e81ad33e959b05bd07ac87293d5016fbf62dcf8f",
+      "submission_bytes": 1864604
+    },
+    {
+      "task_id": "task_202602_031_step_ni-island-eam-saddle-points",
+      "title": "locate and certify three saddle points of a Ni island on an EAM surface",
+      "role": "analyze",
+      "codes": [],
+      "source_date": "2026-02-06",
+      "score": 1,
+      "checks_passed": 12,
+      "checks_total": 12,
+      "format_repair": null,
+      "submission_sha256": "ce9bb1b1dcad682f96459ebd8c9366cb76e20afef3f2750820ef159a8850ca29",
+      "submission_bytes": 20116
+    },
+    {
+      "task_id": "task_202602_032_step_ni-island-mlp-saddle-certification",
+      "title": "certify two candidate saddle points of a Ni island on a machine-learned potential",
+      "role": "analyze",
+      "codes": [],
+      "source_date": "2026-02-06",
+      "score": 1,
+      "checks_passed": 8,
+      "checks_total": 8,
+      "format_repair": null,
+      "submission_sha256": "49b75f4c5779e08ccb936b6877f298f0f8318c0045f9a6adabc55c2437f90c9f",
+      "submission_bytes": 55828537
+    },
+    {
+      "task_id": "task_202603_001_step_zno-mgo-phase-boundaries",
+      "title": "equilibrium phase boundaries and equal-composition phase competition in the ZnO-MgO pseudo-binary",
+      "role": "analyze",
+      "codes": [],
+      "source_date": "2026-03-05",
+      "score": 1,
+      "checks_passed": 6,
+      "checks_total": 6,
+      "format_repair": null,
+      "submission_sha256": "d421c07ec8349c1d69dd3242d0df53a59ae763951e437c13486c0cb10a7fc65c",
+      "submission_bytes": 875
+    },
+    {
+      "task_id": "task_202603_002_step_zno-finite-strain-inputs",
+      "title": "input decks for the relaxation and finite-strain elastic and piezoelectric response of wurtzite ZnO",
+      "role": "gen_input",
+      "codes": [
+        "qe"
+      ],
+      "source_date": "2026-03-05",
+      "score": 0,
+      "checks_passed": 84,
+      "checks_total": 95,
+      "format_repair": null,
+      "submission_sha256": "12397b0dae8ab232d75203ec40250d2496519cc46aa6086569518f6739e91cc5",
+      "submission_bytes": 11149
+    },
+    {
+      "task_id": "task_202603_003_step_znmgo-elastic-piezoelectric",
+      "title": "structure, elastic constants and piezoelectric coefficients of Zn$_{1-x}$Mg$_x$O from finite-strain runs",
+      "role": "analyze",
+      "codes": [
+        "qe"
+      ],
+      "source_date": "2026-03-05",
+      "score": 1,
+      "checks_passed": 28,
+      "checks_total": 28,
+      "format_repair": null,
+      "submission_sha256": "da1e8f732ed92d406cf78a8f5706ca0a9744516884193682bc3a9a17b8ed0a26",
+      "submission_bytes": 2928627
+    },
+    {
+      "task_id": "task_202603_004_step_znmgo-berry-phase-inputs",
+      "title": "input decks for the Berry-phase polarization path of wurtzite Zn$_{1-x}$Mg$_x$O",
+      "role": "gen_input",
+      "codes": [
+        "qe"
+      ],
+      "source_date": "2026-03-05",
+      "score": 1,
+      "checks_passed": 66,
+      "checks_total": 66,
+      "format_repair": null,
+      "submission_sha256": "2c2a7123959c157f797fd4f63d054950703d8e233302a1e1286aa7ee4fb0da09",
+      "submission_bytes": 2951
+    },
+    {
+      "task_id": "task_202603_005_step_znmgo-spontaneous-polarization",
+      "title": "spontaneous polarization of wurtzite Zn$_{1-x}$Mg$_x$O from Berry-phase runs along a structural path",
+      "role": "analyze",
+      "codes": [
+        "qe"
+      ],
+      "source_date": "2026-03-05",
+      "score": 1,
+      "checks_passed": 7,
+      "checks_total": 7,
+      "format_repair": null,
+      "submission_sha256": "8bcf1b0ded415fc970477d2ab511c31097c9ff17c13461690e2d1c5b1cfc4295",
+      "submission_bytes": 123559
+    },
+    {
+      "task_id": "task_202603_006_step_znmgo-landau-devonshire-model",
+      "title": "sixth-order Landau-Devonshire model of stress-free wurtzite Zn$_{1-x}$Mg$_x$O",
+      "role": "analyze",
+      "codes": [],
+      "source_date": "2026-03-05",
+      "score": 1,
+      "checks_passed": 6,
+      "checks_total": 6,
+      "format_repair": null,
+      "submission_sha256": "b67523e992fe39d76075813559a6bc3d1131edabc6ebd565db76589b37673e7b",
+      "submission_bytes": 536
+    },
+    {
+      "task_id": "task_202603_007_step_znmgo-strain-composition-phase-map",
+      "title": "strain-composition phase map of a coherently strained Zn$_{1-x}$Mg$_x$O film",
+      "role": "analyze",
+      "codes": [],
+      "source_date": "2026-03-05",
+      "score": 1,
+      "checks_passed": 6,
+      "checks_total": 6,
+      "format_repair": null,
+      "submission_sha256": "e52e71b4323259e9326db14304fdbd301f7719667882b6c111d78da7a0e1b261",
+      "submission_bytes": 8562
+    },
+    {
+      "task_id": "task_202603_008_step_afm-chain-magnon-spectrum",
+      "title": "magnon spectrum and stability of a double-layered antiferromagnetic chain",
+      "role": "analyze",
+      "codes": [],
+      "source_date": "2026-03-10",
+      "score": 1,
+      "checks_passed": 2,
+      "checks_total": 2,
+      "format_repair": null,
+      "submission_sha256": "c5b0b5ab90a21a7feb70759e86277669c91057eb9c8622f74966a3a9fb08b44f",
+      "submission_bytes": 842
+    },
+    {
+      "task_id": "task_202603_009_step_crn-ldau-structure-inputs",
+      "title": "input files for the LDA+U structural variants of antiferromagnetic CrN",
+      "role": "gen_input",
+      "codes": [
+        "vasp"
+      ],
+      "source_date": "2026-03-10",
+      "score": 1,
+      "checks_passed": 51,
+      "checks_total": 51,
+      "format_repair": null,
+      "submission_sha256": "d98b4d9606620dcfeb33e0beb5d3be7ab84afbd2a6fc926f83c638b5da96238e",
+      "submission_bytes": 2096
+    },
+    {
+      "task_id": "task_202603_010_step_crn-relaxed-structure-exchange-paths",
+      "title": "relaxed structure, exchange-path geometry and ground-state properties of antiferromagnetic CrN",
+      "role": "analyze",
+      "codes": [
+        "vasp"
+      ],
+      "source_date": "2026-03-10",
+      "score": 1,
+      "checks_passed": 15,
+      "checks_total": 15,
+      "format_repair": null,
+      "submission_sha256": "8d60945819a2c774e2b04c56e10f25d2caba0fa82eb0fa01254406fdf3a1d028",
+      "submission_bytes": 651925
+    },
+    {
+      "task_id": "task_202603_011_step_crn-wannier-exchange-inputs",
+      "title": "input files for Wannier-function exchange parameters of antiferromagnetic CrN",
+      "role": "gen_input",
+      "codes": [
+        "vasp",
+        "wannier90"
+      ],
+      "source_date": "2026-03-10",
+      "score": 1,
+      "checks_passed": 33,
+      "checks_total": 33,
+      "format_repair": {
+        "problem": "The shell script assumed non-official spin prefixes and used conditional shell operators rejected by the static grader. VASP writes wannier90.1 and wannier90.2 for the two spin channels.",
+        "repair": "Mapped the prefixes to wannier90.1 and wannier90.2, wrote the staged DOSCAR Fermi energy explicitly, and emitted the same TB2J command without shell control operators. Model-selected kmesh, rcut, E_F source, and output path were preserved.",
+        "original_official_score": 0
+      },
+      "submission_sha256": "1f0575a32d4400d85eeb89df223bc1a1dd7685412568a09c39ed03d75da6ecc3",
+      "submission_bytes": 44988
+    },
+    {
+      "task_id": "task_202603_012_step_crn-nearest-neighbour-exchange",
+      "title": "nearest-neighbour exchange parameters of CrN from Wannier-function calculations",
+      "role": "analyze",
+      "codes": [],
+      "source_date": "2026-03-10",
+      "score": 1,
+      "checks_passed": 12,
+      "checks_total": 12,
+      "format_repair": null,
+      "submission_sha256": "3fbb1277131d22f67c1b0878cfef332602d44e8afca33765496bbe0a6122ff63",
+      "submission_bytes": 11673
+    },
+    {
+      "task_id": "task_202603_013_step_crn-linear-spin-wave-spectrum",
+      "title": "linear spin-wave spectrum of antiferromagnetic CrN",
+      "role": "analyze",
+      "codes": [],
+      "source_date": "2026-03-10",
+      "score": 1,
+      "checks_passed": 2,
+      "checks_total": 2,
+      "format_repair": null,
+      "submission_sha256": "6d4fa1b61b7dff0a0f729a7c82de835a2367295ed20d4edb2bf0c63a65474da7",
+      "submission_bytes": 914
+    },
+    {
+      "task_id": "task_202603_014_step_crn-monte-carlo-deck",
+      "title": "a classical Monte Carlo deck for the Neel temperature of antiferromagnetic CrN",
+      "role": "gen_input",
+      "codes": [
+        "vampire"
+      ],
+      "source_date": "2026-03-10",
+      "score": 1,
+      "checks_passed": 23,
+      "checks_total": 23,
+      "format_repair": null,
+      "submission_sha256": "ebb4ee76e8d5542924a5e071b2add6a0fe2cefd72fad0e90915d20b02d14595a",
+      "submission_bytes": 1018437
+    },
+    {
+      "task_id": "task_202603_015_step_crn-neel-temperature",
+      "title": "the Neel temperature of antiferromagnetic CrN from a classical Monte Carlo sweep",
+      "role": "analyze",
+      "codes": [
+        "vampire"
+      ],
+      "source_date": "2026-03-10",
+      "score": 1,
+      "checks_passed": 2,
+      "checks_total": 2,
+      "format_repair": null,
+      "submission_sha256": "7e87fdbd6e59064b9a9d2946b785c8d87cf7c9e5ce69b96c21d18956e6633a93",
+      "submission_bytes": 33867
+    },
+    {
+      "task_id": "task_202603_016_step_si-ge-interface-cells",
+      "title": "build the ideal (100) Si/Ge interface cells for a phonon transport device",
+      "role": "analyze",
+      "codes": [],
+      "source_date": "2026-03-31",
+      "score": 1,
+      "checks_passed": 4,
+      "checks_total": 4,
+      "format_repair": null,
+      "submission_sha256": "f5c62dc96824a86f2335827b742c76d9276cd005da730de14f29f684ab65ddc9",
+      "submission_bytes": 3074
+    },
+    {
+      "task_id": "task_202603_017_step_si-ge-empirical-phonons",
+      "title": "\"bulk phonon properties of Si and Ge from an empirical potential: harmonic frequencies and lattice thermal conductivity\"",
+      "role": "analyze",
+      "codes": [
+        "lammps"
+      ],
+      "source_date": "2026-03-31",
+      "score": 1,
+      "checks_passed": 16,
+      "checks_total": 16,
+      "format_repair": null,
+      "submission_sha256": "7354cc421d97bb3a79a1b8c09ac1165c0cdad763538209cc8365900f539ba9f8",
+      "submission_bytes": 1063
+    },
+    {
+      "task_id": "task_202603_018_step_si-ge-phonon-force-inputs",
+      "title": "force-calculation input sets for the ab initio phonon database of bulk Si and Ge",
+      "role": "gen_input",
+      "codes": [
+        "vasp"
+      ],
+      "source_date": "2026-03-31",
+      "score": 1,
+      "checks_passed": 36,
+      "checks_total": 36,
+      "format_repair": null,
+      "submission_sha256": "39ded6178b6c531880e3beefcfaf89e5dc46a5cbc047df41f92427968fe6b570",
+      "submission_bytes": 2330
+    },
+    {
+      "task_id": "task_202603_019_step_si-ge-abinitio-phonons",
+      "title": "\"bulk phonon properties of Si and Ge from ab initio force calculations: harmonic frequencies and lattice thermal conductivity\"",
+      "role": "analyze",
+      "codes": [
+        "vasp"
+      ],
+      "source_date": "2026-03-31",
+      "score": 0,
+      "checks_passed": 14,
+      "checks_total": 16,
+      "format_repair": null,
+      "submission_sha256": "8468cd2c44169452022357d1453c4bdced2265d9f39b86a55ee9d3a1e0b732d4",
+      "submission_bytes": 402
+    },
+    {
+      "task_id": "task_202603_020_step_si-ge-mode-resolved-transmission",
+      "title": "mode-resolved phonon transmission through a Si/Ge interface from harmonic force constants",
+      "role": "analyze",
+      "codes": [],
+      "source_date": "2026-03-31",
+      "score": 1,
+      "checks_passed": 45,
+      "checks_total": 45,
+      "format_repair": null,
+      "submission_sha256": "fad649155d8a776cada212cc8e5aa95a4192c5fb44fc2aef8bb43cbdff1a9c7e",
+      "submission_bytes": 153024
+    },
+    {
+      "task_id": "task_202603_021_step_si-ge-diffuse-mismatch-transmission",
+      "title": "diffuse-mismatch phonon transmission across a Si/Ge interface, against a wave-based reference",
+      "role": "analyze",
+      "codes": [],
+      "source_date": "2026-03-31",
+      "score": 1,
+      "checks_passed": 4,
+      "checks_total": 4,
+      "format_repair": null,
+      "submission_sha256": "46c9ba5233bcbeaa80d82c31212d5eda22cecd7935030998f9a7087bcea28f22",
+      "submission_bytes": 46394
+    },
+    {
+      "task_id": "task_202603_022_step_si-ge-reflection-specularity",
+      "title": "specularity of phonon reflection at a Si/Ge interface from scattering-matrix reflection blocks",
+      "role": "analyze",
+      "codes": [],
+      "source_date": "2026-03-31",
+      "score": 1,
+      "checks_passed": 4,
+      "checks_total": 4,
+      "format_repair": null,
+      "submission_sha256": "99cc59edee5a2faf33f0bae57aea9e3af43bd1ac5620a15ccf20f50768711a06",
+      "submission_bytes": 9104364
+    },
+    {
+      "task_id": "task_202603_023_step_si-ge-phonon-mc-tables",
+      "title": "build the phonon input tables of a bulk phonon Monte Carlo solver for Si and Ge",
+      "role": "gen_input",
+      "codes": [],
+      "source_date": "2026-03-31",
+      "score": 1,
+      "checks_passed": 12,
+      "checks_total": 12,
+      "format_repair": null,
+      "submission_sha256": "071fddd8f07881ea8c7e0507cb9ee7b2d5c8c224ac4302d7bdfb26f964ce4b9d",
+      "submission_bytes": 789392
+    },
+    {
+      "task_id": "task_202603_024_step_si-ge-slab-thermal-conductivity",
+      "title": "effective thermal conductivity of finite Si and Ge slabs from phonon Monte Carlo run outputs",
+      "role": "analyze",
+      "codes": [],
+      "source_date": "2026-03-31",
+      "score": 1,
+      "checks_passed": 8,
+      "checks_total": 8,
+      "format_repair": null,
+      "submission_sha256": "59522c2205f9730fcbeef92b264373967df242eefd4db6a67823d0fabe27d0cc",
+      "submission_bytes": 50288
+    },
+    {
+      "task_id": "task_202603_025_step_hzo-disordered-supercell-inputs",
+      "title": "a cation-disordered Hf$_{0.5}$Zr$_{0.5}$O$_2$ supercell that exposes every oxygen environment, and its relaxation deck",
+      "role": "gen_input",
+      "codes": [
+        "vasp"
+      ],
+      "source_date": "2026-03-17",
+      "score": 1,
+      "checks_passed": 15,
+      "checks_total": 15,
+      "format_repair": null,
+      "submission_sha256": "c3ceb86e97408242867c382c71066b488d10b3792abbfcfaffa957d945970987",
+      "submission_bytes": 15497
+    },
+    {
+      "task_id": "task_202603_026_step_hzo-oxygen-environments",
+      "title": "oxygen environments and relaxation response of a cation-disordered Hf$_{0.5}$Zr$_{0.5}$O$_2$ supercell",
+      "role": "analyze",
+      "codes": [],
+      "source_date": "2026-03-17",
+      "score": 1,
+      "checks_passed": 17,
+      "checks_total": 17,
+      "format_repair": null,
+      "submission_sha256": "a54958d09011e11044e69280f6e034a8a85011c5421b8882b184a53fb1695944",
+      "submission_bytes": 7174
+    },
+    {
+      "task_id": "task_202603_027_step_hzo-oxygen-vacancy-inputs",
+      "title": "input sets for a charged oxygen vacancy in Hf$_{0.5}$Zr$_{0.5}$O$_2$ and for the dielectric tensor its finite-size correction needs",
+      "role": "gen_input",
+      "codes": [
+        "vasp"
+      ],
+      "source_date": "2026-03-17",
+      "score": 1,
+      "checks_passed": 36,
+      "checks_total": 36,
+      "format_repair": null,
+      "submission_sha256": "4f8c01b7dff6a26daf41d4ce9bfce4f44f358bf2a69356045491c43bdde95eb6",
+      "submission_bytes": 5378
+    },
+    {
+      "task_id": "task_202603_028_step_hzo-vacancy-charge-thermodynamics",
+      "title": "charge-state thermodynamics of the oxygen vacancy in Hf$_{0.5}$Zr$_{0.5}$O$_2$ across its local cation environments",
+      "role": "analyze",
+      "codes": [
+        "vasp"
+      ],
+      "source_date": "2026-03-17",
+      "score": 1,
+      "checks_passed": 55,
+      "checks_total": 55,
+      "format_repair": null,
+      "submission_sha256": "cb23b7fc2e083133df89508e0435e50e10fd14f4f3d1b8de32631474f3b4a506",
+      "submission_bytes": 840
+    },
+    {
+      "task_id": "task_202603_029_step_hzo-bonding-analysis-inputs",
+      "title": "projection-ready input sets for a bonding analysis of the oxygen sublattice of Hf$_{0.5}$Zr$_{0.5}$O$_2$, with and without a vacancy",
+      "role": "gen_input",
+      "codes": [
+        "vasp",
+        "lobster"
+      ],
+      "source_date": "2026-03-17",
+      "score": 1,
+      "checks_passed": 36,
+      "checks_total": 36,
+      "format_repair": null,
+      "submission_sha256": "07936197d4ab345c0532c446b7bb593fe274cdc652c92982ed2b3e922b03a520",
+      "submission_bytes": 7585
+    },
+    {
+      "task_id": "task_202603_030_step_hzo-oxygen-sublattice-bonding",
+      "title": "bonding analysis of the oxygen sublattice of Hf$_{0.5}$Zr$_{0.5}$O$_2$, with and without an oxygen vacancy",
+      "role": "analyze",
+      "codes": [
+        "lobster"
+      ],
+      "source_date": "2026-03-17",
+      "score": 1,
+      "checks_passed": 46,
+      "checks_total": 46,
+      "format_repair": null,
+      "submission_sha256": "2a6cfa8fa2c953a14cbd5959d033f4d9b7e54b0d3ef19e6e9ca4449d24c3e383",
+      "submission_bytes": 6855445
+    },
+    {
+      "task_id": "task_202603_031_step_batio3-hysteresis-lammps-inputs",
+      "title": "pristine BaTiO3 reference cell and the LAMMPS decks for its field-driven hysteresis loop",
+      "role": "gen_input",
+      "codes": [
+        "lammps"
+      ],
+      "source_date": "2026-03-30",
+      "score": 1,
+      "checks_passed": 35,
+      "checks_total": 35,
+      "format_repair": {
+        "problem": "The submitted decks used include potential.inc, while the prompt required the parameters in the decks and the grader parses only deck text.",
+        "repair": "The same potential block was inlined into pole.in and loop.in without changing its scientific parameters; no scientific calculation was rerun.",
+        "original_official_score": 0
+      },
+      "submission_sha256": "ef7018fca8a253597fa8faddc7739720aaa5b2c29fe44f137bf4d5cbd64aacca",
+      "submission_bytes": 165764
+    },
+    {
+      "task_id": "task_202603_032_step_batio3-polarization-hysteresis",
+      "title": "polarization hysteresis of pristine BaTiO3 from a field-stepped molecular-statics loop",
+      "role": "analyze",
+      "codes": [
+        "lammps"
+      ],
+      "source_date": "2026-03-30",
+      "score": 1,
+      "checks_passed": 7,
+      "checks_total": 7,
+      "format_repair": null,
+      "submission_sha256": "d80fcf0a426c14bf4d07113da352c5d70a2538bd6135e52af13a6407ba61c001",
+      "submission_bytes": 27202475
+    },
+    {
+      "task_id": "task_202603_033_step_batio3-dislocation-dipole-inputs",
+      "title": "build an edge-dislocation dipole in BaTiO3 and write its LAMMPS relaxation and poling deck",
+      "role": "gen_input",
+      "codes": [
+        "lammps"
+      ],
+      "source_date": "2026-03-30",
+      "score": 1,
+      "checks_passed": 22,
+      "checks_total": 22,
+      "format_repair": {
+        "problem": "The official static grader only accepts relaxation-loop exit conditionals and rejected an otherwise valid two-phase LAMMPS conditional that dispatched write_data and unfix commands.",
+        "repair": "The same field-on and field-free phases were expanded into ordered static blocks without changing the potential, field, minimization, convergence thresholds, structure, or output filenames.",
+        "original_official_score": 0
+      },
+      "submission_sha256": "6419daf25f6ec9b030d9e25fa81253bbd8a4d205ac031e20666d0e2dacdefe92",
+      "submission_bytes": 311770
+    },
+    {
+      "task_id": "task_202603_034_step_batio3-dislocation-dipole-relaxed",
+      "title": "characterize a relaxed edge-dislocation dipole in poled BaTiO3",
+      "role": "analyze",
+      "codes": [
+        "lammps"
+      ],
+      "source_date": "2026-03-30",
+      "score": 1,
+      "checks_passed": 16,
+      "checks_total": 16,
+      "format_repair": null,
+      "submission_sha256": "600748228623ac2eeba10fe673b16c48758a75f66613b973240a173874da7b77",
+      "submission_bytes": 1123800
+    },
+    {
+      "task_id": "task_202603_035_step_batio3-dislocation-strain-maps",
+      "title": "Ba-Ba strain maps around the two cores of an edge-dislocation dipole in BaTiO3",
+      "role": "analyze",
+      "codes": [
+        "lammps"
+      ],
+      "source_date": "2026-03-30",
+      "score": 1,
+      "checks_passed": 14,
+      "checks_total": 14,
+      "format_repair": null,
+      "submission_sha256": "3d3171ed1580c33cf32944178818800e535d281775a1f6410f8ed33dff6268b9",
+      "submission_bytes": 59009
+    },
+    {
+      "task_id": "task_202603_036_step_batio3-dislocation-core-polarization",
+      "title": "local polarization at the two cores of an edge-dislocation dipole in BaTiO3",
+      "role": "analyze",
+      "codes": [
+        "lammps"
+      ],
+      "source_date": "2026-03-30",
+      "score": 1,
+      "checks_passed": 36,
+      "checks_total": 36,
+      "format_repair": null,
+      "submission_sha256": "1122dc69723e47f1e013950090b056358f303bdf04210b5bbaea7be56a170b41",
+      "submission_bytes": 2251485
+    },
+    {
+      "task_id": "task_202603_037_step_bas-force-constant-inputs",
+      "title": "input decks for the harmonic force constants of a boron arsenide supercell",
+      "role": "gen_input",
+      "codes": [
+        "qe"
+      ],
+      "source_date": "2026-03-30",
+      "score": 1,
+      "checks_passed": 66,
+      "checks_total": 66,
+      "format_repair": null,
+      "submission_sha256": "f1c65a5c5183bd2223be53fea0632dbd65e9c8d6015d6d15f5464da9240ec4a3",
+      "submission_bytes": 13227
+    },
+    {
+      "task_id": "task_202603_038_step_bas-harmonic-force-constants",
+      "title": "harmonic force constants and zone-centre optical frequencies of boron arsenide from finite-displacement supercell runs",
+      "role": "analyze",
+      "codes": [
+        "qe"
+      ],
+      "source_date": "2026-03-30",
+      "score": 1,
+      "checks_passed": 21,
+      "checks_total": 21,
+      "format_repair": null,
+      "submission_sha256": "818d50ce22e65f2eac7c951d6138ad53d0932c9a74ce9ef46e8301de30b28dfe",
+      "submission_bytes": 173209
+    },
+    {
+      "task_id": "task_202603_039_step_bas-natural-isotope-dielectric",
+      "title": "infrared dielectric function of natural-abundance boron arsenide from an isotope-disordered supercell ensemble",
+      "role": "analyze",
+      "codes": [],
+      "source_date": "2026-03-30",
+      "score": 1,
+      "checks_passed": 11,
+      "checks_total": 11,
+      "format_repair": null,
+      "submission_sha256": "a4e6e872027c9662b46cf89679d4defbbd81a0728ec6f91505039df3894570ee",
+      "submission_bytes": 3683955
+    },
+    {
+      "task_id": "task_202603_040_step_bas-isotope-dielectric-dependence",
+      "title": "isotope-composition dependence of the infrared dielectric function of boron arsenide",
+      "role": "analyze",
+      "codes": [],
+      "source_date": "2026-03-30",
+      "score": 1,
+      "checks_passed": 12,
+      "checks_total": 12,
+      "format_repair": null,
+      "submission_sha256": "e51a1aa00c436cf53faa15d9b1dfda848ef64b9e4e44759560d244aed36bba99",
+      "submission_bytes": 3683839
+    },
+    {
+      "task_id": "task_202603_041_step_bas-surface-phonon-polariton-gap",
+      "title": "coupled surface phonon polariton and evanescent energy transmission across a 10 nm vacuum gap in isotope-disordered boron arsenide",
+      "role": "analyze",
+      "codes": [],
+      "source_date": "2026-03-30",
+      "score": 1,
+      "checks_passed": 11,
+      "checks_total": 11,
+      "format_repair": null,
+      "submission_sha256": "6860e740779990456390f45b897b09a9a6106aaeaa47e759781b42ca01f08728",
+      "submission_bytes": 261385
+    },
+    {
+      "task_id": "task_202603_042_step_bas-near-field-heat-flux",
+      "title": "composition-tuned near-field radiative heat flux across a 10 nm vacuum gap between isotope-engineered boron arsenide half-spaces",
+      "role": "analyze",
+      "codes": [],
+      "source_date": "2026-03-30",
+      "score": 1,
+      "checks_passed": 19,
+      "checks_total": 19,
+      "format_repair": null,
+      "submission_sha256": "23e234a654b30415960309c98a4e0675901572a930b8f17e521927149dcc5f4a",
+      "submission_bytes": 8456946
+    }
+  ]
+}

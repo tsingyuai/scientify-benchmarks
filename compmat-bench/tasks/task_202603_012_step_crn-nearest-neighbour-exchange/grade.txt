@@ -1,0 +1,158 @@
+{
+  "score": 1,
+  "checks": [
+    {
+      "passed": true,
+      "value": -0.8505555555555555,
+      "truth": -0.8536,
+      "abs_err": 0.0030444444444445162,
+      "tol": 0.08536,
+      "rule": "+/-10% relative",
+      "name": "J_iii_parallel_4_meV",
+      "cell": "iii",
+      "klass": "parallel, 4 neighbours per Cr"
+    },
+    {
+      "passed": true,
+      "value": -7.031038888888889,
+      "truth": -7.032,
+      "abs_err": 0.0009611111111107462,
+      "tol": 0.7032,
+      "rule": "+/-10% relative",
+      "name": "J_iii_antiparallel_4_meV",
+      "cell": "iii",
+      "klass": "antiparallel, 4 neighbours per Cr"
+    },
+    {
+      "passed": true,
+      "value": -5.6267555555555555,
+      "truth": -5.6269,
+      "abs_err": 0.00014444444444450255,
+      "tol": 0.56269,
+      "rule": "+/-10% relative",
+      "name": "J_iii_antiparallel_2_meV",
+      "cell": "iii",
+      "klass": "antiparallel, 2 neighbours per Cr"
+    },
+    {
+      "passed": true,
+      "value": -1.8660444444444444,
+      "truth": -1.8688,
+      "abs_err": 0.002755555555555622,
+      "tol": 0.18688000000000002,
+      "rule": "+/-10% relative",
+      "name": "J_iii_parallel_2_meV",
+      "cell": "iii",
+      "klass": "parallel, 2 neighbours per Cr"
+    },
+    {
+      "passed": true,
+      "value": -3.31425,
+      "truth": -3.3143,
+      "abs_err": 4.999999999988347e-05,
+      "tol": 0.33143,
+      "rule": "+/-10% relative",
+      "name": "J_ii_parallel_4_meV",
+      "cell": "ii",
+      "klass": "parallel, 4 neighbours per Cr"
+    },
+    {
+      "passed": true,
+      "value": -4.561544444444444,
+      "truth": -4.5616,
+      "abs_err": 5.555555555591951e-05,
+      "tol": 0.45616000000000007,
+      "rule": "+/-10% relative",
+      "name": "J_ii_antiparallel_4_meV",
+      "cell": "ii",
+      "klass": "antiparallel, 4 neighbours per Cr"
+    },
+    {
+      "passed": true,
+      "value": -5.837833333333333,
+      "truth": -5.8378,
+      "abs_err": 3.333333333355171e-05,
+      "tol": 0.58378,
+      "rule": "+/-10% relative",
+      "name": "J_ii_antiparallel_2_meV",
+      "cell": "ii",
+      "klass": "antiparallel, 2 neighbours per Cr"
+    },
+    {
+      "passed": true,
+      "value": -2.168633333333333,
+      "truth": -2.1686,
+      "abs_err": 3.333333333310762e-05,
+      "tol": 0.21686000000000002,
+      "rule": "+/-10% relative",
+      "name": "J_ii_parallel_2_meV",
+      "cell": "ii",
+      "klass": "parallel, 2 neighbours per Cr"
+    },
+    {
+      "passed": true,
+      "value": -3.373866666666667,
+      "truth": -3.3739,
+      "abs_err": 3.333333333310762e-05,
+      "tol": 0.33739,
+      "rule": "+/-10% relative",
+      "name": "J_i_parallel_4_meV",
+      "cell": "i",
+      "klass": "parallel, 4 neighbours per Cr"
+    },
+    {
+      "passed": true,
+      "value": -4.656044444444444,
+      "truth": -4.656,
+      "abs_err": 4.444444444473561e-05,
+      "tol": 0.4656,
+      "rule": "+/-10% relative",
+      "name": "J_i_antiparallel_4_meV",
+      "cell": "i",
+      "klass": "antiparallel, 4 neighbours per Cr"
+    },
+    {
+      "passed": true,
+      "value": -4.527288888888889,
+      "truth": -4.5273,
+      "abs_err": 1.1111111111183902e-05,
+      "tol": 0.4527300000000001,
+      "rule": "+/-10% relative",
+      "name": "J_i_antiparallel_2_meV",
+      "cell": "i",
+      "klass": "antiparallel, 2 neighbours per Cr"
+    },
+    {
+      "passed": true,
+      "value": -3.5244333333333335,
+      "truth": -3.5244,
+      "abs_err": 3.333333333355171e-05,
+      "tol": 0.35244000000000003,
+      "rule": "+/-10% relative",
+      "name": "J_i_parallel_2_meV",
+      "cell": "i",
+      "klass": "parallel, 2 neighbours per Cr"
+    }
+  ],
+  "diagnostics": {
+    "note": "recorded, not scored (handbook 1(2))",
+    "all_negative": true,
+    "cell_iii_keeps_our_ordering": true,
+    "ratio_to_truth": {
+      "J_iii_parallel_4_meV": 0.9964,
+      "J_iii_antiparallel_4_meV": 0.9999,
+      "J_iii_antiparallel_2_meV": 1.0,
+      "J_iii_parallel_2_meV": 0.9985,
+      "J_ii_parallel_4_meV": 1.0,
+      "J_ii_antiparallel_4_meV": 1.0,
+      "J_ii_antiparallel_2_meV": 1.0,
+      "J_ii_parallel_2_meV": 1.0,
+      "J_i_parallel_4_meV": 1.0,
+      "J_i_antiparallel_4_meV": 1.0,
+      "J_i_antiparallel_2_meV": 1.0,
+      "J_i_parallel_2_meV": 1.0
+    },
+    "mean_ratio_to_truth": 0.9996
+  }
+}
+SCORE: 1

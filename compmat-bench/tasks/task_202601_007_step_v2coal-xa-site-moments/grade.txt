@@ -1,0 +1,44 @@
+{
+  "score": 1,
+  "checks": [
+    {
+      "passed": true,
+      "value": 1.99986,
+      "truth": 2.0,
+      "abs_err": 0.000140000000000029,
+      "tol": 0.2,
+      "rule": "+/-10% relative",
+      "name": "total_moment_uB_per_fu"
+    },
+    {
+      "passed": true,
+      "name": "order",
+      "value": "ferrimagnetic",
+      "truth": "ferrimagnetic",
+      "rule": "exact label"
+    },
+    {
+      "passed": true,
+      "name": "V_sublattice_signs",
+      "m_V1_uB": -0.4709,
+      "m_V2_uB": 1.9857,
+      "product": -0.9350661299999999,
+      "rule": "m_V1 < 0 and m_V2 > 0 (fixed output orientation)"
+    }
+  ],
+  "secondary_recorded_not_scored": {
+    "m_V1_uB": {
+      "value": -0.4709,
+      "ours": -0.471
+    },
+    "m_V2_uB": {
+      "value": 1.9857,
+      "ours": 1.986
+    },
+    "m_Co_uB": {
+      "value": null,
+      "ours": 0.477
+    }
+  }
+}
+SCORE: 1

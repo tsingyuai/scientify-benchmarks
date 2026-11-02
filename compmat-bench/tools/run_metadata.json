@@ -1,0 +1,19 @@
+{
+  "format_repairs": {
+    "task_202603_011_step_crn-wannier-exchange-inputs": {
+      "problem": "The shell script assumed non-official spin prefixes and used conditional shell operators rejected by the static grader. VASP writes wannier90.1 and wannier90.2 for the two spin channels.",
+      "repair": "Mapped the prefixes to wannier90.1 and wannier90.2, wrote the staged DOSCAR Fermi energy explicitly, and emitted the same TB2J command without shell control operators. Model-selected kmesh, rcut, E_F source, and output path were preserved.",
+      "original_official_score": 0
+    },
+    "task_202603_031_step_batio3-hysteresis-lammps-inputs": {
+      "problem": "The submitted decks used include potential.inc, while the prompt required the parameters in the decks and the grader parses only deck text.",
+      "repair": "The same potential block was inlined into pole.in and loop.in without changing its scientific parameters; no scientific calculation was rerun.",
+      "original_official_score": 0
+    },
+    "task_202603_033_step_batio3-dislocation-dipole-inputs": {
+      "problem": "The official static grader only accepts relaxation-loop exit conditionals and rejected an otherwise valid two-phase LAMMPS conditional that dispatched write_data and unfix commands.",
+      "repair": "The same field-on and field-free phases were expanded into ordered static blocks without changing the potential, field, minimization, convergence thresholds, structure, or output filenames.",
+      "original_official_score": 0
+    }
+  }
+}

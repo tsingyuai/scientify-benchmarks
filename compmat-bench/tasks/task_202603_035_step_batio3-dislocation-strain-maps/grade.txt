@@ -1,0 +1,128 @@
+{
+  "score": 1,
+  "checks": [
+    {
+      "passed": true,
+      "value": 79.73014508,
+      "truth": 79.73,
+      "abs_err": 0.0001450799999958008,
+      "tol": 4.0,
+      "rule": "absolute",
+      "name": "core_BaO_xy_A.x"
+    },
+    {
+      "passed": true,
+      "value": 81.07913998000001,
+      "truth": 81.079,
+      "abs_err": 0.0001399800000143614,
+      "tol": 4.0,
+      "rule": "absolute",
+      "name": "core_BaO_xy_A.y"
+    },
+    {
+      "passed": true,
+      "value": 79.89290893,
+      "truth": 79.893,
+      "abs_err": 9.106999999630716e-05,
+      "tol": 4.0,
+      "rule": "absolute",
+      "name": "core_TiO2_xy_A.x"
+    },
+    {
+      "passed": true,
+      "value": 235.658570065,
+      "truth": 235.659,
+      "abs_err": 0.00042993499999965934,
+      "tol": 4.0,
+      "rule": "absolute",
+      "name": "core_TiO2_xy_A.y"
+    },
+    {
+      "passed": true,
+      "value": 2.449819546969882,
+      "truth": 2.4498,
+      "abs_err": 1.9546969881822918e-05,
+      "tol": 0.24498000000000003,
+      "rule": "+/-10% relative",
+      "name": "contrast_xx_pct"
+    },
+    {
+      "passed": true,
+      "value": -0.9642233712436392,
+      "truth": -0.9642,
+      "abs_err": 2.337124363926968e-05,
+      "tol": 0.09642,
+      "rule": "+/-10% relative",
+      "name": "contrast_yy_pct"
+    },
+    {
+      "passed": true,
+      "value": 14.654039241379468,
+      "truth": 14.654,
+      "abs_err": 3.924137946853534e-05,
+      "tol": 1.4654,
+      "rule": "+/-10% relative",
+      "name": "eps_xx_max_pct"
+    },
+    {
+      "passed": true,
+      "value": -8.102565442747412,
+      "truth": -8.1026,
+      "abs_err": 3.455725258838527e-05,
+      "tol": 0.8102600000000001,
+      "rule": "+/-10% relative",
+      "name": "eps_yy_min_pct"
+    },
+    {
+      "passed": true,
+      "value": 14.654039241379468,
+      "truth": 14.654,
+      "abs_err": 3.924137946853534e-05,
+      "tol": 1.4654,
+      "rule": "+/-10% relative",
+      "name": "eps_xx_max_near_BaO_pct"
+    },
+    {
+      "passed": true,
+      "value": 11.946862134812463,
+      "truth": 11.9469,
+      "abs_err": 3.7865187536567646e-05,
+      "tol": 1.19469,
+      "rule": "+/-10% relative",
+      "name": "eps_xx_max_near_TiO2_pct"
+    },
+    {
+      "passed": true,
+      "value": -5.219384317748421,
+      "truth": -5.2194,
+      "abs_err": 1.5682251579107742e-05,
+      "tol": 0.5219400000000001,
+      "rule": "+/-10% relative",
+      "name": "eps_yy_min_near_BaO_pct"
+    },
+    {
+      "passed": true,
+      "value": -8.102565442747412,
+      "truth": -8.1026,
+      "abs_err": 3.455725258838527e-05,
+      "tol": 0.8102600000000001,
+      "rule": "+/-10% relative",
+      "name": "eps_yy_min_near_TiO2_pct"
+    },
+    {
+      "passed": true,
+      "value": 7,
+      "truth": 7,
+      "rule": "exact int",
+      "name": "n_eps_xx_above_10pct"
+    },
+    {
+      "passed": true,
+      "value": 23,
+      "truth": 23,
+      "rule": "exact int",
+      "name": "n_eps_yy_below_minus3p5pct"
+    }
+  ]
+}
+SCORE: 1

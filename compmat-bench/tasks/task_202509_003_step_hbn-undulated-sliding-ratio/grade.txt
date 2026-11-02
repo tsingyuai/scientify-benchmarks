@@ -1,0 +1,87 @@
+{
+  "score": 1,
+  "checks": [
+    {
+      "passed": true,
+      "species_counts_ok": true,
+      "lattice_ok": true,
+      "lattice": {
+        "len_rel_err": 0.0,
+        "ang_abs_err_deg": 0.0,
+        "abc_sub": [
+          2.51243,
+          105.95958074632134,
+          30.0
+        ],
+        "abc_ref": [
+          2.51243,
+          105.95958074632134,
+          30.0
+        ]
+      },
+      "site_match_ok": true,
+      "method": "fallback",
+      "max_site_disp_A": 0.003312770919015067,
+      "max_disp_threshold_A": 0.2,
+      "name": "structure"
+    },
+    {
+      "passed": true,
+      "value": 0.0,
+      "truth": 0.0,
+      "abs_err": 0.0,
+      "tol": 0.0732,
+      "rule": "absolute",
+      "name": "nu_ac_y0"
+    },
+    {
+      "passed": true,
+      "value": 0.7322473708035665,
+      "truth": 0.732,
+      "abs_err": 0.00024737080356651564,
+      "tol": 0.0732,
+      "rule": "+/-10% relative",
+      "name": "nu_ac_max"
+    },
+    {
+      "passed": true,
+      "value": 0.5,
+      "truth": 0.5,
+      "abs_err": 0.0,
+      "tol": 0.05,
+      "rule": "absolute",
+      "name": "y_at_max_over_L"
+    },
+    {
+      "passed": true,
+      "n_points": 26,
+      "n_fail": 0,
+      "worst_i": 18,
+      "rule": "per-point +/-10% with floor",
+      "failures": [],
+      "name": "profile"
+    },
+    {
+      "passed": true,
+      "value": 0.0,
+      "truth": 0.0,
+      "abs_err": 0.0,
+      "tol": 0.0732,
+      "rule": "absolute",
+      "name": "registered_edge_consistency"
+    },
+    {
+      "passed": true,
+      "name": "maximum_dominates_samples",
+      "n_violations": 0,
+      "rule": "continuous maximum >= every sample, allowing reporting and arithmetic roundoff"
+    },
+    {
+      "passed": true,
+      "name": "maximum_at_sample_consistency",
+      "n_coincident_samples": 2,
+      "rule": "when the claimed location is sampled, its value equals the maximum within reporting and arithmetic roundoff"
+    }
+  ]
+}
+SCORE: 1

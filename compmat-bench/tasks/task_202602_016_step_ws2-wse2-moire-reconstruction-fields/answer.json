@@ -1,0 +1,20 @@
+{
+  "eps_WS2_Rhh_pct": -0.7456112530789212,
+  "eps_WS2_RXh_pct": 0.7886841377203684,
+  "eps_WS2_RMh_pct": 0.6291215803273117,
+  "eps_WSe2_Rhh_pct": 1.372345619066823,
+  "eps_WSe2_RXh_pct": -0.4892048210197131,
+  "eps_WSe2_RMh_pct": -0.3840061125244698,
+  "d_Rhh_A": 6.858913241509901,
+  "d_RXh_A": 6.293943397712885,
+  "d_RMh_A": 6.305801781611197,
+  "corrugation_WS2_A": 2.9298796509735787,
+  "corrugation_WSe2_A": 2.282883742628435,
+  "adhesion_Rhh_eV": -0.02436835555555556,
+  "adhesion_RXh_eV": -0.04233334561403508,
+  "adhesion_RMh_eV": -0.04047724489795919,
+  "area_frac_RXh_rigid": 0.08875739644970414,
+  "area_frac_RXh_relaxed": 0.15236686390532544,
+  "area_frac_Rhh_rigid": 0.06656804733727811,
+  "area_frac_Rhh_relaxed": 0.03106508875739645
+}

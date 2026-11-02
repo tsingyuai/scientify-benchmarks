@@ -1,0 +1,245 @@
+{
+  "score": 1,
+  "runs": [
+    {
+      "label": "scf",
+      "passed": true,
+      "checks": [
+        {
+          "name": "required:pw:calculation",
+          "kind": "required",
+          "passed": true,
+          "reason": "calculation='scf' (set) ok"
+        },
+        {
+          "name": "required:pw:occupations",
+          "kind": "required",
+          "passed": true,
+          "reason": "occupations='fixed' (set) ok"
+        },
+        {
+          "name": "required:pw:conv_thr",
+          "kind": "required",
+          "passed": true,
+          "reason": "conv_thr=1e-12 (set) ok"
+        },
+        {
+          "name": "required:pw:kmesh",
+          "kind": "required",
+          "passed": true,
+          "reason": "mesh 16x16x16 meets per-axis floors 6x6x6"
+        },
+        {
+          "name": "required:pw:soc",
+          "kind": "required",
+          "passed": true,
+          "reason": "noncolin=True (set), lspinorb=True (set) ok (full-relativistic SOC)"
+        },
+        {
+          "name": "required:pw:ecutwfc",
+          "kind": "required",
+          "passed": true,
+          "reason": "ecutwfc=120.0 (set) ok"
+        },
+        {
+          "name": "required:pw:ecutrho",
+          "kind": "required",
+          "passed": true,
+          "reason": "ecutrho=480.0 (set) vs 4*ecutwfc=480 ok"
+        },
+        {
+          "name": "required:pw:upf_identity",
+          "kind": "required",
+          "passed": true,
+          "reason": "UPF identity ok"
+        },
+        {
+          "name": "required:pw:species_counts",
+          "kind": "required",
+          "passed": true,
+          "reason": "species {'Ge': 1, 'Te': 1} ok"
+        },
+        {
+          "name": "required:pw:structure",
+          "kind": "required",
+          "passed": true,
+          "reason": "structure match ok (max site disp 0.0 A, lattice ok=True)"
+        }
+      ]
+    },
+    {
+      "label": "nscf",
+      "passed": true,
+      "checks": [
+        {
+          "name": "required:pw:calculation",
+          "kind": "required",
+          "passed": true,
+          "reason": "calculation='nscf' (set) ok"
+        },
+        {
+          "name": "required:pw:nosym_noinv",
+          "kind": "required",
+          "passed": true,
+          "reason": "explicit NSCF list: nosym=True (set); noinv is not required"
+        },
+        {
+          "name": "required:pw:nbnd",
+          "kind": "required",
+          "passed": true,
+          "reason": "nbnd=36 (set) ok"
+        },
+        {
+          "name": "required:pw:soc",
+          "kind": "required",
+          "passed": true,
+          "reason": "noncolin=True (set), lspinorb=True (set) ok (full-relativistic SOC)"
+        },
+        {
+          "name": "required:pw:ecutwfc",
+          "kind": "required",
+          "passed": true,
+          "reason": "ecutwfc=120.0 (set) ok"
+        },
+        {
+          "name": "required:pw:ecutrho",
+          "kind": "required",
+          "passed": true,
+          "reason": "ecutrho=480.0 (set) vs 4*ecutwfc=480 ok"
+        },
+        {
+          "name": "required:pw:upf_identity",
+          "kind": "required",
+          "passed": true,
+          "reason": "UPF identity ok"
+        },
+        {
+          "name": "required:pw:species_counts",
+          "kind": "required",
+          "passed": true,
+          "reason": "species {'Ge': 1, 'Te': 1} ok"
+        },
+        {
+          "name": "required:pw:structure",
+          "kind": "required",
+          "passed": true,
+          "reason": "structure match ok (max site disp 0.0 A, lattice ok=True)"
+        }
+      ]
+    },
+    {
+      "label": "pw2wan",
+      "passed": true,
+      "checks": [
+        {
+          "name": "required:pw2wan:write_amn",
+          "kind": "required",
+          "passed": true,
+          "reason": "write_amn=True (set) ok"
+        },
+        {
+          "name": "required:pw2wan:write_mmn",
+          "kind": "required",
+          "passed": true,
+          "reason": "write_mmn=True (set) ok"
+        },
+        {
+          "name": "required:pw2wan:write_spn",
+          "kind": "required",
+          "passed": true,
+          "reason": "write_spn=True (set) ok"
+        },
+        {
+          "name": "required:pw2wan:spn_formatted",
+          "kind": "required",
+          "passed": true,
+          "reason": "spn_formatted=True (set) ok"
+        }
+      ]
+    },
+    {
+      "label": "wannier",
+      "passed": true,
+      "checks": [
+        {
+          "name": "required:win:num_wann",
+          "kind": "required",
+          "passed": true,
+          "reason": "num_wann=12 (set) ok"
+        },
+        {
+          "name": "required:win:num_bands",
+          "kind": "required",
+          "passed": true,
+          "reason": "num_bands=12 (set) ok"
+        },
+        {
+          "name": "required:win:spinors",
+          "kind": "required",
+          "passed": true,
+          "reason": "spinors=True (set) ok"
+        },
+        {
+          "name": "required:win:projections",
+          "kind": "required",
+          "passed": true,
+          "reason": "Wannier90 3.1.0: complete independent atomic shells (12 selected projections)"
+        },
+        {
+          "name": "required:win:mp_grid",
+          "kind": "required",
+          "passed": true,
+          "reason": "mp_grid [16, 16, 16] (set) ok"
+        },
+        {
+          "name": "required:win:kpoints_fullgrid",
+          "kind": "required",
+          "passed": true,
+          "reason": "Wannier covers 4096 distinct grid points (need 4096)"
+        },
+        {
+          "name": "required:win:write_hr",
+          "kind": "required",
+          "passed": true,
+          "reason": "write_hr=True (set) ok"
+        },
+        {
+          "name": "required:win:write_u_matrices",
+          "kind": "required",
+          "passed": true,
+          "reason": "write_u_matrices=True (set) ok"
+        },
+        {
+          "name": "required:win:structure",
+          "kind": "required",
+          "passed": true,
+          "reason": "win structure match ok (max site disp 0.0 A)"
+        }
+      ]
+    }
+  ],
+  "cross_deck": [
+    {
+      "name": "required:cross:nscf_fullgrid",
+      "passed": true,
+      "reason": "NSCF covers 4096 distinct grid points (need 4096)"
+    },
+    {
+      "name": "required:cross:prefix",
+      "passed": true,
+      "reason": "prefix chain consistent; runtime directories ungraded"
+    },
+    {
+      "name": "required:cross:kpoint_handoff",
+      "passed": true,
+      "reason": "indexed k-point mismatch 0 (limit 1e-6 in 2pi/alat)"
+    },
+    {
+      "name": "required:cross:exclude_bands",
+      "passed": true,
+      "reason": "exclude_bands keeps 12 of nbnd=36 bands ok"
+    }
+  ],
+  "extra_labels_ignored": []
+}
+SCORE: 1

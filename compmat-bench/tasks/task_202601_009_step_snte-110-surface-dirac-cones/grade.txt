@@ -1,0 +1,13 @@
+{
+  "score": 1,
+  "checks": [
+    {
+      "passed": true,
+      "value": 2,
+      "truth": 2,
+      "rule": "exact int",
+      "name": "n_dirac_cones_near_Xbar"
+    }
+  ]
+}
+SCORE: 1

@@ -1,0 +1,10 @@
+{
+  "dp_WS2_conduction_meV_per_pct": -115.25238095237967,
+  "dp_WSe2_valence_meV_per_pct": 25.02142857142938,
+  "amp_conduction_meV": 220.5302054283004,
+  "amp_valence_meV": 41.44271511433709,
+  "Vc_Rhh_meV": 87.36147424951463,
+  "Vc_RXh_meV": -89.2752881068012,
+  "Vc_RMh_meV": -71.46308286010574,
+  "split_RXh_RMh_meV": 17.812205246695456
+}

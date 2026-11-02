@@ -1,0 +1,140 @@
+{
+  "score": 1,
+  "checks": [
+    {
+      "passed": true,
+      "value": 3,
+      "truth": 3,
+      "rule": "exactly 3: the three degenerate zone-centre TO modes are the only modes carrying oscillator strength in a uniform crystal",
+      "name": "n_active_modes_n10_0",
+      "tol": 0
+    },
+    {
+      "passed": true,
+      "value": 3,
+      "truth": 3,
+      "rule": "exactly 3, as at the other pure limit",
+      "name": "n_active_modes_n10_256",
+      "tol": 0
+    },
+    {
+      "passed": true,
+      "name": "sign_min_eps1_n10_0",
+      "value": -89.19615614681096,
+      "truth": -89.20477751485329,
+      "tol": "sign only",
+      "want": "negative",
+      "got": "negative",
+      "rule": "the sign of min eps' at n10 = 0 is negative (sign only; the magnitude is not matched; positive strength scaling a gives m(a) = eps_inf + a * (m(1) - eps_inf))"
+    },
+    {
+      "passed": true,
+      "name": "sign_min_eps1_n10_13",
+      "value": -61.06159781090504,
+      "truth": -60.819146414266356,
+      "tol": "sign only",
+      "want": "negative",
+      "got": "negative",
+      "rule": "the sign of min eps' at n10 = 13 is negative (sign only; the magnitude is not matched; positive strength scaling a gives m(a) = eps_inf + a * (m(1) - eps_inf))"
+    },
+    {
+      "passed": true,
+      "name": "sign_min_eps1_n10_51",
+      "value": 2.021054470280877,
+      "truth": 2.1062580248197422,
+      "tol": "sign only",
+      "want": "positive",
+      "got": "positive",
+      "rule": "the sign of min eps' at n10 = 51 is positive (sign only; the magnitude is not matched; positive strength scaling a gives m(a) = eps_inf + a * (m(1) - eps_inf))"
+    },
+    {
+      "passed": true,
+      "name": "sign_min_eps1_n10_128",
+      "value": 7.717308966322008,
+      "truth": 7.78029913321083,
+      "tol": "sign only",
+      "want": "positive",
+      "got": "positive",
+      "rule": "the sign of min eps' at n10 = 128 is positive (sign only; the magnitude is not matched; positive strength scaling a gives m(a) = eps_inf + a * (m(1) - eps_inf))"
+    },
+    {
+      "passed": true,
+      "name": "sign_min_eps1_n10_251",
+      "value": -5.04679378229295,
+      "truth": -5.153946809844911,
+      "tol": "sign only",
+      "want": "negative",
+      "got": "negative",
+      "rule": "the sign of min eps' at n10 = 251 is negative (sign only; the magnitude is not matched; positive strength scaling a gives m(a) = eps_inf + a * (m(1) - eps_inf))"
+    },
+    {
+      "passed": true,
+      "name": "sign_min_eps1_n10_256",
+      "value": -93.41541342867122,
+      "truth": -93.41000564975252,
+      "tol": "sign only",
+      "want": "negative",
+      "got": "negative",
+      "rule": "the sign of min eps' at n10 = 256 is negative (sign only; the magnitude is not matched; positive strength scaling a gives m(a) = eps_inf + a * (m(1) - eps_inf))"
+    },
+    {
+      "passed": true,
+      "name": "lower_crossing_in_bracket",
+      "value": 47,
+      "truth": "42 <= n10 <= 51",
+      "tol": [
+        42,
+        51
+      ],
+      "rule": "the reported composition lies inside the stated lower bracket"
+    },
+    {
+      "passed": true,
+      "name": "lower_crossing",
+      "value": 47,
+      "truth": 47,
+      "tol": [
+        45,
+        49
+      ],
+      "accepted_n10": [
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "rule": "the smallest n10 in 42..51 with min eps' > 0, within 47 +/- 2 (k = 2 atoms from the N = 256 block scatter over the slope per atom)"
+    },
+    {
+      "passed": true,
+      "name": "upper_crossing_in_bracket",
+      "value": 248,
+      "truth": "243 <= n10 <= 252",
+      "tol": [
+        243,
+        252
+      ],
+      "rule": "the reported composition lies inside the stated upper bracket"
+    },
+    {
+      "passed": true,
+      "name": "upper_crossing",
+      "value": 248,
+      "truth": 248,
+      "tol": [
+        246,
+        250
+      ],
+      "accepted_n10": [
+        246,
+        247,
+        248,
+        249,
+        250
+      ],
+      "rule": "the smallest n10 in 243..252 with min eps' < 0, within 248 +/- 2 (k = 2 atoms from the N = 256 block scatter over the slope per atom)"
+    }
+  ]
+}
+SCORE: 1

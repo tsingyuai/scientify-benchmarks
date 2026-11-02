@@ -1,0 +1,18 @@
+{
+  "gamma_split_meV_sb_p1": 0.0,
+  "peak_split_meV_sb_p1": 255.8,
+  "ef_shift_eV_sb_p1": -0.478625,
+  "net_mag_muB_sb_p1": 0.0,
+  "gamma_split_meV_i_p1": 0.0,
+  "peak_split_meV_i_p1": 123.2,
+  "ef_shift_eV_i_p1": 0.72386875,
+  "net_mag_muB_i_p1": 0.0,
+  "gamma_split_meV_sb_p2": 70.9,
+  "peak_split_meV_sb_p2": 94.7,
+  "ef_shift_eV_sb_p2": -0.454475,
+  "net_mag_muB_sb_p2": 0.06,
+  "gamma_split_meV_i_p2": 80.6,
+  "peak_split_meV_i_p2": 148.9,
+  "ef_shift_eV_i_p2": 0.708128125,
+  "net_mag_muB_i_p2": 0.2
+}

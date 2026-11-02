@@ -1,0 +1,68 @@
+{
+  "score": 1,
+  "checks": [
+    {
+      "passed": true,
+      "value": 4.232345585673322,
+      "truth": 4.234,
+      "abs_err": 0.001654414326678122,
+      "tol": 0.4234,
+      "rule": "+/-10% relative",
+      "name": "WS2_peak_1e12_cm2"
+    },
+    {
+      "passed": true,
+      "value": 1.9445623960115095,
+      "truth": 1.946,
+      "abs_err": 0.0014376039884904657,
+      "tol": 0.1946,
+      "rule": "+/-10% relative",
+      "name": "WSe2_peak_1e12_cm2"
+    },
+    {
+      "passed": true,
+      "value": 2.1765028442153787,
+      "truth": 2.176,
+      "abs_err": 0.0005028442153784951,
+      "tol": 0.21760000000000002,
+      "rule": "+/-10% relative",
+      "name": "peak_ratio_WS2_over_WSe2"
+    },
+    {
+      "passed": true,
+      "value": 0.0,
+      "truth": 0.0,
+      "abs_err": 0.0,
+      "tol": 0.1,
+      "rule": "absolute",
+      "name": "WS2_net_1e12_cm2"
+    },
+    {
+      "passed": true,
+      "value": 0.0,
+      "truth": 0.0,
+      "abs_err": 0.0,
+      "tol": 0.1,
+      "rule": "absolute",
+      "name": "WSe2_net_1e12_cm2"
+    },
+    {
+      "passed": true,
+      "n_points": 6,
+      "n_fail": 0,
+      "worst_i": 1,
+      "rule": "per-point +/-10% with floor",
+      "failures": [],
+      "name": "profile_magnitude"
+    },
+    {
+      "passed": true,
+      "name": "sign_topology",
+      "WS2_RXh_RMh_product": -2.2206561903461592,
+      "WSe2_RXh_RMh_product": -0.9450272142196461,
+      "between_RMh_product": -1.6689709719924928,
+      "rule": "all three products < 0 (R^X_h vs R^M_h opposite per layer; WS2 vs WSe2 opposite at R^M_h)"
+    }
+  ]
+}
+SCORE: 1

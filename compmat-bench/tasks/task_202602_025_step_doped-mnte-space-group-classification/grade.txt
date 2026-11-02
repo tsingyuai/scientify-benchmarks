@@ -1,0 +1,72 @@
+{
+  "score": 1,
+  "checks": [
+    {
+      "passed": true,
+      "name": "families",
+      "value": [
+        [
+          12,
+          48,
+          false
+        ],
+        [
+          25,
+          24,
+          true
+        ],
+        [
+          42,
+          24,
+          true
+        ],
+        [
+          164,
+          16,
+          false
+        ],
+        [
+          187,
+          8,
+          true
+        ]
+      ],
+      "truth": [
+        [
+          12,
+          48,
+          false
+        ],
+        [
+          25,
+          24,
+          true
+        ],
+        [
+          42,
+          24,
+          true
+        ],
+        [
+          164,
+          16,
+          false
+        ],
+        [
+          187,
+          8,
+          true
+        ]
+      ],
+      "rule": "exact multiset of (sg_number, count, altermagnetic)"
+    },
+    {
+      "passed": true,
+      "value": 56,
+      "truth": 56,
+      "rule": "exact int",
+      "name": "n_altermagnetic_configs"
+    }
+  ]
+}
+SCORE: 1

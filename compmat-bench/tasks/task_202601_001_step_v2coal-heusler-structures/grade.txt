@@ -1,0 +1,54 @@
+{
+  "score": 1,
+  "checks": [
+    {
+      "passed": true,
+      "species_counts_ok": true,
+      "lattice_ok": true,
+      "lattice": {
+        "len_rel_err": 0.0,
+        "ang_abs_err_deg": 0.0,
+        "abc_sub": [
+          5.95,
+          5.95,
+          5.95
+        ],
+        "abc_ref": [
+          5.95,
+          5.95,
+          5.95
+        ]
+      },
+      "site_match_ok": true,
+      "method": "matcher",
+      "max_site_disp_A": 0.0,
+      "max_disp_threshold_A": 0.1,
+      "name": "structure:POSCAR_L21"
+    },
+    {
+      "passed": true,
+      "species_counts_ok": true,
+      "lattice_ok": true,
+      "lattice": {
+        "len_rel_err": 0.0,
+        "ang_abs_err_deg": 0.0,
+        "abc_sub": [
+          5.95,
+          5.95,
+          5.95
+        ],
+        "abc_ref": [
+          5.95,
+          5.95,
+          5.95
+        ]
+      },
+      "site_match_ok": true,
+      "method": "matcher",
+      "max_site_disp_A": 0.0,
+      "max_disp_threshold_A": 0.1,
+      "name": "structure:POSCAR_XA"
+    }
+  ]
+}
+SCORE: 1

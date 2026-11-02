@@ -1,0 +1,69 @@
+{
+  "score": 1,
+  "checks": [
+    {
+      "passed": true,
+      "value": 0.8493686,
+      "truth": 0.849369,
+      "abs_err": 4.0000000001150227e-07,
+      "tol": 0.08493690000000001,
+      "rule": "+/-10% relative",
+      "name": "P_sp_x000_C_m2"
+    },
+    {
+      "passed": true,
+      "value": 0.8318324,
+      "truth": 0.831832,
+      "abs_err": 4.0000000001150227e-07,
+      "tol": 0.08318320000000001,
+      "rule": "+/-10% relative",
+      "name": "P_sp_x025_C_m2"
+    },
+    {
+      "passed": true,
+      "value": 0.8072242000000001,
+      "truth": 0.807224,
+      "abs_err": 2.0000000000575113e-07,
+      "tol": 0.08072240000000001,
+      "rule": "+/-10% relative",
+      "name": "P_sp_x050_C_m2"
+    },
+    {
+      "passed": true,
+      "value": 0.7704286,
+      "truth": 0.770429,
+      "abs_err": 4.0000000001150227e-07,
+      "tol": 0.07704290000000001,
+      "rule": "+/-10% relative",
+      "name": "P_sp_x075_C_m2"
+    },
+    {
+      "passed": true,
+      "value": 0.7041941,
+      "truth": 0.704194,
+      "abs_err": 1.0000000005838672e-07,
+      "tol": 0.07041940000000001,
+      "rule": "+/-10% relative",
+      "name": "P_sp_x100_C_m2"
+    },
+    {
+      "passed": true,
+      "value": -1.8196453324930142,
+      "truth": -1.819645,
+      "abs_err": 3.324930142323268e-07,
+      "tol": 0.1819645,
+      "rule": "+/-10% relative",
+      "name": "df_x000_GJ_m3"
+    },
+    {
+      "passed": true,
+      "value": -1.3908840437331094,
+      "truth": -1.390884,
+      "abs_err": 4.373310935612551e-08,
+      "tol": 0.1390884,
+      "rule": "+/-10% relative",
+      "name": "df_x100_GJ_m3"
+    }
+  ]
+}
+SCORE: 1

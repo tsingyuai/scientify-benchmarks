@@ -1,0 +1,383 @@
+{
+  "score": 1,
+  "runs": [
+    {
+      "label": "L21_relax",
+      "passed": true,
+      "incar": {
+        "label": "L21_relax",
+        "score": 1,
+        "checks": [
+          {
+            "name": "required:ISPIN",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISPIN=2 (set) ok"
+          },
+          {
+            "name": "required:MAGMOM",
+            "kind": "required",
+            "passed": true,
+            "reason": "MAGMOM present, nonzero on all 12 V/Co atoms ok"
+          },
+          {
+            "name": "required:ENCUT",
+            "kind": "required",
+            "passed": true,
+            "reason": "ENCUT=400.0 >= 1*max_ENMAX=268 eV (Al+Co+V)"
+          },
+          {
+            "name": "required:LASPH",
+            "kind": "required",
+            "passed": true,
+            "reason": "LASPH=True (set) ok"
+          },
+          {
+            "name": "required:functional",
+            "kind": "required",
+            "passed": true,
+            "reason": "GGA=Pe ok"
+          },
+          {
+            "name": "required:kmesh",
+            "kind": "required",
+            "passed": true,
+            "reason": "mesh 8x8x8 meets frozen per-axis minima 4x4x4"
+          },
+          {
+            "name": "required:poscar_species",
+            "kind": "required",
+            "passed": true,
+            "reason": "species {'V': 8, 'Co': 4, 'Al': 4} ok"
+          },
+          {
+            "name": "required:ISMEAR",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISMEAR=1 (set) ok"
+          },
+          {
+            "name": "required:ISIF",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISIF=3 (set) ok"
+          },
+          {
+            "name": "required:IBRION",
+            "kind": "required",
+            "passed": true,
+            "reason": "IBRION=2 (set) ok"
+          },
+          {
+            "name": "required:EDIFFG",
+            "kind": "required",
+            "passed": true,
+            "reason": "EDIFFG=-0.01 (set) ok"
+          },
+          {
+            "name": "required:NSW",
+            "kind": "required",
+            "passed": true,
+            "reason": "NSW=100: positive integer ionic-step budget required"
+          }
+        ]
+      },
+      "structure": {
+        "passed": true,
+        "species_counts_ok": true,
+        "lattice_ok": true,
+        "lattice": {
+          "len_rel_err": 0.0,
+          "ang_abs_err_deg": 0.0,
+          "abc_sub": [
+            5.95,
+            5.95,
+            5.95
+          ],
+          "abc_ref": [
+            5.95,
+            5.95,
+            5.95
+          ]
+        },
+        "site_match_ok": true,
+        "method": "matcher",
+        "max_site_disp_A": 0.0,
+        "max_disp_threshold_A": 0.1,
+        "name": "structure:L21_relax"
+      }
+    },
+    {
+      "label": "L21_static",
+      "passed": true,
+      "incar": {
+        "label": "L21_static",
+        "score": 1,
+        "checks": [
+          {
+            "name": "required:ISPIN",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISPIN=2 (set) ok"
+          },
+          {
+            "name": "required:MAGMOM",
+            "kind": "required",
+            "passed": true,
+            "reason": "MAGMOM present, nonzero on all 12 V/Co atoms ok"
+          },
+          {
+            "name": "required:ENCUT",
+            "kind": "required",
+            "passed": true,
+            "reason": "ENCUT=400.0 >= 1*max_ENMAX=268 eV (Al+Co+V)"
+          },
+          {
+            "name": "required:LASPH",
+            "kind": "required",
+            "passed": true,
+            "reason": "LASPH=True (set) ok"
+          },
+          {
+            "name": "required:functional",
+            "kind": "required",
+            "passed": true,
+            "reason": "GGA=Pe ok"
+          },
+          {
+            "name": "required:kmesh",
+            "kind": "required",
+            "passed": true,
+            "reason": "mesh 12x12x12 meets frozen per-axis minima 4x4x4"
+          },
+          {
+            "name": "required:poscar_species",
+            "kind": "required",
+            "passed": true,
+            "reason": "species {'V': 8, 'Co': 4, 'Al': 4} ok"
+          },
+          {
+            "name": "required:static",
+            "kind": "required",
+            "passed": true,
+            "reason": "NSW=0.0 IBRION=-1 ok (static)"
+          }
+        ]
+      },
+      "structure": {
+        "passed": true,
+        "species_counts_ok": true,
+        "lattice_ok": true,
+        "lattice": {
+          "len_rel_err": 0.0,
+          "ang_abs_err_deg": 0.0,
+          "abc_sub": [
+            5.95,
+            5.95,
+            5.95
+          ],
+          "abc_ref": [
+            5.95,
+            5.95,
+            5.95
+          ]
+        },
+        "site_match_ok": true,
+        "method": "matcher",
+        "max_site_disp_A": 0.0,
+        "max_disp_threshold_A": 0.1,
+        "name": "structure:L21_static"
+      }
+    },
+    {
+      "label": "XA_relax",
+      "passed": true,
+      "incar": {
+        "label": "XA_relax",
+        "score": 1,
+        "checks": [
+          {
+            "name": "required:ISPIN",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISPIN=2 (set) ok"
+          },
+          {
+            "name": "required:MAGMOM",
+            "kind": "required",
+            "passed": true,
+            "reason": "MAGMOM present, nonzero on all 12 V/Co atoms ok"
+          },
+          {
+            "name": "required:ENCUT",
+            "kind": "required",
+            "passed": true,
+            "reason": "ENCUT=400.0 >= 1*max_ENMAX=268 eV (Al+Co+V)"
+          },
+          {
+            "name": "required:LASPH",
+            "kind": "required",
+            "passed": true,
+            "reason": "LASPH=True (set) ok"
+          },
+          {
+            "name": "required:functional",
+            "kind": "required",
+            "passed": true,
+            "reason": "GGA=Pe ok"
+          },
+          {
+            "name": "required:kmesh",
+            "kind": "required",
+            "passed": true,
+            "reason": "mesh 8x8x8 meets frozen per-axis minima 4x4x4"
+          },
+          {
+            "name": "required:poscar_species",
+            "kind": "required",
+            "passed": true,
+            "reason": "species {'V': 8, 'Co': 4, 'Al': 4} ok"
+          },
+          {
+            "name": "required:ISMEAR",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISMEAR=1 (set) ok"
+          },
+          {
+            "name": "required:ISIF",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISIF=3 (set) ok"
+          },
+          {
+            "name": "required:IBRION",
+            "kind": "required",
+            "passed": true,
+            "reason": "IBRION=2 (set) ok"
+          },
+          {
+            "name": "required:EDIFFG",
+            "kind": "required",
+            "passed": true,
+            "reason": "EDIFFG=-0.01 (set) ok"
+          },
+          {
+            "name": "required:NSW",
+            "kind": "required",
+            "passed": true,
+            "reason": "NSW=100: positive integer ionic-step budget required"
+          }
+        ]
+      },
+      "structure": {
+        "passed": true,
+        "species_counts_ok": true,
+        "lattice_ok": true,
+        "lattice": {
+          "len_rel_err": 0.0,
+          "ang_abs_err_deg": 0.0,
+          "abc_sub": [
+            5.95,
+            5.95,
+            5.95
+          ],
+          "abc_ref": [
+            5.95,
+            5.95,
+            5.95
+          ]
+        },
+        "site_match_ok": true,
+        "method": "matcher",
+        "max_site_disp_A": 0.0,
+        "max_disp_threshold_A": 0.1,
+        "name": "structure:XA_relax"
+      }
+    },
+    {
+      "label": "XA_static",
+      "passed": true,
+      "incar": {
+        "label": "XA_static",
+        "score": 1,
+        "checks": [
+          {
+            "name": "required:ISPIN",
+            "kind": "required",
+            "passed": true,
+            "reason": "ISPIN=2 (set) ok"
+          },
+          {
+            "name": "required:MAGMOM",
+            "kind": "required",
+            "passed": true,
+            "reason": "MAGMOM present, nonzero on all 12 V/Co atoms ok"
+          },
+          {
+            "name": "required:ENCUT",
+            "kind": "required",
+            "passed": true,
+            "reason": "ENCUT=400.0 >= 1*max_ENMAX=268 eV (Al+Co+V)"
+          },
+          {
+            "name": "required:LASPH",
+            "kind": "required",
+            "passed": true,
+            "reason": "LASPH=True (set) ok"
+          },
+          {
+            "name": "required:functional",
+            "kind": "required",
+            "passed": true,
+            "reason": "GGA=Pe ok"
+          },
+          {
+            "name": "required:kmesh",
+            "kind": "required",
+            "passed": true,
+            "reason": "mesh 12x12x12 meets frozen per-axis minima 4x4x4"
+          },
+          {
+            "name": "required:poscar_species",
+            "kind": "required",
+            "passed": true,
+            "reason": "species {'V': 8, 'Co': 4, 'Al': 4} ok"
+          },
+          {
+            "name": "required:static",
+            "kind": "required",
+            "passed": true,
+            "reason": "NSW=0.0 IBRION=-1 ok (static)"
+          }
+        ]
+      },
+      "structure": {
+        "passed": true,
+        "species_counts_ok": true,
+        "lattice_ok": true,
+        "lattice": {
+          "len_rel_err": 0.0,
+          "ang_abs_err_deg": 0.0,
+          "abc_sub": [
+            5.95,
+            5.95,
+            5.95
+          ],
+          "abc_ref": [
+            5.95,
+            5.95,
+            5.95
+          ]
+        },
+        "site_match_ok": true,
+        "method": "matcher",
+        "max_site_disp_A": 0.0,
+        "max_disp_threshold_A": 0.1,
+        "name": "structure:XA_static"
+      }
+    }
+  ],
+  "extra_labels_ignored": []
+}
+SCORE: 1
